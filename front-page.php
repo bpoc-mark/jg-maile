@@ -1,18 +1,13 @@
-<?php get_header();?>
-    <section class="sect_1">
-        <div class="l-wrap">
-            1
-        </div>    
-    </section>
-    <section>2</section>
-    <section>3</section>
-    <section>4</section>
-    <section>5</section>
-    <section>6</section>
-    <section>7</section>
-    <section>8</section>
-    <section>9</section>
-    <section>10</section>
-    <section>11</section>
-    <section>12</section>
-<?php get_footer();?>
+<?php get_header(); ?>
+<div class="sect_1">
+    <div class="l-wrap">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_reflection.svg" alt="">
+        <div class="sect_1__ttl">
+            関わる全ての人とのご縁に感謝し、共に幸せになるために。
+        </div>
+    </div>
+</div>
+<div class="sect_2">
+
+</div>
+<?php get_footer(); ?>
