@@ -1,0 +1,16 @@
+.sect_4 {
+	padding: 60px 0;
+
+	.l-wrap {
+		max-width: 690px;
+	}
+
+	&__ttl {
+		color: $color-text01;
+		font-family: "santa_fe", sans-serif;
+		font-weight: 400;
+		text-align: center;
+
+		@include font-line(80, 90);
+	}
+}
