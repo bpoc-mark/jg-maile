@@ -1,0 +1,154 @@
+.page {
+	&__footer {
+		background: #19bebe;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+
+		.row {
+			width: calc(100% / 3);
+			padding: 45px 0;
+
+			@include is-sp {
+				width: 100%;
+			}
+
+			img {
+				width: 60px;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+
+				&:nth-of-type(2) {
+					width: 55px;
+					height: 40px;
+				}
+			}
+
+			.ttl {
+				text-align: center;
+				color: #fff;
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 700;
+				padding: 30px 0 0 0;
+			}
+
+			&:nth-of-type(1) {
+				background-color: $color-text02;
+			}
+
+			&:nth-of-type(2) {
+				background: #19bebe;
+			}
+
+			&:nth-of-type(3) {
+				background: #005a87;
+			}
+		}
+
+		&--lower {
+			background: $color-text-default;
+
+			@include is-sp {
+				padding-right: 25px;
+				padding-left: 25px;
+			}
+
+			.content {
+				align-items: center;
+				display: flex;
+				justify-content: space-between;
+				max-width: 730px;
+				margin: 0 auto;
+				padding: 70px 0;
+				flex-wrap: wrap;
+
+				@include is-sp {
+					padding: 70px 0 35px 0;
+				}
+
+				&__row-1 {
+					img {
+						width: 204px;
+						margin-left: auto;
+						margin-right: auto;
+						display: block;
+					}
+
+					@include is-sp {
+						width: 100%;
+					}
+				}
+
+				&__row-2 {
+					width: calc(100% - 204px);
+					padding: 0 0 0 90px;
+
+					@include is-sp {
+						width: 100%;
+						padding: 45px 0 0 0;
+					}
+
+					nav {
+						display: flex;
+						justify-content: space-between;
+						flex-wrap: wrap;
+
+						.list_1 {
+							@include is-sp {
+								width: 100%;
+								padding-bottom: 40px;
+								border-bottom: 2px dotted #fff;
+							}
+						}
+
+						.list_2 {
+							@include is-sp {
+								padding: 30px 0 0 0;
+							}
+						}
+
+						li {
+							display: flex;
+							align-items: center;
+							img {
+								width: 16px;
+								height: auto;
+							}
+							p {
+								color: #fff;
+								padding: 0 0 0 10px;
+							}
+						}
+					}
+				}
+			}
+
+			.line {
+				border-bottom: 2px solid #fff;
+				display: block;
+				width: 45%;
+				margin: 0 auto;
+
+				@include is-sp {
+					width: 100%;
+				}
+			}
+
+			.remarks {
+				text-align: center;
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 400;
+				color: #fff;
+				padding: 45px 0 50px 0;
+
+				@include font-line(14);
+
+				@include is-sp {
+					padding: 30px 25px 45px 25px;
+				}
+			}
+		}
+	}
+}

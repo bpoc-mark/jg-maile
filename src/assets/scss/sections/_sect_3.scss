@@ -11,9 +11,15 @@
 				width: 320px;
 				height: 590px;
 				background-image: url("../image/top/sect_3_bg.png");
-				background-size: 100%;
+				background-size: 320px 590px;
 				background-repeat: no-repeat;
-				padding: 40px;
+				padding: 35px;
+
+				@include is-sp {
+					width: 100%;
+					background-size: 320px 580px;
+					background-position: center center;
+				}
 
 				.icon {
 					img {
@@ -67,11 +73,31 @@
 		.event {
 			margin: 0 auto;
 			max-width: 720px;
+			display: block;
+
+			@include is-sp {
+				display: none;
+			}
 
 			img {
 				width: 100%;
 				height: auto;
 			}
+		}
+	}
+
+	.event {
+		margin: 0 auto;
+		max-width: 720px;
+		display: none;
+
+		@include is-sp {
+			display: block;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
 		}
 	}
 }

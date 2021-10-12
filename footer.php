@@ -1,38 +1,77 @@
         </div>
         <div class="page__footer">
+                <div class="row">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_tel.svg" alt="">
+                        <p class="ttl">お電話でのお問い合わせ</p>
+                </div>
+                <div class="row">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="">
+                        <p class="ttl">メールでのお問い合わせ</p>
+                </div>
+                <div class="row">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_ques.svg" alt="">
+                        <p class="ttl">よくある質問</p>
+                </div>
+        </div>
+        <div class="page__footer--lower">
+                <div class="content">
+                        <div class="content__row-1">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
+                        </div>
+                        <div class="content__row-2">
+                                <nav>
+                                        <div class="list_1">
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>ホーム</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>採用情報</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>まいれとは？</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>会社概要</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>代表あいさつ</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>理念と求める人材</p>
+                                                </li>
+                                        </div>
+                                        <div class="list_2">
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>トレーナー</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>社内フォトアルバム</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>先輩からの声</p>
+                                                </li>
+                                                <li>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                        <p>よくある質問・フォーム</p>
+                                                </li>
+                                        </div>
+                                </nav>
+                        </div>
+                </div>
+                <div class="line"></div>
+                <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by ジーングロス</p>
         </div>
         </main>
 
-        <script>
-            (function(d) {
-                var config = {
-                        kitId: 'whn3pzs',
-                        scriptTimeout: 3000,
-                        async: true
-                    },
-                    h = d.documentElement,
-                    t = setTimeout(function() {
-                        h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                    }, config.scriptTimeout),
-                    tk = d.createElement("script"),
-                    f = false,
-                    s = d.getElementsByTagName("script")[0],
-                    a;
-                h.className += " wf-loading";
-                tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
-                tk.async = true;
-                tk.onload = tk.onreadystatechange = function() {
-                    a = this.readyState;
-                    if (f || a && a != "complete" && a != "loaded") return;
-                    f = true;
-                    clearTimeout(t);
-                    try {
-                        Typekit.load(config)
-                    } catch (e) {}
-                };
-                s.parentNode.insertBefore(tk, s)
-            })(document);
-        </script>
         </body>
 
         </html>

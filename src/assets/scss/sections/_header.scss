@@ -1,5 +1,6 @@
 .page {
 	&__header {
+		overflow: hidden !important;
 		.l-wrap {
 			max-width: 1000px;
 			padding-right: 25px;
@@ -17,17 +18,32 @@
 				width: 100%;
 				position: absolute;
 				color: $color-text01;
+				line-height: normal;
 
 				@include font-line(48);
 
 				span {
 					font-weight: 600;
 				}
+
+				br {
+					display: none;
+
+					@include is-sp {
+						display: block;
+					}
+				}
 			}
 
 			img {
 				padding: 40px 0 0 0;
 				width: 148px;
+
+				@include is-sp {
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+				}
 
 				&:nth-of-type(2) {
 					padding: 0;
@@ -36,6 +52,12 @@
 					position: absolute;
 					right: 0;
 					bottom: -35px;
+
+					@include is-sp {
+						width: 30%;
+						right: -10%;
+						bottom: -8vw;
+					}
 				}
 
 				&:nth-of-type(3) {
@@ -44,6 +66,12 @@
 					position: absolute;
 					left: 0;
 					bottom: 0;
+
+					@include is-sp {
+						width: 332px;
+						left: -145px;
+						bottom: 44px;
+					}
 				}
 
 				&:nth-of-type(4) {
@@ -53,12 +81,43 @@
 					top: 40%;
 					left: 50%;
 					transform: translate(-50%, -50%);
+
+					@include is-sp {
+						display: none;
+					}
 				}
 
 				&:nth-of-type(5) {
+					display: none;
+					width: 400px;
+					position: absolute;
+					top: 10%;
+					left: -10%;
+
+					@include is-sp {
+						display: block;
+					}
+				}
+
+				&:nth-of-type(6) {
 					padding: 0;
 					width: 100%;
 				}
+			}
+		}
+
+		.pc {
+			display: block;
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		.sp {
+			display: none;
+
+			@include is-sp {
+				display: block;
 			}
 		}
 	}

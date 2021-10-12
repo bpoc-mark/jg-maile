@@ -1,0 +1,118 @@
+.sect_5 {
+	&__teams {
+		display: flex;
+		flex-wrap: wrap;
+
+		.img {
+			width: calc(100% / 4);
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	&__contact_info {
+		background: $color-text01;
+		padding: 75px 0;
+
+		.container {
+			max-width: 720px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			@include is-sp {
+				flex-wrap: wrap;
+				padding-right: 25px;
+				padding-left: 25px;
+			}
+
+			.row_1 {
+				padding: 50px;
+
+				@include is-sp {
+					padding: 0 0 50px 0;
+				}
+
+				&__ttl {
+					color: $color-text02;
+					font-family: "santa_fe", sans-serif;
+					font-weight: 400;
+					line-height: 50px;
+
+					@include font-line(80);
+				}
+
+				&__sub {
+					color: $color-text-default;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					text-align: right;
+					line-height: normal;
+
+					@include font-line(16);
+
+					@include is-sp {
+						text-align: center;
+					}
+				}
+			}
+
+			.row_2 {
+				padding: 0 0 0 50px;
+				border-left: 2px solid $color-text02;
+
+				@include is-sp {
+					border: none;
+					padding: 0;
+				}
+
+				&__ttl {
+					color: $color-text-default;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+
+					@include font-line(22);
+				}
+
+				&__desc {
+					color: $color-text-default;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 500;
+					text-indent: -10px;
+
+					@include font-line(16);
+				}
+
+				.contact_details {
+					display: flex;
+					justify-content: space-between;
+					flex-wrap: wrap;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					padding: 35px 0;
+
+					&--row_1 {
+						width: 72px;
+						color: $color-text02;
+						font-weight: 500;
+
+						&:nth-of-type(odd) {
+							display: flex;
+							justify-content: space-between;
+						}
+					}
+
+					&--row_2 {
+						width: calc(100% - 72px);
+						color: $color-text-default;
+						font-weight: 500;
+						padding: 0 0 0 20px;
+					}
+				}
+			}
+		}
+	}
+}
