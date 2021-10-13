@@ -50,16 +50,18 @@
 
     <main>
         <div class="page__header">
-            <div class="l-wrap">
-                <h1>MAILE.CO.,LTD <br><span>RECRUIT SITE</span></h1>
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_sun.svg" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds.svg" alt="">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds_sp.svg" alt="">
+            <div class="nav">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="entry">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                    <p>ENTRY</p>
+                </div>
             </div>
-            <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-            <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
-
+            <div class="l-wrap">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
+            </div>
         </div>
         <div class="page__content">

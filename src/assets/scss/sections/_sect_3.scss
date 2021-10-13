@@ -5,7 +5,11 @@
 			justify-content: space-between;
 			flex-wrap: wrap;
 			align-items: center;
-			padding: 55px 0;
+			padding: 55px 0 100px 0;
+
+			@include is-sp {
+				padding: 55px 0 5px 0;
+			}
 
 			.box {
 				width: 320px;
@@ -17,8 +21,9 @@
 
 				@include is-sp {
 					width: 100%;
-					background-size: 320px 580px;
+					background-size: 100% 580px;
 					background-position: center center;
+					margin-bottom: 50px;
 				}
 
 				.icon {
