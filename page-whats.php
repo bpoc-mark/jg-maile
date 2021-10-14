@@ -162,7 +162,6 @@
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
     </div>
-
     <div class="p-details--btn">
         <a href="">
             <p>ENTRY</p>

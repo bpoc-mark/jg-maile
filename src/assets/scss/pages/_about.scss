@@ -1,0 +1,250 @@
+.message {
+	padding: 100px 0;
+
+	&__container {
+		max-width: 680px;
+		margin: 0 auto;
+		text-align: center;
+
+		img {
+			width: 245px;
+		}
+
+		p {
+			font-family: ten-mincho, serif;
+			font-weight: 700;
+			padding-top: 30px;
+
+			@include font-line(26);
+		}
+	}
+}
+
+.store_info {
+	text-align: center;
+	padding: 130px 0 80px 0;
+
+	&__ttl {
+		color: $color-text01;
+		font-family: "santa_fe", sans-serif;
+		font-weight: 400;
+		line-height: normal;
+
+		@include font-line(80);
+	}
+
+	&__sub {
+		font-family: noto-sans-cjk-jp, sans-serif;
+		font-weight: 700;
+
+		@include font-line(16);
+	}
+
+	&__area {
+		padding: 40px 0 25px 0;
+		max-width: 340px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+
+		&--row_1 {
+			&__area-ttl {
+				width: 150px;
+				background-color: $color-text01;
+				display: flex;
+				justify-content: space-around;
+				padding: 20px 0;
+
+				p {
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					line-height: 1;
+
+					@include font-line(24);
+				}
+				img {
+					width: 20px;
+					height: auto;
+				}
+			}
+
+			&__details {
+				text-align: left;
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 400;
+				padding: 20px 0 0 0;
+
+				@include font-line(22);
+			}
+		}
+
+		&--row_2 {
+			&__area-ttl {
+				width: 150px;
+				background-color: $color-text01;
+				display: flex;
+				justify-content: space-around;
+				padding: 20px 0;
+
+				p {
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					line-height: 1;
+
+					@include font-line(24);
+				}
+				img {
+					width: 20px;
+					height: auto;
+				}
+			}
+
+			&__details {
+				text-align: left;
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 400;
+				padding: 20px 0 0 0;
+
+				@include font-line(22);
+			}
+		}
+	}
+
+	&__stores {
+		padding: 85px 0 0 0;
+		text-align: left;
+
+		&--container {
+			max-width: 780px;
+			margin: 0 auto;
+
+			.accordion {
+				&__header-cont {
+					display: flex;
+					justify-content: space-between;
+					border-bottom: 1px solid #fff;
+					align-items: center;
+					padding: 0 20px 20px 20px;
+
+					.ttl {
+						color: #fff;
+						font-family: noto-sans-cjk-jp, sans-serif;
+						font-weight: 700;
+						line-height: 1;
+
+						@include font-line(22);
+					}
+
+					.btn_read_more {
+						display: flex;
+						align-items: center;
+
+						p {
+							font-family: oswald, sans-serif;
+							font-weight: 600;
+							padding-right: 10px;
+
+							@include font-line(20);
+						}
+
+						img {
+							width: 20px;
+							height: auto;
+						}
+					}
+				}
+
+				&__content {
+					display: flex;
+					justify-content: space-between;
+					padding: 40px 20px;
+
+					&--row_1 {
+						width: calc(100% - 320px);
+
+						.list {
+							display: flex;
+							flex-wrap: wrap;
+
+							li {
+								&:nth-child(odd) {
+									width: 80px;
+									display: flex;
+									justify-content: space-between;
+									color: $color-text01;
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 700;
+								}
+
+								&:nth-child(even) {
+									width: calc(100% - 80px);
+									padding-left: 20px;
+									white-space: pre-line;
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 400;
+									padding-bottom: 31px;
+									line-height: normal;
+								}
+							}
+						}
+
+						.btn {
+							display: flex;
+
+							&__item-1 {
+								background-color: #ffdc64;
+								display: flex;
+								width: 160px;
+								padding: 10px 0;
+								justify-content: center;
+								align-items: center;
+
+								img {
+									width: 20px;
+									height: auto;
+								}
+
+								p {
+									color: $color-text02;
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 700;
+									padding-left: 10px;
+								}
+							}
+
+							&__item-2 {
+								background-color: #000;
+								display: flex;
+								width: 150px;
+								padding: 10px 0;
+								justify-content: center;
+								align-items: center;
+								margin-left: 10px;
+
+								img {
+									width: 20px;
+									height: auto;
+								}
+
+								p {
+									color: #fff;
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 700;
+									padding-left: 10px;
+								}
+							}
+						}
+					}
+
+					&--row_2 {
+						width: 320px;
+						img {
+							width: 100%;
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
