@@ -66,6 +66,10 @@
 				@include is-sp {
 					display: none;
 				}
+
+				@include is-max(1024px) {
+					bottom: 2vw;
+				}
 			}
 
 			&:nth-of-type(2) {

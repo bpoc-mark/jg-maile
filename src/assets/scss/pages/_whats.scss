@@ -73,7 +73,7 @@
 			margin: 0 auto;
 
 			@include is-sp {
-				padding: 130px 20px 0 20px;
+				padding: 130px 0 0 0;
 			}
 
 			.cloud {
@@ -129,6 +129,10 @@
 				padding: 55px 0 0 0;
 
 				@include font-line(16);
+
+				@include is-sp {
+					padding: 50px 20px 0 20px;
+				}
 			}
 		}
 
@@ -186,7 +190,8 @@
 
 					img {
 						width: 100%;
-						height: auto;
+						height: 100%;
+						object-fit: cover;
 					}
 				}
 
@@ -194,33 +199,315 @@
 					width: 50%;
 					background: #ffdc64;
 					text-align: left;
-					padding: 75px 0 0 75px;
+					padding: 75px;
 
 					@include is-sp {
 						width: 100%;
 						padding: 60px 40px;
 					}
 
-					.ttl {
-						color: $color-text02;
-						font-family: noto-sans-cjk-jp, sans-serif;
-						font-weight: 700;
-						padding: 0 0 25px 0;
+					.container {
+						max-width: 540px;
 
-						&:nth-of-type(3) {
-							padding: 55px 0 0 0;
+						.ttl {
+							color: $color-text02;
+							font-family: noto-sans-cjk-jp, sans-serif;
+							font-weight: 700;
+							padding: 0 0 25px 0;
+
+							&:nth-of-type(3) {
+								padding: 55px 0 0 0;
+							}
+
+							@include font-line(24);
 						}
 
-						@include font-line(24);
+						.desc {
+							font-family: noto-sans-cjk-jp, sans-serif;
+							font-weight: 400;
+							text-align: justify;
+
+							@include font-line(16);
+						}
+					}
+				}
+			}
+		}
+
+		.photos {
+			padding: 95px 0 0 0;
+
+			.l-wrap {
+				@include is-sp {
+					padding-right: 0;
+					padding-left: 0;
+				}
+
+				.container {
+					display: flex;
+					justify-content: space-between;
+					flex-wrap: wrap;
+
+					.item {
+						text-align: center;
+						width: calc(100% / 3);
+						padding: 0 5px;
+
+						@include is-sp {
+							width: 100%;
+							padding: 0;
+						}
+
+						&:nth-of-type(4) {
+							padding-top: 90px;
+
+							@include is-sp {
+								padding-top: 0;
+							}
+						}
+						&:nth-of-type(5) {
+							padding-top: 90px;
+							@include is-sp {
+								padding-top: 0;
+							}
+						}
+						&:nth-of-type(6) {
+							padding-top: 90px;
+							@include is-sp {
+								padding-top: 0;
+							}
+						}
+
+						img {
+							width: 100%;
+							height: auto;
+						}
+
+						&__ttl {
+							color: $color-text01;
+							font-family: noto-sans-cjk-jp, sans-serif;
+							font-weight: 700;
+							padding-bottom: 15px;
+
+							@include font-line(18);
+
+							@include is-sp {
+								padding-top: 60px;
+							}
+						}
+
+						.slider {
+							.slick-arrow {
+								display: none !important;
+							}
+							.slick-dots {
+								display: none !important;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.training_contents {
+			padding-top: 150px;
+
+			.l-wrap {
+				@include is-sp {
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+
+			.container {
+				border: 8px solid #ffdc64;
+				max-width: 890px;
+				margin: 0 auto;
+				position: relative;
+
+				.ttl {
+					color: $color-text01;
+					font-family: "santa_fe", sans-serif;
+					font-weight: 400;
+					text-align: center;
+					line-height: normal;
+					position: relative;
+					line-height: normal !important;
+					top: -40px;
+					background-color: $color-text02;
+					width: 60%;
+					margin: 0 auto;
+
+					@include font-line(80, 92);
+
+					@include is-sp {
+						width: 80%;
+						top: -60px;
+						line-height: 0.7em;
+					}
+				}
+
+				.sub {
+					text-align: center;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 700;
+					position: relative;
+					top: -50px;
+
+					@include font-line(16);
+				}
+
+				.diagonal {
+					img {
+						&:nth-of-type(1) {
+							position: absolute;
+							bottom: -0.6vw;
+							left: 24px;
+
+							@include is-max(940px) {
+								bottom: -0.9vw;
+							}
+
+							@include is-max(600px) {
+								bottom: -1.5vw;
+							}
+
+							@include is-sp {
+								display: none;
+							}
+						}
+
+						&:nth-of-type(2) {
+							position: absolute;
+							bottom: -0.6vw;
+							left: 5px;
+
+							@include is-max(940px) {
+								bottom: -0.9vw;
+							}
+
+							@include is-max(600px) {
+								bottom: -1.5vw;
+							}
+
+							@include is-sp {
+								display: none;
+							}
+						}
+
+						&:nth-of-type(3) {
+							position: absolute;
+							top: -0.6vw;
+							right: 24px;
+
+							@include is-max(940px) {
+								top: -0.9vw;
+							}
+
+							@include is-max(600px) {
+								top: -1.5vw;
+							}
+
+							@include is-sp {
+								display: none;
+							}
+						}
+
+						&:nth-of-type(4) {
+							position: absolute;
+							top: -0.6vw;
+							right: 5px;
+
+							@include is-max(940px) {
+								top: -0.9vw;
+							}
+
+							@include is-max(600px) {
+								top: -1.5vw;
+							}
+
+							@include is-sp {
+								display: none;
+							}
+						}
+					}
+				}
+
+				.checklist {
+					color: $color-text01;
+					font-family: "santa_fe", sans-serif;
+					font-weight: 700;
+					padding: 0px 70px 70px 70px;
+
+					@include is-sp {
+						padding: 0 25px 30px 25px;
 					}
 
-					.desc {
-						font-family: noto-sans-cjk-jp, sans-serif;
-						font-weight: 400;
-						text-align: justify;
+					.checklist_item {
+						display: flex;
+						justify-content: space-between;
+						flex-wrap: wrap;
 
-						@include font-line(16);
+						.row-1 {
+							width: fit-content;
+
+							@include is-sp {
+								width: 100%;
+							}
+						}
+
+						.row-2 {
+							width: fit-content;
+
+							@include is-sp {
+								width: 100%;
+							}
+						}
+
+						.row-3 {
+							width: fit-content;
+
+							@include is-sp {
+								width: 100%;
+							}
+						}
+
+						li {
+							display: flex;
+							align-items: center;
+							img {
+								width: 20px;
+								height: 20px;
+							}
+							p {
+								color: $color-text01;
+								font-family: noto-sans-cjk-jp, sans-serif;
+								font-weight: 700;
+								padding-left: 10px;
+
+								@include font-line(24);
+							}
+						}
 					}
+				}
+			}
+		}
+
+		.image_gallery {
+			padding: 150px 0 100px 0;
+			display: flex;
+			flex-wrap: wrap;
+
+			@include is-sp {
+				padding: 35px 0 40px 0;
+			}
+
+			img {
+				width: calc(100% / 3);
+				background-color: #fff;
+
+				@include is-sp {
+					width: calc(100% / 2);
 				}
 			}
 		}
