@@ -1,0 +1,52 @@
+.page_album {
+	.l-wrap {
+		position: relative;
+		.album_img {
+			img {
+				&:nth-of-type(1) {
+					width: 180px;
+					position: absolute;
+					top: 220px;
+					left: 0;
+				}
+				&:nth-of-type(2) {
+					width: 98px;
+					position: absolute;
+					top: 50%;
+					left: 80px;
+				}
+				&:nth-of-type(3) {
+					width: 98px;
+					position: absolute;
+					right: 0;
+					top: 380px;
+				}
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
+	}
+	&__container {
+		padding: 160px 0 140px 0;
+		max-width: 720px;
+		margin: 0 auto;
+
+		@include is-sp {
+			padding: 90px 0 40px 0;
+		}
+
+		.content {
+			padding-bottom: 140px;
+
+			@include is-sp {
+				padding-bottom: 90px;
+			}
+
+			.pad {
+				margin: 50px 0;
+			}
+		}
+	}
+}

@@ -30,6 +30,8 @@ $(document).ready(function(){
       speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
+      centerPadding: '20',
+      centerMode: true,
       responsive: [
         {
           breakpoint: 1024,
