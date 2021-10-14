@@ -1,6 +1,6 @@
 @use "sass:meta";@import-normalize .css;*{padding:0;margin:0}
 *,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}
-body{background-color:#eb6e50;color:#000;font-family:"Noto Sans JP",sans-serif;font-weight:500;line-height:1.75;margin:0;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;word-wrap:break-word;font-size:16px;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{background-color:#eb6e50;color:#000;font-family:noto-sans-cjk-jp,sans-serif;font-weight:500;line-height:1.75;margin:0;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;word-wrap:break-word;font-size:16px;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%}
 ul,li{list-style:none}
 a:hover,a:visited,a:link,a:active{text-decoration:none;color:#000}
 [tabindex="-1"]:focus{outline:0 !important}
@@ -70,7 +70,7 @@ template{display:none}
 .c-button01--nobullet:after{display:none}
 .c-button01--return:after{-webkit-transform:rotate(-135deg);transform:rotate(-135deg)}
 .c-button01--baloon{display:block;position:relative;text-align:center}
-.c-button01--baloon .baloon{font-family:"Noto Sans JP",sans-serif;position:absolute;left:-10px;width:71px;height:71px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:50%;border:solid 4px #0072a6;color:#000;font-size:10px;text-align:center}
+.c-button01--baloon .baloon{font-family:noto-sans-cjk-jp,sans-serif;position:absolute;left:-10px;width:71px;height:71px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:50%;border:solid 4px #0072a6;color:#000;font-size:10px;text-align:center}
 .c-button01--baloon .baloon:before{content:"";position:absolute;bottom:-1px;right:-4px;margin-top:-13px;border:6px solid transparent;border-left:10px solid #fff;z-index:0;-webkit-transform:rotate(40deg);transform:rotate(40deg);z-index:0}
 .c-button01--baloon .line01{display:block;margin-bottom:10px;text-align:center;font-size:.7875rem;line-height:1}
 .c-button01--baloon .line02{font-size:1.475rem;line-height:1}
@@ -662,10 +662,10 @@ template{display:none}
 .sect_5__contact_info .container .row_2 .contact_details--row_2{width:calc(100% - 72px);color:#000;font-weight:500;padding:0 0 0 20px}
 .about .l-wrap .img_cloud img:nth-of-type(1){width:180px;position:absolute;left:0;top:253px}
 .about .l-wrap .img_cloud img:nth-of-type(2){width:98px;position:absolute;right:0;top:374px}
-.whats_message{padding:100px 0}
-.whats_message__container{max-width:680px;margin:0 auto;text-align:center}
-.whats_message__container img{width:245px}
-.whats_message__container p{font-family:ten-mincho,serif;font-weight:700;padding-top:30px;font-size:1.625rem}
+.about_message{padding:100px 0}
+.about_message__container{max-width:680px;margin:0 auto;text-align:center}
+.about_message__container .about_logo{width:245px}
+.about_message__container p{font-family:ten-mincho,serif;font-weight:700;padding-top:30px;font-size:1.625rem}
 .store_info{text-align:center;padding:130px 0 80px 0}
 .store_info .l-wrap{padding-left:25px;padding-right:25px}
 .store_info__ttl{color:#ffdc64;font-family:"santa_fe",sans-serif;font-weight:400;line-height:normal;font-size:5rem}
@@ -714,6 +714,27 @@ template{display:none}
 .page_message__container .row-1 img{margin-left:auto;margin-right:auto;display:block}
 .page_message__container .row-2{width:calc(100% - 320px)}
 .page_message__container .row-2 p{font-family:noto-sans-cjk-jp,sans-serif;font-weight:400;font-size:1rem;line-height:1.625}
+.page_philosophy__container{padding:185px 0 120px 0}
+.page_philosophy__container .content{text-align:center;max-width:600px;margin:0 auto}
+.page_philosophy__container .content__ttl{color:#ffdc64;font-family:"santa_fe",sans-serif;font-weight:400;line-height:1;font-size:5rem}
+.page_philosophy__container .content__sub{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1rem}
+.page_philosophy__container .content__desc{font-weight:400;padding:55px 0 0 0;text-align:left;font-size:1rem}
+.page_philosophy__video{background-image:url("../image/page/video_bg.png");background-size:cover;background-repeat:no-repeat;background-position:center}
+.page_philosophy__video .l-wrap{position:relative}
+.page_philosophy__video .l-wrap .ph_cloud{width:275px;position:absolute;top:125px;right:20px}
+.page_philosophy__video--container{max-width:600px;margin:0 auto;padding:80px 0 90px 0}
+.page_philosophy__video--container .logo{width:245px;margin-left:auto;margin-right:auto;display:block}
+.page_philosophy__video--container .ttl{color:#ffdc64;font-family:dnp-shuei-mgothic-std,sans-serif;font-weight:600;text-align:center;padding:25px 0 40px 0;font-size:1.875rem}
+.page_philosophy__idea{padding:180px 0 150px 0}
+.page_philosophy__idea .l-wrap .ttl{color:#ffdc64;font-family:"santa_fe",sans-serif;text-align:center;line-height:1;font-size:5rem}
+.page_philosophy__idea .l-wrap .sub{font-weight:700;text-align:center;font-size:1rem}
+.page_philosophy__idea .l-wrap .boxes{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:50px 0 120px 0;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.page_philosophy__idea .l-wrap .boxes .box{position:relative;width:320px}
+.page_philosophy__idea .l-wrap .boxes .box__items{position:absolute;top:50%;left:0;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);margin:0;padding:0;display:block}
+.page_philosophy__idea .l-wrap .boxes .box__items--ttl{color:#fff;font-family:"santa_fe",sans-serif;line-height:1em;text-align:center;font-size:3.5rem}
+.page_philosophy__idea .l-wrap .boxes .box__items img{margin-left:auto;margin-right:auto;display:block}
+.page_philosophy__idea .l-wrap .boxes .box__items--sub{color:#ffdc64;font-weight:700;text-align:center;padding-top:30px;font-size:1.5rem;line-height:1.4166666667}
+.page_philosophy__idea .l-wrap .boxes .box__items--desc{text-align:justify;font-weight:400;padding:35px 40px 0 40px;font-size:1rem;line-height:1.65}
 .page__whats{padding:165px 0 150px 0}
 .page__whats .l-wrap{position:relative;padding-right:20px;padding-left:20px}
 .page__whats .l-wrap .cloud:nth-of-type(1){width:182px;position:absolute;left:20px;top:60px}
@@ -822,6 +843,11 @@ template{display:none}
 .u-d-n-pc{display:none !important}
 }@media(max-width:910px) and (min-width:751px){.p-details--flow__steps{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
 .p-details--flow__steps .step{width:calc(100% / 3);padding:0 15px}
+.p-details--flow__steps .step:nth-of-type(4){width:calc(100% / 3);padding:30px 15px 0 15px}
+.p-details--flow__steps .step:nth-of-type(5){width:calc(100% / 3);padding:30px 15px 0 15px}
+}@media(max-width:1000px) and (min-width:751px){.page_philosophy__idea .l-wrap .boxes{-ms-flex-pack:distribute;justify-content:space-around}
+.page_philosophy__idea .l-wrap .boxes .box:last-child{padding-top:40px}
+.page_philosophy__idea .l-wrap .boxes .box:last-child .box__items{top:55%}
 }@media only screen and (max-width:1160px){.sect_2__row_2--content .row-1 img{left:-30px}
 .sect_2__row_2--content .row-3 img{left:30px}
 .sect_2__row_2--content-2 .row-1 img{left:-17px}
@@ -831,13 +857,14 @@ template{display:none}
 .page__whats .training_contents .container .diagonal img:nth-of-type(2){bottom:-0.9vw}
 .page__whats .training_contents .container .diagonal img:nth-of-type(3){top:-0.9vw}
 .page__whats .training_contents .container .diagonal img:nth-of-type(4){top:-0.9vw}
+}@media only screen and (max-width:900px){.page_philosophy__video .l-wrap .ph_cloud{top:195px}
 }@media only screen and (max-width:750px){.l-container{display:block}
 .l-container.is-column2{padding-top:20px;display:block}
 .l-container.is-column2 .left,.l-container.is-column2 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:30px}
 .l-container.is-column3{padding-top:20px;display:block}
 .l-container.is-column3 .left,.l-container.is-column3 .center,.l-container.is-column3 .right{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;margin-bottom:40px}
 .l-header__inner{padding-left:10px;padding-right:10px}
-.l-wrap{padding-left:30px;padding-right:30px}
+.l-wrap{padding-left:25px;padding-right:25px}
 .l-wrap--2col{padding-left:10px;padding-right:10px}
 .c-button01:after{right:10px;width:8px;height:8px}
 .c-button01--xl{height:70px}
@@ -1149,6 +1176,14 @@ template{display:none}
 .page_message__container .cloud_msg{display:none}
 .page_message__container .row-1{width:100%}
 .page_message__container .row-2{width:100%;padding:35px 0 0 0}
+.page_philosophy__container{padding:100px 0 80px 0}
+.page_philosophy__video .l-wrap .ph_cloud{display:none}
+.page_philosophy__video--container{padding:80px 0 70px 0}
+.page_philosophy__idea{padding:100px 0 45px 0}
+.page_philosophy__idea .l-wrap .boxes{padding:50px 0 80px 0}
+.page_philosophy__idea .l-wrap .boxes .box{width:100%;margin-bottom:30px}
+.page_philosophy__idea .l-wrap .boxes .box:last-child{margin-bottom:0}
+.page_philosophy__idea .l-wrap .boxes .box img:first-child{width:100%}
 .page__whats{padding:55px 0}
 .page__whats .l-wrap{padding-right:0;padding-left:0}
 .page__whats .l-wrap .cloud{display:none}
@@ -1194,6 +1229,8 @@ template{display:none}
 .p-details--information__2 .bg_img .items{left:50%;width:60%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .p-details--information__2 .bg_img .items__ttl{padding:20px 0 0 0}
 .p-details--information__2 .bg_img .items__btn{padding:24px 0 0 0}
+.page_philosophy__idea .l-wrap .boxes .box__items--sub{padding-top:15px}
+.page_philosophy__idea .l-wrap .boxes .box__items--desc{padding:15px 20px}
 }@media only screen and (max-width:350px){.store_info__area{gap:15px}
 }@-webkit-keyframes loader-text{0%{-webkit-transform:rotate(0);transform:rotate(0)}
 25%{-webkit-transform:rotate(0);transform:rotate(0)}

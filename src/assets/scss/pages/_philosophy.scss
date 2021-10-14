@@ -1,0 +1,220 @@
+.page_philosophy {
+	&__container {
+		padding: 185px 0 120px 0;
+
+		@include is-sp {
+			padding: 100px 0 80px 0;
+		}
+
+		.content {
+			text-align: center;
+			max-width: 600px;
+			margin: 0 auto;
+
+			&__ttl {
+				color: $color-text01;
+				font-family: "santa_fe", sans-serif;
+				font-weight: 400;
+				line-height: 1;
+
+				@include font-line(80);
+			}
+
+			&__sub {
+				font-family: noto-sans-cjk-jp, sans-serif;
+				font-weight: 700;
+
+				@include font-line(16);
+			}
+
+			&__desc {
+				font-weight: 400;
+				padding: 55px 0 0 0;
+				text-align: left;
+
+				@include font-line(16);
+			}
+		}
+	}
+
+	&__video {
+		background-image: url("../image/page/video_bg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		.l-wrap {
+			position: relative;
+
+			.ph_cloud {
+				width: 275px;
+				position: absolute;
+				top: 125px;
+				right: 20px;
+
+				@include is-sp {
+					display: none;
+				}
+
+				@include is-max(900px) {
+					top: 195px;
+				}
+			}
+		}
+
+		&--container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 80px 0 90px 0;
+
+			@include is-sp {
+				padding: 80px 0 70px 0;
+			}
+
+			.logo {
+				width: 245px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			.ttl {
+				color: $color-text01;
+				font-family: dnp-shuei-mgothic-std, sans-serif;
+				font-weight: 600;
+				text-align: center;
+				padding: 25px 0 40px 0;
+
+				@include font-line(30);
+			}
+		}
+	}
+
+	&__idea {
+		padding: 180px 0 150px 0;
+
+		@include is-sp {
+			padding: 100px 0 45px 0;
+		}
+		.l-wrap {
+			.ttl {
+				color: $color-text01;
+				font-family: "santa_fe", sans-serif;
+				text-align: center;
+				line-height: 1;
+
+				@include font-line(80);
+			}
+
+			.sub {
+				font-weight: 700;
+				text-align: center;
+
+				@include font-line(16);
+			}
+
+			.boxes {
+				display: flex;
+				justify-content: space-between;
+				padding: 50px 0 120px 0;
+				flex-wrap: wrap;
+
+				@include is-between(1000px, 751px) {
+					justify-content: space-around;
+				}
+
+				@include is-sp {
+					padding: 50px 0 80px 0;
+				}
+
+				.box {
+					position: relative;
+					width: 320px;
+
+					&:last-child {
+						@include is-between(1000px, 751px) {
+							padding-top: 40px;
+						}
+
+						.box {
+							&__items {
+								@include is-between(1000px, 751px) {
+									top: 55%;
+								}
+							}
+						}
+					}
+
+					@include is-sp {
+						width: 100%;
+						margin-bottom: 30px;
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+
+					img {
+						&:first-child {
+							@include is-sp {
+								width: 100%;
+							}
+						}
+					}
+
+					&__items {
+						position: absolute;
+						top: 50%;
+						left: 0px;
+						-ms-transform: translate(0%, -50%);
+						-webkit-transform: translate(0%, -50%);
+						transform: translate(0%, -50%);
+						margin: 0;
+						padding: 0;
+						display: block;
+
+						&--ttl {
+							color: $color-text03;
+							font-family: "santa_fe", sans-serif;
+							line-height: 1em;
+							text-align: center;
+
+							@include font-line(56);
+						}
+
+						img {
+							margin-left: auto;
+							margin-right: auto;
+							display: block;
+						}
+
+						&--sub {
+							color: $color-text01;
+							font-weight: 700;
+							text-align: center;
+							padding-top: 30px;
+
+							@include font-line(24, 34);
+
+							@include is-max(360px) {
+								padding-top: 15px;
+							}
+						}
+
+						&--desc {
+							text-align: justify;
+							font-weight: 400;
+							padding: 35px 40px 0 40px;
+
+							@include font-line(16, 26.4);
+
+							@include is-max(360px) {
+								padding: 15px 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

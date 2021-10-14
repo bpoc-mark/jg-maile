@@ -298,6 +298,20 @@
 					padding: 0 15px;
 				}
 
+				&:nth-of-type(4) {
+					@include is-between(910px, 751px) {
+						width: calc(100% / 3);
+						padding: 30px 15px 0 15px;
+					}
+				}
+
+				&:nth-of-type(5) {
+					@include is-between(910px, 751px) {
+						width: calc(100% / 3);
+						padding: 30px 15px 0 15px;
+					}
+				}
+
 				&__ttl {
 					color: $color-text01;
 					font-family: "Helvetica", sans-serif;
