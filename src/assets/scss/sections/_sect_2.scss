@@ -6,7 +6,8 @@
 	}
 
 	.l-wrap {
-		max-width: 1100px;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 
 	&__row_1 {
@@ -62,11 +63,12 @@
 			.text {
 				position: absolute;
 				right: 20px;
-				top: 40%;
+				top: 38%;
 				transform: translate(-10%, -50%);
 
 				@include is-sp {
 					top: 60%;
+					transform: translate(-10%, -50%);
 				}
 
 				.ttl {
@@ -181,6 +183,10 @@
 					position: relative;
 					left: -40px;
 
+					@include is-max(1160px) {
+						left: -30px;
+					}
+
 					@include is-sp {
 						left: 0;
 						right: 0;
@@ -277,6 +283,10 @@
 					position: relative;
 					left: 40px;
 
+					@include is-max(1160px) {
+						left: 30px;
+					}
+
 					@include is-sp {
 						left: 0;
 						margin-right: auto;
@@ -303,6 +313,10 @@
 				img {
 					position: relative;
 					left: -26px;
+
+					@include is-max(1160px) {
+						left: -17px;
+					}
 
 					@include is-sp {
 						left: 0;

@@ -1,5 +1,8 @@
 .sect_3 {
 	.l-wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+
 		.boxes {
 			display: flex;
 			justify-content: space-between;
@@ -12,12 +15,21 @@
 			}
 
 			.box {
-				width: 320px;
-				height: 590px;
-				background-image: url("../image/top/sect_3_bg.png");
-				background-size: 320px 590px;
-				background-repeat: no-repeat;
-				padding: 35px;
+				.bg_img {
+					position: relative;
+
+					.bg {
+						width: 100%;
+					}
+
+					.items {
+						padding: 35px;
+						position: absolute;
+						transform: translate(0%, -52%);
+						top: 50%;
+						left: 0;
+					}
+				}
 
 				@include is-sp {
 					width: 100%;

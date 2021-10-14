@@ -98,36 +98,51 @@
     <div class="l-wrap">
         <div class="boxes">
             <div class="box">
-                <div class="icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-1.svg" alt="">
-                </div>
-                <p class="box__ttl">まいれとは？</p>
-                <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                <div class="box__btn">
-                    <p>詳しくはこちら</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                </div>
-            </div>
-            <div class="box">
-                <div class="icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg" alt="">
-                </div>
-                <p class="box__ttl">社内研修</p>
-                <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                <div class="box__btn">
-                    <p>詳しくはこちら</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                <div class="bg_img">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+                    <div class="items">
+                        <div class="icon">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-1.svg" alt="">
+                        </div>
+                        <p class="box__ttl">まいれとは？</p>
+                        <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <div class="box__btn">
+                            <p>詳しくはこちら</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="box">
-                <div class="icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-3.svg" alt="">
+                <div class="bg_img">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+                    <div class="items">
+                        <div class="icon">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg" alt="">
+                        </div>
+                        <p class="box__ttl">まいれとは？</p>
+                        <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <div class="box__btn">
+                            <p>詳しくはこちら</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <p class="box__ttl">理　念</p>
-                <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                <div class="box__btn">
-                    <p>詳しくはこちら</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+            </div>
+            <div class="box">
+                <div class="bg_img">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+                    <div class="items">
+                        <div class="icon">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-3.svg" alt="">
+                        </div>
+                        <p class="box__ttl">まいれとは？</p>
+                        <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <div class="box__btn">
+                            <p>詳しくはこちら</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,7 +176,7 @@
     </div>
 </div>
 <div class="sect_5">
-    <div class="sect_5__teams slider">
+    <div class="sect_5__teams">
         <div class="img">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="">
         </div>

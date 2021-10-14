@@ -56,35 +56,37 @@
 			}
 		}
 
-		img {
-			&:nth-of-type(1) {
-				position: absolute;
-				right: 65px;
-				bottom: 28px;
-				width: 148px;
+		.images {
+			img {
+				&:nth-of-type(1) {
+					position: absolute;
+					right: 65px;
+					bottom: 28px;
+					width: 148px;
 
-				@include is-sp {
+					@include is-sp {
+						display: none;
+					}
+
+					@include is-max(1024px) {
+						bottom: 2vw;
+					}
+				}
+
+				&:nth-of-type(2) {
+					position: relative;
+
+					@include is-sp {
+						display: none;
+					}
+				}
+
+				&:nth-of-type(3) {
 					display: none;
-				}
 
-				@include is-max(1024px) {
-					bottom: 2vw;
-				}
-			}
-
-			&:nth-of-type(2) {
-				position: relative;
-
-				@include is-sp {
-					display: none;
-				}
-			}
-
-			&:nth-of-type(3) {
-				display: none;
-
-				@include is-sp {
-					display: block;
+					@include is-sp {
+						display: block;
+					}
 				}
 			}
 		}

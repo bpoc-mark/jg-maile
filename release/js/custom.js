@@ -6,7 +6,7 @@ $(document).ready(function () {
       $(this).children('p').text('close');
       $(this).children('img').css({
         "transform": "rotate(0deg)",
-        "transition": "all 450ms"
+        "transition": "all 150ms"
       });
       $(this).parent('.accordion__header-cont').next('.accordion__content').slideDown();
       $(this).removeClass("active");
@@ -14,7 +14,7 @@ $(document).ready(function () {
       $(this).children('p').text('open');
       $(this).children('img').css({
         "transform": "rotate(180deg)",
-        "transition": "all 450ms"
+        "transition": "all 150ms"
       });
       $(this).parent('.accordion__header-cont').next('.accordion__content').slideUp();
       $(this).addClass("active");

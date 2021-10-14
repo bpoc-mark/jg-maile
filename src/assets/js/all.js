@@ -5,7 +5,7 @@ $(document).ready(function(){
             $(this).children('img').css(
                 {
                     "transform": "rotate(0deg)", 
-                    "transition": "all 450ms"
+                    "transition": "all 150ms"
                 }
             );
             $(this).parent('.accordion__header-cont').next('.accordion__content').slideDown();
@@ -15,7 +15,7 @@ $(document).ready(function(){
             $(this).children('img').css(
                 {
                     "transform": "rotate(180deg)", 
-                    "transition": "all 450ms"
+                    "transition": "all 150ms"
                 }
             );
             $(this).parent('.accordion__header-cont').next('.accordion__content').slideUp();
