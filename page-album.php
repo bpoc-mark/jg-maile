@@ -21,11 +21,26 @@
         </div>
         <div class="page_album__container">
             <div class="content">
-                <div class="pad slider">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="buttons">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
 

@@ -31,41 +31,104 @@
             <p class="events__sub">年間行事</p>
             <p class="events__desc">MAILE株式会社ではスタッフとその家族とのかかわりも大切にしていてコミュニケーションが図れる場を大事にしています。<br>お子さんも一緒に参加できて家族のように接することのできる環境づくりにこだわっています。</p>
         </div>
-
         <div class="photos">
             <div class="l-wrap">
                 <div class="container">
+                    <!-- SWIPER 1 -->
                     <div class="item">
                         <p class="item__ttl">入社式</p>
-                        <div class="slider">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <div class="swiper swiper1">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-1"></div>
+                            <div class="swiper-pagination swiper-pagination-1"></div>
+                            <div class="swiper-button-next swiper-button-next-1"></div>
                         </div>
                     </div>
+                    <!-- SWIPER 2 -->
                     <div class="item">
                         <p class="item__ttl">ボーリング大会</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider.png" alt="">
-                    </div>
-                    <div class="item">
-                        <p class="item__ttl">男子会</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider.png" alt="">
-                    </div>
-                    <div class="item">
-                        <p class="item__ttl">社員旅行</p>
-                        <div class="slider">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <div class="swiper swiper2">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-2"></div>
+                            <div class="swiper-pagination swiper-pagination-2"></div>
+                            <div class="swiper-button-next swiper-button-next-2"></div>
                         </div>
                     </div>
+                    <!-- SWIPER 3 -->
                     <div class="item">
-                        <p class="item__ttl">運動会</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider.png" alt="">
+                        <p class="item__ttl">男子会</p>
+                        <div class="swiper swiper3">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-3"></div>
+                            <div class="swiper-pagination swiper-pagination-3"></div>
+                            <div class="swiper-button-next swiper-button-next-3"></div>
+                        </div>
                     </div>
+                    <!-- SWIPER 4 -->
                     <div class="item">
-                        <p class="item__ttl">表彰式</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider.png" alt="">
+                        <p class="item__ttl">社員旅行</p>
+                        <div class="swiper swiper4">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-4"></div>
+                            <div class="swiper-pagination swiper-pagination-4"></div>
+                            <div class="swiper-button-next swiper-button-next-4"></div>
+                        </div>
+                    </div>
+                    <!-- SWIPER 5 -->
+                    <div class="item">
+                        <p class="item__ttl">社員旅行</p>
+                        <div class="swiper swiper5">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-5"></div>
+                            <div class="swiper-pagination swiper-pagination-5"></div>
+                            <div class="swiper-button-next swiper-button-next-5"></div>
+                        </div>
+                    </div>
+                    <!-- SWIPER 6 -->
+                    <div class="item">
+                        <p class="item__ttl">社員旅行</p>
+                        <div class="swiper swiper6">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="swiper-button-prev swiper-button-prev-6"></div>
+                            <div class="swiper-pagination swiper-pagination-6"></div>
+                            <div class="swiper-button-next swiper-button-next-6"></div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 .page_message {
+	padding-bottom: 150px;
+
 	@include is-sp {
 		padding-bottom: 40px;
 	}

@@ -29,16 +29,81 @@
 		}
 	}
 	&__container {
-		padding: 160px 0 140px 0;
-		max-width: 720px;
-		margin: 0 auto;
+		padding: 160px 0px 140px 0px;
+		max-width: 700px;
+		margin: 10px auto;
 
 		@include is-sp {
 			padding: 90px 0 40px 0;
 		}
 
 		.content {
-			padding-bottom: 140px;
+			padding: 0 70px 65px 70px;
+			position: relative;
+
+			@include is-sp {
+				padding: 0;
+			}
+
+			.buttons {
+				position: relative;
+				max-width: 155px;
+				margin: 0 auto;
+				padding: 75px 0 0 0;
+			}
+
+			.swiper-slide {
+				width: 680px !important;
+			}
+
+			.swiper-pagination-fraction {
+				bottom: -55px;
+				color: $color-text01;
+			}
+
+			.swiper-button-prev {
+				left: 0;
+			}
+
+			.swiper-button-next {
+				right: 0;
+			}
+
+			.swiper-pagination-current {
+				color: #fff;
+				font-family: "Helvetica", sans-serif;
+				font-weight: 400;
+				line-height: normal;
+
+				@include font-line(33);
+			}
+
+			.swiper-pagination-total {
+				color: $color-text01;
+				font-family: "Helvetica", sans-serif;
+				font-weight: 400;
+				line-height: normal;
+
+				@include font-line(24);
+			}
+
+			.swiper-button-next:after,
+			.swiper-button-prev:after {
+				font-size: 20px;
+				color: #fff;
+			}
+
+			.swiper-button-next.swiper-button-disabled,
+			.swiper-button-prev.swiper-button-disabled {
+				opacity: 1;
+			}
+
+			.swiper-pagination,
+			.swiper-pagination-fraction,
+			.swiper-pagination-horizontal {
+				display: inline-block;
+				vertical-align: middle;
+			}
 
 			@include is-sp {
 				padding-bottom: 90px;

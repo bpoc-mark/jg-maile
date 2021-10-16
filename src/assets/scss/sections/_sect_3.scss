@@ -14,20 +14,56 @@
 				padding: 55px 0 5px 0;
 			}
 
+			@include is-between(1030px, 751px) {
+				justify-content: flex-start;
+				gap: 20px;
+			}
+
 			.box {
 				.bg_img {
 					position: relative;
 
-					.bg {
+					@include is-sp {
 						width: 100%;
+
+						.bg {
+							width: 80%;
+							margin-left: auto;
+							margin-right: auto;
+							display: block;
+						}
+					}
+
+					@include is-max(480px) {
+						.bg {
+							width: 100%;
+						}
 					}
 
 					.items {
-						padding: 35px;
 						position: absolute;
-						transform: translate(0%, -52%);
 						top: 50%;
-						left: 0;
+						left: 0px;
+						-ms-transform: translate(0%, -50%);
+						-webkit-transform: translate(0%, -50%);
+						transform: translate(0%, -50%);
+						margin: 0;
+						padding: 0 40px;
+						display: block;
+
+						@include is-sp {
+							left: 30%;
+							transform: translate(-20%, -50%);
+						}
+
+						@include is-max(480px) {
+							left: 0;
+							transform: translate(0%, -50%);
+						}
+
+						@include is-max(340px) {
+							padding: 0 20px;
+						}
 					}
 				}
 
@@ -57,6 +93,10 @@
 					padding: 52px 0 40px 0;
 
 					@include font-line(24);
+
+					@include is-max(325px) {
+						padding: 27px 0 30px 0;
+					}
 				}
 
 				&__desc {

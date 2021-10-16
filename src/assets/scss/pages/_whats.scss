@@ -251,7 +251,8 @@
 					.item {
 						text-align: center;
 						width: calc(100% / 3);
-						padding: 0 5px;
+						padding: 0 25px;
+						position: relative;
 
 						@include is-sp {
 							width: 100%;

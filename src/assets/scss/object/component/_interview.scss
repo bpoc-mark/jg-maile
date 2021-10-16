@@ -1,0 +1,49 @@
+.c-ttl {
+	color: #fff;
+	font-family: "santa_fe", sans-serif;
+	font-weight: 400;
+	line-height: 1;
+
+	@include font-line(32);
+}
+
+.c-ttl_sub {
+	font-weight: 700;
+	padding-top: 25px;
+
+	@include font-line(24);
+}
+
+.c-sub {
+	color: $color-text01;
+	font-family: "Helvetica", sans-serif;
+	font-weight: 400;
+
+	@include font-line(18);
+}
+
+.c-row_ttl {
+	color: $color-text01;
+	font-weight: 700;
+
+	@include font-line(18);
+}
+
+.c-row_ttl-2 {
+	color: $color-text01;
+	font-weight: 700;
+	padding-top: 75px;
+
+	@include font-line(18);
+
+	@include is-sp {
+		padding-top: 55px;
+	}
+}
+
+.c-row_sub {
+	font-weight: 400;
+	text-align: justify;
+
+	@include font-line(18, 30);
+}

@@ -1,31 +1,84 @@
 .sect_2 {
 	padding: 85px 0 0 0;
+	position: relative;
+
+	.l-wrap {
+		max-width: 1185px;
+		margin: 0 auto;
+		width: 100%;
+
+		.front_content {
+			position: relative;
+
+			.swirl {
+				position: absolute;
+				top: 60vw;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: -1;
+				width: 80%;
+
+				@include is-max(1000px) {
+					top: 90vw;
+					width: 85%;
+				}
+
+				@include is-sp {
+					display: none;
+				}
+
+				@include is-max(768px) {
+					top: 122vw;
+				}
+			}
+
+			.swirl_sp {
+				position: absolute;
+				top: 645vw;
+				left: 45%;
+				transform: translate(-50%, -50%);
+				z-index: -1;
+				width: 100%;
+				display: none;
+
+				@include is-sp {
+					display: block;
+				}
+			}
+		}
+	}
 
 	@include is-sp {
 		padding: 40px 0 0 0;
 	}
 
-	.l-wrap {
-		padding-right: 20px;
-		padding-left: 20px;
-	}
-
 	&__row_1 {
 		display: flex;
+		padding: 0 40px;
+		flex-wrap: wrap;
 
 		@include is-sp {
-			flex-wrap: wrap;
+			padding: 0;
 		}
 
 		.item-1 {
-			width: 515px;
+			width: 45%;
 			position: relative;
+
+			@include is-max(768px) {
+				width: 100%;
+			}
+
+			@include is-between(1050px, 769px) {
+				width: 70%;
+			}
 
 			@include is-sp {
 				width: 100%;
 				order: 2;
 				padding: 75px 0 0 0;
 				left: -45px;
+				position: relative;
 			}
 
 			.bg_img {
@@ -33,6 +86,7 @@
 
 				img {
 					&:nth-of-type(1) {
+						width: 100%;
 						@include is-sp {
 							display: none;
 						}
@@ -43,6 +97,14 @@
 						@include is-sp {
 							display: block;
 						}
+
+						@include is-max(750px) {
+							width: 80%;
+						}
+
+						@include is-max(450px) {
+							width: 100%;
+						}
 					}
 				}
 			}
@@ -51,24 +113,41 @@
 				position: absolute;
 				top: -10px;
 				left: 30px;
-				bottom: 0;
 
-				@include is-sp {
-					width: 102px;
-					left: 20px;
-					top: 60%;
+				@include is-max(768px) {
+					top: 20%;
 				}
+
+				@include is-max(750px) {
+					width: 30%;
+					top: 40%;
+				}
+
+				@include is-max(1050px) {
+					top: unset;
+					bottom: 10px;
+				}
+				// @include is-sp {
+				// 	width: 102px;
+				// 	left: 20px;
+				// 	top: 50%;
+				// }
 			}
 
 			.text {
 				position: absolute;
-				right: 20px;
-				top: 38%;
-				transform: translate(-10%, -50%);
+				left: 50%;
+				top: 50%;
+				transform: translate(0%, -50%);
 
 				@include is-sp {
-					top: 60%;
+					top: 50%;
+					left: 40%;
 					transform: translate(-10%, -50%);
+				}
+
+				@include is-max(425px) {
+					left: 35%;
 				}
 
 				.ttl {
@@ -94,6 +173,7 @@
 						@include font-line(16);
 					}
 					img {
+						display: block;
 						width: 30px;
 						height: auto;
 						position: static;
@@ -103,10 +183,20 @@
 		}
 
 		.item-2 {
-			width: calc(100% - 515px);
+			width: 50%;
 			display: flex;
 			align-items: center;
-			margin: 0 0 0 35px;
+			margin-left: 35px;
+
+			@include is-max(768px) {
+				width: 100%;
+				padding-top: 35px;
+			}
+
+			@include is-between(1050px, 769px) {
+				width: 100%;
+				padding-top: 35px;
+			}
 
 			@include is-sp {
 				width: 100%;
@@ -155,56 +245,98 @@
 
 	&__row_2 {
 		padding: 15px 0 0 0;
+		position: relative;
+
+		@include is-max(1050px) {
+			padding: 30px 0 0 0;
+		}
 
 		.l-wrap {
-			position: relative;
-			padding-left: 0;
-			padding-right: 0;
+			@include is-max(1200px) {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+			@include is-sp {
+				padding-left: 0;
+				padding-right: 0;
+			}
 		}
 
 		&--content {
 			display: flex;
-			justify-content: center;
+			justify-content: space-between;
 			flex-wrap: wrap;
 
 			.row-1 {
 				display: flex;
 				align-items: flex-end;
-				width: 280px;
-				height: auto;
+				width: 25%;
+
+				@include is-max(768px) {
+					width: 49%;
+					order: 1;
+					justify-content: flex-end;
+				}
+
+				@include is-max(1050px) {
+					width: 20%;
+				}
+
+				@include is-max(920px) {
+					width: 100%;
+					order: 1;
+					padding-bottom: 20px;
+					justify-content: flex-end;
+					align-items: unset;
+				}
 
 				@include is-sp {
 					align-items: initial;
 					margin-left: auto;
 					padding: 50px 0;
-				}
+					width: 100%;
+					display: block;
 
-				img {
-					position: relative;
-					left: -40px;
-
-					@include is-max(1160px) {
-						left: -30px;
-					}
-
-					@include is-sp {
-						left: 0;
-						right: 0;
+					img {
+						display: block;
+						margin-left: auto;
 					}
 				}
 			}
 
 			.row-2 {
-				width: 515px;
+				width: 50%;
 				position: relative;
+				text-align: center;
+
+				@include is-max(768px) {
+					width: 100%;
+					order: 3;
+					padding: 30px 0 0 0;
+				}
+
+				@include is-max(980px) {
+					width: 50%;
+				}
+
+				@include is-max(920px) {
+					width: 100%;
+					order: 2;
+
+					.row_bg {
+						margin-left: auto;
+						margin-right: auto;
+						display: block;
+					}
+				}
 
 				@include is-sp {
 					width: 100%;
+					order: 2;
 				}
 
 				img {
-					position: relative;
-
 					&:first-child {
 						@include is-sp {
 							display: none;
@@ -216,6 +348,12 @@
 
 						@include is-sp {
 							display: block;
+							width: 80%;
+							margin-left: auto;
+							margin-right: auto;
+						}
+
+						@include is-max(480px) {
 							width: 100%;
 						}
 					}
@@ -227,11 +365,38 @@
 					left: 30%;
 					transform: translate(-20%, -50%);
 
+					@include is-max(1035px) {
+						left: 27%;
+						top: 48%;
+					}
+
+					@include is-max(920px) {
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					@include is-sp {
+						left: 30%;
+						transform: translate(-20%, -50%);
+					}
+
+					@include is-max(380px) {
+						left: 20%;
+						transform: translate(-10%, -50%);
+					}
+
+					@include is-max(320px) {
+						left: 15%;
+						top: 50%;
+						transform: translate(-9%, -50%);
+					}
+
 					.ttl {
 						color: $color-text01;
 						font-family: "santa_fe", sans-serif;
 						font-weight: 400;
 						line-height: normal;
+						text-align: left;
 
 						@include font-line(80);
 
@@ -240,8 +405,13 @@
 							font-family: noto-sans-cjk-jp, sans-serif;
 							font-weight: 700;
 							padding: 0 0 0 20px;
+							text-align: left;
 
 							@include font-line(16);
+						}
+
+						@include is-max(320px) {
+							@include font-line(70);
 						}
 					}
 
@@ -249,8 +419,13 @@
 						font-family: noto-sans-cjk-jp, sans-serif;
 						font-weight: 400;
 						color: #fff;
+						text-align: left;
 
 						@include font-line(16);
+
+						@include is-max(320px) {
+							@include font-line(14);
+						}
 					}
 
 					.btn {
@@ -263,7 +438,7 @@
 
 							@include font-line(16);
 						}
-						img {
+						.arrow {
 							width: 30px;
 							height: auto;
 						}
@@ -272,26 +447,32 @@
 			}
 
 			.row-3 {
-				width: 280px;
+				width: 25%;
+
+				@include is-max(768px) {
+					width: 49%;
+					order: 2;
+				}
+
+				@include is-max(1050px) {
+					width: 20%;
+				}
+
+				@include is-max(920px) {
+					width: 100%;
+					order: 3;
+					padding-top: 20px;
+
+					img {
+						margin-right: auto;
+						display: block;
+					}
+				}
 
 				@include is-sp {
 					width: 100%;
 					padding: 50px 0 0 0;
-				}
-
-				img {
-					position: relative;
-					left: 40px;
-
-					@include is-max(1160px) {
-						left: 30px;
-					}
-
-					@include is-sp {
-						left: 0;
-						margin-right: auto;
-						display: block;
-					}
+					order: 3;
 				}
 			}
 		}
@@ -308,18 +489,8 @@
 					width: 100%;
 					order: 2;
 					padding: 50px 0 0 0;
-				}
 
-				img {
-					position: relative;
-					left: -26px;
-
-					@include is-max(1160px) {
-						left: -17px;
-					}
-
-					@include is-sp {
-						left: 0;
+					img {
 						margin-left: auto;
 						display: block;
 					}
@@ -330,15 +501,42 @@
 				padding: 0 0 0 200px;
 				position: relative;
 
+				@include is-max(1035px) {
+					padding: 0 0 0 100px;
+				}
+
+				@include is-max(940px) {
+					padding: 0 0 0 80px;
+				}
+
+				@include is-max(920px) {
+					padding: 0 0 0 50px;
+				}
+
+				@include is-max(885px) {
+					width: 100%;
+				}
+
+				@include is-max(768px) {
+					padding-top: 30px;
+					width: 100%;
+				}
+
 				@include is-sp {
 					order: 1;
 					padding: 0;
 				}
 
-				img {
+				.row-2_bg {
 					width: 515px;
 
-					&:first-child {
+					@include is-max(885px) {
+						margin-left: auto;
+						display: block;
+						padding-top: 30px;
+					}
+
+					&:nth-of-type(1) {
 						@include is-sp {
 							display: none;
 						}
@@ -351,6 +549,17 @@
 							display: block;
 						}
 					}
+
+					@include is-sp {
+						width: 80%;
+						margin-right: auto;
+						margin-left: auto;
+						display: block;
+					}
+
+					@include is-max(480px) {
+						width: 100%;
+					}
 				}
 
 				.text {
@@ -359,8 +568,35 @@
 					left: 50%;
 					transform: translate(-20%, -50%);
 
+					@include is-max(1035px) {
+						left: 45%;
+					}
+
+					@include is-max(935px) {
+						left: 40%;
+					}
+
+					@include is-max(885px) {
+						left: 50%;
+						transform: translate(-8%, -45%);
+					}
+
+					@include is-max(820px) {
+						transform: translate(-13%, -50%);
+					}
+
+					@include is-max(770px) {
+						top: 55%;
+						transform: translate(-20%, -50%);
+					}
+
 					@include is-sp {
 						left: 30%;
+					}
+
+					@include is-max(320px) {
+						left: 15%;
+						transform: translate(-9%, -50%);
 					}
 
 					.ttl {
@@ -371,6 +607,10 @@
 
 						@include is-sp {
 							line-height: 40px;
+						}
+
+						@include is-max(320px) {
+							@include font-line(70);
 						}
 
 						@include font-line(80);
@@ -403,6 +643,10 @@
 						color: #fff;
 
 						@include font-line(16);
+
+						@include is-max(320px) {
+							@include font-line(14);
+						}
 					}
 
 					.btn {
@@ -420,7 +664,8 @@
 
 							@include font-line(16);
 						}
-						img {
+
+						.want_btn {
 							width: 30px;
 							height: auto;
 						}
@@ -431,13 +676,31 @@
 			.cust_man {
 				position: absolute;
 				left: 20%;
-				top: 40%;
+				bottom: 10%;
+
+				@include is-max(935px) {
+					bottom: -2vw;
+					left: 10%;
+				}
+
+				@include is-max(820px) {
+					left: 2vw;
+				}
+
+				@include is-max(780px) {
+					left: 1vw;
+				}
+
+				@include is-max(768px) {
+					bottom: 0;
+					left: 0;
+				}
 
 				@include is-sp {
 					top: auto;
 					order: 3;
 					left: 0;
-					bottom: -10vw;
+					bottom: -5vw;
 				}
 
 				@include is-max(375px) {
@@ -448,7 +711,11 @@
 					width: 300px;
 
 					@include is-sp {
-						width: 154px;
+						width: 50% !important;
+					}
+
+					@include is-max(768px) {
+						width: 70%;
 					}
 				}
 			}

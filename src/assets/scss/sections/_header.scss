@@ -69,6 +69,8 @@
 
 	&__banner {
 		overflow: hidden !important;
+		position: relative;
+
 		.l-wrap {
 			padding-right: 20px;
 			padding-left: 20px;
@@ -105,16 +107,20 @@
 			img {
 				&:nth-of-type(1) {
 					padding: 0;
-					width: 224px;
+					width: 17vw;
 					height: auto;
 					position: absolute;
 					right: 0;
 					bottom: -35px;
 
+					@include is-between(1030px, 751px) {
+						bottom: -3vw;
+					}
+
 					@include is-sp {
 						width: 30%;
 						right: -10%;
-						bottom: -8vw;
+						bottom: -6vw;
 					}
 				}
 
@@ -123,6 +129,7 @@
 					bottom: 80%;
 					left: 10%;
 					width: 868px;
+					z-index: -1;
 
 					@include is-sp {
 						display: none;
@@ -135,7 +142,7 @@
 					@include is-sp {
 						display: block;
 						position: relative;
-						bottom: 55%;
+						bottom: 65vw;
 						left: -50px;
 					}
 				}
@@ -157,8 +164,16 @@
 					@include is-sp {
 						display: block;
 						position: relative;
-						bottom: 30%;
+						bottom: 30vw;
 						left: -80px;
+					}
+
+					@include is-between(720px, 460px) {
+						bottom: 45vw;
+					}
+
+					@include is-between(850px, 721px) {
+						bottom: 50vw;
 					}
 				}
 			}

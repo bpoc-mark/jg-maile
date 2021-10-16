@@ -2,12 +2,14 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>reception,<br>part time job</h1>
-            <p>受付社員・パート・<br>アルバイト情報</p>
+            <h1>reception,part time job</h1>
+            <p>受付社員・パート・アルバイト情報</p>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+        <div class="images">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+        </div>
     </div>
 </div>
 <div class="section_1 p-details">

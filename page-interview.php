@@ -1,0 +1,114 @@
+<?php get_header(); ?>
+<div class="p-banner">
+    <div class="l-wrap">
+        <div class="title">
+            <h1>employment information</h1>
+            <p>新卒採用情報</p>
+        </div>
+        <div class="images">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+        </div>
+    </div>
+</div>
+<div class="page_interview">
+    <div class="l-wrap">
+        <div class="page_interview__content">
+            <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <div class="page_interview--int">
+                <img class="cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+                <p class="c-ttl">interview 01</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
+                <p class="c-ttl_sub">名前名前</p>
+                <p class="c-sub">namenamename</p>
+                <div class="page_interview--int__content">
+                    <div class="row_1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                    </div>
+                    <div class="row_2">
+                        <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_ttl-2">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_interview--int">
+                <p class="c-ttl">interview 02</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
+                <p class="c-ttl_sub">名前名前</p>
+                <p class="c-sub">namenamename</p>
+                <div class="page_interview--int__content">
+                    <div class="row_1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                    </div>
+                    <div class="row_2">
+                        <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_ttl-2">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_interview--int">
+                <p class="c-ttl">interview 03</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
+                <p class="c-ttl_sub">名前名前</p>
+                <p class="c-sub">namenamename</p>
+                <div class="page_interview--int__content">
+                    <div class="row_1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                    </div>
+                    <div class="row_2">
+                        <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_ttl-2">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_interview--int">
+                <p class="c-ttl">interview 04</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
+                <p class="c-ttl_sub">名前名前</p>
+                <p class="c-sub">namenamename</p>
+                <div class="page_interview--int__content">
+                    <div class="row_1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                    </div>
+                    <div class="row_2">
+                        <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_ttl-2">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_interview--int">
+                <p class="c-ttl">interview 05</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
+                <p class="c-ttl_sub">名前名前</p>
+                <p class="c-sub">namenamename</p>
+                <div class="page_interview--int__content">
+                    <div class="row_1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                    </div>
+                    <div class="row_2">
+                        <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_ttl-2">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <p class="c-row_sub">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-details--btn">
+                <a href="">
+                    <p>ENTRY</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/details_btn.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<?php get_footer(); ?>
