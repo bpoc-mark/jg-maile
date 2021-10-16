@@ -1,0 +1,258 @@
+.page_contact {
+	.l-wrap {
+		@include is-sp {
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+	}
+	&__faq {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 185px 0 145px 0;
+
+		&--ttl {
+			color: $color-text01;
+			text-align: center;
+			font-family: "santa_fe", sans-serif;
+			line-height: 1;
+
+			@include font-line(80, 92);
+		}
+
+		&--sub {
+			font-weight: 700;
+			text-align: center;
+
+			@include font-line(16);
+		}
+
+		.contact_content {
+			display: flex;
+			padding: 20px 0;
+			flex-wrap: wrap;
+
+			.contact-woman {
+				width: 70px;
+				height: auto;
+
+				@include is-sp {
+					width: 40px;
+				}
+			}
+			.contact-man {
+				width: 70px;
+				height: auto;
+
+				@include is-sp {
+					width: 40px;
+				}
+			}
+			.contact-man-2 {
+				width: 70px;
+				height: auto;
+
+				@include is-sp {
+					width: 40px;
+				}
+			}
+
+			&__item {
+				display: flex;
+
+				&:nth-of-type(odd) {
+					width: 100%;
+					align-items: start;
+
+					.convo {
+						background: #000;
+						border-radius: 50px;
+						color: $color-text01;
+						font-weight: 700;
+						margin-top: 30px;
+						margin-left: 10px;
+						padding: 40px 0 35px 40px;
+						position: relative;
+						text-align: justify;
+						width: 640px;
+
+						@include font-line(18);
+
+						@include is-max(600px) {
+							width: 400px;
+						}
+
+						@include is-sp {
+							width: 260px;
+						}
+
+						@include is-max(430px) {
+							width: 300px;
+						}
+
+						&::after {
+							content: "";
+							width: 50px;
+							height: 50px;
+							background-color: #000;
+							display: block;
+							position: absolute;
+							top: 0;
+							left: 0;
+						}
+
+						@include is-sp {
+							padding: 40px 40px 35px 40px;
+						}
+					}
+				}
+
+				&:nth-of-type(even) {
+					width: 100%;
+					justify-content: flex-end;
+					align-items: start;
+
+					.convo {
+						background: #fff;
+						border-radius: 50px;
+						color: $color-text-default;
+						font-weight: 700;
+						margin-top: 30px;
+						margin-right: 10px;
+						padding: 40px 40px 35px 40px;
+						position: relative;
+						text-align: justify;
+						width: 640px;
+
+						@include font-line(18);
+
+						@include is-max(600px) {
+							width: 400px;
+						}
+
+						@include is-sp {
+							width: 260px;
+						}
+
+						@include is-max(430px) {
+							width: 300px;
+						}
+
+						&::after {
+							content: "";
+							width: 50px;
+							height: 50px;
+							background-color: #fff;
+							display: block;
+							position: absolute;
+							top: 0;
+							right: 0;
+							z-index: -1;
+						}
+					}
+				}
+
+				&:nth-of-type(3) {
+					padding: 45px 0 0 0;
+
+					@include is-sp {
+						padding: 80px 0 0 0;
+					}
+				}
+
+				&:nth-of-type(5) {
+					padding: 45px 0 0 0;
+
+					@include is-sp {
+						padding: 80px 0 0 0;
+					}
+				}
+
+				&:nth-of-type(7) {
+					padding: 45px 0 0 0;
+
+					@include is-sp {
+						padding: 80px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	&__contact {
+		max-width: 640px;
+		margin: 0 auto;
+		padding: 105px 0 0 0;
+
+		&--ttl {
+			color: $color-text01;
+			font-family: "santa_fe", sans-serif;
+			font-weight: 400;
+			line-height: 1;
+			text-align: center;
+
+			@include font-line(80);
+		}
+
+		&--sub {
+			font-weight: 800;
+			text-align: center;
+
+			@include font-line(16);
+		}
+
+		.form-group {
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 40px;
+
+			&:nth-of-type(1) {
+				padding: 55px 0 40px 0;
+			}
+
+			.row_1 {
+				width: calc(100% - 400px);
+				p {
+					color: $color-text01;
+					font-weight: 700;
+					line-height: 1;
+
+					@include font-line(24);
+				}
+
+				span {
+					color: $color-text01;
+					font-weight: 400;
+					vertical-align: top;
+
+					@include font-line(14);
+				}
+			}
+
+			.row_2 {
+				width: 400px;
+
+				input[type="text"],
+				textarea {
+					border: none;
+					width: 100%;
+					padding: 15px 0 15px 20px;
+					font-family: noto-sans-cjk-jp, sans-serif;
+					font-weight: 400;
+					color: #a0a0a0;
+					text-align: justify;
+					padding-right: 20px;
+
+					@include font-line(16);
+
+					&::placeholder {
+						color: #a0a0a0;
+						font-family: noto-sans-cjk-jp, sans-serif;
+						font-weight: 400;
+
+						@include font-line(16);
+					}
+				}
+			}
+		}
+	}
+}

@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>employment information</h1>
-            <p>新卒採用情報</p>
+            <h1>interview</h1>
+            <p>社員インタビュー</p>
         </div>
         <div class="images">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
