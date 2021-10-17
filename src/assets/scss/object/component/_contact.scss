@@ -1,14 +1,52 @@
 .page_contact {
+	padding: 0 0 110px 0;
+
 	.l-wrap {
+		position: relative;
+
 		@include is-sp {
 			padding-left: 8px;
 			padding-right: 8px;
 		}
+
+		.cont_clouds {
+			img {
+				&:nth-of-type(1) {
+					width: 180px;
+					position: absolute;
+					left: 150px;
+					bottom: 40px;
+				}
+
+				&:nth-of-type(2) {
+					width: 180px;
+					position: absolute;
+					left: 150px;
+					top: 105px;
+				}
+
+				&:nth-of-type(3) {
+					width: 275px;
+					position: absolute;
+					right: 0;
+					top: 190px;
+				}
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
 	}
+
 	&__faq {
 		max-width: 800px;
 		margin: 0 auto;
 		padding: 185px 0 145px 0;
+
+		@include is-sp {
+			padding: 185px 0 115px 0;
+		}
 
 		&--ttl {
 			color: $color-text01;
@@ -81,12 +119,11 @@
 							width: 400px;
 						}
 
-						@include is-sp {
-							width: 260px;
-						}
-
 						@include is-max(430px) {
 							width: 300px;
+						}
+						@include is-sp {
+							width: 260px;
 						}
 
 						&::after {
@@ -129,12 +166,11 @@
 							width: 400px;
 						}
 
-						@include is-sp {
-							width: 260px;
-						}
-
 						@include is-max(430px) {
 							width: 300px;
+						}
+						@include is-sp {
+							width: 260px;
 						}
 
 						&::after {
@@ -183,6 +219,10 @@
 		margin: 0 auto;
 		padding: 105px 0 0 0;
 
+		@include is-sp {
+			padding: 0 25px;
+		}
+
 		&--ttl {
 			color: $color-text01;
 			font-family: "santa_fe", sans-serif;
@@ -204,6 +244,7 @@
 			display: flex;
 			justify-content: space-between;
 			padding-bottom: 40px;
+			flex-wrap: wrap;
 
 			&:nth-of-type(1) {
 				padding: 55px 0 40px 0;
@@ -211,6 +252,11 @@
 
 			.row_1 {
 				width: calc(100% - 400px);
+				padding-bottom: 20px;
+
+				@include is-sp {
+					width: 100%;
+				}
 				p {
 					color: $color-text01;
 					font-weight: 700;
@@ -230,6 +276,10 @@
 
 			.row_2 {
 				width: 400px;
+
+				@include is-sp {
+					width: 100%;
+				}
 
 				input[type="text"],
 				textarea {
@@ -252,6 +302,26 @@
 						@include font-line(16);
 					}
 				}
+			}
+
+			&:nth-of-type(5) {
+				.row_2 {
+					input[type="text"] {
+						margin-bottom: 10px;
+						&:nth-of-type(1) {
+							width: 200px;
+							margin-bottom: 10px;
+						}
+						&:nth-of-type(2) {
+							width: 200px;
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+
+			&:nth-of-type(7) {
+				padding-bottom: 100px;
 			}
 		}
 	}

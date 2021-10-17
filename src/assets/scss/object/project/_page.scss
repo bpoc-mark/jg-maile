@@ -397,4 +397,37 @@
 			}
 		}
 	}
+
+	&--btn_blk {
+		background: #000;
+		width: 320px;
+		margin: 0 auto;
+		padding: 25px 0;
+		text-align: center;
+
+		@include is-sp {
+			width: 100%;
+		}
+
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+
+			p {
+				color: $color-text01;
+				font-family: oswald, sans-serif;
+				font-weight: 600;
+
+				@include font-line(28);
+			}
+
+			img {
+				width: 40px;
+				position: absolute;
+				right: 20px;
+			}
+		}
+	}
 }
