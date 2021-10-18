@@ -1,15 +1,39 @@
 .sect_5 {
 	&__teams {
-		display: flex;
-		flex-wrap: wrap;
+		.swiper-container {
+			overflow: hidden;
+			.swiper-wrapper {
+				.img {
+					width: calc(100% / 4);
 
-		.img {
-			width: calc(100% / 4);
-
-			img {
-				width: 100%;
-				height: auto;
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
 			}
+		}
+
+		.swiper-horizontal > .swiper-pagination-bullets,
+		.swiper-pagination-bullets.swiper-pagination-horizontal,
+		.swiper-pagination-custom,
+		.swiper-pagination-fraction {
+			bottom: unset;
+			padding-top: 15px;
+			line-height: 1;
+		}
+
+		.swiper-pagination-bullet {
+			background: #fff;
+			opacity: 1;
+			width: 10px;
+			height: 10px;
+		}
+
+		.swiper-pagination-bullet-active {
+			background: $color-text02;
+			width: 10px;
+			height: 10px;
 		}
 	}
 

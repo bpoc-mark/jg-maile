@@ -10,6 +10,14 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
         </div>
+
+        <div class="p-breaducrumbs">
+            <?php
+            if (function_exists('yoast_breadcrumb')) {
+                yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
+            }
+            ?>
+        </div>
     </div>
 </div>
 <div class="page_album">
@@ -23,18 +31,26 @@
             <div class="content">
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                        <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                        <?php
+                        $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+
+                        $args = array(
+                            'post_type' => 'photo',
+                            'post_status' => 'publish',
+                            'posts_per_page' => 12,
+                            'paged' => $paged,
+                        );
+
+                        $the_query = new WP_Query($args);
+                        ?>
+
+                        <?php if ($the_query->have_posts()) : ?>
+
+                            <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                                <?php the_post_thumbnail('full', array('class' => 'swiper-slide')); ?>
+                            <?php endwhile; ?>
+
+                        <?php endif; ?>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>

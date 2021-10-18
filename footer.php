@@ -79,7 +79,16 @@
         <!-- SWIPER -->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
         <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
+
+        <script>
+                AOS.init({
+                        once: true
+                });
+        </script>
         </body>
 
         </html>

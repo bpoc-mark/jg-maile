@@ -6,15 +6,16 @@
 		max-width: 1185px;
 		margin: 0 auto;
 		width: 100%;
+		position: relative;
 
 		.front_content {
 			position: relative;
 
 			.swirl {
 				position: absolute;
-				top: 60vw;
+				top: unset;
 				left: 50%;
-				transform: translate(-50%, -50%);
+				transform: translate(-50%, 15%);
 				z-index: -1;
 				width: 80%;
 

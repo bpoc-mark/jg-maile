@@ -3,6 +3,11 @@
 		padding-left: 20px;
 		padding-right: 20px;
 
+		@include is-sp {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
 		.boxes {
 			display: flex;
 			justify-content: space-between;
@@ -142,19 +147,19 @@
 			}
 		}
 	}
+}
 
-	.event {
-		margin: 0 auto;
-		max-width: 720px;
-		display: none;
+.event-sp {
+	margin: 0 auto;
+	max-width: 720px;
+	display: none;
 
-		@include is-sp {
-			display: block;
-		}
+	@include is-sp {
+		display: block;
+	}
 
-		img {
-			width: 100%;
-			height: auto;
-		}
+	img {
+		width: 100%;
+		height: auto;
 	}
 }

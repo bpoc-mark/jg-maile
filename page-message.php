@@ -10,6 +10,14 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
         </div>
+
+        <div class="p-breaducrumbs">
+            <?php
+            if (function_exists('yoast_breadcrumb')) {
+                yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
+            }
+            ?>
+        </div>
     </div>
 </div>
 <div class="page_message">

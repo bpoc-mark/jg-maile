@@ -151,13 +151,12 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="">
                     </div>
                 </div>
-                <div class="event">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="">
-                </div>
             </div>
         </div>
     </div>
-
+    <div class="event-sp">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="">
+    </div>
     <div class="sect_4">
         <div class="l-wrap">
             <div class="cloud">
@@ -178,21 +177,37 @@
                 </div>
             </div>
         </div>
+
+        <div class="nav">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="entry">
+                <p>ENTRY</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+            </div>
+        </div>
     </div>
     <div class="sect_5">
         <div class="sect_5__teams">
-            <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="">
+                    </div>
+                    <div class="swiper-slide img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.png" alt="">
+                    </div>
+                    <div class="swiper-slide img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.png" alt="">
+                    </div>
+                    <div class="swiper-slide img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.png" alt="">
-            </div>
-            <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.png" alt="">
-            </div>
-            <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.png" alt="">
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
         <div class="sect_5__contact_info">
             <div class="container">
