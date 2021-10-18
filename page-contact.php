@@ -5,12 +5,11 @@
             <h1>contact</h1>
             <p>よくある質問・<br>お問い合わせ</p>
         </div>
-        <div class="images">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
-        </div>
-
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+    </div>
+    <div class="l-wrap">
         <div class="p-breaducrumbs">
             <?php
             if (function_exists('yoast_breadcrumb')) {

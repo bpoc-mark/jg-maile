@@ -1,20 +1,3 @@
-.slider {
-	.slick-arrow {
-		display: none !important;
-	}
-	.slick-dots {
-		display: none !important;
-	}
-}
-
-.slick-list {
-	margin: 50px !important;
-
-	@include is-sp {
-		margin: 0 !important;
-	}
-}
-
 .p-details {
 	.l-wrap {
 		position: relative;

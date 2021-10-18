@@ -5,12 +5,11 @@
             <h1>mid-career employment</h1>
             <p>中途採用情報</p>
         </div>
-        <div class="images">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
-        </div>
-
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+    </div>
+    <div class="l-wrap">
         <div class="p-breaducrumbs">
             <?php
             if (function_exists('yoast_breadcrumb')) {
@@ -68,33 +67,33 @@
                 </div>
                 <div class="item">
                     <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
-                    <li>◯大津市石山院
-                        ◯大津市膳所院
-                        ◯大津市堅田院
-                        ◯近江八幡院
-                        ◯草津院
-                        ◯守山院
-                        ◯甲賀水口院
-                        ◯松井山手院
+                    <li><span>◯</span>大津市石山院
+                        <span>◯</span>大津市膳所院
+                        <span>◯</span>大津市堅田院
+                        <span>◯</span>近江八幡院
+                        <span>◯</span>草津院
+                        <span>◯</span>守山院
+                        <span>◯</span>甲賀水口院
+                        <span>◯</span>松井山手院
 
                         基本的には資格、将来の夢、現住所によって考慮します。
                     </li>
                 </div>
                 <div class="item">
                     <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
-                    <li>◯交通費全額支給
-                        ◯制服貸与
-                        ◯賞与（年1回）
-                        ◯扶養手当（1人5,000円）
-                        ◯住宅手当（10,000円）
-                        ◯免許手当（30,000円）
-                        ◯管理職手当（50,000円）
-                        ◯勉強会、セミナー充実
-                        ◯社会保険完備、労災、厚生年金、雇用保険
-                        ◯ガン保険などの医療保険が会社全額負担（1年以上勤務の人）
-                        ◯産休育休制度
-                        ◯退職金制度（勤続年数10年以上）
-                        ◯社員旅行、レクリエーション
+                    <li><span>◯</span>交通費全額支給
+                        <span>◯</span>制服貸与
+                        <span>◯</span>賞与（年1回）
+                        <span>◯</span>扶養手当（1人5,000円）
+                        <span>◯</span>住宅手当（10,000円）
+                        <span>◯</span>免許手当（30,000円）
+                        <span>◯</span>管理職手当（50,000円）
+                        <span>◯</span>勉強会、セミナー充実
+                        <span>◯</span>社会保険完備、労災、厚生年金、雇用保険
+                        <span>◯</span>ガン保険などの医療保険が会社全額負担（1年以上勤務の人）
+                        <span>◯</span>産休育休制度
+                        <span>◯</span>退職金制度（勤続年数10年以上）
+                        <span>◯</span>社員旅行、レクリエーション
                     </li>
                 </div>
             </ul>
