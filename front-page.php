@@ -2,8 +2,8 @@
 <div class="page__banner">
     <div class="l-wrap">
         <h1>MAILE.CO.,LTD <br><span>RECRUIT SITE</span></h1>
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds_sp.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_sun.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_sun_sp.svg" alt="">
