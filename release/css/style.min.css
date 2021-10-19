@@ -888,7 +888,7 @@ template{display:none}
 .page__whats .training_contents .container .checklist .checklist_item li img{width:20px;height:20px}
 .page__whats .training_contents .container .checklist .checklist_item li p{color:#ffdc64;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;padding-left:10px;font-size:1.5rem}
 .page__whats .image_gallery{padding:150px 0 100px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
-.page__whats .image_gallery img{width:calc(100% / 3);background-color:#fff}
+.page__whats .image_gallery img{width:calc(100% / 3);background-color:#fff;height:auto}
 @media only screen and (min-width:0) and (max-width:0){.l-header__inner{padding-left:15px;padding-right:15px}
 .l-wrap{padding-left:15px;padding-right:15px}
 .p-introduction__intro .headline__text{font-size:1.625rem}
@@ -1084,6 +1084,7 @@ template{display:none}
 .p-banner .l-wrap img:nth-of-type(3){display:block}
 .p-banner .l-wrap .pc{display:none}
 .p-banner .l-wrap .sp{display:block}
+.p-banner .l-wrap:nth-of-type(2) .p-breadcrumbs{padding-top:35px}
 .p-introduction__intro .headline{text-align:center}
 .p-introduction__intro .headline__text{font-size:1.125rem}
 .p-link01__link{display:block}
@@ -1388,6 +1389,7 @@ template{display:none}
 .page__whats .photos .l-wrap .container .item:nth-of-type(5){padding-top:0}
 .page__whats .photos .l-wrap .container .item:nth-of-type(6){padding-top:0}
 .page__whats .photos .l-wrap .container .item__ttl{padding-top:60px}
+.page__whats .photos .l-wrap .container .item .swiper{padding:30px;overflow:hidden}
 .page__whats .training_contents .l-wrap{padding-left:20px;padding-right:20px}
 .page__whats .training_contents .container .ttl{width:80%;top:-60px;line-height:.7em}
 .page__whats .training_contents .container .diagonal img:nth-of-type(1){display:none}
@@ -1399,7 +1401,7 @@ template{display:none}
 .page__whats .training_contents .container .checklist .checklist_item .row-2{width:100%}
 .page__whats .training_contents .container .checklist .checklist_item .row-3{width:100%}
 .page__whats .image_gallery{padding:35px 0 40px 0}
-.page__whats .image_gallery img{width:calc(100% / 2)}
+.page__whats .image_gallery img{width:calc(100% / 2);height:100%}
 }@media only screen and (max-width:600px){.page_contact__faq .contact_content__item:nth-of-type(odd) .convo{width:400px}
 .page_contact__faq .contact_content__item:nth-of-type(even) .convo{width:400px}
 .page__whats .training_contents .container .diagonal img:nth-of-type(1){bottom:-1.5vw}

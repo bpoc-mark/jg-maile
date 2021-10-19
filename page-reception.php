@@ -10,7 +10,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
     </div>
     <div class="l-wrap">
-        <div class="p-breaducrumbs">
+        <div class="p-breadcrumbs">
             <?php
             if (function_exists('yoast_breadcrumb')) {
                 yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
@@ -102,7 +102,7 @@
                     <div class="bg_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                         <div class="items">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="">
                             <p class="items__ttl">中途採用情報</p>
                             <div class="items__btn">
                                 <p>詳しくはこちら</p>
@@ -115,7 +115,7 @@
                     <div class="bg_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                         <div class="items">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_man.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="">
                             <p class="items__ttl">中途採用情報</p>
                             <div class="items__btn">
                                 <p>詳しくはこちら</p>

@@ -10,7 +10,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
     </div>
     <div class="l-wrap">
-        <div class="p-breaducrumbs">
+        <div class="p-breadcrumbs">
             <?php
             if (function_exists('yoast_breadcrumb')) {
                 yoast_breadcrumb('<p id="breadcrumbs">', '</p>');

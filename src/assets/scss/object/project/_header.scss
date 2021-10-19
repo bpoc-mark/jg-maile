@@ -107,5 +107,13 @@
 				display: block;
 			}
 		}
+
+		&:nth-of-type(2) {
+			.p-breadcrumbs {
+				@include is-sp {
+					padding-top: 35px;
+				}
+			}
+		}
 	}
 }
