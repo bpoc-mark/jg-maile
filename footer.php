@@ -71,24 +71,35 @@
                 <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by ジーングロス</p>
         </div>
         </main>
-
         <!-- SLICK -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-
         <!-- SWIPER -->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
-
+        <script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+        <script>
+                $('.zip_s').on('keyup', function() {
+                        if ($(this).val() !== '') {
+                                AjaxZip3.zip2addr('zip01', '', 'pref01', 'municipality', 'address', 'address2');
+                        }
+                        if ($(this).val() === '') {
+                                $('.prefecture_s').val(''),
+                                        $('.municipality_s').val(''),
+                                        $('.address_s').val(''),
+                                        $('.address_s2').val('')
+                        }
+                });
+        </script>
         <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
-
         <script>
                 AOS.init({
                         once: true
                 });
         </script>
+        <?php wp_footer(); ?>
         </body>
 
         </html>

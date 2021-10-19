@@ -26,77 +26,59 @@
         <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
         <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_3.svg" alt="">
         <div class="p-details--container">
-            <ul class="p-details--list">
-                <div class="item">
-                    <li><span>募</span><span>集</span><span>職</span><span>種</span></li>
-                    <li>受付</li>
-                </div>
-                <div class="item">
-                    <li><span>勤</span><span>務</span><span>形</span><span>態</span></li>
-                    <li>正社員／パート／アルバイト</li>
-                </div>
-                <div class="item">
-                    <li><span>給</span><span>与</span></li>
-                    <li><span>■</span>正社員：190,000～
-                        　※転勤が可能な方は優遇
-                        　昇給：査定年2回
-                        　※キャリアアップ制度に基づく
-                        　正社員試用期間3ヶ月/時給900円
+            <?php
+            $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 
-                        <span>■</span>パート・アルバイト：時給900円～
+            $args = array(
+                'post_type' => 'post',
+                'post_status' => 'publish',
+                'posts_per_page' => 10,
+                'category_name' => 'reception',
+                'paged' => $paged,
+            );
 
-                    </li>
-                </div>
-                <div class="item">
-                    <li><span>応</span><span>募</span><span>資</span><span>格</span></li>
-                    <li>未経験者大歓迎
-                    </li>
-                </div>
-                <div class="item">
-                    <li><span>勤</span><span>務</span><span>時</span><span>間</span></li>
-                    <li>平日8：30～12：30／14：30～19：30
-                        土曜／祝日　8：30～12：30／14：30～19：30
-                    </li>
-                </div>
-                <div class="item">
-                    <li><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></li>
-                    <li>月10日（年間130日）
-                        定休日：日曜、年末年始（7日）
-                        その他：年2回長期休暇5日以上、有給休暇、慶弔休暇
-                    </li>
-                </div>
-                <div class="item">
-                    <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
-                    <li><span>◯</span>大津市石山院
-                        <span>◯</span>大津市膳所院
-                        <span>◯</span>大津市堅田院
-                        <span>◯</span>近江八幡院
-                        <span>◯</span>草津院
-                        <span>◯</span>守山院
-                        <span>◯</span>甲賀水口院
-                        <span>◯</span>松井山手院
+            $the_query = new WP_Query($args);
+            ?>
 
-                        基本的には資格、将来の夢、現住所によって考慮します。
-                    </li>
-                </div>
-                <div class="item">
-                    <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
-                    <li><span>◯</span>交通費全額支給
-                        <span>◯</span>制服貸与
-                        <span>◯</span>賞与（年1回）
-                        <span>◯</span>扶養手当（1人5,000円）
-                        <span>◯</span>住宅手当（10,000円）
-                        <span>◯</span>免許手当（30,000円）
-                        <span>◯</span>管理職手当（50,000円）
-                        <span>◯</span>勉強会、セミナー充実
-                        <span>◯</span>社会保険完備、労災、厚生年金、雇用保険
-                        <span>◯</span>ガン保険などの医療保険が会社全額負担（1年以上勤務の人）
-                        <span>◯</span>産休育休制度
-                        <span>◯</span>退職金制度（勤続年数10年以上）
-                        <span>◯</span>社員旅行、レクリエーション
-                    </li>
-                </div>
-            </ul>
+            <?php if ($the_query->have_posts()) : ?>
+
+                <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                    <ul class="p-details--list">
+                        <div class="item">
+                            <li><span>募</span><span>集</span><span>職</span><span>種</span></li>
+                            <li><?php echo  the_field("募集職種"); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>勤</span><span>務</span><span>形</span><span>態</span></li>
+                            <li><?php echo the_field('勤務形態'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>給</span><span>与</span></li>
+                            <li><?php echo the_field('給与'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>応</span><span>募</span><span>資</span><span>格</span></li>
+                            <li><?php echo the_field('応募資格'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>勤</span><span>務</span><span>時</span><span>間</span></li>
+                            <li><?php echo the_field('勤務時間'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></li>
+                            <li><?php echo the_field('休日・休暇'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
+                            <li><?php echo the_field('勤務エリア'); ?></li>
+                        </div>
+                        <div class="item">
+                            <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
+                            <li><?php echo the_field('福利厚生・待遇'); ?></li>
+                        </div>
+                    </ul>
+                <?php endwhile; ?>
+            <?php endif; ?>
             <div class="p-details--information">
                 <div class="p-details--information__1">
                     <div class="bg_img">

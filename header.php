@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('title'); ?></title>
 
-    <?php wp_head(); ?>
-    <?php wp_footer(); ?>
+
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/release/css/style.css">
@@ -50,6 +50,8 @@
             s.parentNode.insertBefore(tk, s)
         })(document);
     </script>
+
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

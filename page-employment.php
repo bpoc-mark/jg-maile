@@ -26,23 +26,24 @@
         <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
         <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_3.svg" alt="">
         <div class="p-details--container">
-            <ul class="p-details--list">
-                <?php
-                $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
+            <?php
+            $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
 
-                $args = array(
-                    'post_type' => 'post',
-                    'post_status' => 'publish',
-                    'posts_per_page' => 1,
-                    'paged' => $paged,
-                );
+            $args = array(
+                'post_type' => 'post',
+                'post_status' => 'publish',
+                'posts_per_page' => 10,
+                'category_name' => 'employment',
+                'paged' => $paged,
+            );
 
-                $the_query = new WP_Query($args);
-                ?>
+            $the_query = new WP_Query($args);
+            ?>
 
-                <?php if ($the_query->have_posts()) : ?>
+            <?php if ($the_query->have_posts()) : ?>
 
-                    <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                    <ul class="p-details--list">
                         <div class="item">
                             <li><span>募</span><span>集</span><span>職</span><span>種</span></li>
                             <li><?php echo  the_field("募集職種"); ?></li>
@@ -72,12 +73,12 @@
                             <li><?php echo the_field('勤務エリア'); ?></li>
                         </div>
                         <div class="item">
-                            <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
+                            <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
                             <li><?php echo the_field('福利厚生・待遇'); ?></li>
                         </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-            </ul>
+                    </ul>
+                <?php endwhile; ?>
+            <?php endif; ?>
             <div class="p-details--information">
                 <div class="p-details--information__1">
                     <div class="bg_img">
