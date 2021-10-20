@@ -94,9 +94,26 @@
 		padding: 180px 0 150px 0;
 
 		@include is-sp {
-			padding: 100px 0 45px 0;
+			padding: 100px 0 40px 0;
 		}
 		.l-wrap {
+			position: relative;
+
+			.phil_cloud {
+				width: 185px;
+				position: absolute;
+				top: 0;
+				left: 215px;
+
+				@include is-max(768px) {
+					left: 90px;
+				}
+
+				@include is-sp {
+					display: none;
+				}
+			}
+
 			.ttl {
 				color: $color-text01;
 				font-family: "santa_fe", sans-serif;
@@ -118,6 +135,8 @@
 				justify-content: space-between;
 				padding: 50px 0 120px 0;
 				flex-wrap: wrap;
+				max-width: 1048px;
+				margin: 0 auto;
 
 				@include is-between(1000px, 751px) {
 					justify-content: space-around;

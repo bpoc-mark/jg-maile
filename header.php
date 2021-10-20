@@ -16,6 +16,8 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script type="text/javascript" src="//webfonts.sakura.ne.jp/js/sakurav3.js"></script>
+
 
     <script>
         (function(d) {

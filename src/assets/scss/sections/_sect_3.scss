@@ -10,7 +10,7 @@
 
 		.boxes {
 			display: flex;
-			justify-content: center;
+			justify-content: space-between;
 			flex-wrap: wrap;
 			align-items: center;
 			padding: 55px 0 100px 0;
@@ -19,7 +19,7 @@
 				padding: 55px 0 5px 0;
 			}
 
-			@include is-between(1030px, 751px) {
+			@include is-between(1070px, 751px) {
 				justify-content: center;
 				gap: 20px;
 			}

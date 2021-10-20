@@ -7,6 +7,10 @@
 					position: absolute;
 					left: 0;
 					top: 253px;
+
+					@include is-max(768px) {
+						top: 100px;
+					}
 				}
 				&:nth-of-type(2) {
 					width: 98px;
@@ -45,6 +49,10 @@
 			padding-top: 30px;
 
 			@include font-line(22);
+
+			@include is-sp {
+				font-size: 5.4vw;
+			}
 		}
 	}
 }

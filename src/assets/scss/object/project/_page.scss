@@ -120,6 +120,17 @@
 
 				img {
 					width: 100%;
+
+					@include is-max(745px) {
+						width: 80%;
+						margin-left: auto;
+						margin-right: auto;
+						display: block;
+					}
+
+					@include is-sp {
+						width: 100%;
+					}
 				}
 
 				.items {
@@ -193,6 +204,17 @@
 
 				img {
 					width: 100%;
+
+					@include is-max(745px) {
+						width: 80%;
+						margin-left: auto;
+						margin-right: auto;
+						display: block;
+					}
+
+					@include is-sp {
+						width: 100%;
+					}
 				}
 
 				.items {
@@ -256,6 +278,10 @@
 
 	&--flow {
 		padding: 200px 0 150px 0;
+
+		@include is-max(768px) {
+			padding: 120px 0 40px 0;
+		}
 
 		@include is-sp {
 			padding: 100px 0 40px 0;
@@ -403,8 +429,13 @@
 		text-align: center;
 		position: relative;
 
+		@include is-max(768px) {
+			margin: 50px auto 0 auto;
+		}
+
 		@include is-sp {
 			width: 100%;
+			margin: 40px auto;
 		}
 
 		.wpcf7,

@@ -42,6 +42,8 @@
                 </div>
             </div>
             <div class="page_interview--int">
+                <img class="inter_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+                <img class="inter_sun" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_sun.svg" alt="">
                 <p class="c-ttl">interview 02</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
                 <p class="c-ttl_sub">名前名前</p>
@@ -59,6 +61,7 @@
                 </div>
             </div>
             <div class="page_interview--int">
+                <img class="inter_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
                 <p class="c-ttl">interview 03</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
                 <p class="c-ttl_sub">名前名前</p>
@@ -76,6 +79,8 @@
                 </div>
             </div>
             <div class="page_interview--int">
+                <img class="inter_bird" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird.svg" alt="">
+                <img class="inter_bird_2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird-2.svg" alt="">
                 <p class="c-ttl">interview 04</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
                 <p class="c-ttl_sub">名前名前</p>
@@ -93,6 +98,8 @@
                 </div>
             </div>
             <div class="page_interview--int">
+                <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+                <img class="inter_bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird-3.svg" alt="">
                 <p class="c-ttl">interview 05</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="">
                 <p class="c-ttl_sub">名前名前</p>

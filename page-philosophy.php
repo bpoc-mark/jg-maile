@@ -44,6 +44,7 @@
     </div>
     <div class="page_philosophy__idea">
         <div class="l-wrap">
+            <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <p class="ttl">ideal</p>
             <p class="sub">求める人材像</p>
 

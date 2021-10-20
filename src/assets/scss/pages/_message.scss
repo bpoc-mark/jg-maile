@@ -24,8 +24,12 @@
 		.content {
 			padding: 140px 0 75px 0;
 
+			@include is-max(768px) {
+				padding: 140px 20px 75px 20px;
+			}
+
 			@include is-sp {
-				padding: 60px 0 75px 0;
+				padding: 0 0 65px 0;
 			}
 
 			.cont_img {
@@ -84,6 +88,7 @@
 			p {
 				font-family: noto-sans-cjk-jp, sans-serif;
 				font-weight: 400;
+				text-align: justify;
 
 				@include font-line(16, 26);
 			}

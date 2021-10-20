@@ -5,6 +5,20 @@
 		padding-right: 20px;
 		position: relative;
 
+		&:nth-of-type(2) {
+			.p-breadcrumbs {
+				@include is-max(768px) {
+					padding-top: 40px;
+					padding-left: 10px;
+				}
+
+				@include is-sp {
+					padding-top: 35px;
+					padding-left: 0;
+				}
+			}
+		}
+
 		.title {
 			text-align: center;
 			padding: 185px 0 0 0;
@@ -105,14 +119,6 @@
 
 			@include is-sp {
 				display: block;
-			}
-		}
-
-		&:nth-of-type(2) {
-			.p-breadcrumbs {
-				@include is-sp {
-					padding-top: 35px;
-				}
 			}
 		}
 	}

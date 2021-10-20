@@ -112,7 +112,6 @@
                         <div class="cust_man">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/man_2.png" alt="">
                         </div>
-
                     </div>
                 </div>
             </div>
