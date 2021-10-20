@@ -19,16 +19,16 @@
         </div>
     </div>
 </div>
-<div class="page_contact">
+<div class="c-page_contact">
     <div class="l-wrap">
         <div class="cont_clouds">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
         </div>
-        <div class="page_contact__faq">
-            <p class="page_contact__faq--ttl">faq</p>
-            <p class="page_contact__faq--sub">よくある質問</p>
+        <div class="c-page_contact__faq">
+            <p class="c-page_contact__faq--ttl">faq</p>
+            <p class="c-page_contact__faq--sub">よくある質問</p>
 
             <div class="contact_content">
                 <div class="contact_content__item" data-aos="fade-up" data-aos-duration="1000">
@@ -66,18 +66,11 @@
             </div>
         </div>
     </div>
-    <div class="page_contact__contact">
-        <p class="page_contact__contact--ttl">contact</p>
-        <p class="page_contact__contact--sub">お問い合わせ</p>
+    <div class="c-page_contact__contact">
+        <p class="c-page_contact__contact--ttl">contact</p>
+        <p class="c-page_contact__contact--sub">お問い合わせ</p>
 
         <?php echo do_shortcode('[contact-form-7 id="126" title="Contact form 1"]'); ?>
-
-        <!-- <div class="p-details--btn_blk">
-            <a href="">
-                <p>CONFIRM</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-            </a>
-        </div> -->
     </div>
 
 </div>

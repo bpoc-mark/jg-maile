@@ -43,13 +43,12 @@
     <div class="l-wrap">
         <div class="front_content">
             <img class="swirl" src="<?php echo get_template_directory_uri(); ?>/release/image/top/swirl.svg" alt="">
-            <!-- <img class="swirl_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/swirl_sp.svg" alt=""> -->
+            <img class="swirl_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/swirl_sp.svg" alt="">
             <div class="sect_2__row_1">
                 <div class="item-1">
                     <div class="bg_img">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="">
-
                         <img class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="">
                         <div class="text">
                             <p class="ttl">一緒に働く<br>仲間募集中！</p>
@@ -67,6 +66,7 @@
                         <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                     </div>
                 </div>
+
             </div>
             <div class="sect_2__row_2">
                 <div class="l-wrap">
@@ -89,6 +89,7 @@
                         </div>
                         <div class="row-3">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
                     </div>
                     <div class="sect_2__row_2--content-2">

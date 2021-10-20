@@ -33,18 +33,22 @@
 			.entry {
 				background-color: #19bebe;
 				text-align: center;
-				padding: 75px 0 35px 0;
 
-				img {
-					width: 43px;
-				}
+				a {
+					padding: 75px 0 35px 0;
+					display: block;
 
-				p {
-					font-family: oswald, sans-serif;
-					font-weight: 600;
-					padding-top: 25px;
+					img {
+						width: 43px;
+					}
 
-					@include font-line(20);
+					p {
+						font-family: oswald, sans-serif;
+						font-weight: 600;
+						padding-top: 25px;
+
+						@include font-line(20);
+					}
 				}
 			}
 		}
@@ -56,6 +60,7 @@
 				width: 148px;
 				padding: 40px 0 0 0;
 				position: absolute;
+				z-index: 9999;
 
 				@include is-sp {
 					margin-left: auto;
@@ -70,6 +75,7 @@
 	&__banner {
 		overflow: hidden !important;
 		position: relative;
+		z-index: -1;
 
 		.l-wrap {
 			padding-right: 20px;
@@ -112,6 +118,7 @@
 					position: absolute;
 					right: 0;
 					bottom: -2.5vw;
+					z-index: -1;
 
 					@include is-between(1030px, 751px) {
 						bottom: -3vw;

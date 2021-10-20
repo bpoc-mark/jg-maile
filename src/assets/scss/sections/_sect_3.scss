@@ -10,7 +10,7 @@
 
 		.boxes {
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			flex-wrap: wrap;
 			align-items: center;
 			padding: 55px 0 100px 0;
@@ -20,11 +20,21 @@
 			}
 
 			@include is-between(1030px, 751px) {
-				justify-content: flex-start;
+				justify-content: center;
 				gap: 20px;
 			}
 
 			.box {
+				@include is-max(1070px) {
+					margin-right: 20px;
+				}
+
+				&:nth-of-type(3) {
+					@include is-max(1070px) {
+						margin-top: 20px;
+					}
+				}
+
 				.bg_img {
 					position: relative;
 
@@ -99,7 +109,7 @@
 
 					@include font-line(24);
 
-					@include is-max(325px) {
+					@include is-max(340px) {
 						padding: 27px 0 30px 0;
 					}
 				}
@@ -111,6 +121,10 @@
 					padding: 0 0 18px 0;
 
 					@include font-line(16);
+
+					@include is-max(340px) {
+						font-size: 4vw;
+					}
 				}
 
 				&__btn {

@@ -7,7 +7,11 @@
 
 		.row {
 			width: calc(100% / 3);
-			padding: 45px 0;
+
+			a {
+				padding: 45px 0;
+				display: block;
+			}
 
 			@include is-sp {
 				width: 100%;
@@ -110,15 +114,18 @@
 						}
 
 						li {
-							display: flex;
-							align-items: center;
-							img {
-								width: 16px;
-								height: auto;
-							}
-							p {
-								color: #fff;
-								padding: 0 0 0 10px;
+							a {
+								display: flex;
+								align-items: center;
+
+								img {
+									width: 16px;
+									height: auto;
+								}
+								p {
+									color: #fff;
+									padding: 0 0 0 10px;
+								}
 							}
 						}
 					}
@@ -146,7 +153,7 @@
 				@include font-line(14);
 
 				@include is-sp {
-					padding: 30px 25px 45px 25px;
+					padding: 30px 15px 45px 15px;
 				}
 			}
 		}

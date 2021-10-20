@@ -76,6 +76,8 @@
 </div>
 <div class="store_info">
     <div class="l-wrap">
+        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
         <p class="store_info__ttl">store information</p>
         <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
 

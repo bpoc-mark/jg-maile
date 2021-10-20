@@ -36,103 +36,6 @@ $(document).ready(function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     }
-  }); // SLIDER FOR WHATS PAGE
-
-  var swiper1 = new Swiper('.swiper1', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-1',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-1',
-      prevEl: '.swiper-button-prev-1'
-    }
-  });
-  var swiper2 = new Swiper('.swiper2', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-2',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-2',
-      prevEl: '.swiper-button-prev-2'
-    }
-  });
-  var swiper3 = new Swiper('.swiper3', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-3',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-3',
-      prevEl: '.swiper-button-prev-3'
-    }
-  });
-  var swiper4 = new Swiper('.swiper4', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-4',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-4',
-      prevEl: '.swiper-button-prev-4'
-    }
-  });
-  var swiper5 = new Swiper('.swiper5', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-5',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-5',
-      prevEl: '.swiper-button-prev-5'
-    }
-  });
-  var swiper6 = new Swiper('.swiper6', {
-    direction: 'horizontal',
-    loop: false,
-    effect: 'cards',
-    pagination: {
-      el: '.swiper-pagination-6',
-      type: "fraction",
-      formatFractionCurrent: function formatFractionCurrent(number) {
-        return '0' + number;
-      }
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-6',
-      prevEl: '.swiper-button-prev-6'
-    }
   });
 });
 
@@ -142,9 +45,7 @@ $(document).ready(function () {
 
   var breakpoint = window.matchMedia('(min-width: 751px)'); // keep track of swiper instances to destroy later
 
-  var mySwiper; //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
+  var mySwiper;
 
   var breakpointChecker = function breakpointChecker() {
     // if larger viewport and multi-row layout needed
@@ -157,10 +58,7 @@ $(document).ready(function () {
       // fire small viewport version of swiper
       return enableSwiper();
     }
-  }; //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
-
+  };
 
   var enableSwiper = function enableSwiper() {
     mySwiper = new Swiper('.swiper-container', {
@@ -176,14 +74,13 @@ $(document).ready(function () {
       },
       paginationClickable: true
     });
-  }; //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
-  //////////////////////////////////////////////////////////////////
-  // keep an eye on viewport size changes
+  };
 
-
-  breakpoint.addListener(breakpointChecker); // kickstart
-
+  breakpoint.addListener(breakpointChecker);
   breakpointChecker();
-})();
-/* IIFE end */
+})(); // ADD OPTGROUP ON SELECT
+
+
+$(function () {
+  $('select').append('<optgroup label=""></optgroup>');
+});

@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('title'); ?></title>
 
-
-
-
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/release/css/style.css">
 
@@ -64,12 +61,16 @@
                     <span></span>
                 </div>
                 <div class="entry">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                    <p>ENTRY</p>
+                    <a href="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                        <p>ENTRY</p>
+                    </a>
                 </div>
             </div>
             <div class="l-wrap">
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
+                <a href="<?php echo esc_url(home_url('/')); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
+                </a>
             </div>
         </div>
         <div class="page__content">

@@ -1,4 +1,5 @@
 .page_album {
+	overflow: hidden;
 	.l-wrap {
 		position: relative;
 		.album_img {
@@ -34,7 +35,7 @@
 		margin: 10px auto;
 
 		@include is-sp {
-			padding: 90px 0 40px 0;
+			padding: 90px 20px 40px 20px;
 		}
 
 		.content {

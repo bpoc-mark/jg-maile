@@ -1,16 +1,24 @@
         </div>
         <div class="page__footer">
                 <div class="row">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_tel.svg" alt="">
-                        <p class="ttl">お電話でのお問い合わせ</p>
+                        <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_tel.svg" alt="">
+                                <p class="ttl">お電話でのお問い合わせ</p>
+                        </a>
                 </div>
                 <div class="row">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="">
-                        <p class="ttl">メールでのお問い合わせ</p>
+                        <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="">
+                                <p class="ttl">メールでのお問い合わせ</p>
+                        </a>
+
                 </div>
                 <div class="row">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_ques.svg" alt="">
-                        <p class="ttl">よくある質問</p>
+                        <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_ques.svg" alt="">
+                                <p class="ttl">よくある質問</p>
+                        </a>
+
                 </div>
         </div>
         <div class="page__footer--lower">
@@ -22,46 +30,70 @@
                                 <nav>
                                         <div class="list_1">
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>ホーム</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>ホーム</p>
+                                                        </a>
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>採用情報</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>採用情報</p>
+                                                        </a>
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>まいれとは？</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>まいれとは？</p>
+                                                        </a>
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>会社概要</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>会社概要</p>
+                                                        </a>
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>代表あいさつ</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>代表あいさつ</p>
+                                                        </a>
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>理念と求める人材</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>理念と求める人材</p>
+                                                        </a>
                                                 </li>
                                         </div>
                                         <div class="list_2">
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>トレーナー</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>トレーナー</p>
+                                                        </a>
+
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>社内フォトアルバム</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>社内フォトアルバム</p>
+                                                        </a>
+
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>先輩からの声</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>先輩からの声</p>
+                                                        </a>
+
                                                 </li>
                                                 <li>
-                                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
-                                                        <p>よくある質問・フォーム</p>
+                                                        <a href="">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                                                <p>よくある質問・フォーム</p>
+                                                        </a>
+
                                                 </li>
                                         </div>
                                 </nav>

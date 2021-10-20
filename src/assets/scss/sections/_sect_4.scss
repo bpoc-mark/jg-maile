@@ -108,6 +108,10 @@
 		padding: 0 0 40px 0;
 
 		@include font-line(80, 90);
+
+		@include is-sp {
+			font-size: 20vw;
+		}
 	}
 
 	&__information {

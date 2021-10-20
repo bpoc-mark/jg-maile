@@ -303,6 +303,10 @@
 								overflow: hidden;
 							}
 						}
+
+						.swiper-pagination {
+							z-index: 1;
+						}
 					}
 				}
 			}

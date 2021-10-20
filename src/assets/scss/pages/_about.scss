@@ -24,7 +24,11 @@
 }
 
 .about_message {
-	padding: 100px 0;
+	padding: 0 0 100px 0;
+
+	@include is-sp {
+		padding: 40px 0;
+	}
 
 	&__container {
 		max-width: 680px;
@@ -40,7 +44,7 @@
 			font-weight: 700;
 			padding-top: 30px;
 
-			@include font-line(26);
+			@include font-line(22);
 		}
 	}
 }
@@ -50,13 +54,43 @@
 	padding: 130px 0 80px 0;
 
 	@include is-sp {
-		padding: 20px 0 80px 0;
+		padding: 20px 0 40px 0;
 	}
 
 	.l-wrap {
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+		position: relative;
+
+		.store_cloud {
+			&:nth-of-type(1) {
+				width: 98px;
+				position: absolute;
+				top: 0;
+				left: 180px;
+
+				@include is-max(1200px) {
+					left: 20px;
+				}
+			}
+
+			&:nth-of-type(2) {
+				width: 275px;
+				position: absolute;
+				right: 0;
+				top: -30px;
+
+				@include is-max(1200px) {
+					right: 20px;
+				}
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
 	}
+
 	&__ttl {
 		color: $color-text01;
 		font-family: "santa_fe", sans-serif;
@@ -160,17 +194,21 @@
 		&--container {
 			max-width: 780px;
 			margin: 0 auto;
-			padding-bottom: 150px;
+			padding-bottom: 130px;
 
 			@include is-sp {
-				padding-bottom: 45px;
+				padding-bottom: 0;
 			}
 
 			.accordion {
 				padding-bottom: 135px;
 
+				&:last-child {
+					padding-bottom: 0;
+				}
+
 				@include is-sp {
-					padding-bottom: 20px;
+					padding-bottom: 0;
 				}
 
 				&__header-cont {
@@ -294,13 +332,18 @@
 
 						img {
 							width: 100%;
-							height: auto;
+							height: 100%;
+							object-fit: cover;
 						}
 					}
 
 					&--row_3 {
 						width: 100%;
 						margin-top: -48px;
+
+						@include is-max(768px) {
+							margin-top: 0;
+						}
 
 						@include is-sp {
 							margin-top: 0;

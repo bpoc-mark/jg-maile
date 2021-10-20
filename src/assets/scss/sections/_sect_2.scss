@@ -2,6 +2,10 @@
 	padding: 85px 0 0 0;
 	position: relative;
 
+	@include is-sp {
+		padding: 40px 0 0 0;
+	}
+
 	.l-wrap {
 		max-width: 1185px;
 		margin: 0 auto;
@@ -20,7 +24,7 @@
 				width: 80%;
 
 				@include is-max(1000px) {
-					top: 90vw;
+					top: 10vw;
 					width: 85%;
 				}
 
@@ -29,34 +33,54 @@
 				}
 
 				@include is-max(768px) {
-					top: 122vw;
+					top: 27vw;
 				}
 			}
 
 			.swirl_sp {
 				position: absolute;
-				top: 645vw;
-				left: 45%;
-				transform: translate(-50%, -50%);
-				z-index: -1;
-				width: 100%;
+				top: 0;
+				left: 0;
 				display: none;
+				z-index: -1;
 
 				@include is-sp {
 					display: block;
+					top: 235vw;
+				}
+
+				@include is-max(500px) {
+					top: 20.5%;
+				}
+
+				@include is-max(450px) {
+					top: 18.5%;
+				}
+
+				@include is-max(430px) {
+					top: 19.5%;
+				}
+
+				@include is-max(401px) {
+					top: 19.9%;
+				}
+
+				@include is-max(375px) {
+					top: 20.4%;
+				}
+
+				@include is-max(325px) {
+					top: 22.5%;
 				}
 			}
 		}
-	}
-
-	@include is-sp {
-		padding: 40px 0 0 0;
 	}
 
 	&__row_1 {
 		display: flex;
 		padding: 0 40px;
 		flex-wrap: wrap;
+		position: relative;
 
 		@include is-sp {
 			padding: 0;
@@ -85,6 +109,10 @@
 			.bg_img {
 				position: relative;
 
+				@include is-sp {
+					width: 100%;
+				}
+
 				img {
 					&:nth-of-type(1) {
 						width: 100%;
@@ -100,7 +128,7 @@
 						}
 
 						@include is-max(750px) {
-							width: 80%;
+							width: 100%;
 						}
 
 						@include is-max(450px) {
@@ -128,11 +156,6 @@
 					top: unset;
 					bottom: 10px;
 				}
-				// @include is-sp {
-				// 	width: 102px;
-				// 	left: 20px;
-				// 	top: 50%;
-				// }
 			}
 
 			.text {
@@ -148,7 +171,11 @@
 				}
 
 				@include is-max(425px) {
-					left: 35%;
+					left: 40%;
+				}
+
+				@include is-max(370px) {
+					left: 45%;
 				}
 
 				.ttl {
@@ -158,6 +185,10 @@
 					line-height: normal;
 
 					@include font-line(34);
+
+					@include is-max(370px) {
+						font-size: 7vw;
+					}
 				}
 
 				.button {
@@ -172,6 +203,10 @@
 						padding: 0 10px 0 0;
 
 						@include font-line(16);
+
+						@include is-max(370px) {
+							font-size: 4vw;
+						}
 					}
 					img {
 						display: block;
@@ -182,7 +217,6 @@
 				}
 			}
 		}
-
 		.item-2 {
 			width: 50%;
 			display: flex;
@@ -221,6 +255,10 @@
 					line-height: normal;
 
 					@include font-line(80);
+
+					@include is-sp {
+						font-size: 23.5vw;
+					}
 
 					span {
 						color: $color-text-default;
@@ -424,14 +462,18 @@
 
 						@include font-line(16);
 
-						@include is-max(320px) {
-							@include font-line(14);
+						@include is-max(370px) {
+							font-size: 4vw;
 						}
 					}
 
 					.btn {
 						display: flex;
 						justify-content: flex-end;
+
+						@include is-sp {
+							padding: 15px 0 0 0;
+						}
 						p {
 							font-family: noto-sans-cjk-jp, sans-serif;
 							font-weight: 700;
@@ -463,10 +505,10 @@
 					width: 100%;
 					order: 3;
 					padding-top: 20px;
+					text-align: center;
 
 					img {
-						margin-right: auto;
-						display: block;
+						margin-right: 20px;
 					}
 				}
 
@@ -485,6 +527,10 @@
 
 			.row-1 {
 				width: 280px;
+
+				@include is-max(920px) {
+					display: none;
+				}
 
 				@include is-sp {
 					width: 100%;
@@ -512,6 +558,7 @@
 
 				@include is-max(920px) {
 					padding: 0 0 0 50px;
+					width: 100%;
 				}
 
 				@include is-max(885px) {
@@ -593,6 +640,7 @@
 
 					@include is-sp {
 						left: 30%;
+						transform: translate(-20%, -50%);
 					}
 
 					@include is-max(320px) {
@@ -645,8 +693,8 @@
 
 						@include font-line(16);
 
-						@include is-max(320px) {
-							@include font-line(14);
+						@include is-max(370px) {
+							font-size: 4vw;
 						}
 					}
 
