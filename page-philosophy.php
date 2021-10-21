@@ -22,6 +22,8 @@
 <div class="page_philosophy">
     <div class="l-wrap">
         <div class="page_philosophy__container">
+            <img class="phil_cloud-1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="phil_cloud-2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <div class="content">
                 <h1 class="content__ttl">philosophy</h1>
                 <p class="content__sub">理　念</p>

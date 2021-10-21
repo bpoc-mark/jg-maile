@@ -49,6 +49,7 @@
 				img {
 					width: 100%;
 					height: auto;
+					position: relative;
 				}
 
 				p {
@@ -73,7 +74,7 @@
 			margin: 0 auto;
 
 			@include is-sp {
-				padding: 130px 0 0 0;
+				padding: 120px 0 0 0;
 			}
 
 			.cloud {
@@ -81,6 +82,11 @@
 					width: 98px;
 					position: absolute;
 					left: 200px;
+					z-index: -1;
+
+					@include is-max(768px) {
+						left: 50px;
+					}
 				}
 				&:nth-of-type(2) {
 					width: 275px;
@@ -127,11 +133,12 @@
 				font-family: noto-sans-cjk-jp, sans-serif;
 				font-weight: 400;
 				padding: 55px 0 0 0;
+				text-align: justify;
 
 				@include font-line(16);
 
 				@include is-sp {
-					padding: 50px 20px 0 20px;
+					padding: 40px 20px 0 20px;
 				}
 			}
 		}
@@ -141,7 +148,7 @@
 			text-align: center;
 
 			@include is-sp {
-				padding: 80px 0 0 0;
+				padding: 60px 0 0 0;
 			}
 
 			&__container {
@@ -160,7 +167,7 @@
 				@include font-line(80);
 
 				@include is-sp {
-					line-height: 0.7em;
+					line-height: 0.65em;
 				}
 			}
 
@@ -199,7 +206,11 @@
 					width: 50%;
 					background: #ffdc64;
 					text-align: left;
-					padding: 75px;
+					padding: 75px 55px 55px 60px;
+
+					@include is-max(768px) {
+						padding: 75px 55px 55px 30px;
+					}
 
 					@include is-sp {
 						width: 100%;
@@ -209,25 +220,37 @@
 					.container {
 						max-width: 540px;
 
-						.ttl {
-							color: $color-text02;
-							font-family: noto-sans-cjk-jp, sans-serif;
-							font-weight: 700;
-							padding: 0 0 25px 0;
+						ul {
+							li {
+								&:nth-of-type(1) {
+									padding-bottom: 50px;
+								}
+								.ttl {
+									color: $color-text02;
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 700;
+									padding: 0 0 20px 0;
+									line-height: 1;
 
-							&:nth-of-type(3) {
-								padding: 55px 0 0 0;
+									&:nth-of-type(3) {
+										padding: 55px 0 0 0;
+
+										@include is-sp {
+											padding: 30px 0 0 0;
+										}
+									}
+
+									@include font-line(24);
+								}
+
+								.desc {
+									font-family: noto-sans-cjk-jp, sans-serif;
+									font-weight: 400;
+									text-align: justify;
+
+									@include font-line(16);
+								}
 							}
-
-							@include font-line(24);
-						}
-
-						.desc {
-							font-family: noto-sans-cjk-jp, sans-serif;
-							font-weight: 400;
-							text-align: justify;
-
-							@include font-line(16);
 						}
 					}
 				}
@@ -237,7 +260,13 @@
 		.photos {
 			padding: 95px 0 0 0;
 
+			@include is-sp {
+				padding: 20px 0 0 0;
+			}
+
 			.l-wrap {
+				width: 100%;
+
 				@include is-sp {
 					padding-right: 0;
 					padding-left: 0;
@@ -257,6 +286,8 @@
 						@include is-sp {
 							width: 100%;
 							padding: 0;
+							overflow: hidden;
+							padding-bottom: 10px;
 						}
 
 						&:nth-of-type(4) {
@@ -288,7 +319,7 @@
 							color: $color-text01;
 							font-family: noto-sans-cjk-jp, sans-serif;
 							font-weight: 700;
-							padding-bottom: 15px;
+							padding-bottom: 18px;
 
 							@include font-line(18);
 
@@ -299,7 +330,7 @@
 
 						.swiper {
 							@include is-sp {
-								padding: 30px;
+								padding: 0 30px;
 								overflow: hidden;
 							}
 						}
@@ -333,20 +364,31 @@
 					font-family: "santa_fe", sans-serif;
 					font-weight: 400;
 					text-align: center;
-					line-height: normal;
 					position: relative;
-					line-height: normal !important;
+					line-height: normal;
 					top: -40px;
 					background-color: $color-text02;
 					width: 60%;
 					margin: 0 auto;
 
-					@include font-line(80, 92);
+					@include font-line(80);
+
+					@include is-max(768px) {
+						top: -45px;
+					}
 
 					@include is-sp {
 						width: 80%;
 						top: -60px;
-						line-height: 0.7em;
+						line-height: 0.65em;
+					}
+
+					@include is-max(740px) {
+						top: -30px;
+					}
+
+					@include is-max(450px) {
+						top: -55px;
 					}
 				}
 
@@ -355,9 +397,17 @@
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					position: relative;
-					top: -50px;
+					top: -45px;
 
 					@include font-line(16);
+
+					@include is-max(740px) {
+						top: -20px;
+					}
+
+					@include is-max(450px) {
+						top: -45px;
+					}
 				}
 
 				.diagonal {
@@ -478,6 +528,8 @@
 						li {
 							display: flex;
 							align-items: center;
+							padding: 12px 0 0 0;
+
 							img {
 								width: 20px;
 								height: 20px;
@@ -487,8 +539,13 @@
 								font-family: noto-sans-cjk-jp, sans-serif;
 								font-weight: 700;
 								padding-left: 10px;
+								line-height: 1;
 
 								@include font-line(24);
+
+								@include is-max(375px) {
+									font-size: 6vw;
+								}
 							}
 						}
 					}

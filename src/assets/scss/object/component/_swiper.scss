@@ -1,8 +1,12 @@
-.buttons {
+.c-swiper-buttons {
 	position: relative;
 	max-width: 155px;
 	margin: 0 auto;
 	padding: 50px 0 0 0;
+
+	@include is-sp {
+		display: none;
+	}
 }
 
 .swiper-pagination-fraction {
@@ -50,6 +54,6 @@
 .swiper-pagination,
 .swiper-pagination-fraction,
 .swiper-pagination-horizontal {
-	display: inline-block !important;
-	vertical-align: middle !important;
+	display: inline-block;
+	vertical-align: middle;
 }

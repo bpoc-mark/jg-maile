@@ -51,6 +51,10 @@
 				max-width: 155px;
 				margin: 0 auto;
 				padding: 75px 0 0 0;
+
+				@include is-sp {
+					display: none;
+				}
 			}
 
 			.swiper-slide {
@@ -106,6 +110,10 @@
 			.swiper-pagination-horizontal {
 				display: inline-block;
 				vertical-align: middle;
+
+				@include is-sp {
+					display: none;
+				}
 			}
 
 			@include is-sp {

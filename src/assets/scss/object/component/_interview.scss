@@ -28,22 +28,15 @@
 .c-row_ttl {
 	color: $color-text01;
 	font-weight: 700;
+	text-align: justify;
 
 	@include font-line(18);
-}
-
-.c-row_ttl-2 {
-	color: $color-text01;
-	font-weight: 700;
-	padding-top: 75px;
-
-	@include font-line(18);
-
-	@include is-max(768px) {
-		padding-top: 35px;
-	}
 
 	@include is-sp {
+		padding-bottom: 10px;
+	}
+
+	&:nth-of-type(3) {
 		padding-top: 55px;
 	}
 }

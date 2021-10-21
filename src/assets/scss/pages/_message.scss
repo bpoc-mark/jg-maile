@@ -24,7 +24,7 @@
 		.content {
 			padding: 140px 0 75px 0;
 
-			@include is-max(768px) {
+			@include is-max(1200px) {
 				padding: 140px 20px 75px 20px;
 			}
 

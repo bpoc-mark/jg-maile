@@ -2,9 +2,35 @@
 	overflow: hidden;
 	&__container {
 		padding: 185px 0 120px 0;
+		position: relative;
 
 		@include is-sp {
 			padding: 100px 0 80px 0;
+		}
+
+		.phil_cloud-1 {
+			width: 180px;
+			position: absolute;
+			top: 225px;
+			left: 0;
+
+			@include is-max(768px) {
+				left: -60px;
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
+		.phil_cloud-2 {
+			width: 98px;
+			position: absolute;
+			top: 80px;
+			right: 0;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.content {
@@ -31,7 +57,7 @@
 			&__desc {
 				font-weight: 400;
 				padding: 55px 0 0 0;
-				text-align: left;
+				text-align: justify;
 
 				@include font-line(16);
 			}
@@ -108,7 +134,7 @@
 				left: 215px;
 
 				@include is-max(768px) {
-					left: 90px;
+					left: 30px;
 				}
 
 				@include is-sp {
@@ -140,8 +166,9 @@
 				max-width: 1048px;
 				margin: 0 auto;
 
-				@include is-between(1000px, 751px) {
-					justify-content: space-around;
+				@include is-between(1200px, 751px) {
+					justify-content: center;
+					padding: 50px 0 100px 0;
 				}
 
 				@include is-sp {
@@ -151,13 +178,15 @@
 				.box {
 					position: relative;
 					width: 320px;
+					margin-right: 20px;
 
 					&:last-child {
-						@include is-between(1000px, 751px) {
-							padding-top: 40px;
+						margin-right: 0;
+						@include is-max(999px) {
+							margin-top: 20px;
 						}
-
 						.box {
+							margin-top: 20px;
 							&__items {
 								@include is-between(1000px, 751px) {
 									top: 55%;

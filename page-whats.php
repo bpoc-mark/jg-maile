@@ -3,7 +3,7 @@
     <div class="l-wrap">
         <div class="title">
             <h1>what is the maile like?</h1>
-            <p>まいれってどんな会社？</p>
+            <p>まいれって<br>どんな会社？</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
@@ -50,7 +50,7 @@
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -66,7 +66,7 @@
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -75,14 +75,14 @@
                     </div>
                     <!-- SWIPER 3 -->
                     <div class="item">
-                        <p class="item__ttl">ボーリング大会</p>
+                        <p class="item__ttl">男子会</p>
                         <div class="swiper slider-c">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -91,14 +91,14 @@
                     </div>
                     <!-- SWIPER 4 -->
                     <div class="item">
-                        <p class="item__ttl">ボーリング大会</p>
+                        <p class="item__ttl">社員旅行</p>
                         <div class="swiper slider-d">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -107,14 +107,14 @@
                     </div>
                     <!-- SWIPER 5 -->
                     <div class="item">
-                        <p class="item__ttl">ボーリング大会</p>
+                        <p class="item__ttl">運動会</p>
                         <div class="swiper slider-e">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -123,14 +123,14 @@
                     </div>
                     <!-- SWIPER 6 -->
                     <div class="item">
-                        <p class="item__ttl">ボーリング大会</p>
+                        <p class="item__ttl">表彰式</p>
                         <div class="swiper slider-f">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
                             </div>
-                            <div class="buttons">
+                            <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next"></div>
@@ -152,10 +152,16 @@
                 </div>
                 <div class="training__office--row_2">
                     <div class="container">
-                        <p class="ttl">診療時間内研修</p>
-                        <p class="desc">毎月、全店舗を半日休診や一日休診にして、外部から講師を招き研修を行っております。基本的には全スタッフ合同で研修を行います。<br>実践的で即効性のある施術法や、患者様に痛みを聞き出す問診力などを働きながらもさらに磨きをかけるべく日々スキルアップを目指しています。</p>
-                        <p class="ttl">新人研修</p>
-                        <p class="desc">入社したての新人スタッフへは初めの1ヶ月を新人研修として、基本的な治療の修得はもちろん、会社の考え、理念などの研修を行っております。</p>
+                        <ul>
+                            <li>
+                                <p class="ttl">診療時間内研修</p>
+                                <p class="desc">毎月、全店舗を半日休診や一日休診にして、外部から講師を招き研修を行っております。基本的には全スタッフ合同で研修を行います。<br>実践的で即効性のある施術法や、患者様に痛みを聞き出す問診力などを働きながらもさらに磨きをかけるべく日々スキルアップを目指しています。</p>
+                            </li>
+                            <li>
+                                <p class="ttl">新人研修</p>
+                                <p class="desc">入社したての新人スタッフへは初めの1ヶ月を新人研修として、基本的な治療の修得はもちろん、会社の考え、理念などの研修を行っております。</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -36,12 +36,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="p-details--btn">
+            <a href="">
+                <p>ENTRY</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/details_btn.svg" alt="">
+            </a>
+        </div>
     </div>
-    <div class="p-details--btn">
-        <a href="">
-            <p>ENTRY</p>
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/details_btn.svg" alt="">
-        </a>
-    </div>
+
 </div>
 <?php get_footer(); ?>
