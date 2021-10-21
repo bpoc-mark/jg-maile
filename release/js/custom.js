@@ -1,22 +1,22 @@
 "use strict";
 
 $(document).ready(function () {
-  $('.btn_read_more').on('click', function () {
+  $('.accordion__header-cont').on('click', function () {
     if ($(this).hasClass('active')) {
-      $(this).children('p').text('close');
-      $(this).children('img').css({
+      $(this).find('p').text('close');
+      $(this).find('img').css({
         "transform": "rotate(0deg)",
         "transition": "all 150ms"
       });
-      $(this).parent('.accordion__header-cont').next('.accordion__content').slideDown();
+      $(this).next('.accordion__content').slideDown();
       $(this).removeClass("active");
     } else {
-      $(this).children('p').text('open');
-      $(this).children('img').css({
+      $(this).find('p').text('open');
+      $(this).find('img').css({
         "transform": "rotate(180deg)",
         "transition": "all 150ms"
       });
-      $(this).parent('.accordion__header-cont').next('.accordion__content').slideUp();
+      $(this).next('.accordion__content').slideUp();
       $(this).addClass("active");
     }
   }); // SLIDER FOR ALBUM PAGE
@@ -37,7 +37,7 @@ $(document).ready(function () {
       prevEl: '.swiper-button-prev'
     }
   });
-});
+}); // SLIDER ON FRONT PAGE SP
 
 (function () {
   'use strict'; // breakpoint where swiper will be destroyed

@@ -112,13 +112,13 @@
 
                 <!-- ACCORDION 1 -->
                 <div class="accordion">
-                    <div class="accordion__header-cont">
-                        <p class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</p>
-                        <a class="btn_read_more" href='javascript:;'>
-                            <p>close</p>
+                    <a class="accordion__header-cont" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                        <div class="btn_read_more">
+                            <p class="text">close</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                     <div class="accordion__content">
                         <div class="accordion__content--row_1">
                             <ul class="list">
