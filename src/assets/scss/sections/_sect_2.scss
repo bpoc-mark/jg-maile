@@ -46,11 +46,11 @@
 
 				@include is-sp {
 					display: block;
-					top: 235vw;
+					top: 18%;
 				}
 
 				@include is-max(500px) {
-					top: 20.5%;
+					top: 18%;
 				}
 
 				@include is-max(450px) {
@@ -70,7 +70,7 @@
 				}
 
 				@include is-max(325px) {
-					top: 22.5%;
+					top: 22%;
 				}
 			}
 		}
@@ -255,6 +255,10 @@
 					line-height: normal;
 
 					@include font-line(80);
+
+					@include is-max(1200px) {
+						font-size: 6.5vw;
+					}
 
 					@include is-sp {
 						font-size: 23.5vw;
@@ -492,6 +496,14 @@
 			.row-3 {
 				width: 25%;
 
+				.sp {
+					display: none;
+
+					@include is-max(920px) {
+						display: unset;
+					}
+				}
+
 				@include is-max(768px) {
 					width: 49%;
 					order: 2;
@@ -549,7 +561,7 @@
 					display: none;
 				}
 
-				@include is-max(500px) {
+				@include is-max(751px) {
 					display: block;
 				}
 
@@ -569,7 +581,11 @@
 				padding: 0 0 0 200px;
 				position: relative;
 
-				@include is-max(1035px) {
+				@include is-max(1075px) {
+					margin-left: auto;
+				}
+
+				@include is-max(1050px) {
 					padding: 0 0 0 100px;
 				}
 
@@ -579,7 +595,8 @@
 
 				@include is-max(920px) {
 					padding: 0 0 0 50px;
-					width: 100%;
+					margin-left: auto;
+					display: block;
 				}
 
 				@include is-max(885px) {
@@ -636,6 +653,10 @@
 					top: 50%;
 					left: 50%;
 					transform: translate(-20%, -50%);
+
+					@include is-max(1050px) {
+						left: 40%;
+					}
 
 					@include is-max(1035px) {
 						left: 45%;

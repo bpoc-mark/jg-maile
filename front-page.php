@@ -47,9 +47,9 @@
             <div class="sect_2__row_1">
                 <div class="item-1">
                     <div class="bg_img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
+                        <img data-aos="zoom-in" data-aos-delay="500" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="">
-                        <img class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="">
+                        <img data-aos="zoom-in" class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="">
                         <div class="text">
                             <p class="ttl">一緒に働く<br>仲間募集中！</p>
                             <a href="" class="button">
@@ -88,8 +88,8 @@
                             </div>
                         </div>
                         <div class="row-3">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
+                            <img class="pc" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
+                            <img class="sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
                     </div>
                     <div class="sect_2__row_2--content-2">
@@ -242,7 +242,7 @@
                         <li class="contact_details--row_1"><span>住</span><span>所</span></li>
                         <li class="contact_details--row_2">〒520-0831滋賀県大津市松原町13-39</li>
                         <li class="contact_details--row_1"><span>電</span><span>話</span><span>番</span><span>号</span></li>
-                        <li class="contact_details--row_2">077-548-6656</li>
+                        <li class="contact_details--row_2"><a href="tel:077-548-6656">077-548-6656</a></li>
                         <li class="contact_details--row_1"><span>受</span><span>付</span><span>時</span><span>間</span></li>
                         <li class="contact_details--row_2">9:00〜12:30／15:00〜19:30</li>
                         <li class="contact_details--row_1"><span>定</span><span>休</span><span>日</span></li>

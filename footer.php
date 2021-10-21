@@ -24,7 +24,10 @@
         <div class="page__footer--lower">
                 <div class="content">
                         <div class="content__row-1">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
+                                <a href="<?php echo esc_url(home_url('/')); ?>">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
+
+                                </a>
                         </div>
                         <div class="content__row-2">
                                 <nav>
@@ -100,7 +103,7 @@
                         </div>
                 </div>
                 <div class="line"></div>
-                <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by ジーングロス</p>
+                <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by <a href="">ジーングロス</a></p>
         </div>
         </main>
         <!-- SLICK -->

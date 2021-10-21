@@ -55,12 +55,77 @@
 
 <body <?php body_class(); ?>>
 
-    <main>
+    <main style="overflow: hidden;">
         <div class="page__header">
             <div class="nav">
                 <div class="hamburger">
                     <span></span>
                     <span></span>
+                    <ul class="menu">
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>ホーム</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>採用情報</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>まいれとは？</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>会社概要</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>代表あいさつ</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>理念と求める人材</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>トレーナー</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>社内フォトアルバム</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>先輩からの声</p>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
+                                <p>よくある質問・フォーム</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="entry">
                     <a href="">
@@ -69,9 +134,10 @@
                     </a>
                 </div>
             </div>
+
             <div class="l-wrap">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
+                    <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
                 </a>
             </div>
         </div>

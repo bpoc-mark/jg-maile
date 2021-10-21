@@ -23,6 +23,10 @@
 		padding: 85px 20px 0 20px;
 		text-align: center;
 
+		@include is-sp {
+			padding: 85px 0 0 0;
+		}
+
 		@include font-line(30);
 
 		br {

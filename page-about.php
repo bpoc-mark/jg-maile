@@ -69,8 +69,7 @@
     <div class="l-wrap">
         <div class="about_message__container">
             <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
-            <p>関わる全ての人とのご縁に感謝し、<br>
-                共に幸せになるために</p>
+            <p>関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</p>
         </div>
     </div>
 </div>

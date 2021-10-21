@@ -105,3 +105,10 @@ $(document).ready(function(){
 $(function() {
   $('select').append('<optgroup label=""></optgroup>');
 });
+
+//NAVBAR TOGGLE
+
+$('.hamburger').on('click',function(){
+  $(this).find('span').toggleClass('toggled');
+  $(this).find('.menu').toggleClass('active');
+});
