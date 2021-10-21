@@ -3,13 +3,11 @@
 		padding: 165px 0 150px 0;
 
 		@include is-sp {
-			padding: 55px 0;
+			padding: 55px 0 40px 0;
 		}
 
 		.l-wrap {
 			position: relative;
-			padding-right: 20px;
-			padding-left: 20px;
 
 			@include is-sp {
 				padding-right: 0;
@@ -214,7 +212,7 @@
 
 					@include is-sp {
 						width: 100%;
-						padding: 60px 40px;
+						padding: 60px 40px 50px 40px;
 					}
 
 					.container {
@@ -224,6 +222,10 @@
 							li {
 								&:nth-of-type(1) {
 									padding-bottom: 50px;
+
+									@include is-sp {
+										padding-bottom: 45px;
+									}
 								}
 								.ttl {
 									color: $color-text02;
@@ -345,6 +347,10 @@
 
 		.training_contents {
 			padding-top: 150px;
+
+			@include is-sp {
+				padding-top: 120px;
+			}
 
 			.l-wrap {
 				@include is-sp {
@@ -534,6 +540,7 @@
 								width: 20px;
 								height: 20px;
 							}
+
 							p {
 								color: $color-text01;
 								font-family: noto-sans-cjk-jp, sans-serif;
@@ -544,7 +551,7 @@
 								@include font-line(24);
 
 								@include is-max(375px) {
-									font-size: 6vw;
+									font-size: 5vw;
 								}
 							}
 						}

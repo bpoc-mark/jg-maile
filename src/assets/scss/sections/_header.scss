@@ -57,6 +57,10 @@
 						right: 0;
 					}
 
+					@include is-tabpc {
+						height: 70vh;
+					}
+
 					li {
 						padding-bottom: 10px;
 						width: 80%;

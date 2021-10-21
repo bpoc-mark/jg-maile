@@ -11,15 +11,15 @@
 				top: 18%;
 				left: 0;
 
-				@include is-max(768px) {
+				@include is-max(1001px) {
 					display: none;
 				}
 			}
 			&:nth-of-type(2) {
 				width: 95px;
 				position: absolute;
-				top: 42%;
-				left: 0;
+				top: 43%;
+				left: 20px;
 
 				@include is-max(768px) {
 					display: none;
@@ -29,7 +29,7 @@
 				width: 95px;
 				position: absolute;
 				top: 32%;
-				right: 0;
+				right: 20px;
 
 				@include is-max(768px) {
 					right: 20px;
@@ -39,7 +39,7 @@
 				width: 165px;
 				position: absolute;
 				top: 51%;
-				right: 0;
+				right: 20px;
 
 				@include is-max(768px) {
 					right: 20px;
@@ -141,15 +141,15 @@
 				img {
 					width: 100%;
 
-					@include is-max(745px) {
+					@include is-sp {
+						width: 100%;
+					}
+
+					@include is-between(750px, 500px) {
 						width: 80%;
 						margin-left: auto;
 						margin-right: auto;
 						display: block;
-					}
-
-					@include is-sp {
-						width: 100%;
 					}
 				}
 
@@ -225,15 +225,15 @@
 				img {
 					width: 100%;
 
-					@include is-max(745px) {
+					@include is-sp {
+						width: 100%;
+					}
+
+					@include is-between(750px, 500px) {
 						width: 80%;
 						margin-left: auto;
 						margin-right: auto;
 						display: block;
-					}
-
-					@include is-sp {
-						width: 100%;
 					}
 				}
 
