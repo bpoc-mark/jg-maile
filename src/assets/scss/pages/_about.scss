@@ -8,14 +8,15 @@
 					left: 0;
 					top: 253px;
 
-					@include is-max(768px) {
+					@include is-max(900px) {
 						top: 45px;
+						left: 20px;
 					}
 				}
 				&:nth-of-type(2) {
 					width: 98px;
 					position: absolute;
-					right: 0;
+					right: 20px;
 					top: 374px;
 				}
 
@@ -214,10 +215,14 @@
 
 				&:last-child {
 					padding-bottom: 0;
+
+					@include is-sp {
+						padding-bottom: 40px;
+					}
 				}
 
 				@include is-sp {
-					padding-bottom: 0;
+					padding-bottom: 40px;
 				}
 
 				&__header-cont {
@@ -277,7 +282,7 @@
 					flex-wrap: wrap;
 
 					@include is-sp {
-						padding: 40px 0;
+						padding: 40px 0 0 0;
 					}
 
 					&--row_1 {

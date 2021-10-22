@@ -126,12 +126,14 @@
 		}
 		.l-wrap {
 			position: relative;
+			padding-right: 0;
+			padding-left: 0;
 
 			.phil_cloud {
 				width: 185px;
 				position: absolute;
-				top: 0;
-				left: 215px;
+				top: -45px;
+				left: 100px;
 
 				@include is-max(768px) {
 					left: 30px;
@@ -146,7 +148,7 @@
 				color: $color-text01;
 				font-family: "santa_fe", sans-serif;
 				text-align: center;
-				line-height: 1;
+				line-height: 0.7em;
 
 				@include font-line(80);
 			}
@@ -172,7 +174,7 @@
 				}
 
 				@include is-sp {
-					padding: 50px 0 80px 0;
+					padding: 50px 20px 80px 20px;
 				}
 
 				.box {
@@ -182,6 +184,11 @@
 
 					&:last-child {
 						margin-right: 0;
+
+						@include is-between(751px, 480px) {
+							margin-right: unset;
+						}
+
 						@include is-max(999px) {
 							margin-top: 20px;
 						}
@@ -198,10 +205,18 @@
 					@include is-sp {
 						width: 100%;
 						margin-bottom: 30px;
+						margin-right: 0;
 
 						&:last-child {
 							margin-bottom: 0;
 						}
+					}
+
+					@include is-between(751px, 480px) {
+						width: 80%;
+						margin-left: auto;
+						margin-right: auto !important;
+						display: block;
 					}
 
 					img {

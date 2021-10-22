@@ -42,7 +42,7 @@
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-	font-size: 20px !important;
+	font-size: 25px !important;
 	color: #fff;
 }
 
@@ -56,4 +56,5 @@
 .swiper-pagination-horizontal {
 	display: inline-block;
 	vertical-align: middle;
+	line-height: 1;
 }

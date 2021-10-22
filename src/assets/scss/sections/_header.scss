@@ -1,13 +1,19 @@
 .page {
 	&__header {
 		position: relative;
+
 		.nav {
 			position: absolute;
 			top: 0;
 			right: 0;
 
 			@include is-sp {
-				display: none;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				top: unset;
+				display: flex;
+				z-index: 9999;
 			}
 
 			.hamburger {
@@ -16,7 +22,6 @@
 				background-color: $color-text-default;
 				position: relative;
 				padding: 30px 20px;
-				z-index: 50;
 				cursor: pointer;
 
 				span {
@@ -26,7 +31,7 @@
 					margin-bottom: 12px;
 					position: relative;
 					background: #fff;
-					z-index: 1;
+					z-index: 5;
 					transition: 0.3s ease-in-out;
 
 					&.toggled {
@@ -44,21 +49,36 @@
 				.menu {
 					position: absolute;
 					width: 360px;
-					height: 60vh;
+					height: 100%;
 					right: -50vw;
 					top: 0;
+					z-index: 1;
 					padding: 50px 20px;
-					z-index: -2;
 					background: #000;
 					list-style-type: none;
 					transition: 0.3s ease-in-out;
 
+					@include is-sp {
+						position: fixed;
+						right: unset;
+						left: -150vw;
+						top: 0;
+						z-index: -2;
+						bottom: unset;
+						padding: 40px 20px 100px 20px;
+						overflow: scroll;
+					}
+
 					&.active {
 						right: 0;
+
+						@include is-sp {
+							left: 0;
+						}
 					}
 
 					@include is-tabpc {
-						height: 70vh;
+						height: 59vh;
 					}
 
 					li {
@@ -97,8 +117,16 @@
 					padding: 75px 0 35px 0;
 					display: block;
 
+					@include is-sp {
+						display: flex;
+						align-items: center;
+					}
+
 					img {
 						width: 43px;
+						@include is-sp {
+							order: 2;
+						}
 					}
 
 					p {
@@ -107,6 +135,16 @@
 						padding-top: 25px;
 
 						@include font-line(20);
+
+						@include is-sp {
+							padding-top: 0;
+							order: 1;
+							padding-right: 13px;
+						}
+					}
+
+					@include is-sp {
+						padding: 25px 18px 0 25px;
 					}
 				}
 			}
@@ -205,7 +243,7 @@
 					left: 10%;
 					width: 868px;
 					z-index: -1;
-					animation: MoveUpDown 4s linear infinite;
+					animation: MoveUpDown 3s linear infinite;
 					transform: translate(-50%, 0%);
 
 					@include is-sp {
@@ -229,16 +267,22 @@
 					@include is-sp {
 						display: block;
 						position: relative;
-						bottom: 65vw;
-						left: -50px;
+						bottom: 75vw;
+						left: -32px;
 					}
 				}
 
 				&:nth-of-type(4) {
 					position: absolute;
-					left: 0;
+					left: 10%;
 					bottom: 0;
-					width: 600px;
+					width: 43%;
+
+					@include is-max(800px) {
+						width: 78.39%;
+						left: -20%;
+						bottom: 5%;
+					}
 
 					@include is-sp {
 						display: none;
@@ -250,17 +294,23 @@
 
 					@include is-sp {
 						display: block;
-						position: relative;
-						bottom: 30vw;
-						left: -80px;
+						position: absolute;
+						bottom: 10%;
+						left: -55px;
 					}
 
 					@include is-between(720px, 460px) {
-						bottom: 45vw;
+						bottom: 10%;
+						width: 80%;
 					}
 
 					@include is-between(850px, 721px) {
-						bottom: 50vw;
+						bottom: 10%;
+						width: 60%;
+					}
+
+					@include is-max(460px) {
+						width: 90%;
 					}
 				}
 			}

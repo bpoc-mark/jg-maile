@@ -21,9 +21,7 @@ $(document).ready(function(){
             $(this).next('.accordion__content').slideUp();
             $(this).addClass("active");
         }
-
     });
-
     // SLIDER FOR ALBUM PAGE
     const swiper = new Swiper('.swiper', {
       direction: 'horizontal',
@@ -45,9 +43,7 @@ $(document).ready(function(){
     
     });
 });
-
 // SLIDER ON FRONT PAGE SP
-
 (function() {
   'use strict';
  
@@ -100,15 +96,14 @@ $(document).ready(function(){
 
   breakpointChecker();
 })();
-
-
 // ADD OPTGROUP ON SELECT
 $(function() {
   $('select').append('<optgroup label=""></optgroup>');
 });
-
 //NAVBAR TOGGLE
 $('.hamburger').on('click',function(){
   $(this).find('span').toggleClass('toggled');
   $(this).find('.menu').toggleClass('active');
 });
+
+

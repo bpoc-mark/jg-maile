@@ -134,7 +134,6 @@
                     </a>
                 </div>
             </div>
-
             <div class="l-wrap">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
                     <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">

@@ -394,14 +394,19 @@
 					border: none;
 					-moz-appearance: none;
 					-webkit-appearance: none;
-					// appearance: none;
 					background: #fff;
 					background-image: url("../image/page/arrow_d.svg");
-					background-repeat: no-repeat, repeat;
+					background-repeat: no-repeat;
 					background-position: center right 20px;
 					background-size: 16px;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 500;
+
+					&:disabled {
+						background-color: #e8f0fe;
+						opacity: 1;
+						color: #000;
+					}
 				}
 			}
 		}

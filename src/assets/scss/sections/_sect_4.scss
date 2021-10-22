@@ -42,10 +42,11 @@
 	}
 
 	.nav {
-		position: absolute;
+		position: fixed;
 		bottom: 0;
 		left: 0;
 		display: none;
+		z-index: 9999;
 
 		@include is-sp {
 			display: flex;

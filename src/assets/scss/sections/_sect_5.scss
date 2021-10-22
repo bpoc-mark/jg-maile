@@ -23,6 +23,14 @@
 			line-height: 1;
 		}
 
+		.swiper-pagination {
+			display: none;
+
+			@include is-sp {
+				display: block;
+			}
+		}
+
 		.swiper-pagination-bullet {
 			background: #fff;
 			opacity: 1;

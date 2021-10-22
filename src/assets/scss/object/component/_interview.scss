@@ -29,11 +29,12 @@
 	color: $color-text01;
 	font-weight: 700;
 	text-align: justify;
+	padding-bottom: 30px;
 
 	@include font-line(18);
 
 	@include is-sp {
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 	}
 
 	&:nth-of-type(3) {

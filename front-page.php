@@ -197,17 +197,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="nav">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-            </div>
-            <div class="entry">
-                <p>ENTRY</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-            </div>
-        </div>
     </div>
     <div class="sect_5">
         <div class="sect_5__teams">

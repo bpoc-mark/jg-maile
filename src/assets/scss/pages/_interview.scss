@@ -93,7 +93,7 @@
 
 		&:nth-of-type(odd) {
 			@include is-sp {
-				padding-top: 100px;
+				padding-top: 90px;
 			}
 			.inter_cloud {
 				width: 275px;
@@ -137,7 +137,7 @@
 			}
 
 			@include is-sp {
-				padding-bottom: 75px;
+				padding-bottom: 70px;
 			}
 		}
 	}
@@ -174,7 +174,7 @@
 			width: 180px;
 			position: absolute;
 			left: 0;
-			top: 95px;
+			top: 30px;
 
 			@include is-sp {
 				display: none;
@@ -184,6 +184,11 @@
 		&__content {
 			display: flex;
 			padding-top: 65px;
+			align-items: center;
+
+			@include is-max(881px) {
+				align-items: unset;
+			}
 
 			@include is-sp {
 				flex-wrap: wrap;
@@ -191,7 +196,7 @@
 			}
 
 			.row_1 {
-				width: 460px;
+				width: 50%;
 
 				img {
 					width: 100%;
@@ -204,11 +209,11 @@
 			}
 
 			.row_2 {
-				width: calc(100% - 460px);
+				width: 50%;
 				text-align: left;
 				padding-left: 60px;
-				padding-top: 40px;
-				padding-bottom: 18px;
+				// padding-top: 40px;
+				// padding-bottom: 18px;
 
 				@include is-max(768px) {
 					padding-left: 20px;
