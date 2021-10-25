@@ -2,7 +2,7 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>interview</h1>
+            <h1>Interview</h1>
             <p>社員インタビュー</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
@@ -31,7 +31,7 @@
                 <p class="c-sub">namenamename</p>
                 <div class="page_interview--int__content">
                     <div class="row_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_1.jpeg" alt="">
                     </div>
                     <div class="row_2">
                         <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -50,7 +50,7 @@
                 <p class="c-sub">namenamename</p>
                 <div class="page_interview--int__content">
                     <div class="row_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
                     </div>
                     <div class="row_2">
                         <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -68,7 +68,7 @@
                 <p class="c-sub">namenamename</p>
                 <div class="page_interview--int__content">
                     <div class="row_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
                     </div>
                     <div class="row_2">
                         <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -87,7 +87,7 @@
                 <p class="c-sub">namenamename</p>
                 <div class="page_interview--int__content">
                     <div class="row_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
                     </div>
                     <div class="row_2">
                         <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -106,7 +106,7 @@
                 <p class="c-sub">namenamename</p>
                 <div class="page_interview--int__content">
                     <div class="row_1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/dummy_image.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
                     </div>
                     <div class="row_2">
                         <p class="c-row_ttl">テキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>

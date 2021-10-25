@@ -2,7 +2,7 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>photo album</h1>
+            <h1>Photo album</h1>
             <p>社内フォトアルバム</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">

@@ -2,7 +2,7 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>reception,part time job</h1>
+            <h1>Reception,part time job</h1>
             <p>受付社員・パート・<br>アルバイト情報</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">

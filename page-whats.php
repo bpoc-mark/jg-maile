@@ -2,7 +2,7 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>what is the maile like?</h1>
+            <h1>What is the maile like?</h1>
             <p>まいれって<br>どんな会社？</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
@@ -46,9 +46,9 @@
                         <p class="item__ttl">入社式</p>
                         <div class="swiper slider-a">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_1.jpeg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
@@ -62,9 +62,9 @@
                         <p class="item__ttl">ボーリング大会</p>
                         <div class="swiper slider-b">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
@@ -78,9 +78,9 @@
                         <p class="item__ttl">男子会</p>
                         <div class="swiper slider-c">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
@@ -94,9 +94,9 @@
                         <p class="item__ttl">社員旅行</p>
                         <div class="swiper slider-d">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
@@ -110,9 +110,9 @@
                         <p class="item__ttl">運動会</p>
                         <div class="swiper slider-e">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_6.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>
@@ -126,9 +126,9 @@
                         <p class="item__ttl">表彰式</p>
                         <div class="swiper slider-f">
                             <div class="swiper-wrapper">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
-                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_1.png" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
+                                <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
                             </div>
                             <div class="c-swiper-buttons">
                                 <div class="swiper-button-prev"></div>

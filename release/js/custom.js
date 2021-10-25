@@ -25,6 +25,7 @@ $(document).ready(function () {
     direction: 'horizontal',
     loop: false,
     effect: 'cards',
+    speed: 500,
     pagination: {
       el: '.swiper-pagination',
       type: "fraction",

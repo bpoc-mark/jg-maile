@@ -47,14 +47,14 @@
             <div class="sect_2__row_1">
                 <div class="item-1">
                     <div class="bg_img">
-                        <img data-aos="zoom-in" data-aos-delay="500" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="">
+                        <img class="bg" data-aos="zoom-in" data-aos-delay="500" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
+                        <img class="bg_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="">
                         <img data-aos="zoom-in" class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="">
                         <div class="text">
                             <p class="ttl">一緒に働く<br>仲間募集中！</p>
-                            <a href="" class="button">
+                            <a href="" class="c-button">
                                 <p>詳しくはこちら</p>
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -81,10 +81,10 @@
                                 <p class="ttl">voice<span>先輩からの声</span></p>
                                 <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <div class="btn">
+                                <a href="" class="c-button">
                                     <p>詳しくはこちら</p>
                                     <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="row-3">
@@ -103,10 +103,10 @@
                                 <p class="ttl">we want<br><span>求める人材像</span></p>
                                 <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <div class="btn">
+                                <a href="" class="c-button">
                                     <p>詳しくはこちら</p>
-                                    <img class="want_btn" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                </div>
+                                    <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                </a>
                             </div>
                         </div>
                         <div class="cust_man">
@@ -127,10 +127,10 @@
                                     </div>
                                     <p class="box__ttl">まいれとは？</p>
                                     <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                    <div class="box__btn">
+                                    <a class="c-button">
                                         <p>詳しくはこちら</p>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                    </div>
+                                        <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -143,10 +143,10 @@
                                     </div>
                                     <p class="box__ttl">まいれとは？</p>
                                     <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                    <div class="box__btn">
+                                    <a class="c-button">
                                         <p>詳しくはこちら</p>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                    </div>
+                                        <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +159,10 @@
                                     </div>
                                     <p class="box__ttl">まいれとは？</p>
                                     <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                    <div class="box__btn">
+                                    <a class="c-button">
                                         <p>詳しくはこちら</p>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                    </div>
+                                        <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>

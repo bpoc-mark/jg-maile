@@ -2,7 +2,7 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>message</h1>
+            <h1>Message</h1>
             <p>代表挨拶</p>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
