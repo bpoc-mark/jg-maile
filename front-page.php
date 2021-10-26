@@ -2,9 +2,14 @@
 <div class="page__banner">
     <div class="l-wrap">
         <h1>MAILE.CO.,LTD <br><span>RECRUIT SITE</span></h1>
-        <img class="birds" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds.svg" alt="">
+        <div class="birds">
+            <img class="p-upDown bird_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_1.svg" alt="">
+            <img class="p-downUp bird_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_2.svg" alt="">
+            <img class="p-upDown bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_3.svg" alt="">
+            <img class="p-downUp bird_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_4.svg" alt="">
+            <img class="p-upDown bird_5" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_5.svg" alt="">
+        </div>
         <img class="coconut" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-        <img class="birds_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_birds_sp.svg" alt="">
         <div class="sun">
             <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="">
             <img data-aos="fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="">

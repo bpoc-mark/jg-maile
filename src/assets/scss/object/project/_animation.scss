@@ -1,197 +1,219 @@
 .p-shake {
-    animation: shake 1.5s infinite ease;
+	animation: shake 1.5s infinite ease;
 
-    @keyframes shake {
-        0% {
-            -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-        }
+	@keyframes shake {
+		0% {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
 
-        20% {
-            -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
-        }
+		20% {
+			-webkit-transform: rotate(-3deg);
+			transform: rotate(-3deg);
+		}
 
-        30%,
-        50%,
-        70%,
-        90% {
-            -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
-        }
+		30%,
+		50%,
+		70%,
+		90% {
+			-webkit-transform: rotate(3deg);
+			transform: rotate(3deg);
+		}
 
-        40%,
-        60%,
-        80% {
-            -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
-        }
+		40%,
+		60%,
+		80% {
+			-webkit-transform: rotate(-3deg);
+			transform: rotate(-3deg);
+		}
 
-        100% {
-            -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-        }
-    }
+		100% {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+	}
 
-    &__torigin {
-        transform-origin: 130px 15px;
-    }
+	&__torigin {
+		transform-origin: 130px 15px;
+	}
 }
 
 .p-walk {
-    animation: walk 10s both;
+	animation: walk 10s both;
 
-    @keyframes walk {
-        0% {
-            transform: translateX(-300px);
-        }
+	@keyframes walk {
+		0% {
+			transform: translateX(-300px);
+		}
 
-        100% {
-            transform: translateX(300px);
-        }
-    }
+		100% {
+			transform: translateX(300px);
+		}
+	}
 }
 
-
 .p-slide {
-    animation: slide 20s both infinite linear;
+	animation: slide 20s both infinite linear;
 
-    &__reverse {
-        animation-duration: 10s;
-        animation-direction: reverse;
-    }
+	&__reverse {
+		animation-duration: 10s;
+		animation-direction: reverse;
+	}
 
-    &__airplane {
-        animation: airplane 15s both infinite linear reverse;
+	&__airplane {
+		animation: airplane 15s both infinite linear reverse;
+	}
 
-    }
+	@keyframes slide {
+		0% {
+			transform: translateX(0%);
+		}
 
+		50% {
+			transform: translateX(30%);
+		}
 
-    @keyframes slide {
-        0% {
-            transform: translateX(0%);
-        }
+		100% {
+			transform: translateX(0%);
+		}
+	}
 
-        50% {
-            transform: translateX(30%);
-        }
+	@keyframes airplane {
+		from {
+			transform: translateX(-900px);
+		}
 
-        100% {
-            transform: translateX(0%);
-        }
-    }
-
-    @keyframes airplane {
-        from {
-            transform: translateX(-900px);
-        }
-
-        to {
-            transform: translateX(1500px);
-        }
-
-    }
-
-
+		to {
+			transform: translateX(1500px);
+		}
+	}
 }
 
 .p-jump {
-    animation: jump 1s alternate infinite ease;
+	animation: jump 1s alternate infinite ease;
 
-    @keyframes jump {
-        from {
-            transform: translateY(10px);
-        }
+	@keyframes jump {
+		from {
+			transform: translateY(10px);
+		}
 
-        to {
-            transform: translateY(100px);
-        }
-    }
+		to {
+			transform: translateY(100px);
+		}
+	}
 }
 
-
 .p-popup {
-    // @include is-sp{
-    //     opacity: 0;
-    // }
-    animation: popup 1s infinite ease;
-    transform-origin: 170px 100px;
+	// @include is-sp{
+	//     opacity: 0;
+	// }
+	animation: popup 1s infinite ease;
+	transform-origin: 170px 100px;
 
-    @include is-sp {
-        transform-origin: 200px 100px;
-    }
+	@include is-sp {
+		transform-origin: 200px 100px;
+	}
 
-    @keyframes popup {
-        from {
-            transform: scale(0);
-        }
+	@keyframes popup {
+		from {
+			transform: scale(0);
+		}
 
-        to {
-            transform: scale(1);
-        }
-    }
+		to {
+			transform: scale(1);
+		}
+	}
 }
 
 .p-swing {
-    animation: swing 3s infinite linear;
+	animation: swing 3s infinite linear;
 
-    @keyframes swing {
-        0% {
-            -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-        }
+	@keyframes swing {
+		0% {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
 
-        10% {
-            -webkit-transform: rotate(-6deg);
-            transform: rotate(-6deg);
-        }
+		10% {
+			-webkit-transform: rotate(-6deg);
+			transform: rotate(-6deg);
+		}
 
-        45% {
-            -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-        }
+		45% {
+			-webkit-transform: rotate(6deg);
+			transform: rotate(6deg);
+		}
 
-        90% {
-            -webkit-transform: rotate(-6deg);
-            transform: rotate(-6deg);
-        }
+		90% {
+			-webkit-transform: rotate(-6deg);
+			transform: rotate(-6deg);
+		}
 
-        100% {
-            -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-        }
-    }
+		100% {
+			-webkit-transform: scaleX(1);
+			transform: scaleX(1);
+		}
+	}
 }
 
 .p-raise {
-    animation: raise 1s infinite ease-in-out;
+	animation: raise 1s infinite ease-in-out;
 
-    @keyframes raise {
-        // from{
-        //     transform: translateY(3px);
-        // }
-        // to{
-        //     transform: translateY(0px);
-        // }
+	@keyframes raise {
+		// from{
+		//     transform: translateY(3px);
+		// }
+		// to{
+		//     transform: translateY(0px);
+		// }
 
-        0% {
-            transform: translateY(3px);
-        }
+		0% {
+			transform: translateY(3px);
+		}
 
-        10% {
-            transform: translateY(2px);
-        }
+		10% {
+			transform: translateY(2px);
+		}
 
-        45% {
-            transform: translateY(1px);
-        }
+		45% {
+			transform: translateY(1px);
+		}
 
-        90% {
-            transform: translateY(0px);
-        }
+		90% {
+			transform: translateY(0px);
+		}
 
-        100% {
-            transform: translateY(3px);
-        }
-    }
+		100% {
+			transform: translateY(3px);
+		}
+	}
+}
+
+//CUSTOM ANIMATION
+.p-upDown {
+	animation: MoveUpDown 2s linear infinite;
+
+	@keyframes MoveUpDown {
+		0%,
+		100% {
+			transform: translateY(-20%);
+		}
+		50% {
+			transform: translateY(10%);
+		}
+	}
+}
+
+.p-downUp {
+	animation: MoveDownUp 2s linear infinite;
+
+	@keyframes MoveDownUp {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-30%);
+		}
+	}
 }
