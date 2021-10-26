@@ -14,10 +14,24 @@
 					position: absolute;
 					top: 80px;
 					right: 20px;
+
+					z-index: -1;
+					-webkit-animation: animateCloudmsg1 20s linear infinite;
+					-moz-animation: animateCloudmsg1 20s linear infinite;
+					animation: animateCloudmsg1 20s linear infinite;
 				}
 
 				@include is-sp {
 					display: none;
+				}
+			}
+
+			@keyframes animateCloudmsg1 {
+				0% {
+					margin-right: 0;
+				}
+				100% {
+					margin-right: 100%;
 				}
 			}
 		}
@@ -37,9 +51,22 @@
 				position: relative;
 				left: -40px;
 				top: 120px;
+				z-index: -1;
+				-webkit-animation: animateCloudmessage 25s linear infinite;
+				-moz-animation: animateCloudmessage 25s linear infinite;
+				animation: animateCloudmessage 25s linear infinite;
 
 				@include is-sp {
 					display: none;
+				}
+
+				@keyframes animateCloudmessage {
+					0% {
+						margin-left: 0;
+					}
+					100% {
+						margin-left: 100%;
+					}
 				}
 			}
 		}
@@ -57,9 +84,22 @@
 			position: absolute;
 			right: 0;
 			bottom: -30px;
+			z-index: -1;
+			-webkit-animation: animateCloudmsg2 35s linear infinite;
+			-moz-animation: animateCloudmsg2 35s linear infinite;
+			animation: animateCloudmsg2 35s linear infinite;
 
 			@include is-sp {
 				display: none;
+			}
+
+			@keyframes animateCloudmsg2 {
+				0% {
+					margin-right: 0;
+				}
+				100% {
+					margin-right: 100%;
+				}
 			}
 		}
 

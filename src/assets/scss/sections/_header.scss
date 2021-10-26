@@ -113,6 +113,14 @@
 				z-index: 50;
 				position: relative;
 
+				&::hover {
+					a {
+						img {
+							right: -10px;
+						}
+					}
+				}
+
 				a {
 					padding: 75px 0 35px 0;
 					display: block;
@@ -124,6 +132,9 @@
 
 					img {
 						width: 43px;
+						position: relative;
+						transition: 0.3s ease-in-out;
+
 						@include is-sp {
 							order: 2;
 						}
@@ -216,101 +227,157 @@
 				}
 			}
 
-			img {
-				&:nth-of-type(2) {
-					padding: 0;
-					width: 224px;
-					height: auto;
-					position: absolute;
-					right: 0;
-					bottom: -2.5vw;
-					z-index: -1;
+			.birds {
+				position: absolute;
+				top: 0;
+				left: 10%;
+				width: 868px;
+				z-index: -1;
+				animation: MoveUpDown 3s linear infinite;
+				transform: translate(-50%, 0%);
 
-					@include is-between(1030px, 751px) {
-						bottom: -3vw;
-					}
-
-					@include is-sp {
-						width: 30%;
-						right: -10%;
-						bottom: -6vw;
-					}
+				@include is-sp {
+					display: none;
 				}
 
-				&:nth-of-type(1) {
+				@keyframes MoveUpDown {
+					0%,
+					100% {
+						transform: translateY(0);
+					}
+					50% {
+						transform: translateY(10%);
+					}
+				}
+			}
+			.coconut {
+				padding: 0;
+				width: 224px;
+				height: auto;
+				position: absolute;
+				right: 0;
+				bottom: -2.5vw;
+				z-index: -1;
+
+				@include is-between(1030px, 751px) {
+					bottom: -3vw;
+				}
+
+				@include is-sp {
+					width: 30%;
+					right: -10%;
+					bottom: -6vw;
+				}
+			}
+			.birds_sp {
+				display: none;
+
+				@include is-sp {
+					display: block;
+					position: relative;
+					bottom: 75vw;
+					left: -32px;
+				}
+			}
+
+			.sun {
+				max-width: 600px;
+				height: 90px;
+				position: relative;
+				left: 0;
+				top: 33%;
+				overflow: hidden;
+				border: none;
+
+				@include is-max(800px) {
+					width: 100%;
+					left: -20%;
+					bottom: 5%;
+				}
+
+				@include is-sp {
+					max-width: unset;
+					display: block;
+					position: absolute;
+					bottom: 10%;
+					left: 0;
+					top: unset;
+					width: 100%;
+				}
+
+				.cloud_1 {
+					width: 150px;
+					position: absolute;
+					top: 15px;
+					left: 0;
+					z-index: 2;
+					-webkit-animation: animateCloud 25s linear infinite;
+					-moz-animation: animateCloud 25s linear infinite;
+					animation: animateCloud 25s linear infinite;
+				}
+				.sun {
+					width: 190px;
+					position: absolute;
+					left: 165px;
+					top: 12px;
+				}
+				.cloud_2 {
+					width: 75px;
+					position: absolute;
+					top: 29px;
+					left: 315px;
+					z-index: -1;
+
+					-webkit-animation: animateCloud2 25s linear infinite;
+					-moz-animation: animateCloud2 25s linear infinite;
+					animation: animateCloud2 25s linear infinite;
+				}
+				.cloud_3 {
+					width: 98px;
+					position: absolute;
+					top: 45px;
+					right: 125px;
+					z-index: -1;
+
+					-webkit-animation: animateCloudfrontpage 20s linear infinite;
+					-moz-animation: animateCloudfrontpage 20s linear infinite;
+					animation: animateCloudfrontpage 20s linear infinite;
+				}
+				.cloud_4 {
+					width: 98px;
 					position: absolute;
 					top: 0;
-					left: 10%;
-					width: 868px;
-					z-index: -1;
-					animation: MoveUpDown 3s linear infinite;
-					transform: translate(-50%, 0%);
+					right: 0;
 
-					@include is-sp {
-						display: none;
+					-webkit-animation: animateCloudfrontpage 20s linear infinite;
+					-moz-animation: animateCloudfrontpage 20s linear infinite;
+					animation: animateCloudfrontpage 20s linear infinite;
+				}
+
+				@keyframes animateCloud {
+					0% {
+						margin-left: -1000px;
 					}
-
-					@keyframes MoveUpDown {
-						0%,
-						100% {
-							transform: translateY(0);
-						}
-						50% {
-							transform: translateY(10%);
-						}
+					100% {
+						margin-left: 100%;
 					}
 				}
 
-				&:nth-of-type(3) {
-					display: none;
-
-					@include is-sp {
-						display: block;
-						position: relative;
-						bottom: 75vw;
-						left: -32px;
+				@keyframes animateCloud2 {
+					0% {
+						margin-left: -1000px;
+					}
+					100% {
+						margin-left: 100%;
 					}
 				}
 
-				&:nth-of-type(4) {
-					position: absolute;
-					left: 10%;
-					bottom: 0;
-					width: 43%;
-
-					@include is-max(800px) {
-						width: 78.39%;
-						left: -20%;
-						bottom: 5%;
+				@keyframes animateCloudfrontpage {
+					0% {
+						margin-right: -100%;
 					}
-
-					@include is-sp {
-						display: none;
-					}
-				}
-
-				&:nth-of-type(5) {
-					display: none;
-
-					@include is-sp {
-						display: block;
-						position: absolute;
-						bottom: 10%;
-						left: -55px;
-					}
-
-					@include is-between(720px, 460px) {
-						bottom: 10%;
-						width: 80%;
-					}
-
-					@include is-between(850px, 721px) {
-						bottom: 10%;
-						width: 60%;
-					}
-
-					@include is-max(460px) {
-						width: 90%;
+					100% {
+						margin-right: 100%;
 					}
 				}
 			}

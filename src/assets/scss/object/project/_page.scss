@@ -1,53 +1,91 @@
 .p-details {
+	overflow: hidden;
+
 	.l-wrap {
 		position: relative;
 		padding-right: 20px;
 		padding-left: 20px;
 
 		.cloud {
+			@include is-sp {
+				display: none;
+			}
+
 			&:nth-of-type(1) {
 				width: 180px;
 				position: absolute;
 				top: 18%;
 				left: 0;
+				z-index: -1;
+				-webkit-animation: animateCloud 20s linear infinite;
+				-moz-animation: animateCloud 20s linear infinite;
+				animation: animateCloud 20s linear infinite;
 
 				@include is-max(1001px) {
 					display: none;
 				}
 			}
+
 			&:nth-of-type(2) {
 				width: 95px;
 				position: absolute;
 				top: 43%;
 				left: 20px;
+				z-index: -1;
+				-webkit-animation: animateCloud 20s linear infinite;
+				-moz-animation: animateCloud 20s linear infinite;
+				animation: animateCloud 20s linear infinite;
 
 				@include is-max(768px) {
 					display: none;
 				}
 			}
+
 			&:nth-of-type(3) {
 				width: 95px;
 				position: absolute;
 				top: 32%;
 				right: 20px;
+				z-index: -1;
+				-webkit-animation: animateCloudright 15s linear infinite;
+				-moz-animation: animateCloudright 15s linear infinite;
+				animation: animateCloudright 15s linear infinite;
 
 				@include is-max(768px) {
 					right: 20px;
 				}
 			}
+
 			&:nth-of-type(4) {
 				width: 165px;
 				position: absolute;
 				top: 51%;
 				right: 20px;
+				-webkit-animation: animateCloudright 20s linear infinite;
+				-moz-animation: animateCloudright 20s linear infinite;
+				animation: animateCloudright 20s linear infinite;
 
 				@include is-max(768px) {
 					right: 20px;
 				}
 			}
 
-			@include is-sp {
-				display: none;
+			@keyframes animateCloudright {
+				0% {
+					margin-right: -100%;
+				}
+				100% {
+					margin-right: 100%;
+				}
+			}
+
+			@keyframes animateCloud {
+				0% {
+					margin-left: -100%;
+				}
+				100% {
+					margin-left: 100%;
+				}
 			}
 		}
 	}
@@ -271,7 +309,7 @@
 						font-weight: 700;
 						padding: 40px 0 0 0;
 
-						@include font-line(24);
+						@include font-line(24, 34);
 
 						@include is-max(360px) {
 							padding: 20px 0 0 0;

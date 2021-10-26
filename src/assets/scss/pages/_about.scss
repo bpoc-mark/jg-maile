@@ -2,11 +2,19 @@
 	.l-wrap {
 		.img_cloud {
 			img {
+				@include is-sp {
+					display: none;
+				}
+
 				&:nth-of-type(1) {
 					width: 180px;
 					position: absolute;
 					left: 0;
 					top: 253px;
+					z-index: -1;
+					-webkit-animation: animateCloud 20s linear infinite;
+					-moz-animation: animateCloud 20s linear infinite;
+					animation: animateCloud 20s linear infinite;
 
 					@include is-max(900px) {
 						top: 45px;
@@ -18,10 +26,32 @@
 					position: absolute;
 					right: 20px;
 					top: 374px;
+
+					z-index: -1;
+					-webkit-animation: animateCloudright 10s linear infinite;
+					-moz-animation: animateCloudright 10s linear infinite;
+					animation: animateCloudright 10s linear infinite;
 				}
 
-				@include is-sp {
-					display: none;
+				@keyframes animateCloud {
+					0% {
+						left: 0;
+					}
+					50% {
+						left: -50%;
+					}
+					100% {
+						left: -100%;
+					}
+				}
+
+				@keyframes animateCloudright {
+					0% {
+						margin-right: -50px;
+					}
+					100% {
+						right: 100%;
+					}
 				}
 			}
 		}
@@ -73,6 +103,10 @@
 		position: relative;
 
 		.store_cloud {
+			@include is-sp {
+				display: none;
+			}
+
 			&:nth-of-type(1) {
 				width: 98px;
 				position: absolute;
@@ -82,6 +116,11 @@
 				@include is-max(1200px) {
 					left: 20px;
 				}
+
+				z-index: -1;
+				-webkit-animation: animateCloud 20s linear infinite;
+				-moz-animation: animateCloud 20s linear infinite;
+				animation: animateCloud 20s linear infinite;
 			}
 
 			&:nth-of-type(2) {
@@ -93,10 +132,35 @@
 				@include is-max(1200px) {
 					right: 20px;
 				}
+
+				z-index: -1;
+				-webkit-animation: animateCloudright 20s linear infinite;
+				-moz-animation: animateCloudright 20s linear infinite;
+				animation: animateCloudright 20s linear infinite;
 			}
 
-			@include is-sp {
-				display: none;
+			@keyframes animateCloudright {
+				0% {
+					right: 0;
+				}
+				50% {
+					right: -50%;
+				}
+				100% {
+					right: -100%;
+				}
+			}
+
+			@keyframes animateCloud {
+				0% {
+					left: 0;
+				}
+				50% {
+					left: 50%;
+				}
+				100% {
+					left: 100%;
+				}
 			}
 		}
 	}
@@ -106,6 +170,8 @@
 		font-family: "santa_fe", sans-serif;
 		font-weight: 400;
 		line-height: normal;
+		width: fit-content;
+		margin: 0 auto;
 
 		@include font-line(80);
 	}
@@ -118,7 +184,7 @@
 	}
 
 	&__area {
-		padding: 40px 0 25px 0;
+		padding: 40px 0 0 0;
 		max-width: 340px;
 		margin: 0 auto;
 		display: flex;
@@ -353,7 +419,7 @@
 
 					&--row_3 {
 						width: 100%;
-						margin-top: -48px;
+						margin-top: -40px;
 
 						@include is-max(800px) {
 							margin-top: 0;
