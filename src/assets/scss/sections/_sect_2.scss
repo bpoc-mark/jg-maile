@@ -35,6 +35,11 @@
 				@include is-max(768px) {
 					top: 27vw;
 				}
+
+				.swirl-1-pc {
+					stroke-dashoffset: 3300;
+					stroke-dasharray: 3300;
+				}
 			}
 
 			.swirl_sp {
@@ -188,6 +193,7 @@
 				}
 			}
 		}
+
 		.item-2 {
 			width: 50%;
 			display: flex;
@@ -249,10 +255,15 @@
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 400;
 					text-align: justify;
-					padding: 30px 0 0 0;
+					padding: 20px 0 0 0;
 
 					@include font-line(16);
 				}
+			}
+
+			.c-button {
+				width: 100%;
+				padding: 0;
 			}
 		}
 	}

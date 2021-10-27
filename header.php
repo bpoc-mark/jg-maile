@@ -61,64 +61,64 @@
                     <span></span>
                     <ul class="menu">
                         <li>
-                            <a href="">
+                            <a href="<?php echo esc_url(home_url('/')); ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>ホーム</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('career')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>採用情報</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('whats')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>まいれとは？</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('about')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>会社概要</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('message')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>代表あいさつ</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('philosophy')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>理念と求める人材</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="https://maile-group.com/trainer">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>トレーナー</p>
                             </a>
 
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('album')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>社内フォトアルバム</p>
                             </a>
 
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('interview')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>先輩からの声</p>
                             </a>
 
                         </li>
                         <li>
-                            <a href="">
+                            <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>よくある質問・フォーム</p>
                             </a>
@@ -126,7 +126,7 @@
                     </ul>
                 </div>
                 <div class="entry">
-                    <a href="">
+                    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                         <p>ENTRY</p>
                     </a>

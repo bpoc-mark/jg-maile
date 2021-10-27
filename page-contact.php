@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-    <div class="c-page_contact__contact">
+    <div class="c-page_contact__contact" id="form">
         <p class="c-page_contact__contact--ttl">Entry</p>
         <p class="c-page_contact__contact--sub">エントリーフォーム</p>
 
