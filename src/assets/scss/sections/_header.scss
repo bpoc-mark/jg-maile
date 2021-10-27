@@ -316,7 +316,7 @@
 				@include is-sp {
 					width: 30%;
 					right: -10%;
-					bottom: -6vw;
+					bottom: -7vw;
 				}
 			}
 
@@ -436,9 +436,64 @@
 			}
 		}
 
-		svg {
+		.pc {
 			@include is-sp {
 				display: none;
+			}
+
+			.first {
+				stroke-dasharray: 900;
+				stroke-dashoffset: -900;
+				animation: dash 1.5s linear forwards;
+
+				@include is-sp {
+					display: none;
+				}
+			}
+
+			@keyframes dash {
+				from {
+					stroke-dashoffset: 900;
+				}
+				to {
+					stroke-dashoffset: 1800;
+				}
+			}
+
+			.second {
+				stroke-dasharray: 1160;
+				stroke-dashoffset: 1160;
+				animation: dash2 1.5s linear forwards;
+				animation-delay: 1.5s;
+
+				@include is-sp {
+					display: none;
+				}
+			}
+
+			@keyframes dash2 {
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+
+			.dot {
+				opacity: 0;
+				animation: dot forwards 0.1s;
+				animation-delay: 1.8s;
+
+				@include is-sp {
+					display: none;
+				}
+			}
+
+			@keyframes dot {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
 			}
 		}
 
@@ -449,60 +504,48 @@
 				display: block;
 				position: relative;
 			}
-		}
 
-		.first {
-			stroke-dasharray: 900;
-			stroke-dashoffset: -900;
-			animation: dash 1.5s linear forwards;
-
-			@include is-sp {
-				display: none;
+			.first-sp {
+				stroke-dasharray: 900;
+				stroke-dashoffset: -900;
+				animation: dash-sp 1.5s linear forwards;
 			}
-		}
 
-		@keyframes dash {
-			from {
-				stroke-dashoffset: 900;
+			@keyframes dash-sp {
+				from {
+					stroke-dashoffset: 900;
+				}
+				to {
+					stroke-dashoffset: 1800;
+				}
 			}
-			to {
-				stroke-dashoffset: 1800;
+
+			.second-sp {
+				stroke-dasharray: 1160;
+				stroke-dashoffset: 1160;
+				animation: dash2-sp 1.5s linear forwards;
+				animation-delay: 1.5s;
 			}
-		}
 
-		.second {
-			stroke-dasharray: 1160;
-			stroke-dashoffset: 1160;
-			animation: dash2 1.5s linear forwards;
-			animation-delay: 1.5s;
-
-			@include is-sp {
-				display: none;
+			@keyframes dash2-sp {
+				to {
+					stroke-dashoffset: 0;
+				}
 			}
-		}
 
-		@keyframes dash2 {
-			to {
-				stroke-dashoffset: 0;
-			}
-		}
-
-		.dot {
-			opacity: 0;
-			animation: dot forwards 0.1s;
-			animation-delay: 1.8s;
-
-			@include is-sp {
-				display: none;
-			}
-		}
-
-		@keyframes dot {
-			0% {
+			.dot-sp {
 				opacity: 0;
+				animation: dot-sp forwards 0.1s;
+				animation-delay: 1.58s;
 			}
-			100% {
-				opacity: 1;
+
+			@keyframes dot-sp {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+				}
 			}
 		}
 	}

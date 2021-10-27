@@ -13,64 +13,12 @@
 		&:nth-of-type(even) {
 			padding: 120px 0;
 
+			@include is-max(1000px) {
+				padding: 60px 0;
+			}
+
 			@include is-sp {
 				padding: 100px 0 0 0;
-			}
-
-			.inter_cloud {
-				width: 98px;
-				position: absolute;
-				left: 220px;
-				top: 155px;
-
-				@include is-max(768px) {
-					left: 100px;
-				}
-
-				@include is-sp {
-					display: none;
-				}
-			}
-
-			.inter_sun {
-				width: 470px;
-				position: absolute;
-				right: -163px;
-				top: 170px;
-
-				@include is-max(768px) {
-					right: -200px;
-				}
-
-				@include is-sp {
-					display: none;
-				}
-			}
-
-			.inter_bird {
-				width: 295px;
-				position: absolute;
-				top: 95px;
-				left: -77px;
-
-				@include is-max(768px) {
-					left: -35px;
-				}
-
-				@include is-sp {
-					display: none;
-				}
-			}
-
-			.inter_bird_2 {
-				width: 160px;
-				position: absolute;
-				top: 160px;
-				right: 0;
-
-				@include is-sp {
-					display: none;
-				}
 			}
 		}
 
@@ -100,6 +48,10 @@
 				position: absolute;
 				right: -100px;
 				top: 0;
+
+				@include is-max(800px) {
+					right: 0;
+				}
 
 				@include is-sp {
 					display: none;
@@ -169,6 +121,167 @@
 
 	&--int {
 		position: relative;
+
+		.inter_cloud {
+			width: 98px;
+			position: absolute;
+			left: 220px;
+			top: 155px;
+
+			@include is-max(768px) {
+				left: 100px;
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		.inter_cloud-3 {
+			width: 275px;
+			position: absolute;
+			right: 0;
+			top: 0;
+
+			@include is-max(768px) {
+				left: 100px;
+			}
+
+			@include is-sp {
+				display: none;
+			}
+		}
+
+		.inter_sun {
+			max-width: 470px;
+			height: 90px;
+			position: relative;
+			right: -163px;
+			top: 110px;
+			overflow: hidden;
+			margin-left: auto;
+
+			@include is-max(800px) {
+				width: 78.13%;
+				left: -20%;
+				bottom: 30%;
+			}
+
+			@include is-sp {
+				display: none;
+			}
+
+			.sun_cloud_1 {
+				width: 32.55%;
+				position: absolute;
+				top: 15px;
+				left: 0;
+				z-index: 2;
+				-webkit-animation: animateCloud1 20s linear infinite;
+				-moz-animation: animateCloud1 20s linear infinite;
+				animation: animateCloud1 20s linear infinite;
+			}
+			.sun {
+				width: 40.43%;
+				position: absolute;
+				left: 165px;
+				top: 12px;
+
+				@include is-sp {
+					width: 40%;
+					left: -10%;
+				}
+
+				@include is-max(430px) {
+					width: 35%;
+					bottom: -5%;
+				}
+			}
+			.cloud_2 {
+				width: 15.96%;
+				position: absolute;
+				top: 29px;
+				left: 315px;
+				z-index: -1;
+
+				-webkit-animation: animateCloud2 25s linear infinite;
+				-moz-animation: animateCloud2 25s linear infinite;
+				animation: animateCloud2 25s linear infinite;
+			}
+			.cloud_3 {
+				width: 20.85%;
+				position: absolute;
+				top: 45px;
+				right: 125px;
+				z-index: -1;
+
+				-webkit-animation: animateCloudfrontpage 20s linear infinite;
+				-moz-animation: animateCloudfrontpage 20s linear infinite;
+				animation: animateCloudfrontpage 20s linear infinite;
+			}
+
+			@keyframes animateCloud1 {
+				0% {
+					margin-left: -100%;
+				}
+				50% {
+					margin-left: 50%;
+				}
+				100% {
+					margin-left: 100%;
+				}
+			}
+
+			@keyframes animateCloud2 {
+				0% {
+					margin-left: -1000px;
+				}
+				100% {
+					margin-left: 100%;
+				}
+			}
+
+			@keyframes animateCloudfrontpage {
+				0% {
+					margin-right: -100%;
+				}
+				100% {
+					margin-right: 100%;
+				}
+			}
+		}
+
+		.inter_bird-1 {
+			width: 255px;
+			position: absolute;
+			top: 97px;
+			left: 0;
+		}
+
+		.inter_bird-2 {
+			width: 200px;
+			position: absolute;
+			top: 160px;
+			left: -75px;
+		}
+
+		.inter_bird-3 {
+			width: 30px;
+			position: absolute;
+			top: 245px;
+			left: -13px;
+		}
+
+		.inter_bird_2 {
+			width: 160px;
+			position: absolute;
+			top: 160px;
+			right: 0;
+
+			@include is-sp {
+				display: none;
+			}
+		}
 
 		.cloud_2 {
 			width: 180px;

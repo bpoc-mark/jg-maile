@@ -1,3 +1,34 @@
+//CUSTOM ANIMATION
+.p-upDown {
+	animation: MoveUpDown 2s linear infinite;
+
+	@keyframes MoveUpDown {
+		0%,
+		100% {
+			transform: translateY(-20%);
+		}
+		50% {
+			transform: translateY(10%);
+		}
+	}
+}
+
+.p-downUp {
+	animation: MoveDownUp 2s linear infinite;
+
+	@keyframes MoveDownUp {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-30%);
+		}
+	}
+}
+
+//END CUSTOM ANIMATION
+
 .p-shake {
 	animation: shake 1.5s infinite ease;
 
@@ -53,11 +84,12 @@
 }
 
 .p-slide {
-	animation: slide 20s both infinite linear;
+	animation: slide 10s infinite linear;
 
 	&__reverse {
 		animation-duration: 10s;
 		animation-direction: reverse;
+		animation: slide 5s infinite linear;
 	}
 
 	&__airplane {
@@ -65,17 +97,18 @@
 	}
 
 	@keyframes slide {
-		0% {
+		0%,
+		100% {
 			transform: translateX(0%);
 		}
 
 		50% {
-			transform: translateX(30%);
+			transform: translateX(100%);
 		}
 
-		100% {
-			transform: translateX(0%);
-		}
+		// 100% {
+		// 	transform: translateX(100%);
+		// }
 	}
 
 	@keyframes airplane {
@@ -160,13 +193,6 @@
 	animation: raise 1s infinite ease-in-out;
 
 	@keyframes raise {
-		// from{
-		//     transform: translateY(3px);
-		// }
-		// to{
-		//     transform: translateY(0px);
-		// }
-
 		0% {
 			transform: translateY(3px);
 		}
@@ -185,35 +211,6 @@
 
 		100% {
 			transform: translateY(3px);
-		}
-	}
-}
-
-//CUSTOM ANIMATION
-.p-upDown {
-	animation: MoveUpDown 2s linear infinite;
-
-	@keyframes MoveUpDown {
-		0%,
-		100% {
-			transform: translateY(-20%);
-		}
-		50% {
-			transform: translateY(10%);
-		}
-	}
-}
-
-.p-downUp {
-	animation: MoveDownUp 2s linear infinite;
-
-	@keyframes MoveDownUp {
-		0%,
-		100% {
-			transform: translateY(0);
-		}
-		50% {
-			transform: translateY(-30%);
 		}
 	}
 }
