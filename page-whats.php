@@ -233,12 +233,12 @@
 
     </div>
     <div class="image_gallery">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/slider_2.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_6.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_1.jpeg" alt="">
     </div>
     <div class="p-details--btn">
         <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>">

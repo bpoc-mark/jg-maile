@@ -89,7 +89,7 @@ $(function () {
 $('.hamburger').on('click', function () {
   $(this).find('span').toggleClass('toggled');
   $(this).find('.menu').toggleClass('active');
-}); //SVG ANIMATION ON BODY
+}); //SVG ANIMATION ON BODY PC VIEW
 
 $(document).ready(function () {
   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
@@ -102,6 +102,20 @@ $(document).ready(function () {
     var $offsetUnit = $percentageComplete * ($newUnit / 500); //set the new value of the dashoffset to create the drawing effect
 
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
+  });
+}); //SVG ANIMATION ON BODY SP VIEW
+
+$(document).ready(function () {
+  var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
+  $(window).scroll(function () {
+    //calculate how far down the page the user is 
+    var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()) * 550; //convert dashoffset pixel value to interger
+
+    var $newUnit = parseInt($dashOffset, 15); //get the value to be subtracted from the 'stroke-dashoffset'
+
+    var $offsetUnit = $percentageComplete * ($newUnit / 550); //set the new value of the dashoffset to create the drawing effect
+
+    $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
 }); //SHOW BASED ON WINDOW HEIGHT
 

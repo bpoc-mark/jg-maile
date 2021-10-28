@@ -42,41 +42,22 @@
 				}
 			}
 
-			.swirl_sp {
+			.swirl-sp {
 				position: absolute;
-				top: 0;
+				top: -2vw;
 				left: 0;
 				display: none;
 				z-index: -1;
 
 				@include is-sp {
 					display: block;
-					top: 18%;
-					width: 85%;
+					top: -2vw;
+					width: 100%;
 				}
 
-				@include is-max(500px) {
-					top: 18%;
-				}
-
-				@include is-max(450px) {
-					top: 18.5%;
-				}
-
-				@include is-max(430px) {
-					top: 19%;
-				}
-
-				@include is-max(401px) {
-					top: 19.9%;
-				}
-
-				@include is-max(375px) {
-					top: 20.4%;
-				}
-
-				@include is-max(325px) {
-					top: 22%;
+				.swirl-1-sp {
+					stroke-dashoffset: 4000;
+					stroke-dasharray: 3800;
 				}
 			}
 		}
@@ -256,6 +237,10 @@
 					font-weight: 400;
 					text-align: justify;
 					padding: 20px 0 0 0;
+
+					@include is-sp {
+						padding: 20px 0 20px 0;
+					}
 
 					@include font-line(16);
 				}
