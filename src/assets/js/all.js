@@ -111,17 +111,44 @@ $('.hamburger').on('click',function(){
 
 //SVG ANIMATION ON BODY
 $(document).ready(function() {
-  //variable for the 'stroke-dashoffset' unit
   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
-  //on a scroll event - execute function
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 300);
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 500);
     //convert dashoffset pixel value to interger
     var $newUnit = parseInt($dashOffset, 15);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 300);
+    var $offsetUnit = $percentageComplete * ($newUnit / 500);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
 });
+
+//SHOW BASED ON WINDOW HEIGHT
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 400) {
+    $('#row-1').fadeIn("2000");
+    $('#row-2').fadeIn("2000");
+    $('#row-3').delay(500).fadeIn("2000");
+    $('#row-4').fadeIn("2000");
+
+  } else {
+    $('#row-1').fadeOut("2000");
+    $('#row-2').fadeOut("2000");
+    $('#row-3').fadeOut("2000");
+    $('#row-4').fadeOut("2000");
+  }
+
+  if(y > 900){
+    $('#row-5').fadeIn("2000");
+    $('#row-6').fadeIn("2000");
+    $('#row-7').fadeIn("2000");
+  }else{
+    $('#row-5').fadeOut("2000");
+    $('#row-6').fadeOut("2000");
+    $('#row-7').fadeOut("2000");
+  }
+});
+

@@ -130,7 +130,7 @@
         <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
         <script>
                 AOS.init({
-                        once: true
+                        // once: true
                 });
         </script>
         <?php wp_footer(); ?>
