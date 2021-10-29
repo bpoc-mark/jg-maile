@@ -82,7 +82,7 @@
             <div class="p-details--information">
                 <div class="p-details--information__1">
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('employment')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="p-details--information__2">
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('reception')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_man.svg" alt="">
@@ -115,37 +115,37 @@
         </div>
         <div class="p-details--flow">
             <div class="p-details--flow__ttl">
-                flow
+                Flow
             </div>
             <div class="p-details--flow__sub">
                 採用の流れ
             </div>
             <div class="p-details--flow__steps">
-                <div class="step" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800">
+                <div class="step" data-aos="fade-right">
                     <p class="step__ttl">step <span>01</span></p>
                     <p class="step__desc">お問い合わせ</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-delay="400">
+                <div class="step" data-aos="fade-right" data-aos-delay="400">
                     <p class="step__ttl">step <span>02</span></p>
                     <p class="step__desc">見　学</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-delay="600">
+                <div class="step" data-aos="fade-right" data-aos-delay="600">
                     <p class="step__ttl">step <span>03</span></p>
                     <p class="step__desc">書類選考</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-delay="750">
+                <div class="step" data-aos="fade-right" data-aos-delay="750">
                     <p class="step__ttl">step <span>04</span></p>
                     <p class="step__desc">面　接</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-delay="850">
+                <div class="step" data-aos="fade-right" data-aos-delay="850">
                     <p class="step__ttl">step <span>05</span></p>
                     <p class="step__desc">採　用</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">

@@ -56,8 +56,8 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 4000;
-					stroke-dasharray: 3800;
+					stroke-dashoffset: 3700;
+					stroke-dasharray: 3700;
 				}
 			}
 		}
@@ -200,7 +200,7 @@
 			}
 
 			.text {
-				padding: 0 0 0 20px;
+				padding: 0 0 0 10px;
 
 				@include is-sp {
 					padding: 0;
@@ -525,7 +525,7 @@
 				width: 280px;
 
 				@include is-max(920px) {
-					display: none;
+					display: none !important;
 				}
 
 				@include is-max(751px) {

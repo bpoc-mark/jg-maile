@@ -79,7 +79,7 @@
     <div class="l-wrap">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
-        <p class="store_info__ttl">store information</p>
+        <p class="store_info__ttl">Store information</p>
         <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
 
         <div class="store_info__area">
@@ -89,13 +89,13 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d.svg" alt="">
                 </div>
                 <div class="store_info__area--row_1__details">
-                    <p><a href="">大津市 石山院</a></p>
-                    <p><a href="">大津市膳所院</a></p>
-                    <p><a href="">大津市堅田院</a></p>
-                    <p><a href="">近江八幡院</a></p>
-                    <p><a href="">草津院</a></p>
-                    <p><a href="">守山院</a></p>
-                    <p><a href="">甲賀水口院</a></p>
+                    <p><a href="#accordion-1">大津市石山院</a></p>
+                    <p><a href="#accordion-2">大津市膳所院</a></p>
+                    <p><a href="#accordion-3">大津市堅田院</a></p>
+                    <p><a href="#accordion-4">近江八幡院</a></p>
+                    <p><a href="#accordion-5">草津院</a></p>
+                    <p><a href="#accordion-6">守山院</a></p>
+                    <p><a href="#accordion-7">甲賀水口院</a></p>
                 </div>
             </div>
             <div class="store_info__area--row_2">
@@ -104,7 +104,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d.svg" alt="">
                 </div>
                 <div class="store_info__area--row_2__details">
-                    <p>松井山手院</p>
+                    <p><a href="#accordion-8">松井山手院</a></p>
                 </div>
             </div>
         </div>
@@ -112,15 +112,15 @@
         <div class="store_info__stores">
             <div class="store_info__stores--container">
                 <!-- ACCORDION 1 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
+                <div id="accordion-1" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -132,7 +132,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-seikotsuin.com/</li>
+                                <li><a href="https://maile-seikotsuin.com/" target="_blank">https://maile-seikotsuin.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -153,15 +153,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 2 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-2" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -173,7 +173,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-zeze.com/</li>
+                                <li><a href="https://maile-zeze.com/" target="_blank">https://maile-zeze.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -194,15 +194,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 3 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-3" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -214,7 +214,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-katata.com/</li>
+                                <li><a href="https://maile-katata.com/" target="_blank">https://maile-katata.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -235,15 +235,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 4 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-4" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -256,7 +256,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-omihachiman.com/</li>
+                                <li><a href="https://maile-omihachiman.com/">https://maile-omihachiman.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -277,15 +277,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 5 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-5" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -298,7 +298,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-kusatsu.com/</li>
+                                <li><a href="https://maile-kusatsu.com/">https://maile-kusatsu.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -319,15 +319,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 6 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
+                <div id="accordion-6" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -340,7 +340,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-moriyama.com/</li>
+                                <li><a href="https://maile-moriyama.com/">https://maile-moriyama.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -361,15 +361,15 @@
                     </div>
                 </div>
                 <!-- ACCORDION 7 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-7" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
@@ -382,7 +382,7 @@
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-minakuchi.com/</li>
+                                <li><a href="https://maile-minakuchi.com/">https://maile-minakuchi.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">
@@ -403,27 +403,26 @@
                     </div>
                 </div>
                 <!-- ACCORDION 8 -->
-                <div class="accordion">
-                    <a class="accordion__header-cont" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div id="accordion-8" class="accordion">
+                    <a class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h1>
                         <div class="btn_read_more">
-                            <p class="text">close</p>
+                            <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
                         </div>
                     </a>
-                    <div class="accordion__content">
+                    <div class="accordion__content" style="display: none;">
                         <div class="accordion__content--row_1">
                             <ul class="list">
                                 <li><span>住</span><span>所</span></li>
-                                <li>〒614-8294
-                                    京都府八幡市欽明台北ソフィアモール</li>
+                                <li>〒614-8294<br>京都府八幡市欽明台北ソフィアモール</li>
                                 <li><span>電</span><span>話</span><span>番</span><span>号</span></li>
                                 <li>075-972-6656</li>
                                 <li><span>営</span><span>業</span><span>時</span><span>間</span></li>
                                 <li>9:00~12:30/15:00~19:30
                                     定休日：日曜日</li>
                                 <li>homepage</li>
-                                <li>https://maile-matsuiyamate.com/</li>
+                                <li><a href="https://maile-matsuiyamate.com/">https://maile-matsuiyamate.com/</a></li>
                             </ul>
                         </div>
                         <div class="accordion__content--row_2">

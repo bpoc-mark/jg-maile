@@ -15,6 +15,7 @@
 					-webkit-animation: animateCloud 20s linear infinite;
 					-moz-animation: animateCloud 20s linear infinite;
 					animation: animateCloud 20s linear infinite;
+					animation-delay: 1000ms;
 
 					@include is-max(900px) {
 						top: 45px;
@@ -28,9 +29,10 @@
 					top: 374px;
 
 					z-index: -1;
-					-webkit-animation: animateCloudright 10s linear infinite;
-					-moz-animation: animateCloudright 10s linear infinite;
-					animation: animateCloudright 10s linear infinite;
+					-webkit-animation: animateCloudright 25s linear infinite;
+					-moz-animation: animateCloudright 25s linear infinite;
+					animation: animateCloudright 25s linear infinite;
+					animation-delay: 1000ms;
 				}
 
 				@keyframes animateCloud {
@@ -59,7 +61,7 @@
 }
 
 .about_message {
-	padding: 0 0 100px 0;
+	padding: 0 0 60px 0;
 
 	@include is-sp {
 		padding: 40px 0;
@@ -118,9 +120,17 @@
 				}
 
 				z-index: -1;
-				-webkit-animation: animateCloud 20s linear infinite;
-				-moz-animation: animateCloud 20s linear infinite;
-				animation: animateCloud 20s linear infinite;
+				animation: cloud_about1 3s ease-in infinite alternate both;
+				animation-delay: 200ms;
+			}
+
+			@keyframes cloud_about1 {
+				0% {
+					transform: translate(2px, 30px);
+				}
+				100% {
+					transform: translate(-2px, 0px);
+				}
 			}
 
 			&:nth-of-type(2) {
@@ -130,36 +140,18 @@
 				top: -30px;
 
 				@include is-max(1200px) {
-					right: 20px;
+					right: -15vw;
 				}
-
 				z-index: -1;
-				-webkit-animation: animateCloudright 20s linear infinite;
-				-moz-animation: animateCloudright 20s linear infinite;
-				animation: animateCloudright 20s linear infinite;
+				animation: cloud_about 5s ease-in infinite alternate both;
 			}
 
-			@keyframes animateCloudright {
+			@keyframes cloud_about {
 				0% {
-					right: 0;
-				}
-				50% {
-					right: -50%;
+					transform: translate(2px, 30px);
 				}
 				100% {
-					right: -100%;
-				}
-			}
-
-			@keyframes animateCloud {
-				0% {
-					left: 0;
-				}
-				50% {
-					left: 50%;
-				}
-				100% {
-					left: 100%;
+					transform: translate(-2px, 0px);
 				}
 			}
 		}
@@ -277,7 +269,7 @@
 			}
 
 			.accordion {
-				padding-bottom: 135px;
+				padding-bottom: 67px;
 
 				&:last-child {
 					padding-bottom: 0;
@@ -337,6 +329,7 @@
 						img {
 							width: 20px;
 							height: auto;
+							transform: rotate(180deg);
 						}
 					}
 				}

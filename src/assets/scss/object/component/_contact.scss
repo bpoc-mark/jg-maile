@@ -24,6 +24,15 @@
 					position: absolute;
 					left: 150px;
 					bottom: 40px;
+					animation: cloud 35s linear infinite both;
+					@keyframes cloud {
+						0% {
+							left: 0%;
+						}
+						100% {
+							left: 100%;
+						}
+					}
 
 					@include is-max(768px) {
 						left: 20px;
@@ -35,9 +44,19 @@
 					position: absolute;
 					left: 150px;
 					top: 105px;
+					animation: cloud-contact1 2.5s ease-in infinite alternate both;
 
 					@include is-max(768px) {
 						left: 20px;
+					}
+				}
+
+				@keyframes cloud-contact1 {
+					0% {
+						transform: translate(0px, -20px);
+					}
+					100% {
+						transform: translate(0px, 0px);
 					}
 				}
 
@@ -46,9 +65,20 @@
 					position: absolute;
 					right: 0;
 					top: 190px;
+					z-index: -1;
+					animation: cloud-contact 2.5s ease-in infinite alternate both;
 
 					@include is-max(768px) {
 						right: 20px;
+					}
+				}
+
+				@keyframes cloud-contact {
+					0% {
+						transform: translate(2px, 30px);
+					}
+					100% {
+						transform: translate(-2px, 0px);
 					}
 				}
 			}
@@ -73,6 +103,9 @@
 			text-align: center;
 			font-family: "santa_fe", sans-serif;
 			line-height: 1;
+			background-color: rgba(235, 110, 82, 0.7);
+			width: fit-content;
+			margin: 0 auto;
 
 			@include font-line(80, 92);
 		}
@@ -141,6 +174,11 @@
 						text-align: justify;
 						width: 640px;
 
+						@include is-max(800px) {
+							margin-top: 25px;
+							padding: 35px 0 35px 40px;
+						}
+
 						@include font-line(18);
 
 						@include is-max(600px) {
@@ -162,7 +200,7 @@
 						&::after {
 							content: "";
 							width: 50px;
-							height: 50px;
+							height: 45px;
 							background-color: #000;
 							display: block;
 							position: absolute;
@@ -390,7 +428,7 @@
 
 				select {
 					display: block;
-					color: #a0a0a0;
+					color: #000;
 					border: none;
 					-moz-appearance: none;
 					-webkit-appearance: none;
@@ -401,6 +439,7 @@
 					background-size: 16px;
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 500;
+					line-height: 1;
 
 					&:disabled {
 						background-color: #e8f0fe;

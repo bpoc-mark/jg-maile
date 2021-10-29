@@ -82,7 +82,7 @@
             <div class="p-details--information">
                 <div class="p-details--information__1">
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('employment')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="">
@@ -97,7 +97,7 @@
                 </div>
                 <div class="p-details--information__2">
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('career')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="">

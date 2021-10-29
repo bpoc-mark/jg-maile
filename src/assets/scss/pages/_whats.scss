@@ -285,6 +285,10 @@
 						padding: 0 25px;
 						position: relative;
 
+						@include is-max(1000px) {
+							padding: 0;
+						}
+
 						@include is-sp {
 							width: 100%;
 							padding: 0 30px 10px 30px;
@@ -314,6 +318,7 @@
 						img {
 							width: 100%;
 							height: auto;
+							border: 4px solid #fff;
 						}
 
 						&__ttl {

@@ -56,10 +56,12 @@
 
     <main style="overflow: hidden;">
         <div class="page__header">
+            <div id="overlay" class="overlay"></div>
             <div class="nav">
                 <div class="hamburger">
                     <span></span>
                     <span></span>
+
                     <ul class="menu">
                         <li>
                             <a href="<?php echo esc_url(home_url('/')); ?>">

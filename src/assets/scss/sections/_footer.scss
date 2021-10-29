@@ -3,14 +3,94 @@
 		background: #19bebe;
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
+		align-items: stretch;
 
 		.row {
 			width: calc(100% / 3);
+			transition: 0.3s ease-in-out;
+
+			&:nth-of-type(1) {
+				background-color: #eb8250;
+			}
+
+			&:nth-of-type(2) {
+				background: #19bebe;
+			}
+
+			&:nth-of-type(3) {
+				background: #005a87;
+			}
+
+			&:hover {
+				a {
+					img {
+						animation: shake 1.5s infinite ease;
+						z-index: 3;
+
+						@keyframes shake {
+							0% {
+								-webkit-transform: scaleX(1);
+								transform: scaleX(1);
+							}
+
+							20% {
+								-webkit-transform: rotate(-5deg);
+								transform: rotate(-5deg);
+							}
+
+							30%,
+							50%,
+							70%,
+							90% {
+								-webkit-transform: rotate(5deg);
+								transform: rotate(5deg);
+							}
+
+							40%,
+							60%,
+							80% {
+								-webkit-transform: rotate(-5deg);
+								transform: rotate(-5deg);
+							}
+
+							100% {
+								-webkit-transform: scaleX(1);
+								transform: scaleX(1);
+							}
+						}
+					}
+				}
+
+				&:nth-of-type(1) {
+					background-color: #ea743c;
+				}
+
+				&:nth-of-type(2) {
+					background-color: #088b8b;
+				}
+
+				&:nth-of-type(3) {
+					background-color: #036a9d;
+				}
+			}
 
 			a {
 				padding: 45px 0;
 				display: block;
+				position: relative;
+
+				p {
+					&::before {
+						content: "";
+						width: 0;
+						height: 100%;
+						position: absolute;
+						top: 0;
+						z-index: 1;
+						left: 0;
+						transition: 0.3s ease-in-out;
+					}
+				}
 			}
 
 			@include is-sp {
@@ -38,18 +118,6 @@
 				padding: 30px 0 0 0;
 
 				@include font-line(20);
-			}
-
-			&:nth-of-type(1) {
-				background-color: #eb8250;
-			}
-
-			&:nth-of-type(2) {
-				background: #19bebe;
-			}
-
-			&:nth-of-type(3) {
-				background: #005a87;
 			}
 		}
 

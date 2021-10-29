@@ -83,7 +83,7 @@
                 <div class="p-details--information__1">
 
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('career')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="">
@@ -98,7 +98,7 @@
                 </div>
                 <div class="p-details--information__2">
                     <div class="bg_img">
-                        <a href="">
+                        <a href="<?php echo get_permalink(get_page_by_path('reception')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_man.svg" alt="">
@@ -116,7 +116,7 @@
         </div>
         <div class="p-details--flow">
             <div class="p-details--flow__ttl">
-                flow
+                Flow
             </div>
             <div class="p-details--flow__sub">
                 採用の流れ

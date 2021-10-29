@@ -1,8 +1,8 @@
 //CUSTOM ANIMATION
 .p-upDown {
-	animation: MoveUpDown 2s linear infinite;
+	animation: bird 4s ease-in infinite alternate both;
 
-	@keyframes MoveUpDown {
+	@keyframes bird {
 		0%,
 		100% {
 			transform: translateY(-20%);
@@ -14,17 +14,28 @@
 }
 
 .p-downUp {
-	animation: MoveDownUp 2s linear infinite;
+	animation: bird 5s ease-in infinite alternate both;
+	animation-direction: alternate-reverse;
 
-	@keyframes MoveDownUp {
+	@keyframes bird {
 		0%,
 		100% {
-			transform: translateY(0);
-		}
-		50% {
 			transform: translateY(-30%);
 		}
+		50% {
+			transform: translateY(0);
+		}
 	}
+}
+
+.p-popout {
+	transition: 300ms cubic-bezier(0.66, 2.27, 0.7, 0.52) 200ms;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+.animated .p-popout {
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 //END CUSTOM ANIMATION
@@ -84,12 +95,12 @@
 }
 
 .p-slide {
-	animation: slide 10s infinite linear;
+	animation: slide 20s infinite linear;
 
 	&__reverse {
 		animation-duration: 10s;
-		animation-direction: reverse;
-		animation: slide 5s infinite linear;
+		animation-direction: alternate-reverse;
+		animation: slide 20s infinite linear;
 	}
 
 	&__airplane {

@@ -161,7 +161,7 @@ function redirect_cf7()
 ?>
 	<script type="text/javascript">
 		document.addEventListener('wpcf7mailsent', function(event) {
-			location = 'http://localhost:3000/thank/';
+			location = 'https://jg-maile.hipetest.com/thank';
 		}, false);
 	</script>
 <?php

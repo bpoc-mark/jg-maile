@@ -1,33 +1,38 @@
 $(document).ready(function(){
+      //ACCORDION
     $('.accordion__header-cont').on('click', function(){
         if($(this).hasClass('active')){
-            $(this).find('p').text('close');
-            $(this).find('img').css(
-                {
-                    "transform": "rotate(0deg)", 
-                    "transition": "all 150ms"
-                }
-            );
+          $(this).find('p').text('close');
+
+          $(this).find('img').css(
+              {
+                  "transform": "rotate(0deg)", 
+                  "transition": "all 300ms"
+              }
+          );
             $(this).next('.accordion__content').slideDown();
             $(this).removeClass("active");
         }else{
-            $(this).find('p').text('open');
-            $(this).find('img').css(
-                {
-                    "transform": "rotate(180deg)", 
-                    "transition": "all 150ms"
-                }
-            );
+          
+          $(this).find('p').text('open');
+          $(this).find('img').css(
+            {
+                "transform": "rotate(180deg)", 
+                "transition": "all 300ms"
+            }
+        );
             $(this).next('.accordion__content').slideUp();
             $(this).addClass("active");
         }
     });
+
     // SLIDER FOR ALBUM PAGE
     const swiper = new Swiper('.swiper', {
       direction: 'horizontal',
       loop: false,
       effect: 'cards',
       speed: 500,
+      autoplay: true,
       
       pagination: {
         el: '.swiper-pagination',
@@ -43,55 +48,74 @@ $(document).ready(function(){
       },
     
     });
-});
 
+    //NAVBAR TOGGLE
+    $('.hamburger').on('click',function(){
+      $(this).find('span').toggleClass('toggled');
+      $(this).find('.menu').toggleClass('active');
+      $('#overlay').toggleClass('active');
+    })
+    $('#overlay').on('click',function(){
+      $('.hamburger span').toggleClass('toggled');
+      $('.menu').toggleClass('active');
+      $('#overlay').toggleClass('active');
+    })
+    //END NAVBAR TOGGLE
+
+    //POPOUT ON SCROLLED
+    $(window).on('scroll resize load',function(){
+      $('.setAnime').each(function(){
+        var viewPos = $(this).offset().top,
+        viewScrollTop = $(window).scrollTop(),
+        viewHeight = $(window).height();
+      if(viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
+        $(this).addClass('animated');
+      } else {
+        $(this).removeClass('animated');
+      }
+      });
+    });
+    //END POPOUT
+
+});
 // SLIDER ON FRONT PAGE SP
 (function() {
   'use strict';
- 
   // breakpoint where swiper will be destroyed
   // and switches to a dual-column layout
   const breakpoint = window.matchMedia( '(min-width: 751px)' );
-  
   // keep track of swiper instances to destroy later
   let mySwiper;
   const breakpointChecker = function() {
-    
     // if larger viewport and multi-row layout needed
     if ( breakpoint.matches === true ) {
-      
       // clean up old instances and inline styles when available
-	  if ( mySwiper !== undefined ) mySwiper.destroy( true, true );
-	  
+    if ( mySwiper !== undefined ) mySwiper.destroy( true, true );
     // or/and do nothing
-	  return;
-
+    return;
       // else if a small viewport and single column layout needed
       } else if ( breakpoint.matches === false ) {
-      
         // fire small viewport version of swiper
         return enableSwiper();
       }
   };
   const enableSwiper = function() {
-
     mySwiper = new Swiper ('.swiper-container', {
-
       loop: true,
       slidesPerView: '1',
       centeredSlides: true,
       a11y: true,
       keyboardControl: true,
       grabCursor: true,
+      autoplay: true,
+      speed: 1000,
 
       // pagination
       pagination: {
       el: ".swiper-pagination"
     },
       paginationClickable: true,
-
     });
-
   };
 
   breakpoint.addListener(breakpointChecker);
@@ -103,15 +127,25 @@ $(document).ready(function(){
 $(function() {
   $('select').append('<optgroup label=""></optgroup>');
 });
-//NAVBAR TOGGLE
-$('.hamburger').on('click',function(){
-  $(this).find('span').toggleClass('toggled');
-  $(this).find('.menu').toggleClass('active');
-});
 
 //SVG ANIMATION ON BODY PC VIEW
+// $(document).ready(function() {
+//   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
+//   $(window).scroll(function() {
+//     //calculate how far down the page the user is 
+//     var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())));
+//     //convert dashoffset pixel value to interger
+//     var $newUnit = parseInt($dashOffset, 13);
+//     //get the value to be subtracted from the 'stroke-dashoffset'
+//     var $offsetUnit = $percentageComplete * ($newUnit / 550);
+//     //set the new value of the dashoffset to create the drawing effect
+//     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
+//   });
+// });
+
+//SVG ANIMATION ON BODY SP VIEW
 $(document).ready(function() {
-  var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
+  var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
     var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 500);
@@ -120,50 +154,8 @@ $(document).ready(function() {
     //get the value to be subtracted from the 'stroke-dashoffset'
     var $offsetUnit = $percentageComplete * ($newUnit / 500);
     //set the new value of the dashoffset to create the drawing effect
-    $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
-  });
-});
-
-//SVG ANIMATION ON BODY SP VIEW
-$(document).ready(function() {
-  var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
-  $(window).scroll(function() {
-    //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 550);
-    //convert dashoffset pixel value to interger
-    var $newUnit = parseInt($dashOffset, 15);
-    //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 550);
-    //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
 });
 
-
-//SHOW BASED ON WINDOW HEIGHT
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 400) {
-    $('#row-1').fadeIn("2000");
-    $('#row-2').fadeIn("2000");
-    $('#row-3').delay(500).fadeIn("2000");
-    $('#row-4').fadeIn("2000");
-
-  } else {
-    $('#row-1').fadeOut("2000");
-    $('#row-2').fadeOut("2000");
-    $('#row-3').fadeOut("2000");
-    $('#row-4').fadeOut("2000");
-  }
-
-  if(y > 900){
-    $('#row-5').fadeIn("2000");
-    $('#row-6').fadeIn("2000");
-    $('#row-7').fadeIn("2000");
-  }else{
-    $('#row-5').fadeOut("2000");
-    $('#row-6').fadeOut("2000");
-    $('#row-7').fadeOut("2000");
-  }
-});
 
