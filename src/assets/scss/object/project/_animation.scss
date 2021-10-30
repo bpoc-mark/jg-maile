@@ -1,6 +1,6 @@
 //CUSTOM ANIMATION
 .p-upDown {
-	animation: bird 4s ease-in infinite alternate both;
+	animation: bird 3.8s ease-in infinite alternate both;
 
 	@keyframes bird {
 		0%,
@@ -14,7 +14,7 @@
 }
 
 .p-downUp {
-	animation: bird 5s ease-in infinite alternate both;
+	animation: bird 4.8s ease-in infinite alternate both;
 	animation-direction: alternate-reverse;
 
 	@keyframes bird {
@@ -29,7 +29,7 @@
 }
 
 .p-popout {
-	transition: 300ms cubic-bezier(0.66, 2.27, 0.7, 0.52) 200ms;
+	transition: 199.8ms cubic-bezier(0.66, 2.27, 0.7, 0.52) 100ms;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 }

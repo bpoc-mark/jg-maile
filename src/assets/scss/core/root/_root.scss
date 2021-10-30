@@ -20,6 +20,11 @@ $color-danger: #dc3545;
 *::after {
 	box-sizing: border-box;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #eb6e50;
 	color: $color-text-default;

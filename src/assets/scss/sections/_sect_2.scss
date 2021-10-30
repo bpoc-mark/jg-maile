@@ -56,7 +56,7 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 3700;
+					stroke-dashoffset: 4200;
 					stroke-dasharray: 3700;
 				}
 			}
@@ -630,16 +630,16 @@
 					}
 
 					@include is-max(935px) {
-						left: 40%;
+						left: 39%;
 					}
 
 					@include is-max(885px) {
-						left: 50%;
+						left: 48%;
 						transform: translate(-8%, -45%);
 					}
 
 					@include is-max(820px) {
-						transform: translate(-13%, -50%);
+						transform: translate(-13%, -47%);
 					}
 
 					@include is-max(770px) {

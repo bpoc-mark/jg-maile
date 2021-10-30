@@ -26,6 +26,8 @@ $(document).ready(function(){
         }
     });
 
+
+
     // SLIDER FOR ALBUM PAGE
     const swiper = new Swiper('.swiper', {
       direction: 'horizontal',
@@ -68,7 +70,7 @@ $(document).ready(function(){
         var viewPos = $(this).offset().top,
         viewScrollTop = $(window).scrollTop(),
         viewHeight = $(window).height();
-      if(viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
+      if(viewScrollTop > viewPos - viewHeight + viewHeight / 2) {
         $(this).addClass('animated');
       } else {
         $(this).removeClass('animated');
@@ -128,34 +130,142 @@ $(function() {
   $('select').append('<optgroup label=""></optgroup>');
 });
 
-//SVG ANIMATION ON BODY PC VIEW
-// $(document).ready(function() {
-//   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
-//   $(window).scroll(function() {
-//     //calculate how far down the page the user is 
-//     var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())));
-//     //convert dashoffset pixel value to interger
-//     var $newUnit = parseInt($dashOffset, 13);
-//     //get the value to be subtracted from the 'stroke-dashoffset'
-//     var $offsetUnit = $percentageComplete * ($newUnit / 550);
-//     //set the new value of the dashoffset to create the drawing effect
-//     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
-//   });
-// });
+// SVG ANIMATION ON BODY PC VIEW
+$(document).ready(function() {
+  var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
+  $(window).scroll(function() {
+    //calculate how far down the page the user is 
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())));
+    //convert dashoffset pixel value to interger
+    var $newUnit = parseInt($dashOffset, 13);
+    //get the value to be subtracted from the 'stroke-dashoffset'
+    var $offsetUnit = $percentageComplete * ($newUnit / 550);
+    //set the new value of the dashoffset to create the drawing effect
+    $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
+  });
+});
 
 //SVG ANIMATION ON BODY SP VIEW
 $(document).ready(function() {
   var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 500);
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 2000);
     //convert dashoffset pixel value to interger
     var $newUnit = parseInt($dashOffset, 15);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 500);
+    var $offsetUnit = $percentageComplete * ($newUnit / 2000);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
 });
 
+//MODAL 1
+var slideIndex = 1;
+showSlide(slideIndex);
+function openLightbox() {
+  document.getElementById('Lightbox1').style.display = 'block';
+}
+function closeLightbox() {
+  document.getElementById('Lightbox1').style.display = 'none';
+}
+function changeSlide(n) {
+	showSlide(slideIndex += n);
+}
+function toSlide(n) {
+	showSlide(slideIndex = n);
+}
+function showSlide(n) {
+  const slides = document.getElementsByClassName('slide');
+  let modalPreviews = document.getElementsByClassName('modal-preview');
+  if (n > slides.length) {
+    slideIndex = 1;	
+  }
+  if (n < 1) {
+  	slideIndex = slides.length;
+  }
 
+  for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (let i = 0; i < modalPreviews.length; i++) {
+      modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+  }
+  
+  slides[slideIndex - 1].style.display = 'block';
+  modalPreviews[slideIndex - 1].className += ' active';
+}
+
+//MODAL 2
+var slideIndex2 = 1;
+showSlide2(slideIndex2);
+
+function openLightbox2() {
+  document.getElementById('Lightbox2').style.display = 'block';
+}
+function closeLightbox2() {
+  document.getElementById('Lightbox2').style.display = 'none';
+}
+function changeSlide2(n) {
+	showSlide2(slideIndex2 += n);
+}
+function toSlide2(n) {
+	showSlide2(slideIndex2 = n);
+}
+function showSlide2(n) {
+  const slides2 = document.getElementsByClassName('slide2');
+  let modalPreviews2 = document.getElementsByClassName('modal-preview2');
+  if (n > slides2.length) {
+    slideIndex2 = 1;	
+  }
+  if (n < 1) {
+  	slideIndex2 = slides2.length;
+  }
+
+  for (let i = 0; i < slides2.length; i++) {
+      slides2[i].style.display = "none";
+  }
+  for (let i = 0; i < modalPreviews2.length; i++) {
+      modalPreviews2[i].className = modalPreviews2[i].className.replace(' active', '');
+  }
+  
+  slides2[slideIndex2 - 1].style.display = 'block';
+  modalPreviews2[slideIndex2 - 1].className += ' active';
+}
+
+//MODAL 3
+var slideIndex3 = 1;
+showSlide3(slideIndex3);
+
+function openLightbox3() {
+  document.getElementById('Lightbox3').style.display = 'block';
+}
+function closeLightbox3() {
+  document.getElementById('Lightbox3').style.display = 'none';
+}
+function changeSlide3(n) {
+	showSlide3(slideIndex3 += n);
+}
+function toSlide3(n) {
+	showSlide3(slideIndex3 = n);
+}
+function showSlide3(n) {
+  const slides3 = document.getElementsByClassName('slide3');
+  let modalPreviews3 = document.getElementsByClassName('modal-preview3');
+  if (n > slides3.length) {
+    slideIndex3 = 1;	
+  }
+  if (n < 1) {
+  	slideIndex3 = slides3.length;
+  }
+
+  for (let i = 0; i < slides3.length; i++) {
+      slides3[i].style.display = "none";
+  }
+  for (let i = 0; i < modalPreviews3.length; i++) {
+      modalPreviews3[i].className = modalPreviews3[i].className.replace(' active', '');
+  }
+  
+  slides3[slideIndex3 - 1].style.display = 'block';
+  modalPreviews3[slideIndex3 - 1].className += ' active';
+}

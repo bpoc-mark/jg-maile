@@ -12,7 +12,7 @@
         <img class="coconut" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <div class="sun">
             <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="">
-            <img data-aos="fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="">
+            <img data-aos="fade-up" data-aos-duration="2800" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="">
             <img class="cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="">
             <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="">
             <img class="cloud_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_4.svg" alt="">
@@ -216,8 +216,8 @@
                     </div>
                 </div>
             </div>
-            <div id="row-10" class="box p-popout">
-                <div class="bg_img">
+            <div id="row-10" class="box setAnime">
+                <div class="bg_img p-popout">
                     <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
                     <div class="items">
                         <div class="icon">
