@@ -894,7 +894,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2 .l-wrap{max-width:1185px;margin:0 auto;width:100%;position:relative}
 .sect_2 .l-wrap .front_content{position:relative}
 .sect_2 .l-wrap .front_content .swirl-pc{position:absolute;top:unset;left:50%;-webkit-transform:translate(-50%,15%);transform:translate(-50%,15%);z-index:-1;width:80%}
-.sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:3300;stroke-dasharray:3300}
+.sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:4100;stroke-dasharray:3300}
 .sect_2 .l-wrap .front_content .swirl-sp{position:absolute;top:-2vw;left:0;display:none;z-index:-1}
 .sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dashoffset:4200;stroke-dasharray:3700}
 .sect_2__row_1{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 40px;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}
@@ -1294,7 +1294,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2__row_2--content .row-3 .sp{display:unset}
 .sect_2__row_2--content .row-3{width:100%;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;padding-top:20px;text-align:center}
 .sect_2__row_2--content .row-3 img{margin-right:20px}
-.sect_2__row_2--content-2 .row-1{display:none !important}
+.sect_2__row_2--content-2 .row-1{display:none}
 .sect_2__row_2--content-2 .row-2{padding:0 0 0 50px;margin-left:auto;display:block}
 }@media only screen and (max-width:920px) and (max-width:750px){.sect_2__row_2--content .row-3 img:nth-of-type(1){margin-right:auto;display:block}
 .sect_2__row_2--content .row-3 img:nth-of-type(2){display:none}
@@ -1667,7 +1667,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2__row_1 .item-1 .text{top:50%;left:40%;-webkit-transform:translate(-10%,-50%);transform:translate(-10%,-50%)}
 .sect_2__row_1 .item-2{width:100%;margin:0;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
 .sect_2__row_1 .item-2 .text{padding:0}
-.sect_2__row_1 .item-2 .text .message{font-size:23.5vw}
+.sect_2__row_1 .item-2 .text .message{font-size:20vw}
 .sect_2__row_1 .item-2 .text .desc{padding:20px 0 20px 0}
 .sect_2__row_2 .l-wrap{padding-left:0;padding-right:0}
 .sect_2__row_2--content .row-1{-webkit-box-align:initial;-ms-flex-align:initial;align-items:initial;margin-left:auto;padding:50px 0;width:100%;display:block}
@@ -1833,7 +1833,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2__row_1 .item-1 .text .ttl{font-size:7vw}
 }@media only screen and (max-width:380px){.c-page_contact__faq .contact_content__item:nth-of-type(odd) .convo{width:260px}
 .c-page_contact__faq .contact_content__item:nth-of-type(even) .convo{width:260px}
-.sect_2__row_2--content .row-2 .text{left:20%;-webkit-transform:translate(-10%,-50%);transform:translate(-10%,-50%)}
+.sect_2__row_2--content .row-2 .text{left:20%;-webkit-transform:translate(-10%,-45%);transform:translate(-10%,-45%)}
 }@media only screen and (max-width:375px){.sect_2__row_2--content-2 .cust_man{bottom:-13vw}
 .page__whats .training_contents .container .checklist .checklist_item li p{font-size:5vw}
 }@media only screen and (max-width:370px){.c-button p{font-size:4vw}

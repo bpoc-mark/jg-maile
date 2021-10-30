@@ -70,7 +70,7 @@
 <div class="sect_2">
     <div class="l-wrap">
         <div class="front_content">
-            <svg class="swirl-pc" style="display: none;" id="ãƒ¬ã‚¤ãƒ¤ãƒ¼_2" data-name="ãƒ¬ã‚¤ãƒ¤ãƒ¼ 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918.1 1253.58">
+            <svg class="swirl-pc" id="ãƒ¬ã‚¤ãƒ¤ãƒ¼_2" data-name="ãƒ¬ã‚¤ãƒ¤ãƒ¼ 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918.1 1253.58">
                 <defs>
                     <style>
                         .swirl-1-pc {
@@ -155,18 +155,18 @@
                             <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
                     </div>
-                    <div class="sect_2__row_2--content-2 setAnime">
-                        <div id="row-5" class="row-1 p-popout">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
+                    <div class="sect_2__row_2--content-2 ">
+                        <div id="row-5" class="row-1 setAnime">
+                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
-                        <div id="row-6" class="row-2 p-popout">
-                            <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="">
-                            <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="">
-                            <div class="text">
-                                <p class="ttl">We want<br><span>求める人材像</span></p>
-                                <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <div id="row-6" class="row-2 setAnime">
+                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="">
+                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="">
+                            <div class="text setAnime">
+                                <p class="ttl p-popout">We want<br><span>求める人材像</span></p>
+                                <p class="desc p-popout">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button">
+                                <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button p-popout">
                                     <p>詳しくはこちら</p>
                                     <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                                 </a>

@@ -37,7 +37,7 @@
 				}
 
 				.swirl-1-pc {
-					stroke-dashoffset: 3300;
+					stroke-dashoffset: 4100;
 					stroke-dasharray: 3300;
 				}
 			}
@@ -219,7 +219,7 @@
 					}
 
 					@include is-sp {
-						font-size: 23.5vw;
+						font-size: 20vw;
 					}
 
 					span {
@@ -392,7 +392,7 @@
 
 					@include is-max(380px) {
 						left: 20%;
-						transform: translate(-10%, -50%);
+						transform: translate(-10%, -45%);
 					}
 
 					@include is-max(320px) {
@@ -525,7 +525,7 @@
 				width: 280px;
 
 				@include is-max(920px) {
-					display: none !important;
+					display: none;
 				}
 
 				@include is-max(751px) {

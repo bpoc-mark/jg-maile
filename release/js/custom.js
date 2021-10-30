@@ -120,13 +120,19 @@ $(document).ready(function () {
   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
   $(window).scroll(function () {
     //calculate how far down the page the user is 
-    var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()); //convert dashoffset pixel value to interger
+    var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()) * 2000; //convert dashoffset pixel value to interger
 
-    var $newUnit = parseInt($dashOffset, 13); //get the value to be subtracted from the 'stroke-dashoffset'
+    var $newUnit = parseInt($dashOffset, 14); //get the value to be subtracted from the 'stroke-dashoffset'
 
-    var $offsetUnit = $percentageComplete * ($newUnit / 550); //set the new value of the dashoffset to create the drawing effect
+    var $offsetUnit = $percentageComplete * ($newUnit / 2000); //set the new value of the dashoffset to create the drawing effect
 
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
+
+    if ($('.swirl-1-pc').css("stroke-dashoffset" == "8708.47px")) {
+      console.log('success'); // $('#row-3').closest('.p-popout').addClass('delay');
+    } else {
+      console.log('error');
+    }
   });
 }); //SVG ANIMATION ON BODY SP VIEW
 

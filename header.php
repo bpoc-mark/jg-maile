@@ -16,7 +16,6 @@
 
     <script type="text/javascript" src="//webfonts.sakura.ne.jp/js/sakurav3.js"></script>
 
-
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
     <script>

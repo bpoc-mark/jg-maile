@@ -26,8 +26,6 @@ $(document).ready(function(){
         }
     });
 
-
-
     // SLIDER FOR ALBUM PAGE
     const swiper = new Swiper('.swiper', {
       direction: 'horizontal',
@@ -78,8 +76,8 @@ $(document).ready(function(){
       });
     });
     //END POPOUT
-
 });
+
 // SLIDER ON FRONT PAGE SP
 (function() {
   'use strict';
@@ -135,13 +133,20 @@ $(document).ready(function() {
   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())));
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 2000);
     //convert dashoffset pixel value to interger
-    var $newUnit = parseInt($dashOffset, 13);
+    var $newUnit = parseInt($dashOffset, 14);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 550);
+    var $offsetUnit = $percentageComplete * ($newUnit / 2000);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
+
+    if($('.swirl-1-pc').css("stroke-dashoffset" == "8708.47px")){
+      console.log('success');
+      // $('#row-3').closest('.p-popout').addClass('delay');
+    }else{
+      console.log('error');
+    }
   });
 });
 
