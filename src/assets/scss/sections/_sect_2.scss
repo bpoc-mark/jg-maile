@@ -56,7 +56,7 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 4200;
+					stroke-dashoffset: 4100;
 					stroke-dasharray: 3700;
 				}
 			}
@@ -663,15 +663,19 @@
 						font-weight: 400;
 						line-height: normal;
 
+						@include font-line(80);
+
 						@include is-sp {
 							line-height: 40px;
+						}
+
+						@include is-max(380px) {
+							@include font-line(64);
 						}
 
 						@include is-max(320px) {
 							@include font-line(70);
 						}
-
-						@include font-line(80);
 
 						br {
 							display: none;

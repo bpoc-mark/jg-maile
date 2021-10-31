@@ -412,6 +412,8 @@ body[data-aos-delay="3000"] [data-aos].aos-animate,[data-aos][data-aos][data-aos
 .p-upDown{-webkit-animation:bird 3.8s ease-in infinite alternate both;animation:bird 3.8s ease-in infinite alternate both}
 .p-downUp{-webkit-animation:bird 4.8s ease-in infinite alternate both;animation:bird 4.8s ease-in infinite alternate both;animation-direction:alternate-reverse}
 .p-popout{-webkit-transition:199.8ms cubic-bezier(0.66,2.27,0.7,0.52) 100ms;transition:199.8ms cubic-bezier(0.66,2.27,0.7,0.52) 100ms;-webkit-transform:scale(0);transform:scale(0)}
+.pc-pop{-webkit-transition:199.8ms cubic-bezier(0.66,2.27,0.7,0.52) 100ms;transition:199.8ms cubic-bezier(0.66,2.27,0.7,0.52) 100ms;-webkit-transform:scale(0);transform:scale(0)}
+.pc-pop.img-pop{-webkit-transform:scale(1);transform:scale(1)}
 .animated .p-popout{-webkit-transform:scale(1);transform:scale(1)}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
 .p-shake__torigin{-webkit-transform-origin:130px 15px;transform-origin:130px 15px}
@@ -519,7 +521,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate,[data-aos][data-aos][data-aos
 .p-link02__link{-webkit-transition:.3s all ease-in;transition:.3s all ease-in;color:#454545}
 .p-link02__link:hover{text-decoration:underline;color:#454545}
 .modal{display:none;position:fixed;z-index:1;padding:50px 62px 0 62px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:black;z-index:60;-webkit-transition:.3s ease-in;transition:.3s ease-in}
-.modal-content{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:auto;padding:0;width:50%;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
+.modal-content{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:auto;padding:0;width:45%;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 .slide,.slide2,.slide3{display:none;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 .image-slide,.image-slide2,.image-slide3{width:100%;-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}
 .modal-preview,.modal-preview2,.modal-preview3{width:100%}
@@ -896,7 +898,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2 .l-wrap .front_content .swirl-pc{position:absolute;top:unset;left:50%;-webkit-transform:translate(-50%,15%);transform:translate(-50%,15%);z-index:-1;width:80%}
 .sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:4100;stroke-dasharray:3300}
 .sect_2 .l-wrap .front_content .swirl-sp{position:absolute;top:-2vw;left:0;display:none;z-index:-1}
-.sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dashoffset:4200;stroke-dasharray:3700}
+.sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dashoffset:4100;stroke-dasharray:3700}
 .sect_2__row_1{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 40px;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}
 .sect_2__row_1 .item-1{width:45%;position:relative}
 .sect_2__row_1 .item-1 .bg_img{position:relative}
@@ -1834,6 +1836,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 }@media only screen and (max-width:380px){.c-page_contact__faq .contact_content__item:nth-of-type(odd) .convo{width:260px}
 .c-page_contact__faq .contact_content__item:nth-of-type(even) .convo{width:260px}
 .sect_2__row_2--content .row-2 .text{left:20%;-webkit-transform:translate(-10%,-45%);transform:translate(-10%,-45%)}
+.sect_2__row_2--content-2 .row-2 .text .ttl{font-size:4rem}
 }@media only screen and (max-width:375px){.sect_2__row_2--content-2 .cust_man{bottom:-13vw}
 .page__whats .training_contents .container .checklist .checklist_item li p{font-size:5vw}
 }@media only screen and (max-width:370px){.c-button p{font-size:4vw}

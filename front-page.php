@@ -135,7 +135,7 @@
                 <div class="l-wrap">
                     <div class="sect_2__row_2--content ">
                         <div id="row-1" class="row-1 setAnime">
-                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="">
+                            <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="">
                         </div>
                         <div id="row-2" class="row-2 setAnime">
                             <img class="p-popout" class="row_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="">
@@ -151,13 +151,13 @@
                             </div>
                         </div>
                         <div id="row-3" class="row-3 setAnime">
-                            <img class="pc p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
+                            <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
                             <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
                     </div>
                     <div class="sect_2__row_2--content-2 ">
                         <div id="row-5" class="row-1 setAnime">
-                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
+                            <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
                         </div>
                         <div id="row-6" class="row-2 setAnime">
                             <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="">
@@ -183,9 +183,9 @@
 </div>
 <div class="sect_3">
     <div class="l-wrap">
-        <div class="boxes setAnime">
-            <div id="row-8" class="box p-popout">
-                <div class="bg_img">
+        <div class="boxes ">
+            <div id="row-8" class="box setAnime">
+                <div class="bg_img p-popout">
                     <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
                     <div class="items">
                         <div class="icon">
@@ -200,8 +200,8 @@
                     </div>
                 </div>
             </div>
-            <div id="row-9" class="box p-popout">
-                <div class="bg_img">
+            <div id="row-9" class="box setAnime">
+                <div class="bg_img p-popout">
                     <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
                     <div class="items">
                         <div class="icon">

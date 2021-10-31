@@ -141,11 +141,24 @@ $(document).ready(function() {
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
 
-    if($('.swirl-1-pc').css("stroke-dashoffset" == "8708.47px")){
-      console.log('success');
-      // $('#row-3').closest('.p-popout').addClass('delay');
-    }else{
-      console.log('error');
+    var length = $newUnit - $offsetUnit;
+
+    
+    if(length <= '9300'){
+      $('#row-1').find('#left-pc').addClass('img-pop');
+
+      if(length <= '8710'){
+        $('#row-3').find('#pcview').addClass('img-pop');
+
+            if(length <= '7400'){
+              $('#row-5').find('#5-pc').addClass('img-pop');
+            }
+      }
+    }
+    else{
+      $('#row-3').find('#pcview').removeClass('img-pop');
+      $('#row-1').find('#left-pc').removeClass('img-pop');
+      $('#row-5').find('#5-pc').removeClass('img-pop');
     }
   });
 });
@@ -155,11 +168,11 @@ $(document).ready(function() {
   var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 2000);
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 200);
     //convert dashoffset pixel value to interger
     var $newUnit = parseInt($dashOffset, 15);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 2000);
+    var $offsetUnit = $percentageComplete * ($newUnit / 200);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });
