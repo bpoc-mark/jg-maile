@@ -16,20 +16,10 @@
 					right: 20px;
 
 					z-index: -1;
-					animation: cloud_msg 3s ease-in infinite alternate both;
 				}
 
 				@include is-sp {
 					display: none;
-				}
-			}
-
-			@keyframes cloud_msg {
-				0% {
-					transform: translate(2px, 30px);
-				}
-				100% {
-					transform: translate(-2px, 0px);
 				}
 			}
 		}
@@ -50,9 +40,9 @@
 				left: -40px;
 				top: 120px;
 				z-index: -1;
-				-webkit-animation: animateCloudmessage 25s linear infinite;
-				-moz-animation: animateCloudmessage 25s linear infinite;
-				animation: animateCloudmessage 25s linear infinite;
+				-webkit-animation: animateCloudmessage 40s linear infinite;
+				-moz-animation: animateCloudmessage 40s linear infinite;
+				animation: animateCloudmessage 40s linear infinite;
 
 				@include is-sp {
 					display: none;
@@ -60,10 +50,11 @@
 
 				@keyframes animateCloudmessage {
 					0% {
-						margin-left: 0;
+						left: 0%;
 					}
+
 					100% {
-						margin-left: 100%;
+						left: 150%;
 					}
 				}
 			}
@@ -118,6 +109,7 @@
 		.row-2 {
 			width: calc(100% - 320px);
 			background-color: rgba(235, 110, 82, 0.7);
+			padding: 10px;
 
 			@include is-sp {
 				width: 100%;

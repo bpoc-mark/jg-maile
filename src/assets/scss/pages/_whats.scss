@@ -15,21 +15,22 @@
 			}
 
 			.cloud {
+				@include is-sp {
+					display: none;
+				}
+
 				&:nth-of-type(1) {
 					width: 182px;
 					position: absolute;
 					left: 20px;
 					top: 60px;
 				}
+
 				&:nth-of-type(2) {
 					width: 98px;
 					position: absolute;
 					right: 20px;
 					top: 180px;
-				}
-
-				@include is-sp {
-					display: none;
 				}
 			}
 
@@ -282,7 +283,6 @@
 					.item {
 						text-align: center;
 						width: calc(100% / 3);
-						padding: 0 25px;
 						position: relative;
 
 						@include is-max(1000px) {
@@ -352,6 +352,11 @@
 
 		.training_contents {
 			padding-top: 150px;
+
+			@include is-max(1000px) {
+				padding-right: 20px;
+				padding-left: 20px;
+			}
 
 			@include is-sp {
 				padding-top: 120px;
@@ -502,6 +507,10 @@
 					font-family: "santa_fe", sans-serif;
 					font-weight: 700;
 					padding: 0px 70px 70px 70px;
+
+					@include is-max(1000px) {
+						padding: 0 40px 70px 40px;
+					}
 
 					@include is-sp {
 						padding: 0 25px 30px 25px;

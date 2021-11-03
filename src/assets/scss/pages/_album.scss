@@ -10,7 +10,22 @@
 					position: absolute;
 					top: 220px;
 					left: 0;
+
+					-webkit-animation: cloud-page1 25s linear infinite;
+					-moz-animation: cloud-page1 25s linear infinite;
+					animation: cloud-page1 25s linear infinite;
+					animation-delay: 1000ms;
 				}
+
+				@keyframes cloud-page1 {
+					0% {
+						margin-left: 0%;
+					}
+					100% {
+						margin-left: 100%;
+					}
+				}
+
 				&:nth-of-type(2) {
 					width: 98px;
 					position: absolute;

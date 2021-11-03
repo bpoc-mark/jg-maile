@@ -175,7 +175,7 @@
 						width: 640px;
 
 						@include is-max(800px) {
-							margin-top: 25px;
+							margin-top: 45px;
 							padding: 35px 0 35px 40px;
 						}
 
@@ -232,6 +232,10 @@
 						width: 640px;
 
 						@include font-line(18);
+
+						@include is-max(800px) {
+							margin-top: 45px;
+						}
 
 						@include is-max(600px) {
 							width: 400px;

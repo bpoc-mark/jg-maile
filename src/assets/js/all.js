@@ -1,9 +1,22 @@
+$(document).ready(function($) {
+  $('#acrd-1,#acrd-2,#acrd-3,#acrd-4,#acrd-5,#acrd-6,#acrd-7,#acrd-8').on('click', function(e) {
+
+    var $this = $(this);
+    var thisHref = $this.attr('href');
+    var accordion = $(thisHref).parent('.accordion').find('.accordion__header-cont');
+
+    if (accordion && $(thisHref).hasClass('active') ) {
+      accordion.trigger('click');
+    }
+  });
+});
+
+
 $(document).ready(function(){
       //ACCORDION
     $('.accordion__header-cont').on('click', function(){
         if($(this).hasClass('active')){
           $(this).find('p').text('close');
-
           $(this).find('img').css(
               {
                   "transform": "rotate(0deg)", 
@@ -13,7 +26,6 @@ $(document).ready(function(){
             $(this).next('.accordion__content').slideDown();
             $(this).removeClass("active");
         }else{
-          
           $(this).find('p').text('open');
           $(this).find('img').css(
             {
@@ -168,11 +180,11 @@ $(document).ready(function() {
   var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 200);
+    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 600);
     //convert dashoffset pixel value to interger
     var $newUnit = parseInt($dashOffset, 15);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 200);
+    var $offsetUnit = $percentageComplete * ($newUnit / 600);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
   });

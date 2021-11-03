@@ -12,10 +12,6 @@
 					left: 0;
 					top: 253px;
 					z-index: -1;
-					-webkit-animation: animateCloud 20s linear infinite;
-					-moz-animation: animateCloud 20s linear infinite;
-					animation: animateCloud 20s linear infinite;
-					animation-delay: 1000ms;
 
 					@include is-max(900px) {
 						top: 45px;
@@ -27,33 +23,7 @@
 					position: absolute;
 					right: 20px;
 					top: 374px;
-
 					z-index: -1;
-					-webkit-animation: animateCloudright 25s linear infinite;
-					-moz-animation: animateCloudright 25s linear infinite;
-					animation: animateCloudright 25s linear infinite;
-					animation-delay: 1000ms;
-				}
-
-				@keyframes animateCloud {
-					0% {
-						left: 0;
-					}
-					50% {
-						left: -50%;
-					}
-					100% {
-						left: -100%;
-					}
-				}
-
-				@keyframes animateCloudright {
-					0% {
-						margin-right: -50px;
-					}
-					100% {
-						right: 100%;
-					}
 				}
 			}
 		}
@@ -118,10 +88,8 @@
 				@include is-max(1200px) {
 					left: 20px;
 				}
-
 				z-index: -1;
 				animation: cloud_about1 3s ease-in infinite alternate both;
-				animation-delay: 200ms;
 			}
 
 			@keyframes cloud_about1 {
@@ -140,7 +108,8 @@
 				top: -30px;
 
 				@include is-max(1200px) {
-					right: -15vw;
+					right: 20px;
+					top: -90px;
 				}
 				z-index: -1;
 				animation: cloud_about 5s ease-in infinite alternate both;
@@ -203,9 +172,11 @@
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					line-height: 1;
+					padding-left: 15px;
 
 					@include font-line(24);
 				}
+
 				img {
 					width: 20px;
 					height: auto;
@@ -235,6 +206,7 @@
 					font-family: noto-sans-cjk-jp, sans-serif;
 					font-weight: 700;
 					line-height: 1;
+					padding-left: 20px;
 
 					@include font-line(24);
 				}

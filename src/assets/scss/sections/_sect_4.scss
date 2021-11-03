@@ -24,18 +24,21 @@
 					width: 98px;
 					top: 80%;
 					left: 0;
+					z-index: -1;
 				}
 
 				&:nth-of-type(3) {
 					width: 98px;
 					top: 50%;
 					right: 0;
+					z-index: -1;
 				}
 
 				&:nth-of-type(4) {
 					width: 165px;
 					top: 80%;
 					right: 0;
+					z-index: -1;
 				}
 			}
 		}

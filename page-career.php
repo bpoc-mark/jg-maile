@@ -21,10 +21,10 @@
 </div>
 <div class="section_1 p-details">
     <div class="l-wrap">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_3.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_3.svg" alt="">
         <div class="p-details--container">
             <?php
             $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;
@@ -121,31 +121,31 @@
                 採用の流れ
             </div>
             <div class="p-details--flow__steps">
-                <div class="step" data-aos="fade-right">
+                <div class="step" data-aos="zoom-out">
                     <p class="step__ttl">step <span>01</span></p>
                     <p class="step__desc">お問い合わせ</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-delay="400">
+                <div class="step" data-aos="zoom-out" data-aos-delay="300">
                     <p class="step__ttl">step <span>02</span></p>
                     <p class="step__desc">見　学</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-delay="600">
+                <div class="step" data-aos="zoom-out" data-aos-delay="400">
                     <p class="step__ttl">step <span>03</span></p>
                     <p class="step__desc">書類選考</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-delay="750">
+                <div class="step" data-aos="zoom-out" data-aos-delay="500">
                     <p class="step__ttl">step <span>04</span></p>
                     <p class="step__desc">面　接</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
                     <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
-                <div class="step" data-aos="fade-right" data-aos-delay="850">
+                <div class="step" data-aos="zoom-out" data-aos-delay="600">
                     <p class="step__ttl">step <span>05</span></p>
                     <p class="step__desc">採　用</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">

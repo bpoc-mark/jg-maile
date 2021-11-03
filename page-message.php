@@ -22,12 +22,12 @@
 <div class="page_message">
     <div class="l-wrap">
         <div class="imgs">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         </div>
         <div class="content">
             <img class="cont_img" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <div class="page_message__container">
-                <img class="cloud_msg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+                <img class="cloud_msg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
                 <div class="row-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message_img.png" alt="">
                 </div>

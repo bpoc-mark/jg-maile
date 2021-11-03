@@ -21,16 +21,16 @@
 </div>
 <div class="page__whats">
     <div class="l-wrap">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
         <div class="sect_1">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/whats_img_1.png" alt="">
             <p>人と人との出逢いは偶然ではなく、必然です。人は生きていく中で何かしら周りの人から援助を受けて生きています。家族、友人、職場の仲間、協力業者の方々。そんな自分に関わる全ての人達に支えられてを生きていること。自分の周りにいてくれる人達が当たり前ではないということ。<br>MAILE株式会社は、そういった自分に本気で関わって下さった人達に出逢えたことに感謝の気持ちを持ち、人と人とのご縁に感謝し、自分だけでなく、家族、友人、MAILEに関わって下さる全ての人達と、共に幸せになれる会社でありたいと願っています。</p>
         </div>
     </div>
     <div class="events">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-        <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
         <div class="events__container">
             <p class="events__ttl">
                 events

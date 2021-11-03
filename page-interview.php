@@ -44,9 +44,9 @@
             <div class="page_interview--int">
                 <img class="p-slide__reverse inter_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
                 <div class="inter_sun">
-                    <img class="sun_cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="">
+                    <img class="sun_cloud_1  p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="">
                     <img data-aos="fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="">
-                    <img class="cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="">
+                    <img class="cloud_9 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="">
                     <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="">
                 </div>
                 <p class="c-ttl">interview 02</p>

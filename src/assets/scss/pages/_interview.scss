@@ -122,6 +122,13 @@
 	&--int {
 		position: relative;
 
+		.cloud_2 {
+			width: 180px;
+			position: absolute;
+			left: 0;
+			top: 50px;
+		}
+
 		.inter_cloud {
 			width: 98px;
 			position: absolute;
@@ -153,12 +160,11 @@
 		}
 
 		.inter_sun {
-			max-width: 470px;
+			max-width: 1000px;
 			height: 90px;
 			position: relative;
-			right: -163px;
+			right: -35px;
 			top: 110px;
-			overflow: hidden;
 			margin-left: auto;
 
 			@include is-max(800px) {
@@ -172,20 +178,18 @@
 			}
 
 			.sun_cloud_1 {
-				width: 32.55%;
+				width: 150px;
 				position: absolute;
 				top: 15px;
-				left: 0;
+				right: 200px;
 				z-index: 2;
-				-webkit-animation: animateCloud1 20s linear infinite;
-				-moz-animation: animateCloud1 20s linear infinite;
-				animation: animateCloud1 20s linear infinite;
 			}
+
 			.sun {
-				width: 40.43%;
+				width: 190px;
 				position: absolute;
-				left: 165px;
-				top: 12px;
+				right: 0;
+				top: 0px;
 
 				@include is-sp {
 					width: 40%;
@@ -197,48 +201,25 @@
 					bottom: -5%;
 				}
 			}
-			.cloud_2 {
-				width: 15.96%;
+
+			.cloud_9 {
+				width: 75px;
 				position: absolute;
 				top: 29px;
-				left: 315px;
+				right: -26px;
 				z-index: -1;
-
-				-webkit-animation: animateCloud2 25s linear infinite;
-				-moz-animation: animateCloud2 25s linear infinite;
-				animation: animateCloud2 25s linear infinite;
 			}
+
 			.cloud_3 {
-				width: 20.85%;
+				width: 98px;
 				position: absolute;
 				top: 45px;
 				right: 125px;
-				z-index: -1;
+				z-index: 6;
 
-				-webkit-animation: animateCloudfrontpage 20s linear infinite;
-				-moz-animation: animateCloudfrontpage 20s linear infinite;
-				animation: animateCloudfrontpage 20s linear infinite;
-			}
-
-			@keyframes animateCloud1 {
-				0% {
-					margin-left: -100%;
-				}
-				50% {
-					margin-left: 50%;
-				}
-				100% {
-					margin-left: 100%;
-				}
-			}
-
-			@keyframes animateCloud2 {
-				0% {
-					margin-left: -1000px;
-				}
-				100% {
-					margin-left: 100%;
-				}
+				-webkit-animation: animateCloudfrontpage 35s linear infinite;
+				-moz-animation: animateCloudfrontpage 35s linear infinite;
+				animation: animateCloudfrontpage 35s linear infinite;
 			}
 
 			@keyframes animateCloudfrontpage {
@@ -277,17 +258,6 @@
 			position: absolute;
 			top: 160px;
 			right: 0;
-
-			@include is-sp {
-				display: none;
-			}
-		}
-
-		.cloud_2 {
-			width: 180px;
-			position: absolute;
-			left: 0;
-			top: 30px;
 
 			@include is-sp {
 				display: none;

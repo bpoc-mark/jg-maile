@@ -11,7 +11,6 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="">
                                 <p class="ttl">メールでのお問い合わせ</p>
                         </a>
-
                 </div>
                 <div class="row">
                         <a href="<?php echo esc_url(home_url('contact')); ?>">

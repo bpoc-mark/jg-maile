@@ -17,22 +17,9 @@
 				top: 18%;
 				left: 0;
 				z-index: -1;
-				-webkit-animation: cloud-page1 20s linear infinite;
-				-moz-animation: cloud-page1 20s linear infinite;
-				animation: cloud-page1 20s linear infinite;
-				animation-delay: 1000ms;
 
 				@include is-max(1001px) {
 					display: none;
-				}
-			}
-
-			@keyframes cloud-page1 {
-				0% {
-					margin-left: 0%;
-				}
-				100% {
-					margin-left: 100%;
 				}
 			}
 
@@ -42,22 +29,9 @@
 				top: 43%;
 				left: 20px;
 				z-index: -1;
-				-webkit-animation: cloud-page2 20s linear infinite;
-				-moz-animation: cloud-page2 20s linear infinite;
-				animation: cloud-page2 20s linear infinite;
-				animation-delay: 1000ms;
 
 				@include is-max(768px) {
 					display: none;
-				}
-			}
-
-			@keyframes cloud-page2 {
-				0% {
-					margin-left: 0%;
-				}
-				100% {
-					margin-left: 100%;
 				}
 			}
 
@@ -67,22 +41,9 @@
 				top: 32%;
 				right: 20px;
 				z-index: -1;
-				-webkit-animation: animateCloudright 20s linear infinite;
-				-moz-animation: animateCloudright 20s linear infinite;
-				animation: animateCloudright 20s linear infinite;
-				animation-delay: 1000ms;
 
 				@include is-max(768px) {
 					right: 20px;
-				}
-
-				@keyframes animateCloudright {
-					0% {
-						margin-right: -100%;
-					}
-					100% {
-						margin-right: 100%;
-					}
 				}
 			}
 
@@ -90,34 +51,26 @@
 				width: 165px;
 				position: absolute;
 				top: 51%;
-				right: 20px;
+				right: 10px;
 				z-index: -1;
-				-webkit-animation: animateCloudright 20s linear infinite;
-				-moz-animation: animateCloudright 20s linear infinite;
-				animation: animateCloudright 20s linear infinite;
-				animation-delay: 1000ms;
 
 				@include is-max(768px) {
 					right: 20px;
 				}
 			}
-
-			@keyframes animateCloudright {
-				0% {
-					margin-right: -100%;
-				}
-				100% {
-					margin-right: 100%;
-				}
-			}
 		}
+	}
+
+	.bg-trans {
+		background-color: rgba(235, 110, 82, 0.7);
+		max-width: 740px;
+		margin: 0 auto;
 	}
 
 	&--container {
 		max-width: 680px;
 		margin: 0 auto;
 		padding: 150px 0 0 0;
-		background-color: rgba(235, 110, 82, 0.7);
 
 		@include is-max(768px) {
 			padding: 83px 0 0 0;
@@ -334,10 +287,6 @@
 						padding: 40px 0 0 0;
 
 						@include font-line(24, 34);
-
-						@include is-max(800px) {
-							text-align: justify;
-						}
 
 						@include is-max(360px) {
 							padding: 20px 0 0 0;

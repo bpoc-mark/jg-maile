@@ -56,7 +56,7 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 4100;
+					stroke-dashoffset: 4000;
 					stroke-dasharray: 3700;
 				}
 			}
@@ -261,6 +261,10 @@
 			padding: 30px 0 0 0;
 		}
 
+		@include is-sp {
+			padding: 0;
+		}
+
 		.l-wrap {
 			@include is-max(1200px) {
 				padding-left: 20px;
@@ -327,7 +331,7 @@
 				}
 
 				@include is-max(980px) {
-					width: 50%;
+					width: 55%;
 				}
 
 				@include is-max(920px) {
@@ -344,6 +348,7 @@
 				@include is-sp {
 					width: 100%;
 					order: 2;
+					padding: 0;
 				}
 
 				img {
@@ -377,7 +382,7 @@
 
 					@include is-max(1035px) {
 						left: 27%;
-						top: 48%;
+						top: 53%;
 					}
 
 					@include is-max(920px) {
@@ -506,7 +511,7 @@
 
 				@include is-sp {
 					width: 100%;
-					padding: 50px 0 0 0;
+					padding: 30px 0 0 0;
 					order: 3;
 				}
 			}
@@ -535,7 +540,7 @@
 				@include is-sp {
 					width: 100%;
 					order: 2;
-					padding: 50px 0 0 0;
+					padding: 30px 0 0 0;
 
 					img {
 						margin-left: auto;
@@ -581,8 +586,6 @@
 				}
 
 				.row-2_bg {
-					width: 515px;
-
 					@include is-max(885px) {
 						margin-left: auto;
 						display: block;

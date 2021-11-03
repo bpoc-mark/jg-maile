@@ -22,8 +22,8 @@
 <div class="section_1 p-details about">
     <div class="l-wrap">
         <div class="img_cloud">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         </div>
         <div class="p-details--container">
             <ul class="p-details--list">
@@ -79,7 +79,7 @@
     <div class="l-wrap">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
-        <p class="store_info__ttl">Store information</p>
+        <p class="store_info__ttl">store information</p>
         <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
 
         <div class="store_info__area">
@@ -89,13 +89,13 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d.svg" alt="">
                 </div>
                 <div class="store_info__area--row_1__details">
-                    <p><a href="#accordion-1">大津市石山院</a></p>
-                    <p><a href="#accordion-2">大津市膳所院</a></p>
-                    <p><a href="#accordion-3">大津市堅田院</a></p>
-                    <p><a href="#accordion-4">近江八幡院</a></p>
-                    <p><a href="#accordion-5">草津院</a></p>
-                    <p><a href="#accordion-6">守山院</a></p>
-                    <p><a href="#accordion-7">甲賀水口院</a></p>
+                    <p><a id="acrd-1" href="#accordion-1">大津市石山院</a></p>
+                    <p><a id="acrd-2" href="#accordion-2">大津市膳所院</a></p>
+                    <p><a id="acrd-3" href="#accordion-3">大津市堅田院</a></p>
+                    <p><a id="acrd-4" href="#accordion-4">近江八幡院</a></p>
+                    <p><a id="acrd-5" href="#accordion-5">草津院</a></p>
+                    <p><a id="acrd-6" href="#accordion-6">守山院</a></p>
+                    <p><a id="acrd-7" href="#accordion-7">甲賀水口院</a></p>
                 </div>
             </div>
             <div class="store_info__area--row_2">
@@ -104,7 +104,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d.svg" alt="">
                 </div>
                 <div class="store_info__area--row_2__details">
-                    <p><a href="#accordion-8">松井山手院</a></p>
+                    <p><a id="acrd-8" href="#accordion-8">松井山手院</a></p>
                 </div>
             </div>
         </div>
@@ -112,8 +112,8 @@
         <div class="store_info__stores">
             <div class="store_info__stores--container">
                 <!-- ACCORDION 1 -->
-                <div id="accordion-1" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-1" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -153,8 +153,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 2 -->
-                <div id="accordion-2" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-2" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -194,8 +194,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 3 -->
-                <div id="accordion-3" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-3" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -235,8 +235,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 4 -->
-                <div id="accordion-4" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-4" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -277,8 +277,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 5 -->
-                <div id="accordion-5" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-5" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -319,9 +319,9 @@
                     </div>
                 </div>
                 <!-- ACCORDION 6 -->
-                <div id="accordion-6" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                <div class="accordion">
+                    <a id="accordion-6" class="accordion__header-cont active" href='javascript:;'>
+                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 守山院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -361,8 +361,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 7 -->
-                <div id="accordion-7" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-7" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
@@ -403,8 +403,8 @@
                     </div>
                 </div>
                 <!-- ACCORDION 8 -->
-                <div id="accordion-8" class="accordion">
-                    <a class="accordion__header-cont active" href='javascript:;'>
+                <div class="accordion">
+                    <a id="accordion-8" class="accordion__header-cont active" href='javascript:;'>
                         <h1 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h1>
                         <div class="btn_read_more">
                             <p class="text">open</p>
