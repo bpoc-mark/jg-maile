@@ -29,13 +29,13 @@
 }
 
 .p-popout {
-	transition: 100ms cubic-bezier(0.66, 2.27, 0.7, 0.52) 100ms;
+	transition: 200ms cubic-bezier(0.56, 2, 0.7, 0.52) 300ms;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 }
 
 .pc-pop {
-	transition: 100ms cubic-bezier(0.66, 2.27, 0.7, 0.52) 100ms;
+	transition: 0.2s cubic-bezier(1, 1, 0, 0) 200ms;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 

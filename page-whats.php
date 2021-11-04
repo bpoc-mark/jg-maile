@@ -32,9 +32,7 @@
         <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
         <div class="events__container">
-            <p class="events__ttl">
-                events
-            </p>
+            <p class="events__ttl">Events</p>
             <p class="events__sub">年間行事</p>
             <p class="events__desc">MAILE株式会社ではスタッフとその家族とのかかわりも大切にしていてコミュニケーションが図れる場を大事にしています。<br>お子さんも一緒に参加できて家族のように接することのできる環境づくりにこだわっています。</p>
         </div>
@@ -44,7 +42,7 @@
                     <!-- SWIPER 1 -->
                     <div class="item">
                         <p class="item__ttl">入社式</p>
-                        <div class="swiper slider-a">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_1.jpeg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
@@ -60,7 +58,7 @@
                     <!-- SWIPER 2 -->
                     <div class="item">
                         <p class="item__ttl">ボーリング大会</p>
-                        <div class="swiper slider-b">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
@@ -76,7 +74,7 @@
                     <!-- SWIPER 3 -->
                     <div class="item">
                         <p class="item__ttl">男子会</p>
-                        <div class="swiper slider-c">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
@@ -92,7 +90,7 @@
                     <!-- SWIPER 4 -->
                     <div class="item">
                         <p class="item__ttl">社員旅行</p>
-                        <div class="swiper slider-d">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_2.jpg" alt="">
@@ -108,7 +106,7 @@
                     <!-- SWIPER 5 -->
                     <div class="item">
                         <p class="item__ttl">運動会</p>
-                        <div class="swiper slider-e">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_6.jpg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_3.jpg" alt="">
@@ -124,7 +122,7 @@
                     <!-- SWIPER 6 -->
                     <div class="item">
                         <p class="item__ttl">表彰式</p>
-                        <div class="swiper slider-f">
+                        <div class="swiper whats">
                             <div class="swiper-wrapper">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_4.jpg" alt="">
                                 <img class="swiper-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/page/sample_5.jpg" alt="">
@@ -143,7 +141,7 @@
     </div>
     <div class="training">
         <div class="training__container">
-            <p class="training__ttl">training system</p>
+            <p class="training__ttl">Training system</p>
             <p class="training__sub">社内研修制度</p>
 
             <div class="training__office">
@@ -170,7 +168,7 @@
     <div class="training_contents">
         <div class="l-wrap">
             <div class="container">
-                <p class="ttl">training contents</p>
+                <p class="ttl">Training contents</p>
                 <p class="sub">実践研修項目</p>
                 <div class="diagonal">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/diagonal.png" alt="">

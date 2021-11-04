@@ -362,13 +362,6 @@
 				padding-top: 120px;
 			}
 
-			.l-wrap {
-				@include is-sp {
-					padding-left: 20px;
-					padding-right: 20px;
-				}
-			}
-
 			.container {
 				border: 8px solid #ffdc64;
 				max-width: 890px;

@@ -52,7 +52,23 @@
 				@include is-sp {
 					display: block;
 					top: -2vw;
+					width: 55%;
+				}
+
+				@include is-max(650px) {
+					width: 60%;
+				}
+
+				@include is-max(570px) {
+					width: 80%;
+				}
+
+				@include is-max(480px) {
 					width: 100%;
+				}
+
+				@include is-max(350px) {
+					top: -1vw;
 				}
 
 				.swirl-1-sp {
@@ -115,10 +131,14 @@
 					}
 
 					@include is-max(750px) {
-						width: 100%;
+						width: 80%;
 					}
 
-					@include is-max(450px) {
+					@include is-max(650px) {
+						width: 90%;
+					}
+
+					@include is-max(480px) {
 						width: 100%;
 					}
 				}
@@ -317,6 +337,10 @@
 						margin-left: auto;
 					}
 				}
+
+				@include is-max(350px) {
+					padding: 30px 0;
+				}
 			}
 
 			.row-2 {
@@ -361,6 +385,10 @@
 					&:nth-of-type(2) {
 						display: none;
 
+						@include is-max(750px) {
+							height: 450px;
+						}
+
 						@include is-sp {
 							display: block;
 							width: 80%;
@@ -370,6 +398,7 @@
 
 						@include is-max(480px) {
 							width: 100%;
+							height: unset;
 						}
 					}
 				}
@@ -395,9 +424,13 @@
 						transform: translate(-20%, -50%);
 					}
 
-					@include is-max(380px) {
+					@include is-max(480px) {
+						top: 50%;
+					}
+
+					@include is-max(390px) {
 						left: 20%;
-						transform: translate(-10%, -45%);
+						transform: translate(-10%, -50%);
 					}
 
 					@include is-max(320px) {
@@ -415,6 +448,14 @@
 
 						@include font-line(80);
 
+						@include is-max(380px) {
+							font-size: 20vw;
+						}
+
+						@include is-max(320px) {
+							@include font-line(70);
+						}
+
 						span {
 							color: $color-text-default;
 							font-family: noto-sans-cjk-jp, sans-serif;
@@ -423,10 +464,6 @@
 							text-align: left;
 
 							@include font-line(16);
-						}
-
-						@include is-max(320px) {
-							@include font-line(70);
 						}
 					}
 
@@ -603,6 +640,17 @@
 
 						@include is-sp {
 							display: block;
+							width: 100%;
+						}
+
+						@include is-max(750px) {
+							width: 80%;
+							height: 450px;
+						}
+
+						@include is-max(480px) {
+							height: unset;
+							width: 100%;
 						}
 					}
 

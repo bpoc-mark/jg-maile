@@ -25,7 +25,7 @@
             <img class="phil_cloud-1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <div class="content">
-                <h1 class="content__ttl">philosophy</h1>
+                <h1 class="content__ttl">Philosophy</h1>
                 <p class="content__sub">理　念</p>
                 <p class="content__desc">
                     テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
@@ -47,7 +47,7 @@
     <div class="page_philosophy__idea">
         <div class="l-wrap">
             <img class="phil_cloud p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <p class="ttl">ideal</p>
+            <p class="ttl">Ideal</p>
             <p class="sub">求める人材像</p>
 
             <div class="boxes">

@@ -79,7 +79,7 @@
     <div class="l-wrap">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
-        <p class="store_info__ttl">store information</p>
+        <p class="store_info__ttl">Store information</p>
         <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
 
         <div class="store_info__area">
@@ -222,7 +222,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="077-571-6668">
+                                <a class="btn__item-1" href="tel:077-571-6668">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>
@@ -264,7 +264,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="074-836-1881">
+                                <a class="btn__item-1" href="tel:074-836-1881">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>
@@ -306,7 +306,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="077-567-6656">
+                                <a class="btn__item-1" href="tel:077-567-6656">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>
@@ -348,7 +348,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="077-582-1911">
+                                <a class="btn__item-1" href="tel:077-582-1911">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="0748-63-6699">
+                                <a class="btn__item-1" href="tel:0748-63-6699">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>
@@ -430,7 +430,7 @@
                         </div>
                         <div class="accordion__content--row_3">
                             <div class="btn">
-                                <a class="btn__item-1" href="075-972-6656">
+                                <a class="btn__item-1" href="tel:075-972-6656">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
                                     <p>電話をかける</p>
                                 </a>

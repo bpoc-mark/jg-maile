@@ -27,7 +27,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
         </div>
         <div class="c-page_contact__faq">
-            <p class="c-page_contact__faq--ttl">faq</p>
+            <p class="c-page_contact__faq--ttl">Faq</p>
             <p class="c-page_contact__faq--sub">よくある質問</p>
 
             <div class="contact_content">
