@@ -245,9 +245,9 @@
     <div class="l-wrap">
         <div class="cloud">
             <img loading="lazy" class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img loading="lazy" class="p-slide__reverse" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img loading="lazy" class="p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img loading="lazy" class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
+            <img loading="lazy" class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img loading="lazy" class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
+            <img loading="lazy" class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
         </div>
 
         <div class="sect_4__content">
@@ -289,7 +289,7 @@
     <div class="sect_5__contact_info">
         <div class="container">
             <div class="row_1">
-                <p class="row_1__ttl">contact</p>
+                <p class="row_1__ttl">Contact</p>
                 <p class="row_1__sub">お問い合わせ</p>
             </div>
             <div class="row_2">

@@ -146,13 +146,21 @@
 		display: flex;
 		justify-content: space-between;
 		padding: 40px 0 0 0;
-		flex-wrap: wrap;
+
+		@include is-max(670px) {
+			flex-wrap: wrap;
+		}
 
 		&__1 {
 			width: 49%;
 
 			@include is-sp {
 				width: 100%;
+				margin-right: 10px;
+			}
+
+			@include is-max(670px) {
+				margin-right: 0;
 			}
 
 			.bg_img {
@@ -165,11 +173,15 @@
 						width: 100%;
 					}
 
-					@include is-between(750px, 500px) {
-						width: 80%;
+					@include is-max(670px) {
+						width: 70%;
 						margin-left: auto;
 						margin-right: auto;
 						display: block;
+					}
+
+					@include is-max(480px) {
+						width: 100%;
 					}
 				}
 
@@ -223,7 +235,7 @@
 							@include font-line(16);
 						}
 
-						img {
+						.rght-arr {
 							width: 30px;
 						}
 					}
@@ -236,7 +248,10 @@
 
 			@include is-sp {
 				width: 100%;
-				padding: 30px 0 0 0;
+			}
+
+			@include is-max(670px) {
+				margin-top: 45px;
 			}
 
 			.bg_img {
@@ -249,11 +264,15 @@
 						width: 100%;
 					}
 
-					@include is-between(750px, 500px) {
-						width: 80%;
+					@include is-max(670px) {
+						width: 70%;
 						margin-left: auto;
 						margin-right: auto;
 						display: block;
+					}
+
+					@include is-max(480px) {
+						width: 100%;
 					}
 				}
 
@@ -264,14 +283,9 @@
 					transform: translate(-50%, -50%);
 					text-align: center;
 
-					&:last-child {
-						left: 33%;
-						transform: translate(-20%, -50%);
-					}
-
 					@include is-max(360px) {
 						left: 50%;
-						width: 60%;
+						width: 100%;
 						transform: translate(-50%, -50%);
 					}
 
@@ -291,6 +305,10 @@
 						@include is-max(360px) {
 							padding: 20px 0 0 0;
 						}
+
+						@include is-max(321px) {
+							font-size: 7vw;
+						}
 					}
 
 					&__btn {
@@ -298,19 +316,27 @@
 						align-items: center;
 						padding: 45px 0 0 0;
 						position: relative;
-						right: -55px;
+						right: 0px;
 						justify-content: flex-end;
 
-						&:last-child {
-							padding: 0;
-							right: 0;
-							padding-top: 20px;
-							justify-content: flex-end;
-							padding-right: 20px;
+						@include is-max(480px) {
+							right: unset;
 						}
 
 						@include is-max(360px) {
 							padding: 24px 0 0 0;
+						}
+
+						&:last-child {
+							padding: 0;
+							padding: 45px 0 0 0;
+							justify-content: center;
+							right: -35px;
+
+							@include is-max(480px) {
+								right: -35px;
+								justify-content: center;
+							}
 						}
 
 						p {
@@ -321,9 +347,36 @@
 							@include font-line(16);
 						}
 
-						img {
+						.rght-arr {
 							width: 30px;
+							margin-left: unset;
+							margin-right: unset;
+							display: unset;
 						}
+					}
+				}
+
+				.custom {
+					left: 33%;
+					transform: translate(-20%, -50%);
+
+					@include is-max(670px) {
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+
+					@include is-max(480px) {
+						left: 40%;
+						transform: translate(-30%, -50%);
+					}
+
+					@include is-max(400px) {
+						left: 30%;
+						transform: translate(-18%, -50%);
+					}
+
+					@include is-max(360px) {
+						left: 20%;
 					}
 				}
 			}

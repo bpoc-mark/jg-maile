@@ -54,7 +54,7 @@
 
 			@include font-line(22);
 
-			@include is-sp {
+			@include is-max(480px) {
 				font-size: 5vw;
 			}
 		}
@@ -190,6 +190,42 @@
 				padding: 20px 0 0 0;
 
 				@include font-line(22);
+
+				p {
+					position: relative;
+					transition: 1s ease-in-out;
+
+					a {
+						width: 100%;
+						display: block;
+						transition: 1s ease-in-out;
+					}
+
+					&:before {
+						position: absolute;
+						top: 0;
+						left: 0;
+						content: "";
+						width: 0;
+						height: 100%;
+						transition: 0.5s ease-in-out;
+						display: block;
+					}
+
+					&:hover {
+						padding-left: 5px;
+
+						&::before {
+							width: 100%;
+							content: "";
+							background: #ffdc64;
+							display: block;
+							z-index: -1;
+							cursor: pointer;
+							pointer-events: none;
+						}
+					}
+				}
 			}
 		}
 
@@ -223,6 +259,42 @@
 				padding: 20px 0 0 0;
 
 				@include font-line(22);
+
+				p {
+					position: relative;
+					transition: 1s ease-in-out;
+
+					a {
+						width: 100%;
+						display: block;
+						transition: 1s ease-in-out;
+					}
+
+					&:before {
+						position: absolute;
+						top: 0;
+						left: 0;
+						content: "";
+						width: 0;
+						height: 100%;
+						transition: 0.5s ease-in-out;
+						display: block;
+					}
+
+					&:hover {
+						padding-left: 5px;
+
+						&::before {
+							width: 100%;
+							content: "";
+							background: #ffdc64;
+							display: block;
+							z-index: -1;
+							cursor: pointer;
+							pointer-events: none;
+						}
+					}
+				}
 			}
 		}
 	}

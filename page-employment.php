@@ -90,7 +90,7 @@
                                 <p class="items__ttl">中途採用情報</p>
                                 <div class="items__btn">
                                     <p>詳しくはこちら</p>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                                 </div>
                             </div>
                         </a>
@@ -100,13 +100,13 @@
                     <div class="bg_img">
                         <a href="<?php echo get_permalink(get_page_by_path('reception')) ?>">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
-                            <div class="items">
+                            <div class="custom items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_man.svg" alt="">
                                 <p class="items__ttl">受付社員・パート・<br>
                                     アルバイト情報</p>
                                 <div class="items__btn">
                                     <p>詳しくはこちら</p>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                                 </div>
                             </div>
                         </a>
