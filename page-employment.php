@@ -23,8 +23,8 @@
     <div class="l-wrap">
         <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="">
         <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
-        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
-        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_3.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
         <div class="p-details--container">
             <?php
             $paged = (get_query_var('paged')) ? absint(get_query_var('paged')) : 1;

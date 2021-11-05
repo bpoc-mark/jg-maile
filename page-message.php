@@ -22,7 +22,7 @@
 <div class="page_message">
     <div class="l-wrap">
         <div class="imgs">
-            <img class="p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
         </div>
         <div class="content">
             <img class="cont_img" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">

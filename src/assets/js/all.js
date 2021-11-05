@@ -132,10 +132,10 @@ $(document).ready(function() {
 
     var length = $newUnit - $offsetUnit;
 
-    if(length <= '9300'){
+    if(length <= '9350'){
       $('#row-1').find('#left-pc').addClass('img-pop');
 
-      if(length <= '8710'){
+      if(length <= '8715'){
         $('#row-3').find('#pcview').addClass('img-pop');
 
           if(length <= '7400'){
@@ -156,13 +156,28 @@ $(document).ready(function() {
   var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
   $(window).scroll(function() {
     //calculate how far down the page the user is 
-    var $percentageComplete = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 600);
+    var $percentage = (($(window).scrollTop() / ($("html").height() - $(window).height())) * 100);
     //convert dashoffset pixel value to interger
     var $newUnit = parseInt($dashOffset, 15);
     //get the value to be subtracted from the 'stroke-dashoffset'
-    var $offsetUnit = $percentageComplete * ($newUnit / 600);
+    var $offsetUnit = $percentage * ($newUnit / 100);
     //set the new value of the dashoffset to create the drawing effect
     $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
+
+    var spswirl = $newUnit - $offsetUnit;
+
+    if(spswirl <= 9550){
+      $('#row-8').addClass('animated');
+
+    }
+    if(spswirl <= 8780){
+      $('#row-9').addClass('animated');
+    }
+
+    else{
+      // $('#row-8').removeClass('animated');
+      // $('#row-9').removeClass('animated');
+    }
   });
 });
 

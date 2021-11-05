@@ -24,7 +24,7 @@
         <div class="album_img">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <img class="p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img class="p-slide__reverse" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="p-slide__reverse" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
         </div>
         <div class="page_album__container">
             <div class="content">

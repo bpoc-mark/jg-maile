@@ -23,7 +23,7 @@
     <div class="l-wrap">
         <div class="page_philosophy__container">
             <img class="phil_cloud-1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
             <div class="content">
                 <h1 class="content__ttl">Philosophy</h1>
                 <p class="content__sub">理　念</p>
@@ -35,7 +35,7 @@
     </div>
     <div class="page_philosophy__video">
         <div class="l-wrap">
-            <img class="ph_cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
+            <img class="ph_cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
             <div class="page_philosophy__video--container">
                 <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
                 <p class="ttl">MAILE株式会社<br>
@@ -46,7 +46,7 @@
     </div>
     <div class="page_philosophy__idea">
         <div class="l-wrap">
-            <img class="phil_cloud p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
+            <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <p class="ttl">Ideal</p>
             <p class="sub">求める人材像</p>
 

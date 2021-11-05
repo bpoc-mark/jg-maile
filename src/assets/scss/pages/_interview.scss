@@ -63,9 +63,20 @@
 				position: absolute;
 				top: 0;
 				left: 45px;
+				animation: cloud_3 40s infinite linear;
+				z-index: -1;
 
 				@include is-sp {
 					display: none;
+				}
+
+				@keyframes cloud_3 {
+					0% {
+						left: -50%;
+					}
+					100% {
+						left: 150%;
+					}
 				}
 			}
 
@@ -73,7 +84,7 @@
 				width: 240px;
 				position: absolute;
 				right: -60px;
-				top: -77px;
+				top: -35px;
 
 				@include is-sp {
 					display: none;
@@ -112,9 +123,19 @@
 			display: block;
 			padding-top: 95px;
 			padding-bottom: 55px;
+			animation: inter-cloud01 40s linear infinite;
 
 			@include is-sp {
 				display: none;
+			}
+		}
+
+		@keyframes inter-cloud01 {
+			0% {
+				right: -50%;
+			}
+			100% {
+				right: 150%;
 			}
 		}
 	}
@@ -122,11 +143,29 @@
 	&--int {
 		position: relative;
 
+		.ttl-div {
+			background-color: rgba(235, 110, 82, 0.7);
+			width: fit-content;
+			margin: 0 auto;
+			padding: 0 30px;
+		}
+
 		.cloud_2 {
 			width: 180px;
 			position: absolute;
 			left: 0;
 			top: 50px;
+			animation: inter-cloud02 40s linear infinite;
+			z-index: -1;
+		}
+
+		@keyframes inter-cloud02 {
+			0% {
+				left: -50%;
+			}
+			100% {
+				left: 150%;
+			}
 		}
 
 		.inter_cloud {
@@ -134,6 +173,7 @@
 			position: absolute;
 			left: 220px;
 			top: 155px;
+			animation: inter-cloud00 50s linear infinite;
 
 			@include is-max(768px) {
 				left: 100px;
@@ -141,6 +181,15 @@
 
 			@include is-sp {
 				display: none;
+			}
+
+			@keyframes inter-cloud00 {
+				0% {
+					left: -50%;
+				}
+				100% {
+					left: 150%;
+				}
 			}
 		}
 
@@ -149,6 +198,8 @@
 			position: absolute;
 			right: 0;
 			top: 0;
+			animation: inter-cloud03 50s infinite linear;
+			z-index: -1;
 
 			@include is-max(768px) {
 				left: 100px;
@@ -156,6 +207,18 @@
 
 			@include is-sp {
 				display: none;
+			}
+
+			@keyframes inter-cloud03 {
+				0% {
+					right: -40%;
+				}
+				50% {
+					right: 50%;
+				}
+				100% {
+					right: 140%;
+				}
 			}
 		}
 
@@ -166,10 +229,11 @@
 			right: -35px;
 			top: 110px;
 			margin-left: auto;
+			z-index: -1;
 
 			@include is-max(800px) {
 				width: 78.13%;
-				left: -20%;
+				left: -50%;
 				bottom: 30%;
 			}
 
@@ -183,6 +247,17 @@
 				top: 15px;
 				right: 200px;
 				z-index: 2;
+				animation: inter_cloud01 50s linear infinite both;
+			}
+
+			@keyframes inter_cloud01 {
+				0% {
+					left: -50%;
+				}
+
+				100% {
+					left: 150%;
+				}
 			}
 
 			.sun {
@@ -205,9 +280,19 @@
 			.cloud_9 {
 				width: 75px;
 				position: absolute;
-				top: 29px;
+				top: 20px;
 				right: -26px;
 				z-index: -1;
+				animation: inter-cloud09 35s linear infinite;
+			}
+
+			@keyframes inter-cloud09 {
+				0% {
+					left: -30%;
+				}
+				100% {
+					left: 150%;
+				}
 			}
 
 			.cloud_3 {
@@ -215,7 +300,7 @@
 				position: absolute;
 				top: 45px;
 				right: 125px;
-				z-index: 6;
+				z-index: -1;
 
 				-webkit-animation: animateCloudfrontpage 35s linear infinite;
 				-moz-animation: animateCloudfrontpage 35s linear infinite;

@@ -30,7 +30,7 @@
     </div>
     <div class="events">
         <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
         <div class="events__container">
             <p class="events__ttl">Events</p>
             <p class="events__sub">年間行事</p>

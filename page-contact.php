@@ -24,7 +24,7 @@
         <div class="cont_clouds">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
         </div>
         <div class="c-page_contact__faq">
             <p class="c-page_contact__faq--ttl">Faq</p>
