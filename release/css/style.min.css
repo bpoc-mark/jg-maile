@@ -411,10 +411,10 @@ body[data-aos-delay="3000"] [data-aos].aos-animate,[data-aos][data-aos][data-aos
 .p-addons .btnArea .btn i{margin-left:5px}
 .p-upDown{-webkit-animation:bird 3.8s ease-in infinite alternate both;animation:bird 3.8s ease-in infinite alternate both}
 .p-downUp{-webkit-animation:bird 4.8s ease-in infinite alternate both;animation:bird 4.8s ease-in infinite alternate both;animation-direction:alternate-reverse}
-.p-popout{-webkit-transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;-webkit-transform:scale(0);transform:scale(0);opacity:0;-webkit-animation:opac .4s ease-in-out;animation:opac .4s ease-in-out}
-.pc-pop{-webkit-transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;-webkit-transform:scale(0);transform:scale(0);opacity:0}
-.pc-pop.img-pop{-webkit-transform:scale(1);transform:scale(1);-webkit-animation:opac2 .4s ease-in-out;animation:opac2 .4s ease-in-out;opacity:1}
-.animated .p-popout{-webkit-transform:scale(1);transform:scale(1);opacity:1;-webkit-animation:opac .4s ease-in-out;animation:opac .4s ease-in-out}
+.p-popout{-webkit-transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:all .7s ease;-webkit-transition:all .7s ease;-moz-transition:all .7s ease;-o-transition:all .7s ease;-webkit-transform:scale(0);transform:scale(0);opacity:0}
+.animated .p-popout{-webkit-transform:scale(1);transform:scale(1);opacity:1}
+.pc-pop{-webkit-transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:300ms cubic-bezier(0.56,2,0.7,0.52) 300ms;transition:all .7s ease;-webkit-transition:all .7s ease;-moz-transition:all .7s ease;-o-transition:all .7s ease;-webkit-transform:scale(0);transform:scale(0);opacity:0}
+.pc-pop.img-pop{-webkit-transform:scale(1);transform:scale(1);opacity:1}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
 .p-shake__torigin{-webkit-transform-origin:130px 15px;transform-origin:130px 15px}
 .p-walk{-webkit-animation:walk 10s both;animation:walk 10s both}
@@ -1299,7 +1299,10 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 }@media only screen and (max-width:1035px){.sect_2__row_2--content .row-2 .text{left:27%;top:53%}
 .sect_2__row_2--content-2 .row-2 .text{left:45%}
 }@media only screen and (max-width:1001px){.p-details .l-wrap .cloud:nth-of-type(1){display:none}
-}@media only screen and (max-width:1000px){.sect_2 .l-wrap .front_content .swirl-pc{top:10vw;width:85%}
+}@media only screen and (max-width:1000px){.c-page_contact__faq .contact_content__item:nth-of-type(3){padding:0}
+.c-page_contact__faq .contact_content__item:nth-of-type(5){padding:0}
+.c-page_contact__faq .contact_content__item:nth-of-type(7){padding:0}
+.sect_2 .l-wrap .front_content .swirl-pc{top:10vw;width:85%}
 .page_interview--int:nth-of-type(even){padding:60px 0}
 .page__whats .photos .l-wrap .container .item{padding:0}
 .page__whats .training_contents{padding-right:20px;padding-left:20px}
@@ -1412,9 +1415,6 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .c-page_contact__faq .contact_content__item:nth-of-type(odd) .convo{width:500px}
 .c-page_contact__faq .contact_content__item:nth-of-type(odd) .convo{padding:40px 40px 35px 40px}
 .c-page_contact__faq .contact_content__item:nth-of-type(even) .convo{width:500px}
-.c-page_contact__faq .contact_content__item:nth-of-type(3){padding:0}
-.c-page_contact__faq .contact_content__item:nth-of-type(5){padding:0}
-.c-page_contact__faq .contact_content__item:nth-of-type(7){padding:0}
 .c-page_contact__contact{padding:0 25px}
 .c-page_contact__contact .form-group:nth-of-type(8){padding-bottom:0}
 .c-page_contact__contact .form-group .row_1{width:100%}
@@ -1961,21 +1961,6 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 50%{-webkit-transform:translateY(10%);transform:translateY(10%)}
 }@keyframes bird{0%,100%{-webkit-transform:translateY(-30%);transform:translateY(-30%)}
 50%{-webkit-transform:translateY(0);transform:translateY(0)}
-}@-webkit-keyframes opac{0%{opacity:0}
-70%{opacity:.7}
-100%{opacity:1}
-}@keyframes opac{0%{opacity:0}
-70%{opacity:.7}
-100%{opacity:1}
-}@-webkit-keyframes opac2{0%{opacity:0}
-70%{opacity:.7}
-100%{opacity:1}
-}@keyframes opac2{0%{opacity:0}
-70%{opacity:.7}
-100%{opacity:1}
-}@keyframes opac{0%{opacity:0}
-70%{opacity:.7}
-100%{opacity:1}
 }@-webkit-keyframes shake{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}
 20%{-webkit-transform:rotate(-3deg);transform:rotate(-3deg)}
 30%,50%,70%,90%{-webkit-transform:rotate(3deg);transform:rotate(3deg)}

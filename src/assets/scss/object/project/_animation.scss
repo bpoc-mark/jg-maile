@@ -30,65 +30,33 @@
 
 .p-popout {
 	transition: 300ms cubic-bezier(0.56, 2, 0.7, 0.52) 300ms;
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
-	animation: opac 0.4s ease-in-out;
+}
 
-	@keyframes opac {
-		0% {
-			opacity: 0;
-		}
-		70% {
-			opacity: 0.7;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
+.animated .p-popout {
+	transform: scale(1);
+	opacity: 1;
 }
 
 .pc-pop {
 	transition: 300ms cubic-bezier(0.56, 2, 0.7, 0.52) 300ms;
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
 
 	&.img-pop {
 		transform: scale(1);
-		animation: opac2 0.4s ease-in-out;
 		opacity: 1;
-
-		@keyframes opac2 {
-			0% {
-				opacity: 0;
-			}
-			70% {
-				opacity: 0.7;
-			}
-			100% {
-				opacity: 1;
-			}
-		}
-	}
-}
-
-.animated .p-popout {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-	animation: opac 0.4s ease-in-out;
-
-	@keyframes opac {
-		0% {
-			opacity: 0;
-		}
-		70% {
-			opacity: 0.7;
-		}
-		100% {
-			opacity: 1;
-		}
 	}
 }
 
