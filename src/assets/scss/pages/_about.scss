@@ -333,6 +333,25 @@
 					border-bottom: 1px solid #fff;
 					align-items: center;
 					padding: 20px;
+					position: relative;
+
+					&:before {
+						content: "";
+						width: 0%;
+						height: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+						transition: 0.5s ease-in-out;
+					}
+
+					&:hover {
+						&:before {
+							width: 100%;
+							background: #e55937;
+							z-index: -1;
+						}
+					}
 
 					@include is-sp {
 						padding: 0 0 15px 0;

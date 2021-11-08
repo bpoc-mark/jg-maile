@@ -215,7 +215,6 @@ $(document).ready(function(){
   });
   
   var galleryTop = new Swiper('.gallery-top', {
-    // direction: 'horizontal',
     loop: false,
     effect: 'cards',
     autoplay: false,
