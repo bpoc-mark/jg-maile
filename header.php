@@ -100,7 +100,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://maile-group.com/trainer">
+                            <a href="<?php echo get_permalink(get_page_by_path('trainer')) ?>">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
                                 <p>トレーナー</p>
                             </a>
