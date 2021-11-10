@@ -161,9 +161,9 @@ $imagedir = get_template_directory_uri();
                         <p class="content__ttl">event</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
                         <p class="content__sub">プロサッカーイベント</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_16.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_17.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_18.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_19.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_20.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_21.png" alt="Divider">
                     </div>
                 </div>
                 <div class="item">
@@ -172,9 +172,9 @@ $imagedir = get_template_directory_uri();
                         <p class="content__ttl">high school</p>
                         <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
                         <p class="content__sub">高校サッカー活動</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_19.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_20.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_21.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_22.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_23.png" alt="Divider">
+                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_24.png" alt="Divider">
                     </div>
                 </div>
 

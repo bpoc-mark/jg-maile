@@ -261,7 +261,7 @@ $(document).ready(function () {
 }); //MODAL TRAINER IMAGE
 
 $(document).ready(function () {
-  $("img").click(function () {
+  $('.train_img').click(function () {
     var img = $(this).attr('src');
     $("#modal-img").attr('src', img);
     $("#myModal").addClass('active');

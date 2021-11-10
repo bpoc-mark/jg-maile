@@ -577,7 +577,7 @@
 			img {
 				width: calc(100% / 3);
 				background-color: #fff;
-				height: auto;
+				height: 100%;
 
 				@include is-sp {
 					width: calc(100% / 2);
