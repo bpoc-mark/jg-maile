@@ -2,19 +2,19 @@
         <div class="page__footer">
                 <div class="row">
                         <a href="tel: 077-548-6656">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_tel.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_tel.svg" alt="Telephone Icon">
                                 <p class="ttl">お電話でのお問い合わせ</p>
                         </a>
                 </div>
                 <div class="row">
                         <a href="<?php echo esc_url(home_url('contact')); ?>/#form">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_mail.svg" alt="Email Icon">
                                 <p class="ttl">メールでのお問い合わせ</p>
                         </a>
                 </div>
                 <div class="row">
                         <a href="<?php echo esc_url(home_url('contact')); ?>">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_ques.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/footer_ques.svg" alt="Question Mark Icon">
                                 <p class="ttl">よくある質問</p>
                         </a>
 
@@ -24,7 +24,7 @@
                 <div class="content">
                         <div class="content__row-1">
                                 <a href="<?php echo esc_url(home_url('/')); ?>">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/logo.svg" alt="Maile Logo">
 
                                 </a>
                         </div>
@@ -105,14 +105,14 @@
                 <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by <a href="">ジーングロス</a></p>
         </div>
         </main>
-        <!-- SLICK -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- SWIPER -->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
         <script>
                 $('.zip_s').on('keyup', function() {
                         if ($(this).val() !== '') {
@@ -126,7 +126,6 @@
                         }
                 });
         </script>
-        <script src="<?php echo get_template_directory_uri(); ?>/release/js/custom.js"></script>
         <script>
                 AOS.init({
                         // once: true

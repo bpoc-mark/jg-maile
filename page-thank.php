@@ -3,7 +3,7 @@
     <div class="l-wrap">
         <div class="title">
             <h1>Thank you</h1>
-            <p>会社概要</p>
+            <h2>会社概要</h2>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">

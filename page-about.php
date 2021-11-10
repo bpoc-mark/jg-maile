@@ -3,11 +3,11 @@
     <div class="l-wrap">
         <div class="title">
             <h1>About us</h1>
-            <p>会社概要</p>
+            <h2>会社概要</h2>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="Maile Title">
     </div>
     <div class="l-wrap">
         <div class="p-breadcrumbs">
@@ -22,8 +22,8 @@
 <div class="section_1 p-details about">
     <div class="l-wrap">
         <div class="img_cloud">
-            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
+            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
         </div>
         <div class="p-details--container">
             <ul class="p-details--list">
@@ -69,7 +69,7 @@
     <div class="l-wrap">
         <div class="about_message__container">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="">
+                <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
             </a>
             <p>関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</p>
         </div>
@@ -77,8 +77,8 @@
 </div>
 <div class="store_info">
     <div class="l-wrap">
-        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
+        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+        <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
         <p class="store_info__ttl">Store information</p>
         <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
 
@@ -141,11 +141,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:077-548-66576">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-seikotsuin.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -182,11 +182,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:077-523-6655">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-zeze.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -223,11 +223,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:077-571-6668">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-katata.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -265,11 +265,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:074-836-1881">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-omihachiman.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -307,11 +307,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:077-567-6656">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-kusatsu.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -349,11 +349,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:077-582-1911">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-moriyama.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -391,11 +391,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:0748-63-6699">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-minakuchi.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>
@@ -431,11 +431,11 @@
                         <div class="accordion__content--row_3">
                             <div class="btn">
                                 <a class="btn__item-1" href="tel:075-972-6656">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_tel.svg" alt="Telephone Logo">
                                     <p>電話をかける</p>
                                 </a>
                                 <a class="btn__item-2" href="https://maile-matsuiyamate.com/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/btn_web.svg" alt="Website Logo">
                                     <p>HPを見る</p>
                                 </a>
                             </div>

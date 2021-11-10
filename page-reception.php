@@ -3,11 +3,11 @@
     <div class="l-wrap">
         <div class="title">
             <h1>Reception,part time job</h1>
-            <p>受付社員・パート・<br>アルバイト情報</p>
+            <h2>受付社員・パート・<br>アルバイト情報</h2>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl_sp.svg" alt="Maile Title">
     </div>
     <div class="l-wrap">
         <div class="p-breadcrumbs">
@@ -21,10 +21,10 @@
 </div>
 <div class="section_1 p-details">
     <div class="l-wrap">
-        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="">
-        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="">
-        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
-        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="Cloud">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="Cloud">
+        <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+        <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
         <div class="bg-trans">
             <div class="p-details--container">
                 <?php
@@ -84,9 +84,9 @@
                     <div class="p-details--information__1">
                         <div class="bg_img">
                             <a href="<?php echo get_permalink(get_page_by_path('employment')) ?>">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                                 <div class="items">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="Graduate Icon">
                                     <p class="items__ttl">新卒採用情報</p>
                                     <div class="items__btn">
                                         <p>詳しくはこちら</p>
@@ -99,9 +99,9 @@
                     <div class="p-details--information__2">
                         <div class="bg_img">
                             <a href="<?php echo get_permalink(get_page_by_path('career')) ?>">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                                 <div class="items">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="Employee Walking Up Stairs">
                                     <p class="items__ttl">中途採用情報</p>
                                     <div class="items__btn">
                                         <p>詳しくはこちら</p>
@@ -125,31 +125,31 @@
                 <div class="step" data-aos="zoom-out">
                     <p class="step__ttl">step <span>01</span></p>
                     <p class="step__desc">お問い合わせ</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="300">
                     <p class="step__ttl">step <span>02</span></p>
                     <p class="step__desc">見　学</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="400">
                     <p class="step__ttl">step <span>03</span></p>
                     <p class="step__desc">書類選考</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="500">
                     <p class="step__ttl">step <span>04</span></p>
                     <p class="step__desc">面　接</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="600">
                     <p class="step__ttl">step <span>05</span></p>
                     <p class="step__desc">採　用</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">こちらから合否のご連絡をさせていただきます。</p>
                 </div>
             </div>

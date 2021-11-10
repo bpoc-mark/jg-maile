@@ -3,19 +3,19 @@
     <div class="l-wrap">
         <h1>MAILE.CO.,LTD <br><span>RECRUIT SITE</span></h1>
         <div class="birds">
-            <img class="p-upDown bird_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_1.svg" alt="">
-            <img class="p-downUp bird_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_2.svg" alt="">
-            <img class="p-upDown bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_3.svg" alt="">
-            <img class="p-downUp bird_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_4.svg" alt="">
-            <img class="p-upDown bird_5" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_5.svg" alt="">
+            <img class="p-upDown bird_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_1.svg" alt="Bird">
+            <img class="p-downUp bird_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_2.svg" alt="Bird">
+            <img class="p-upDown bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_3.svg" alt="Bird">
+            <img class="p-downUp bird_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_4.svg" alt="Bird">
+            <img class="p-upDown bird_5" src="<?php echo get_template_directory_uri(); ?>/release/image/top/birds/bird_5.svg" alt="Bird">
         </div>
-        <img class="coconut" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
+        <img class="coconut" src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <div class="sun">
-            <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="">
-            <img data-aos="fade-up" data-aos-duration="2800" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="">
-            <img class="cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="">
-            <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="">
-            <img class="cloud_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_4.svg" alt="">
+            <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="Cloud">
+            <img data-aos="fade-up" data-aos-duration="2800" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="Sun">
+            <img class="cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="Cloud">
+            <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="Cloud">
+            <img class="cloud_4" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_4.svg" alt="Cloud">
         </div>
     </div>
     <svg class="pc" id="ãƒ¬ã‚¤ãƒ¤ãƒ¼_1" data-name="ãƒ¬ã‚¤ãƒ¤ãƒ¼ 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1458.86 74.95">
@@ -60,10 +60,10 @@
 </div>
 <div class="sect_1">
     <div class="l-wrap">
-        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_reflection.svg" alt="">
-        <div class="sect_1__ttl">
+        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_reflection.svg" alt="Water Reflection">
+        <h2 class="sect_1__ttl">
             関わる全ての人との<br>ご縁に感謝し、<br>共に幸せになるために。
-        </div>
+        </h2>
     </div>
 </div>
 <div class="sect_2">
@@ -87,9 +87,9 @@
             <div class="sect_2__row_1 ">
                 <div class="item-1 setAnime">
                     <div class="bg_img p-popout">
-                        <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="">
-                        <img class="bg_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="">
-                        <img class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="">
+                        <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg.png" alt="Background">
+                        <img class="bg_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="Background">
+                        <img class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="Woman">
                         <div class="text">
                             <p class="ttl">一緒に働く<br>仲間募集中！</p>
                             <a href="<?php echo get_permalink(get_page_by_path('career')) ?>" class="c-button">
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="item-2 setAnime">
-                    <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_man.png" alt="">
+                    <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_man.png" alt="Man">
                     <div class="text p-popout">
                         <p class="message">Message<span>代表挨拶</span></p>
                         <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -134,45 +134,45 @@
                 <div class="l-wrap">
                     <div class="sect_2__row_2--content ">
                         <div id="row-1" class="row-1 setAnime">
-                            <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="">
+                            <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="Team Picture">
                         </div>
                         <div id="row-2" class="row-2 setAnime">
-                            <img class="p-popout" class="row_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="">
-                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="">
-                            <div class="text p-popout">
-                                <p class="ttl p-popout">Voice<span>先輩からの声</span></p>
-                                <p class="desc p-popout">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                            <img id="2-pc" class="row_bg pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="Background">
+                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
+                            <div id="2-txt" class="text pc-pop">
+                                <p id="2-desc" class="ttl pc-pop">Voice<span>先輩からの声</span></p>
+                                <p id="2-desc_2" class="desc pc-pop">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <a href="<?php echo esc_url(home_url('interview')); ?>" class="c-button p-popout">
+                                <a id="btn" href="<?php echo esc_url(home_url('interview')); ?>" class="c-button pc-pop">
                                     <p>詳しくはこちら</p>
                                     <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div id="row-3" class="row-3 setAnime">
-                            <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="">
-                            <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
+                            <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="Team Picture">
+                            <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
                         </div>
                     </div>
                     <div class="sect_2__row_2--content-2 ">
                         <div id="row-5" class="row-1 setAnime">
-                            <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="">
+                            <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
                         </div>
                         <div id="row-6" class="row-2 setAnime">
-                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="">
-                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="">
-                            <div class="text setAnime">
-                                <p class="ttl p-popout">We want<br><span>求める人材像</span></p>
-                                <p class="desc p-popout">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                            <img id="6-pc" class="row-2_bg pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="Background">
+                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
+                            <div id="6-txt" class="text pc-pop">
+                                <p id="6-desc" class="ttl pc-pop">We want<br><span>求める人材像</span></p>
+                                <p id="6-desc_2" class="desc pc-pop">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button p-popout">
+                                <a id="6-btn" href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button pc-pop">
                                     <p>詳しくはこちら</p>
                                     <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div id="row-7" class="cust_man">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/man_2.png" alt="">
+                        <div id="row-7" class="cust_man setAnime">
+                            <img id="7-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/man_2.png" alt="Man">
                         </div>
                     </div>
                 </div>
@@ -183,12 +183,12 @@
 <div class="sect_3">
     <div class="l-wrap">
         <div class="boxes ">
-            <div id="row-8" class="box setAnime">
-                <div class="bg_img p-popout">
-                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+            <div id="row-8" class="box">
+                <div id="8-pc" class="bg_img pc-pop">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="Background">
                     <div class="items">
                         <div class="icon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-1.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-1.svg" alt="Question Mark">
                         </div>
                         <p class="box__ttl">どんな会社？</p>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -199,12 +199,12 @@
                     </div>
                 </div>
             </div>
-            <div id="row-9" class="box setAnime">
-                <div class="bg_img p-popout">
-                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+            <div id="row-9" class="box">
+                <div id="9-pc" class="bg_img pc-pop">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="Background">
                     <div class="items">
                         <div class="icon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg" alt="Employee Working">
                         </div>
                         <p class="box__ttl">社内研修</p>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -215,12 +215,12 @@
                     </div>
                 </div>
             </div>
-            <div id="row-10" class="box setAnime">
-                <div class="bg_img p-popout">
-                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="">
+            <div id="row-10" class="box">
+                <div id="10-pc" class="bg_img pc-pop">
+                    <img class="bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_bg.png" alt="Background">
                     <div class="items">
                         <div class="icon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-3.svg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-3.svg" alt="Heart">
                         </div>
                         <p class="box__ttl">社内フォトアルバム</p>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -233,27 +233,31 @@
             </div>
         </div>
         <div class="event">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
         </div>
     </div>
 </div>
 <div class="event-sp">
-    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="">
+    <div class="l-wrap">
+        <a href="<?php echo get_permalink(get_page_by_path('trainer')) ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
+        </a>
+    </div>
 </div>
 <div class="sect_4">
     <div class="l-wrap">
         <div class="cloud">
-            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
-            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="">
-            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
+            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+            <img class="p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
         </div>
 
         <div class="sect_4__content">
             <div class="sect_4__ttl">
                 Employment information
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_4_divider.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_4_divider.svg" alt="Divider">
             <div class="sect_4__information">
                 <p class="ttl">採用情報</p>
                 <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -270,16 +274,16 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="Team 1 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.png" alt="Team 2 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.png" alt="Team 3 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.png" alt="Team 4 Picture">
                 </div>
             </div>
         </div>

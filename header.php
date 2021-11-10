@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('title'); ?></title>
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="<?php echo get_site_url(); ?>">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/release/image/request-06.png">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="" />
+    <meta property="fb:app_id" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/release/image/apple-touch.jpg" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/release/css/style.css">
@@ -16,7 +25,7 @@
 
     <script type="text/javascript" src="//webfonts.sakura.ne.jp/js/sakurav3.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
 
     <script>
         (function(d) {

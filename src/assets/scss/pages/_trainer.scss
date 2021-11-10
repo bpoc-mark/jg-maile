@@ -159,6 +159,7 @@
 			display: flex;
 			justify-content: space-between;
 			padding-top: 60px;
+			align-items: center;
 
 			img {
 				height: auto;
@@ -192,6 +193,7 @@
 			max-width: 760px;
 			margin: 0 auto;
 			padding-top: 45px;
+			align-items: center;
 
 			@include is-sp {
 				flex-wrap: wrap;
@@ -262,6 +264,7 @@
 			justify-content: center;
 			padding: 45px 0 130px 0;
 			flex-wrap: wrap;
+			position: relative;
 
 			@include is-max(480px) {
 				padding: 45px 0 60px 0;
@@ -280,7 +283,7 @@
 				@include is-max(750px) {
 					margin-right: 15px;
 					margin-top: 30px;
-					max-width: 70%;
+					max-width: 90%;
 					width: 100%;
 
 					&:nth-child(1) {
@@ -338,6 +341,16 @@
 						@include font-line(56);
 					}
 
+					img {
+						width: 100%;
+						transition: all 0.5s ease-in-out;
+
+						&:hover {
+							cursor: pointer;
+							transform: scale(0.95);
+						}
+					}
+
 					&__sub {
 						color: $color-text01;
 						line-height: 1;
@@ -349,6 +362,52 @@
 						&:nth-child(3) {
 							@include font-line(20);
 						}
+					}
+				}
+			}
+
+			.modal-content {
+				display: none;
+				position: fixed;
+				z-index: 2;
+				padding-top: 100px;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color: rgb(0, 0, 0);
+				background-color: rgba(0, 0, 0, 0.9);
+				transform: scale(0);
+				transition: 0.5s ease-in;
+
+				&.active {
+					margin: auto;
+					display: block;
+					width: 100%;
+					transform: scale(1);
+					transition: 0.5s ease-in;
+
+					img {
+						top: 50%;
+						left: 50%;
+						width: 50%;
+						z-index: 3;
+
+						@include is-sp {
+							width: 100%;
+							padding-left: 20px;
+							padding-right: 20px;
+						}
+					}
+
+					.mod-overlay {
+						z-index: 1;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
 					}
 				}
 			}

@@ -3,7 +3,7 @@
     <div class="l-wrap">
         <div class="title">
             <h1>What is the maile like?</h1>
-            <p>まいれって<br>どんな会社？</p>
+            <h2>まいれって<br>どんな会社？</h2>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
