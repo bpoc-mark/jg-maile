@@ -11,9 +11,8 @@
     </div>
     <div class="l-wrap">
         <div class="p-breadcrumbs">
-            <?php
-            if (function_exists('yoast_breadcrumb')) {
-                yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
+            <?php if (function_exists('aioseo_breadcrumbs')) {
+                aioseo_breadcrumbs('<p id="breadcrumbs">', '</p>');
             }
             ?>
         </div>

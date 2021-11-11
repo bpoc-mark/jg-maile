@@ -281,8 +281,8 @@
 					margin-right: 15px;
 				}
 
-				@include is-max(750px) {
-					margin-right: 15px;
+				@include is-sp {
+					margin-right: 0;
 					margin-top: 30px;
 					max-width: 90%;
 					width: 100%;
@@ -305,6 +305,10 @@
 					@include is-max(1000px) {
 						margin-right: 15px;
 						margin-top: 30px;
+					}
+
+					@include is-sp {
+						margin-right: 0;
 					}
 				}
 
@@ -346,6 +350,14 @@
 						width: 100%;
 						transition: all 0.5s ease-in-out;
 
+						@include is-sp {
+							width: 230px;
+						}
+
+						@include is-max(390px) {
+							width: 100%;
+						}
+
 						&:hover {
 							cursor: pointer;
 							transform: scale(0.95);
@@ -362,6 +374,10 @@
 
 						&:nth-child(3) {
 							@include font-line(20);
+
+							@include is-max(355px) {
+								font-size: 5.5vw;
+							}
 						}
 					}
 				}
@@ -371,7 +387,7 @@
 				display: none;
 				position: fixed;
 				z-index: 2;
-				padding-top: 100px;
+				padding-top: 50%;
 				left: 0;
 				top: 0;
 				width: 100%;
@@ -403,7 +419,7 @@
 					}
 
 					.mod-overlay {
-						z-index: 1;
+						z-index: -1;
 						position: absolute;
 						top: 0;
 						left: 0;

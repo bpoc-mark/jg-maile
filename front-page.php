@@ -136,19 +136,23 @@
                         <div id="row-1" class="row-1 setAnime">
                             <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="Team Picture">
                         </div>
-                        <div id="row-2" class="row-2 setAnime">
-                            <img id="2-pc" class="row_bg pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="Background">
-                            <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
-                            <div id="2-txt" class="text pc-pop">
-                                <p id="2-desc" class="ttl pc-pop">Voice<span>先輩からの声</span></p>
-                                <p id="2-desc_2" class="desc pc-pop">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <a id="btn" href="<?php echo esc_url(home_url('interview')); ?>" class="c-button pc-pop">
-                                    <p>詳しくはこちら</p>
-                                    <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                </a>
+
+                        <div id="row-2" class="row-2 setAnime">
+                            <div id="2-pop" class="pc-pop">
+                                <img class="row_bg " src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="Background">
+                                <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
+                                <div class="text ">
+                                    <p class="ttl ">Voice<span>先輩からの声</span></p>
+                                    <p class="desc ">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                                    <a id="btn" href="<?php echo esc_url(home_url('interview')); ?>" class="c-button ">
+                                        <p>詳しくはこちら</p>
+                                        <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
+
                         <div id="row-3" class="row-3 setAnime">
                             <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="Team Picture">
                             <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
@@ -158,17 +162,19 @@
                         <div id="row-5" class="row-1 setAnime">
                             <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
                         </div>
-                        <div id="row-6" class="row-2 setAnime">
-                            <img id="6-pc" class="row-2_bg pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="Background">
-                            <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
-                            <div id="6-txt" class="text pc-pop">
-                                <p id="6-desc" class="ttl pc-pop">We want<br><span>求める人材像</span></p>
-                                <p id="6-desc_2" class="desc pc-pop">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                        <div id="row-6" class="setAnime">
+                            <div id="6-pop" class="row-2 pc-pop">
+                                <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="Background">
+                                <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
+                                <div class="text">
+                                    <p class="ttl">We want<br><span>求める人材像</span></p>
+                                    <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
-                                <a id="6-btn" href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button pc-pop">
-                                    <p>詳しくはこちら</p>
-                                    <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
-                                </a>
+                                    <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button">
+                                        <p>詳しくはこちら</p>
+                                        <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div id="row-7" class="cust_man setAnime">

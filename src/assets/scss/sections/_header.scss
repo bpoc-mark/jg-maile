@@ -58,74 +58,74 @@
 						}
 					}
 				}
+			}
 
-				.menu {
-					position: absolute;
-					width: 360px;
-					height: 100%;
-					right: -50vw;
+			.menu {
+				position: absolute;
+				width: 360px;
+				height: 100%;
+				right: -50vw;
+				top: 0;
+				z-index: 1;
+				padding: 50px 20px;
+				background: #000;
+				list-style-type: none;
+				transition: 0.2s ease-in-out;
+
+				@include is-tabpc {
+					height: 59vh;
+					padding: 40px 20px;
+				}
+
+				@include is-sp {
+					position: fixed;
+					right: unset;
+					left: -150vw;
 					top: 0;
-					z-index: 1;
-					padding: 50px 20px;
-					background: #000;
-					list-style-type: none;
-					transition: 0.2s ease-in-out;
+					z-index: -2;
+					bottom: unset;
+					padding: 40px 20px 100px 20px;
+					overflow: scroll;
+				}
 
-					@include is-tabpc {
-						height: 59vh;
-						padding: 40px 20px;
-					}
+				&.active {
+					right: 0;
 
 					@include is-sp {
-						position: fixed;
-						right: unset;
-						left: -150vw;
-						top: 0;
-						z-index: -2;
-						bottom: unset;
-						padding: 40px 20px 100px 20px;
-						overflow: scroll;
+						left: 0;
 					}
+				}
 
-					&.active {
-						right: 0;
+				li {
+					padding-bottom: 10px;
+					width: 80%;
+
+					@include is-sp {
+						width: 100%;
+						padding-bottom: 0;
+					}
+					a {
+						display: flex;
+						align-items: center;
 
 						@include is-sp {
-							left: 0;
+							padding: 10px 0;
 						}
-					}
 
-					li {
-						padding-bottom: 10px;
-						width: 80%;
-
-						@include is-sp {
+						img {
+							width: 16px;
+						}
+						p {
+							color: #fff;
+							padding-left: 20px;
 							width: 100%;
-							padding-bottom: 0;
 						}
-						a {
-							display: flex;
-							align-items: center;
 
-							@include is-sp {
-								padding: 10px 0;
-							}
-
-							img {
-								width: 16px;
-							}
+						&:hover {
+							transition: 0.3s linear;
+							background: #fff;
 							p {
-								color: #fff;
-								padding-left: 20px;
-								width: 100%;
-							}
-
-							&:hover {
-								transition: 0.3s linear;
-								background: #fff;
-								p {
-									color: #000;
-								}
+								color: #000;
 							}
 						}
 					}

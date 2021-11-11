@@ -41,12 +41,12 @@ $(document).ready(function(){
     //NAVBAR TOGGLE
     $('.hamburger').on('click',function(){
       $(this).find('span').toggleClass('toggled');
-      $(this).find('.menu').toggleClass('active');
+      $(this).parent('.nav').find('.menu').toggleClass('active');
       $('#overlay').toggleClass('active');
     })
     $('#overlay').on('click',function(){
       $('.hamburger span').toggleClass('toggled');
-      $('.menu').toggleClass('active');
+      $('.nav .menu').toggleClass('active');
       $('#overlay').toggleClass('active');
     })
     //END NAVBAR TOGGLE
@@ -138,21 +138,13 @@ $(document).ready(function() {
       $('#row-1').find('#left-pc').addClass('img-pop');
 
       if(length <= '9245'){
-        $('#row-2').find('#2-pc').addClass('img-pop');
-        $('#row-2').find('#2-txt').addClass('img-pop');
-        $('#row-2').find('#2-desc').addClass('img-pop');
-        $('#row-2').find('#2-desc_2').addClass('img-pop');
-        $('#row-2').find('#btn').addClass('img-pop');
+        $('#row-2').find('#2-pop').addClass('img-pop');
 
         if(length <= '8715'){
           $('#row-3').find('#pcview').addClass('img-pop');
 
           if(length <= '8120'){
-            $('#row-6').find('#6-pc').addClass('img-pop');
-            $('#row-6').find('#6-txt').addClass('img-pop');
-            $('#row-6').find('#6-desc').addClass('img-pop');
-            $('#row-6').find('#6-desc_2').addClass('img-pop');
-            $('#row-6').find('#6-btn').addClass('img-pop');
+            $('#row-6').find('#6-pop').addClass('img-pop');
 
             if(length <= '7480'){
               $('#row-7').find('#7-pc').addClass('img-pop');
@@ -180,17 +172,9 @@ $(document).ready(function() {
     else{
       $('#row-3').find('#pcview').removeClass('img-pop');
       $('#row-1').find('#left-pc').removeClass('img-pop');
-      $('#row-2').find('#2-pc').removeClass('img-pop');
-      $('#row-2').find('#2-txt').removeClass('img-pop');
-      $('#row-2').find('#2-desc').removeClass('img-pop');
-      $('#row-2').find('#2-desc_2').removeClass('img-pop');
-      $('#row-2').find('#btn').removeClass('img-pop');
+      $('#row-2').find('#2-pop').removeClass('img-pop');
       $('#row-5').find('#5-pc').removeClass('img-pop');
-      $('#row-6').find('#6-pc').removeClass('img-pop');
-      $('#row-6').find('#6-pc_2').removeClass('img-pop');
-      $('#row-6').find('#6-desc').removeClass('img-pop');
-      $('#row-6').find('#6-desc_2').removeClass('img-pop');
-      $('#row-6').find('#6-btn').removeClass('img-pop');
+      $('#row-6').find('#6-pop').removeClass('img-pop');
       $('#row-7').find('#7-pc').removeClass('img-pop');
       $('#row-8').find('#8-pc').removeClass('img-pop');
       $('#row-9').find('#9-pc').removeClass('img-pop');

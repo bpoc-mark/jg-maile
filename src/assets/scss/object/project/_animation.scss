@@ -29,11 +29,10 @@
 }
 
 .p-popout {
-	transition: 300ms cubic-bezier(0.56, 2, 0.7, 0.52) 300ms;
-	transition: 0.6s ease-in-out;
-	-webkit-transition: 0.6s ease-in-out;
-	-moz-transition: 0.6s ease-in-out;
-	-o-transition: 0.6s ease-in-out;
+	transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
@@ -45,11 +44,10 @@
 }
 
 .pc-pop {
-	transition: 300ms cubic-bezier(0.56, 2, 0.7, 0.52) 100ms;
-	transition: 0.6s ease-in-out;
-	-webkit-transition: 0.6s ease-in-out;
-	-moz-transition: 0.6s ease-in-out;
-	-o-transition: 0.6s ease-in-out;
+	transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
@@ -59,6 +57,7 @@
 		opacity: 1;
 	}
 }
+
 //END CUSTOM ANIMATION
 
 .p-shake {

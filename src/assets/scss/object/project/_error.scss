@@ -1,47 +1,67 @@
 .p-error {
+	&__left,
+	&__right {
+		@include is-sp {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	}
 
-    &__left,
-    &__right {
-        @include is-sp {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-    }
+	&__frame {
+		@include is-tabpc {
+			height: 390px;
+		}
+	}
 
-    &__frame {
-        @include is-tabpc {
-            height: 390px;
-        }
-    }
+	.ttl,
+	.text {
+		font-family: "Kosugi Maru", Sans-serif;
+	}
 
-    .ttl,
-    .text {
-        font-family: "Kosugi Maru", Sans-serif;
-    }
+	.ttl {
+		@include font-line(46, 46);
+		padding: 50px 0 20px;
+		margin: 0;
+	}
 
-    .ttl {
-        @include font-line(46, 46);
-        padding: 50px 0 20px;
-        margin: 0;
-    }
+	.link {
+		font-weight: bolder;
+		text-decoration: underline;
+	}
 
-    .link {
-        font-weight: bolder;
-        text-decoration: underline;
-    }
+	&__option {
+		padding: 0 0 0 20px;
+	}
 
-    &__option {
-        padding: 0 0 0 20px;
-    }
+	&__listItem {
+		padding: 20px 0 0;
+	}
 
-    &__listItem {
-        padding: 20px 0 0;
-    }
+	li {
+		@include is-tabpc {
+			list-style: decimal;
+		}
+	}
+}
 
-    li {
-        @include is-tabpc {
-            list-style: decimal;
-        }
-    }
+.p-404 {
+	color: $color-text01;
+	font-family: "santa_fe";
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	top: 50%;
+	position: relative;
+
+	@include font-line(80);
+
+	&--sub {
+		color: #fff;
+		font-weight: 700;
+		text-align: center;
+		padding: 40px 0 15vh 0;
+
+		@include font-line(21);
+	}
 }
