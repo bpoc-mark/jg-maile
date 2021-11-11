@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="section_1 p-details">
+<section class="section_1 p-details">
     <div class="l-wrap">
         <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_1.svg" alt="Cloud">
         <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/page/cloud_2.svg" alt="Cloud">
@@ -85,7 +85,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                             <div class="items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="Graduate Icon">
-                                <p class="items__ttl">新卒採用情報</p>
+                                <h3 class="items__ttl">新卒採用情報</h3>
                                 <div class="items__btn">
                                     <p>詳しくはこちら</p>
                                     <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
@@ -100,8 +100,8 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                             <div class="custom items">
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_man.svg" alt="Employee Icon">
-                                <p class="items__ttl">受付社員・パート・<br>
-                                    アルバイト情報</p>
+                                <h3 class="items__ttl">受付社員・パート・<br>
+                                    アルバイト情報</h3>
                                 <div class="items__btn">
                                     <p>詳しくはこちら</p>
                                     <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
@@ -113,40 +113,36 @@
             </div>
         </div>
         <div class="p-details--flow">
-            <div class="p-details--flow__ttl">
-                Flow
-            </div>
-            <div class="p-details--flow__sub">
-                採用の流れ
-            </div>
+            <h3 class="p-details--flow__ttl">Flow</h3>
+            <h4 class="p-details--flow__sub">採用の流れ</h4>
             <div class="p-details--flow__steps">
                 <div class="step" data-aos="zoom-out">
-                    <p class="step__ttl">step <span>01</span></p>
-                    <p class="step__desc">お問い合わせ</p>
+                    <h3 class="step__ttl">step <span>01</span></h3>
+                    <h4 class="step__desc">お問い合わせ</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="300">
-                    <p class="step__ttl">step <span>02</span></p>
-                    <p class="step__desc">見　学</p>
+                    <h3 class="step__ttl">step <span>02</span></h3>
+                    <h4 class="step__desc">見　学</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="400">
-                    <p class="step__ttl">step <span>03</span></p>
-                    <p class="step__desc">書類選考</p>
+                    <h3 class="step__ttl">step <span>03</span></h3>
+                    <h4 class="step__desc">書類選考</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="500">
-                    <p class="step__ttl">step <span>04</span></p>
-                    <p class="step__desc">面　接</p>
+                    <h3 class="step__ttl">step <span>04</span></h3>
+                    <h4 class="step__desc">面　接</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="600">
-                    <p class="step__ttl">step <span>05</span></p>
-                    <p class="step__desc">採　用</p>
+                    <h3 class="step__ttl">step <span>05</span></h3>
+                    <h4 class="step__desc">採　用</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">こちらから合否のご連絡をさせていただきます。</p>
                 </div>
@@ -159,5 +155,5 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>

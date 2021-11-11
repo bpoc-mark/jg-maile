@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="page_message">
+<section class="page_message">
     <div class="l-wrap">
         <div class="imgs">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
@@ -43,6 +43,5 @@
             </a>
         </div>
     </div>
-
-</div>
+</section>
 <?php get_footer(); ?>

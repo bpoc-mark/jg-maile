@@ -160,6 +160,7 @@
 				font-family: "santa_fe", sans-serif;
 				text-align: center;
 				line-height: 0.7em;
+				font-weight: 400;
 
 				@include font-line(80);
 			}
@@ -254,6 +255,7 @@
 							font-family: "santa_fe", sans-serif;
 							line-height: 1em;
 							text-align: center;
+							font-weight: 400;
 
 							@include font-line(56);
 						}

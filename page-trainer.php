@@ -20,7 +20,7 @@ $imagedir = get_template_directory_uri();
         </div>
     </div>
 </div>
-<div class="trainer">
+<section class="trainer">
     <div class="trainer__sect-1">
         <div class="l-wrap">
             <img src="<?php echo $imagedir ?>/release/image/page/trainer.png" alt="">
@@ -184,5 +184,5 @@ $imagedir = get_template_directory_uri();
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>

@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="c-page_contact">
+<section class="c-page_contact">
     <div class="l-wrap">
         <div class="cont_clouds">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
@@ -26,8 +26,8 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
         </div>
         <div class="c-page_contact__faq">
-            <p class="c-page_contact__faq--ttl">Faq</p>
-            <p class="c-page_contact__faq--sub">よくある質問</p>
+            <h3 class="c-page_contact__faq--ttl">Faq</h3>
+            <h4 class="c-page_contact__faq--sub">よくある質問</h4>
 
             <div class="contact_content">
                 <div class="contact_content__item" data-aos="fade-up" data-aos-duration="1000">
@@ -66,11 +66,10 @@
         </div>
     </div>
     <div class="c-page_contact__contact" id="form">
-        <p class="c-page_contact__contact--ttl">Entry</p>
-        <p class="c-page_contact__contact--sub">エントリーフォーム</p>
+        <h3 class="c-page_contact__contact--ttl">Entry</h3>
+        <h4 class="c-page_contact__contact--sub">エントリーフォーム</h4>
 
         <?php echo do_shortcode('[contact-form-7 id="126" title="Contact form 1"]'); ?>
     </div>
-
-</div>
+</section>
 <?php get_footer(); ?>

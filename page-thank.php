@@ -18,12 +18,12 @@
         </div>
     </div>
 </div>
-<div class="thanks_cont">
+<section class="thanks_cont">
     <div class="l-wrap">
-        <h1>お問い合せいただき、誠にありがとうございます。</h1>
-        <p class="text_1">自動返信メールをお送りしましたので、ご確認ください。</p>
-        <p class="text_2">数日たっても連絡がない場合は、メールが正常に送信されなかった可能性がございます。<br>
-            お手数ですが、もう一度送信いただくか、077-548-6656まで直接ご連絡をお願いします。</p>
+        <h3>お問い合せいただき、誠にありがとうございます。</h3>
+        <h4 class="text_1">自動返信メールをお送りしましたので、ご確認ください。</h4>
+        <h4 class="text_2">数日たっても連絡がない場合は、メールが正常に送信されなかった可能性がございます。<br>
+            お手数ですが、もう一度送信いただくか、077-548-6656まで直接ご連絡をお願いします。</h4>
     </div>
 
     <div class="p-details--btn">
@@ -32,6 +32,6 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/details_btn.svg" alt="">
         </a>
     </div>
-</div>
+</section>
 
 <?php get_footer(); ?>

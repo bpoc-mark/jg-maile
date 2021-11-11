@@ -58,15 +58,15 @@
         <path class="cls-2 dot-sp" d="M188,529.12c-.45,0-.84.36-1.26.47a5.48,5.48,0,0,0-1.29.27,5.26,5.26,0,0,0-1.12.73,5.38,5.38,0,0,0-.83,1.07,5.22,5.22,0,0,0-.51,1.25,5,5,0,0,0-.05,1.35,4.55,4.55,0,0,0,.26,1.28,5,5,0,0,0,.42,1.24,5.16,5.16,0,0,0,.81,1.05,5.22,5.22,0,0,0,1,.89,5.06,5.06,0,0,0,1.22.58,5.56,5.56,0,0,0,1.36.13,5.35,5.35,0,0,0,1.34-.16,4.81,4.81,0,0,0,1.19-.62,5.12,5.12,0,0,0,1-.85,5,5,0,0,0,.78-1,4.62,4.62,0,0,0,.6-1.17,5.25,5.25,0,0,0,.07-1.32,5.46,5.46,0,0,0,0-1.34,5.14,5.14,0,0,0-.61-1.19,4.77,4.77,0,0,0-.89-1,5.23,5.23,0,0,0-.94-.94,4.89,4.89,0,0,0-1.28-.31A5.21,5.21,0,0,0,188,529.12Z" transform="translate(44.14 -524)" />
     </svg>
 </div>
-<div class="sect_1">
+<section class="sect_1">
     <div class="l-wrap">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_reflection.svg" alt="Water Reflection">
         <h2 class="sect_1__ttl">
             関わる全ての人との<br>ご縁に感謝し、<br>共に幸せになるために。
         </h2>
     </div>
-</div>
-<div class="sect_2">
+</section>
+<section class="sect_2">
     <div class="l-wrap">
         <div class="front_content">
             <svg class="swirl-pc" id="ãƒ¬ã‚¤ãƒ¤ãƒ¼_2" data-name="ãƒ¬ã‚¤ãƒ¤ãƒ¼ 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918.1 1253.58">
@@ -91,7 +91,7 @@
                         <img class="bg_sp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg-sp.png" alt="Background">
                         <img class="woman" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_woman.png" alt="Woman">
                         <div class="text">
-                            <p class="ttl">一緒に働く<br>仲間募集中！</p>
+                            <h2 class="ttl">一緒に働く<br>仲間募集中！</h2>
                             <a href="<?php echo get_permalink(get_page_by_path('career')) ?>" class="c-button">
                                 <p>詳しくはこちら</p>
                                 <img class="arrow" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
@@ -102,7 +102,7 @@
                 <div class="item-2 setAnime">
                     <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_man.png" alt="Man">
                     <div class="text p-popout">
-                        <p class="message">Message<span>代表挨拶</span></p>
+                        <h2 class="message">Message<span>代表挨拶</span></h2>
                         <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
                         <a class="c-button" href="<?php echo get_permalink(get_page_by_path('message')) ?>">
@@ -143,7 +143,7 @@
                                 <img class="row_bg " src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="Background">
                                 <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
                                 <div class="text ">
-                                    <p class="ttl ">Voice<span>先輩からの声</span></p>
+                                    <h2 class="ttl">Voice<span>先輩からの声</span></h2>
                                     <p class="desc ">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                                     <a id="btn" href="<?php echo esc_url(home_url('interview')); ?>" class="c-button ">
                                         <p>詳しくはこちら</p>
@@ -167,7 +167,7 @@
                                 <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="Background">
                                 <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
                                 <div class="text">
-                                    <p class="ttl">We want<br><span>求める人材像</span></p>
+                                    <h2 class="ttl">We want<br><span>求める人材像</span></h2>
                                     <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
 
                                     <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button">
@@ -185,8 +185,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="sect_3">
+</section>
+<section class="sect_3">
     <div class="l-wrap">
         <div class="boxes ">
             <div id="row-8" class="box">
@@ -196,7 +196,7 @@
                         <div class="icon">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-1.svg" alt="Question Mark">
                         </div>
-                        <p class="box__ttl">どんな会社？</p>
+                        <h3 class="box__ttl">どんな会社？</h3>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                         <a class="c-button" href="<?php echo esc_url(home_url('about')); ?>">
                             <p>詳しくはこちら</p>
@@ -212,7 +212,7 @@
                         <div class="icon">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg" alt="Employee Working">
                         </div>
-                        <p class="box__ttl">社内研修</p>
+                        <h3 class="box__ttl">社内研修</h3>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                         <a class="c-button" href="<?php echo esc_url(home_url('whats')); ?>">
                             <p>詳しくはこちら</p>
@@ -228,7 +228,7 @@
                         <div class="icon">
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-3.svg" alt="Heart">
                         </div>
-                        <p class="box__ttl">社内フォトアルバム</p>
+                        <h3 class="box__ttl">社内フォトアルバム</h3>
                         <p class="box__desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                         <a class="c-button" href="<?php echo esc_url(home_url('album')); ?>">
                             <p>詳しくはこちら</p>
@@ -242,15 +242,15 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
         </div>
     </div>
-</div>
-<div class="event-sp">
+</section>
+<section class="event-sp">
     <div class="l-wrap">
         <a href="<?php echo get_permalink(get_page_by_path('trainer')) ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
         </a>
     </div>
-</div>
-<div class="sect_4">
+</section>
+<section class="sect_4">
     <div class="l-wrap">
         <div class="cloud">
             <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
@@ -260,12 +260,12 @@
         </div>
 
         <div class="sect_4__content">
-            <div class="sect_4__ttl">
+            <h2 class="sect_4__ttl">
                 Employment information
-            </div>
+            </h2>
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_4_divider.svg" alt="Divider">
             <div class="sect_4__information">
-                <p class="ttl">採用情報</p>
+                <h3 class="ttl">採用情報</h3>
                 <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                 <a class="c-button u-pt-10" href="<?php echo esc_url(home_url('career')); ?>">
                     <p>詳しくはこちら</p>
@@ -274,8 +274,8 @@
             </div>
         </div>
     </div>
-</div>
-<div class="sect_5">
+</section>
+<section class="sect_5">
     <div class="sect_5__teams">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -317,6 +317,6 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <?php get_footer(); ?>

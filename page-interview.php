@@ -18,17 +18,17 @@
         </div>
     </div>
 </div>
-<div class="page_interview">
+<section class="page_interview">
     <div class="l-wrap">
         <div class="page_interview__content">
             <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
             <div class="page_interview--int">
                 <img class="p-slide cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <div class="ttl-div">
-                    <p class="c-ttl">interview 01</p>
+                    <h3 class="c-ttl">interview 01</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
-                    <p class="c-ttl_sub">名前名前</p>
-                    <p class="c-sub">namenamename</p>
+                    <h4 class="c-ttl_sub">名前名前</h4>
+                    <h5 class="c-sub">namenamename</h5>
                 </div>
                 <div class="page_interview--int__content">
                     <div class="row_1">
@@ -51,10 +51,10 @@
                     <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="Cloud">
                 </div>
                 <div class="ttl-div">
-                    <p class="c-ttl">interview 02</p>
+                    <h3 class="c-ttl">interview 02</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
-                    <p class="c-ttl_sub">名前名前</p>
-                    <p class="c-sub">namenamename</p>
+                    <h4 class="c-ttl_sub">名前名前</h4>
+                    <h5 class="c-sub">namenamename</h5>
                 </div>
                 <div class="page_interview--int__content">
                     <div class="row_1">
@@ -71,10 +71,10 @@
             <div class="page_interview--int">
                 <img class="inter_cloud-3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
                 <div class="ttl-div">
-                    <p class="c-ttl">interview 03</p>
+                    <h3 class="c-ttl">interview 03</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
-                    <p class="c-ttl_sub">名前名前</p>
-                    <p class="c-sub">namenamename</p>
+                    <h4 class="c-ttl_sub">名前名前</h4>
+                    <h5 class="c-sub">namenamename</h5>
                 </div>
                 <div class="page_interview--int__content">
                     <div class="row_1">
@@ -93,10 +93,10 @@
                 <img class="p-upDown inter_bird-2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter4-bird-3.svg" alt="Bird">
                 <img class="p-upDown inter_bird-3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter4-bird-4.svg" alt="Bird">
 
-                <p class="c-ttl">interview 04</p>
+                <h3 class="c-ttl">interview 04</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
-                <p class="c-ttl_sub">名前名前</p>
-                <p class="c-sub">namenamename</p>
+                <h4 class="c-ttl_sub">名前名前</h4>
+                <h5 class="c-sub">namenamename</h5>
                 <img class="p-downUp inter_bird_2" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird-2.svg" alt="Bird">
                 <div class="page_interview--int__content">
                     <div class="row_1">
@@ -114,10 +114,10 @@
                 <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <img class="p-downUp inter_bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird-3.svg" alt="Bird">
                 <div class="ttl-div">
-                    <p class="c-ttl">interview 05</p>
+                    <h3 class="c-ttl">interview 05</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
-                    <p class="c-ttl_sub">名前名前</p>
-                    <p class="c-sub">namenamename</p>
+                    <h4 class="c-ttl_sub">名前名前</h4>
+                    <h5 class="c-sub">namenamename</h5>
                 </div>
                 <div class="page_interview--int__content">
                     <div class="row_1">
@@ -139,5 +139,5 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>

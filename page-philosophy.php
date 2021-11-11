@@ -18,14 +18,14 @@
         </div>
     </div>
 </div>
-<div class="page_philosophy">
+<section class="page_philosophy">
     <div class="l-wrap">
         <div class="page_philosophy__container">
             <img class="phil_cloud-1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
             <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
             <div class="content">
-                <h1 class="content__ttl">Philosophy</h1>
-                <p class="content__sub">理　念</p>
+                <h3 class="content__ttl">Philosophy</h3>
+                <h4 class="content__sub">理　念</h4>
                 <p class="content__desc">
                     テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
                 </p>
@@ -37,8 +37,8 @@
             <img class="ph_cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
             <div class="page_philosophy__video--container">
                 <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
-                <p class="ttl">MAILE株式会社<br>
-                    7つのお約束</p>
+                <h3 class="ttl">MAILE株式会社<br>
+                    7つのお約束</h3>
                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/youtube.png" alt="Youtube Video">
             </div>
         </div>
@@ -46,43 +46,43 @@
     <div class="page_philosophy__idea">
         <div class="l-wrap">
             <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
-            <p class="ttl">Ideal</p>
-            <p class="sub">求める人材像</p>
+            <h3 class="ttl">Ideal</h3>
+            <h4 class="sub">求める人材像</h4>
 
             <div class="boxes">
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <p class="box__items--ttl">active!</p>
+                        <h3 class="box__items--ttl">active!</h3>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="box__items--sub">
+                        <h4 class="box__items--sub">
                             積極的に<br>
                             行動できる人
-                        </p>
+                        </h4>
                         <p class="box__items--desc">自分から積極的にコミュニケーションを取っていきましょう。できない部分をそのままにせず、どんどん行動しましょう。</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <p class="box__items--ttl">positive!</p>
+                        <h3 class="box__items--ttl">positive!</h3>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="box__items--sub">
+                        <h4 class="box__items--sub">
                             物事をプラスに<br>
                             考えられる人
-                        </p>
+                        </h4>
                         <p class="box__items--desc">起きた出来事に対して解釈をプラスに考えましょう。プラスに考える事で全てがプラスの力に働きます。</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <p class="box__items--ttl">heartful!</p>
+                        <h3 class="box__items--ttl">heartful!</h3>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="box__items--sub">
+                        <h4 class="box__items--sub">
                             相手のことを<br>
                             想いやれる人
-                        </p>
+                        </h4>
                         <p class="box__items--desc">常に感謝の気持ち、相手の立場になって考えましょう。小さな感動に気づける心を身につけましょう。</p>
                     </div>
                 </div>
@@ -96,5 +96,5 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>

@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="page_album">
+<section class="page_album">
     <div class="l-wrap">
         <div class="album_img">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
@@ -87,5 +87,5 @@
     </div>
 
 
-</div>
+</section>
 <?php get_footer(); ?>

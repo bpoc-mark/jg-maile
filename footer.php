@@ -1,4 +1,5 @@
         </div>
+        <footer>
         <div class="page__footer">
                 <div class="row">
                         <a href="tel: 077-548-6656">
@@ -30,7 +31,7 @@
                         </div>
                         <div class="content__row-2">
                                 <nav>
-                                        <div class="list_1">
+                                        <ul class="list_1">
                                                 <li>
                                                         <a href="<?php echo esc_url(home_url('/')); ?>">
                                                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
@@ -67,8 +68,8 @@
                                                                 <p>理念と求める人材</p>
                                                         </a>
                                                 </li>
-                                        </div>
-                                        <div class="list_2">
+                                        </ul>
+                                        <ul class="list_2">
                                                 <li>
                                                         <a href="<?php echo get_permalink(get_page_by_path('trainer')) ?>">
                                                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/footer/list_icon.svg" alt="">
@@ -97,13 +98,15 @@
                                                         </a>
 
                                                 </li>
-                                        </div>
+                                        </ul>
                                 </nav>
                         </div>
                 </div>
                 <div class="line"></div>
                 <p class="remarks">©2021 MAILE株式会社 All Right Reserved. produced by <a href="">ジーングロス</a></p>
         </div>
+        </footer>
+
         </main>
         <!-- SWIPER -->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>

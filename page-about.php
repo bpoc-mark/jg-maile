@@ -18,7 +18,7 @@
         </div>
     </div>
 </div>
-<div class="section_1 p-details about">
+<section class="section_1 p-details about">
     <div class="l-wrap">
         <div class="img_cloud">
             <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
@@ -63,23 +63,23 @@
             </ul>
         </div>
     </div>
-</div>
-<div class="about_message">
+</section>
+<section class="about_message">
     <div class="l-wrap">
         <div class="about_message__container">
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
             </a>
-            <p>関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</p>
+            <h2 class="txt">関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</h2>
         </div>
     </div>
-</div>
-<div class="store_info">
+</section>
+<section class="store_info">
     <div class="l-wrap">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
-        <p class="store_info__ttl">Store information</p>
-        <p class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</p>
+        <h2 class="store_info__ttl">Store information</h2>
+        <h3 class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</h3>
 
         <div class="store_info__area">
             <div class="store_info__area--row_1">
@@ -113,7 +113,7 @@
                 <!-- ACCORDION 1 -->
                 <div class="accordion">
                     <a id="accordion-1" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -154,7 +154,7 @@
                 <!-- ACCORDION 2 -->
                 <div class="accordion">
                     <a id="accordion-2" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -195,7 +195,7 @@
                 <!-- ACCORDION 3 -->
                 <div class="accordion">
                     <a id="accordion-3" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -236,7 +236,7 @@
                 <!-- ACCORDION 4 -->
                 <div class="accordion">
                     <a id="accordion-4" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -278,7 +278,7 @@
                 <!-- ACCORDION 5 -->
                 <div class="accordion">
                     <a id="accordion-5" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -320,7 +320,7 @@
                 <!-- ACCORDION 6 -->
                 <div class="accordion">
                     <a id="accordion-6" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 守山院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 守山院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -362,7 +362,7 @@
                 <!-- ACCORDION 7 -->
                 <div class="accordion">
                     <a id="accordion-7" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -404,7 +404,7 @@
                 <!-- ACCORDION 8 -->
                 <div class="accordion">
                     <a id="accordion-8" class="accordion__header-cont active" href='javascript:;'>
-                        <h1 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h1>
+                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h2>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -450,5 +450,5 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>
