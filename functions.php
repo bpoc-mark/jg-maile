@@ -154,6 +154,7 @@ add_action('after_setup_theme', 'owp_pf_support');
 
 
 //THANK YOU PAGE CONTACT FORM
+add_action('wp_footer', 'redirect_cf7');
 function redirect_cf7()
 {
 ?>
@@ -164,7 +165,7 @@ function redirect_cf7()
 	</script>
 <?php
 }
-add_action('wp_footer', 'redirect_cf7');
+
 
 
 // REDIRECT TO HOMEPAGE ALL 404 ERROR
@@ -179,6 +180,4 @@ function redirect_404_to_homepage(){
 	endif;
 }
 }
-
-?>
 

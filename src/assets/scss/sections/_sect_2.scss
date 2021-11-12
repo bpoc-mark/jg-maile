@@ -72,8 +72,8 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 4100;
-					stroke-dasharray: 3000;
+					stroke-dashoffset: 4000;
+					stroke-dasharray: 3700;
 				}
 			}
 		}
@@ -783,6 +783,12 @@
 							height: auto;
 						}
 					}
+				}
+			}
+
+			#row-6 {
+				@include is-sp {
+					width: 100%;
 				}
 			}
 

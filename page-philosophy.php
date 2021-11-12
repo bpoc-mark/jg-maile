@@ -39,7 +39,7 @@
                 <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
                 <h3 class="ttl">MAILE株式会社<br>
                     7つのお約束</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/youtube.png" alt="Youtube Video">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/youtube.jpg" alt="Youtube Video">
             </div>
         </div>
     </div>

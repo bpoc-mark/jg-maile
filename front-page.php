@@ -134,15 +134,13 @@
                 <div class="l-wrap">
                     <div class="sect_2__row_2--content ">
                         <div id="row-1" class="row-1 setAnime">
-                            <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.png" alt="Team Picture">
+                            <img id="left-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_1.jpg" alt="Team Picture">
                         </div>
-
-
                         <div id="row-2" class="row-2 setAnime">
                             <div id="2-pop" class="pc-pop">
                                 <img class="row_bg " src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2.png" alt="Background">
-                                <img class="p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
-                                <div class="text ">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-sp.png" alt="Background">
+                                <div class="text">
                                     <h2 class="ttl">Voice<span>先輩からの声</span></h2>
                                     <p class="desc ">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                                     <a id="btn" href="<?php echo esc_url(home_url('interview')); ?>" class="c-button ">
@@ -152,20 +150,19 @@
                                 </div>
                             </div>
                         </div>
-
                         <div id="row-3" class="row-3 setAnime">
-                            <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.png" alt="Team Picture">
-                            <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
+                            <img id="pcview" class="pc pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_2.jpg" alt="Team Picture">
+                            <img class="sp p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.jpg" alt="Team Picture">
                         </div>
                     </div>
                     <div class="sect_2__row_2--content-2 ">
                         <div id="row-5" class="row-1 setAnime">
-                            <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.png" alt="Team Picture">
+                            <img id="5-pc" class="pc-pop" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/team_3.jpg" alt="Team Picture">
                         </div>
                         <div id="row-6" class="setAnime">
                             <div id="6-pop" class="row-2 pc-pop">
                                 <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2.png" alt="Background">
-                                <img class="row-2_bg p-popout" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
+                                <img class="row-2_bg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_2/sect_2_bg_2-2-sp.png" alt="Background">
                                 <div class="text">
                                     <h2 class="ttl">We want<br><span>求める人材像</span></h2>
                                     <p class="desc">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
@@ -239,14 +236,14 @@
             </div>
         </div>
         <div class="event">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.jpg" alt="Training Image">
         </div>
     </div>
 </section>
 <section class="event-sp">
     <div class="l-wrap">
         <a href="<?php echo get_permalink(get_page_by_path('trainer')) ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.png" alt="Training Image">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_event.jpg" alt="Training Image">
         </a>
     </div>
 </section>
@@ -280,16 +277,16 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.png" alt="Team 1 Picture">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_1.jpg" alt="Team 1 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.png" alt="Team 2 Picture">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_2.jpg" alt="Team 2 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.png" alt="Team 3 Picture">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_3.jpg" alt="Team 3 Picture">
                 </div>
                 <div class="swiper-slide img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.png" alt="Team 4 Picture">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/team_4.jpg" alt="Team 4 Picture">
                 </div>
             </div>
         </div>

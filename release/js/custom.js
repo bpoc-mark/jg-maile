@@ -45,7 +45,7 @@ $(document).ready(function () {
   }); //END NAVBAR TOGGLE
   //POPOUT ON SCROLLED
 
-  $(window).on('scroll resize load', function () {
+  $(window).on('scroll', function () {
     $('.setAnime').each(function () {
       var viewPos = $(this).offset().top,
           viewScrollTop = $(window).scrollTop(),
@@ -53,10 +53,8 @@ $(document).ready(function () {
 
       if (viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
         $(this).addClass('animated');
-        $(this).addClass('img-pop');
       } else {
         $(this).removeClass('animated');
-        $(this).removeClass('img-pop');
       }
     });
   }); //END POPOUT
@@ -158,9 +156,9 @@ $(document).ready(function () {
         }
       }
     } else {
-      $('#row-3').find('#pcview').removeClass('img-pop');
       $('#row-1').find('#left-pc').removeClass('img-pop');
       $('#row-2').find('#2-pop').removeClass('img-pop');
+      $('#row-3').find('#pcview').removeClass('img-pop');
       $('#row-5').find('#5-pc').removeClass('img-pop');
       $('#row-6').find('#6-pop').removeClass('img-pop');
       $('#row-7').find('#7-pc').removeClass('img-pop');
@@ -172,26 +170,42 @@ $(document).ready(function () {
 }); //SVG ANIMATION ON BODY SP VIEW
 
 $(document).ready(function () {
-  var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
-  $(window).scroll(function () {
-    //calculate how far down the page the user is 
-    var $percentage = $(window).scrollTop() / ($("html").height() - $(window).height()) * 100; //convert dashoffset pixel value to interger
+  $(window).on('load resize', function (e) {
+    var w = $(window).width();
 
-    var $newUnit = parseInt($dashOffset, 15); //get the value to be subtracted from the 'stroke-dashoffset'
+    if (w <= 750) {
+      var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
+      $(window).scroll(function () {
+        //calculate how far down the page the user is 
+        var $percentage = $(window).scrollTop() / ($("html").height() - $(window).height()) * 500; //convert dashoffset pixel value to interger
 
-    var $offsetUnit = $percentage * ($newUnit / 100); //set the new value of the dashoffset to create the drawing effect
+        var $newUnit = parseInt($dashOffset, 15); //get the value to be subtracted from the 'stroke-dashoffset'
 
-    $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
-    var spswirl = $newUnit - $offsetUnit;
+        var $offsetUnit = $percentage * ($newUnit / 500); //set the new value of the dashoffset to create the drawing effect
 
-    if (spswirl <= 9550) {
-      $('#row-8').addClass('animated');
-    }
+        $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
+        var splength = $newUnit - $offsetUnit;
 
-    if (spswirl <= 8780) {
-      $('#row-9').addClass('animated');
-    } else {// $('#row-8').removeClass('animated');
-      // $('#row-9').removeClass('animated');
+        if (splength <= '10805') {
+          $('#row-1').find('#left-pc').addClass('img-pop');
+        } else {
+          $('#row-1').find('#left-pc').removeClass('img-pop');
+        }
+
+        if (splength <= '10531') {
+          $('#row-2').find('#2-pop').addClass('img-pop');
+        } else {
+          $('#row-2').find('#2-pop').removeClass('img-pop');
+        }
+
+        if (splength <= '10080') {
+          $('#row-3').find('#pcview').addClass('img-pop');
+        } else {
+          $('#row-3').find('#pcview').removeClass('img-pop');
+        }
+      });
+    } else {
+      $('meta[name=viewport]').attr('content', 'width=device-width');
     }
   });
 }); // SLIDER FOR ALBUM PAGE
