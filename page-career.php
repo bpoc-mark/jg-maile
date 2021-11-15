@@ -120,31 +120,31 @@
                     <h3 class="step__ttl">step <span>01</span></h3>
                     <h4 class="step__desc">お問い合わせ</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
+                    <h5 class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</h5>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="300">
                     <h3 class="step__ttl">step <span>02</span></h3>
                     <h4 class="step__desc">見　学</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
+                    <h5 class="step__cont">実際に現場の雰囲気などを見ていただきます。</h5>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="400">
                     <h3 class="step__ttl">step <span>03</span></h3>
                     <h4 class="step__desc">書類選考</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <p class="step__cont">見学の際に履歴書をご持参ください。</p>
+                    <h5 class="step__cont">見学の際に履歴書をご持参ください。</h5>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="500">
                     <h3 class="step__ttl">step <span>04</span></h3>
                     <h4 class="step__desc">面　接</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
+                    <h5 class="step__cont">あなたの思いや熱意などをアピールしてください。</h5>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="600">
                     <h3 class="step__ttl">step <span>05</span></h3>
                     <h4 class="step__desc">採　用</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <p class="step__cont">こちらから合否のご連絡をさせていただきます。</p>
+                    <h5 class="step__cont">こちらから合否のご連絡をさせていただきます。</h5>
                 </div>
             </div>
             <div class="p-details--btn">

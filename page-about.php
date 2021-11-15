@@ -70,7 +70,7 @@
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
             </a>
-            <h2 class="txt">関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</h2>
+            <h3 class="txt">関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</h3>
         </div>
     </div>
 </section>
@@ -113,7 +113,7 @@
                 <!-- ACCORDION 1 -->
                 <div class="accordion">
                     <a id="accordion-1" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 大津市石山院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -154,7 +154,7 @@
                 <!-- ACCORDION 2 -->
                 <div class="accordion">
                     <a id="accordion-2" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 大津市膳所院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -195,7 +195,7 @@
                 <!-- ACCORDION 3 -->
                 <div class="accordion">
                     <a id="accordion-3" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 大津市堅田院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -236,7 +236,7 @@
                 <!-- ACCORDION 4 -->
                 <div class="accordion">
                     <a id="accordion-4" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 近江八幡院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -278,7 +278,7 @@
                 <!-- ACCORDION 5 -->
                 <div class="accordion">
                     <a id="accordion-5" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 草津院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -320,7 +320,7 @@
                 <!-- ACCORDION 6 -->
                 <div class="accordion">
                     <a id="accordion-6" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 守山院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 守山院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -362,7 +362,7 @@
                 <!-- ACCORDION 7 -->
                 <div class="accordion">
                     <a id="accordion-7" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 甲賀水口院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
@@ -404,7 +404,7 @@
                 <!-- ACCORDION 8 -->
                 <div class="accordion">
                     <a id="accordion-8" class="accordion__header-cont active" href='javascript:;'>
-                        <h2 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h2>
+                        <h4 class="ttl">まいれ鍼灸整骨院・整体院 松井山手院</h4>
                         <div class="btn_read_more">
                             <p class="text">open</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/arrow_d_o.svg" alt="">
