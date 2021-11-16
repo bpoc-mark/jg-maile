@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>Thank you</h1>
-            <h2>会社概要</h2>
+            <p class="title__main">Thank you</p>
+            <h1 class="title__sub">会社概要</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
@@ -20,10 +20,10 @@
 </div>
 <section class="thanks_cont">
     <div class="l-wrap">
-        <h3>お問い合せいただき、誠にありがとうございます。</h3>
-        <h4 class="text_1">自動返信メールをお送りしましたので、ご確認ください。</h4>
-        <h4 class="text_2">数日たっても連絡がない場合は、メールが正常に送信されなかった可能性がございます。<br>
-            お手数ですが、もう一度送信いただくか、077-548-6656まで直接ご連絡をお願いします。</h4>
+        <h2>お問い合せいただき、誠にありがとうございます。</h2>
+        <h3 class="text_1">自動返信メールをお送りしましたので、ご確認ください。</h3>
+        <h3 class="text_2">数日たっても連絡がない場合は、メールが正常に送信されなかった可能性がございます。<br>
+            お手数ですが、もう一度送信いただくか、<a href="tel:077-548-6656">077-548-6656</a>まで直接ご連絡をお願いします。</h3>
     </div>
 
     <div class="p-details--btn">

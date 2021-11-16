@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>Philosophy</h1>
-            <h2>理念と求める人材</h2>
+            <p class="title__main">Philosophy</p>
+            <h1 class="title__sub">理念と求める人材</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
@@ -24,8 +24,8 @@
             <img class="phil_cloud-1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
             <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
             <div class="content">
-                <h3 class="content__ttl">Philosophy</h3>
-                <h4 class="content__sub">理　念</h4>
+                <p class="content__ttl">Philosophy</p>
+                <h2 class="content__sub">理　念</h2>
                 <p class="content__desc">
                     テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
                 </p>
@@ -46,14 +46,14 @@
     <div class="page_philosophy__idea">
         <div class="l-wrap">
             <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
-            <h3 class="ttl">Ideal</h3>
-            <h4 class="sub">求める人材像</h4>
+            <p class="ttl">Ideal</p>
+            <h3 class="sub">求める人材像</h3>
 
             <div class="boxes">
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <h3 class="box__items--ttl">active!</h3>
+                        <p class="box__items--ttl">active!</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
                         <h4 class="box__items--sub">
                             積極的に<br>
@@ -65,7 +65,7 @@
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <h3 class="box__items--ttl">positive!</h3>
+                        <p class="box__items--ttl">positive!</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
                         <h4 class="box__items--sub">
                             物事をプラスに<br>
@@ -77,7 +77,7 @@
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
                     <div class="box__items">
-                        <h3 class="box__items--ttl">heartful!</h3>
+                        <p class="box__items--ttl">heartful!</p>
                         <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
                         <h4 class="box__items--sub">
                             相手のことを<br>

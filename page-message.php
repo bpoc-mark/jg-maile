@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>Message</h1>
-            <h2>代表挨拶</h2>
+            <p class="title__main">Message</p>
+            <h1 class="title__sub">代表挨拶</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">

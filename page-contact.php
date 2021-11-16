@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>Contact</h1>
-            <h2>よくある質問・<br>お問い合わせ</h2>
+            <p class="title__main">Contact</p>
+            <h1 class="title__sub">よくある質問・<br>お問い合わせ</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
@@ -26,8 +26,8 @@
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
         </div>
         <div class="c-page_contact__faq">
-            <h3 class="c-page_contact__faq--ttl">Faq</h3>
-            <h4 class="c-page_contact__faq--sub">よくある質問</h4>
+            <p class="c-page_contact__faq--ttl">Faq</p>
+            <h2 class="c-page_contact__faq--sub">よくある質問</h2>
 
             <div class="contact_content">
                 <div class="contact_content__item" data-aos="fade-up" data-aos-duration="1000">
@@ -66,8 +66,8 @@
         </div>
     </div>
     <div class="c-page_contact__contact" id="form">
-        <h3 class="c-page_contact__contact--ttl">Entry</h3>
-        <h4 class="c-page_contact__contact--sub">エントリーフォーム</h4>
+        <p class="c-page_contact__contact--ttl">Entry</p>
+        <h2 class="c-page_contact__contact--sub">エントリーフォーム</h2>
 
         <?php echo do_shortcode('[contact-form-7 id="126" title="Contact form 1"]'); ?>
     </div>

@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>What is the maile like?</h1>
-            <h2>まいれって<br>どんな会社？</h2>
+            <p class="title__main">What is the maile like?</p>
+            <h2 class="title__sub">まいれって<br>どんな会社？</h2>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="">
@@ -31,9 +31,9 @@
         <img class="cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="">
         <img class="cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="">
         <div class="events__container">
-            <h3 class="events__ttl">Events</h3>
+            <p class="events__ttl">Events</p>
             <h4 class="events__sub">年間行事</h4>
-            <h5 class="events__desc">MAILE株式会社ではスタッフとその家族とのかかわりも大切にしていてコミュニケーションが図れる場を大事にしています。<br>お子さんも一緒に参加できて家族のように接することのできる環境づくりにこだわっています。</h5>
+            <p class="events__desc">MAILE株式会社ではスタッフとその家族とのかかわりも大切にしていてコミュニケーションが図れる場を大事にしています。<br>お子さんも一緒に参加できて家族のように接することのできる環境づくりにこだわっています。</p>
         </div>
         <div class="photos">
             <div class="l-wrap">
@@ -140,9 +140,9 @@
     </div>
     <div class="training">
         <div class="training__container">
-            <h3 class="training__ttl">Training system</h3>
-            <h4 class="training__sub">社内研修制度</h4>
-
+            <h1 class="training__ttl">Training system
+                <p class="training__sub">社内研修制度</p>
+            </h1>
             <div class="training__office">
                 <div class="training__office--row_1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/whats_office.png" alt="">
@@ -151,12 +151,12 @@
                     <div class="container">
                         <ul>
                             <li>
-                                <h3 class="ttl">診療時間内研修</h3>
-                                <h4 class="desc">毎月、全店舗を半日休診や一日休診にして、外部から講師を招き研修を行っております。基本的には全スタッフ合同で研修を行います。<br>実践的で即効性のある施術法や、患者様に痛みを聞き出す問診力などを働きながらもさらに磨きをかけるべく日々スキルアップを目指しています。</h4>
+                                <h2 class="ttl">診療時間内研修</->
+                                <h3 class="desc">毎月、全店舗を半日休診や一日休診にして、外部から講師を招き研修を行っております。基本的には全スタッフ合同で研修を行います。<br>実践的で即効性のある施術法や、患者様に痛みを聞き出す問診力などを働きながらもさらに磨きをかけるべく日々スキルアップを目指しています。</h3>
                             </li>
                             <li>
-                                <h3 class="ttl">新人研修</h3>
-                                <h4 class="desc">入社したての新人スタッフへは初めの1ヶ月を新人研修として、基本的な治療の修得はもちろん、会社の考え、理念などの研修を行っております。</h4>
+                                <h2 class="ttl">新人研修</h2>
+                                <h3 class="desc">入社したての新人スタッフへは初めの1ヶ月を新人研修として、基本的な治療の修得はもちろん、会社の考え、理念などの研修を行っております。</h3>
                             </li>
                         </ul>
                     </div>

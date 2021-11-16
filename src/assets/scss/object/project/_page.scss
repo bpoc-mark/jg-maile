@@ -139,6 +139,11 @@
 						color: $color-text01;
 					}
 				}
+
+				h2 {
+					display: contents;
+					font-size: unset;
+				}
 			}
 		}
 	}

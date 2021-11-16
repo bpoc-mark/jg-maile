@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>About us</h1>
-            <h2>会社概要</h2>
+            <p class="title__main">About us</p>
+            <h1 class="title__sub">会社概要</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
@@ -70,7 +70,7 @@
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <img class="about_logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
             </a>
-            <h3 class="txt">関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</h3>
+            <h2 class="txt">関わる全ての人とのご縁に感謝し、<br>共に幸せになるために</h2>
         </div>
     </div>
 </section>
@@ -78,7 +78,7 @@
     <div class="l-wrap">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
         <img class="store_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
-        <h2 class="store_info__ttl">Store information</h2>
+        <p class="store_info__ttl">Store information</p>
         <h3 class="store_info__sub">まいれ鍼灸整骨院・整骨院店舗一覧</h3>
 
         <div class="store_info__area">

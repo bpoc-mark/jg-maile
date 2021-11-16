@@ -2,8 +2,8 @@
 <div class="p-banner">
     <div class="l-wrap">
         <div class="title">
-            <h1>Reception,part time job</h1>
-            <h2>受付社員・パート・<br>アルバイト情報</h2>
+            <p class="title__main">Reception,part time job</p>
+            <h1 class="title__sub">受付社員・パート・<br>アルバイト情報</h1>
         </div>
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_coconut.svg" alt="Coconut">
         <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/top_ttl.svg" alt="Maile Title">
@@ -45,35 +45,35 @@
                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                         <ul class="p-details--list">
                             <div class="item">
-                                <li><span>募</span><span>集</span><span>職</span><span>種</span></li>
+                                <li><h2><span>募</span><span>集</span><span>職</span><span>種</span></h2></li>
                                 <li><?php echo  the_field("募集職種"); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>勤</span><span>務</span><span>形</span><span>態</span></li>
+                                <li><h2><span>勤</span><span>務</span><span>形</span><span>態</span></h2></li>
                                 <li><?php echo the_field('勤務形態'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>給</span><span>与</span></li>
+                                <li><h2><span>給</span><span>与</span></h2></li>
                                 <li><?php echo the_field('給与'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>応</span><span>募</span><span>資</span><span>格</span></li>
+                                <li><h2><span>応</span><span>募</span><span>資</span><span>格</span></h2></li>
                                 <li><?php echo the_field('応募資格'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>勤</span><span>務</span><span>時</span><span>間</span></li>
+                                <li><h2><span>勤</span><span>務</span><span>時</span><span>間</span></h2></li>
                                 <li><?php echo the_field('勤務時間'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></li>
+                                <li><h2><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></h2></li>
                                 <li><?php echo the_field('休日・休暇'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
+                                <li><h2><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></h2></li>
                                 <li><?php echo the_field('勤務エリア'); ?></li>
                             </div>
                             <div class="item">
-                                <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
+                                <li><h2><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></h2></li>
                                 <li><?php echo the_field('福利厚生・待遇'); ?></li>
                             </div>
                         </ul>
@@ -86,7 +86,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                                 <div class="items">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/information_graduate.svg" alt="Graduate Icon">
-                                    <h3 class="items__ttl">新卒採用情報</h3>
+                                    <p class="items__ttl">新卒採用情報</p>
                                     <div class="items__btn">
                                         <p>詳しくはこちら</p>
                                         <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
@@ -101,7 +101,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_bg.png" alt="Background">
                                 <div class="items">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/information_walk.svg" alt="Employee Walking Up Stairs">
-                                    <h3 class="items__ttl">中途採用情報</h3>
+                                    <p class="items__ttl">中途採用情報</p>
                                     <div class="items__btn">
                                         <p>詳しくはこちら</p>
                                         <img class="rght-arr" src="<?php echo get_template_directory_uri(); ?>/release/image/top/arrow_r.svg" alt="">
@@ -114,38 +114,38 @@
             </div>
         </div>
         <div class="p-details--flow">
-            <h3 class="p-details--flow__ttl">Flow</h3>
-            <h4 class="p-details--flow__sub">採用の流れ</h4>
+            <p class="p-details--flow__ttl">Flow</p>
+            <h3 class="p-details--flow__sub">採用の流れ</h3>
             <div class="p-details--flow__steps">
                 <div class="step" data-aos="zoom-out">
-                    <h3 class="step__ttl">step <span>01</span></h3>
+                    <p class="step__ttl">step <span>01</span></p>
                     <h4 class="step__desc">お問い合わせ</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <h5 class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</h5>
+                    <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="300">
-                    <h3 class="step__ttl">step <span>02</span></h3>
+                    <p class="step__ttl">step <span>02</span></p>
                     <h4 class="step__desc">見　学</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <h5 class="step__cont">実際に現場の雰囲気などを見ていただきます。</h5>
+                    <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="400">
-                    <h3 class="step__ttl">step <span>03</span></h3>
+                    <p class="step__ttl">step <span>03</span></p>
                     <h4 class="step__desc">書類選考</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <h5 class="step__cont">見学の際に履歴書をご持参ください。</h5>
+                    <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="500">
-                    <h3 class="step__ttl">step <span>04</span></h3>
+                    <p class="step__ttl">step <span>04</span></p>
                     <h4 class="step__desc">面　接</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <h5 class="step__cont">あなたの思いや熱意などをアピールしてください。</h5>
+                    <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="600">
-                    <h3 class="step__ttl">step <span>05</span></h3>
+                    <p class="step__ttl">step <span>05</span></p>
                     <h4 class="step__desc">採　用</h4>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
-                    <h5 class="step__cont">こちらから合否のご連絡をさせていただきます。</h5>
+                    <p class="step__cont">こちらから合否のご連絡をさせていただきます。</p>
                 </div>
             </div>
             <div class="p-details--btn">

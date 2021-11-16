@@ -63,7 +63,7 @@
 				padding: 0;
 			}
 
-			h1 {
+			&__main {
 				color: $color-text01;
 				font-family: "santa_fe", sans-serif;
 				font-weight: 400;
@@ -87,7 +87,7 @@
 				}
 			}
 
-			h2 {
+			&__sub {
 				color: #fff;
 				font-family: dnp-shuei-mgothic-std, sans-serif;
 				font-weight: 600;
