@@ -106,7 +106,11 @@
 				outline: 4px solid #fff;
 
 				@include is-sp {
-					height: 350px;
+					height: 320px;
+				}
+
+				@include is-max(380px) {
+					height: 300px;
 				}
 			}
 
