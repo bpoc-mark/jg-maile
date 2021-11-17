@@ -48,31 +48,31 @@
                             <li><?php echo  the_field("募集職種"); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>勤</span><span>務</span><span>形</span><span>態</span></h2></li>
+                            <li><span>勤</span><span>務</span><span>形</span><span>態</span></li>
                             <li><?php echo the_field('勤務形態'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>給</span><span>与</span></h2></li>
+                            <li><span>給</span><span>与</span></li>
                             <li><?php echo the_field('給与'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>応</span><span>募</span><span>資</span><span>格</span></h2></li>
+                            <li><span>応</span><span>募</span><span>資</span><span>格</span></li>
                             <li><?php echo the_field('応募資格'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>勤</span><span>務</span><span>時</span><span>間</span></h2></li>
+                            <li><span>勤</span><span>務</span><span>時</span><span>間</span></li>
                             <li><?php echo the_field('勤務時間'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></h2></li>
+                            <li><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></li>
                             <li><?php echo the_field('休日・休暇'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></h2></li>
+                            <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
                             <li><?php echo the_field('勤務エリア'); ?></li>
                         </div>
                         <div class="item">
-                            <li><h2><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></h2></li>
+                            <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
                             <li><?php echo the_field('福利厚生・待遇'); ?></li>
                         </div>
                     </ul>
@@ -114,35 +114,35 @@
         </div>
         <div class="p-details--flow">
             <p class="p-details--flow__ttl">Flow</p>
-            <h3 class="p-details--flow__sub">採用の流れ</h3>
+            <h2 class="p-details--flow__sub">採用の流れ</h2>
             <div class="p-details--flow__steps">
                 <div class="step" data-aos="zoom-out">
                     <p class="step__ttl">step <span>01</span></p>
-                    <h4 class="step__desc">お問い合わせ</h4>
+                    <h3 class="step__desc">お問い合わせ</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">メール問い合わ せまたはお電話にて、ご応募ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="300">
                     <p class="step__ttl">step <span>02</span></p>
-                    <h4 class="step__desc">見　学</h4>
+                    <h3 class="step__desc">見　学</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">実際に現場の雰囲気などを見ていただきます。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="400">
                     <p class="step__ttl">step <span>03</span></p>
-                    <h4 class="step__desc">書類選考</h4>
+                    <h3 class="step__desc">書類選考</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">見学の際に履歴書をご持参ください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="500">
                     <p class="step__ttl">step <span>04</span></p>
-                    <h4 class="step__desc">面　接</h4>
+                    <h3 class="step__desc">面　接</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">あなたの思いや熱意などをアピールしてください。</p>
                 </div>
                 <div class="step" data-aos="zoom-out" data-aos-delay="600">
                     <p class="step__ttl">step <span>05</span></p>
-                    <h4 class="step__desc">採　用</h4>
+                    <h3 class="step__desc">採　用</h3>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/flow_divider.svg" alt="Divider">
                     <p class="step__cont">こちらから合否のご連絡をさせていただきます。</p>
                 </div>

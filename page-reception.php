@@ -49,31 +49,31 @@
                                 <li><?php echo  the_field("募集職種"); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>勤</span><span>務</span><span>形</span><span>態</span></h2></li>
+                                <li><span>勤</span><span>務</span><span>形</span><span>態</span></li>
                                 <li><?php echo the_field('勤務形態'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>給</span><span>与</span></h2></li>
+                                <li><span>給</span><span>与</span></li>
                                 <li><?php echo the_field('給与'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>応</span><span>募</span><span>資</span><span>格</span></h2></li>
+                                <li><span>応</span><span>募</span><span>資</span><span>格</span></li>
                                 <li><?php echo the_field('応募資格'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>勤</span><span>務</span><span>時</span><span>間</span></h2></li>
+                                <li><span>勤</span><span>務</span><span>時</span><span>間</span></li>
                                 <li><?php echo the_field('勤務時間'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></h2></li>
+                                <li><span>休</span><span>日</span><span>・</span><span>休</span><span>暇</span></li>
                                 <li><?php echo the_field('休日・休暇'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></h2></li>
+                                <li><span>勤</span><span>務</span><span>エ</span><span>リ</span><span>ア</span></li>
                                 <li><?php echo the_field('勤務エリア'); ?></li>
                             </div>
                             <div class="item">
-                                <li><h2><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></h2></li>
+                                <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
                                 <li><?php echo the_field('福利厚生・待遇'); ?></li>
                             </div>
                         </ul>

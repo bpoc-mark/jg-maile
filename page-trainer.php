@@ -84,96 +84,113 @@ $imagedir = get_template_directory_uri();
 
             <div class="trainer__sect-5--games">
                 <!-- ROW 1 -->
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">football</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">ガイナーレ</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_1.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_2.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_3.png" alt="Games">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">football</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">ガイナーレ</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_1.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_2.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_3.png" alt="Games">
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">football</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">MIO滋賀</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_4.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_5.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_6.png" alt="Games">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">football</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">MIO滋賀</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_4.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_5.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_6.png" alt="Games">
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">baseball</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">オセアン滋賀ブラックス</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_7.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_8.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_9.png" alt="Games">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">baseball</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">オセアン滋賀ブラックス</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_7.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_8.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_9.png" alt="Games">
+                        </div>
                     </div>
                 </div>
 
                 <!-- ROW 2 -->
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">football</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">F.C.バルセロナ</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_10.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_11.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_12.png" alt="Games">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">football</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">F.C.バルセロナ</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_10.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_11.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_12.png" alt="Games">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">athletics</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">草津東高校陸上競技部</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_13.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_14.png" alt="Games">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_15.png" alt="Games">
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">athletics</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">草津東高校陸上競技部</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_13.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_14.png" alt="Games">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_15.png" alt="Games">
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">event</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">音楽イベント</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_16.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_17.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_18.png" alt="Divider">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">event</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">音楽イベント</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_16.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_17.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_18.png" alt="Divider">
+                        </div>
                     </div>
                 </div>
 
                 <!-- ROW 3 -->
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">event</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">プロサッカーイベント</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_19.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_20.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_21.png" alt="Divider">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">event</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">プロサッカーイベント</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_19.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_20.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_21.png" alt="Divider">
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
-                    <div class="content">
-                        <p class="content__ttl">high school</p>
-                        <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <p class="content__sub">高校サッカー活動</p>
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_22.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_23.png" alt="Divider">
-                        <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_24.png" alt="Divider">
+                <div class="item setAnime">
+                    <div class="item__box p-popout">
+                        <img src="<?php echo $imagedir ?>/release/image/page/train_bg.png" alt="Background">
+                        <div class="content">
+                            <p class="content__ttl">high school</p>
+                            <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <p class="content__sub">高校サッカー活動</p>
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_22.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_23.png" alt="Divider">
+                            <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_24.png" alt="Divider">
+                        </div>
                     </div>
                 </div>
 
