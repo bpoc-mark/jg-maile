@@ -113,6 +113,7 @@
 					@include font-line(18);
 					width: 120px;
 					display: flex;
+					line-height: normal;
 					justify-content: space-between;
 
 					@include is-sp {
@@ -144,6 +145,7 @@
 				h2 {
 					white-space: pre;
 					font-size: unset;
+					line-height: normal;
 				}
 			}
 		}
