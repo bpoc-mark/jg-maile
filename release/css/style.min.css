@@ -958,8 +958,8 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2__row_2--content-2 .row-2 .text .btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .sect_2__row_2--content-2 .row-2 .text .btn p{font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;padding:0 10px 0 0;font-size:1rem}
 .sect_2__row_2--content-2 .row-2 .text .btn .want_btn{width:30px;height:auto}
-.sect_2__row_2--content-2 .cust_man{position:absolute;left:20%;bottom:9%}
-.sect_2__row_2--content-2 .cust_man img{width:290px}
+.sect_2__row_2--content-2 .cust_man{position:absolute;left:20%;bottom:10%}
+.sect_2__row_2--content-2 .cust_man img{width:280px}
 .sect_3 .l-wrap{padding-left:20px;padding-right:20px}
 .sect_3 .l-wrap .boxes{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:55px 0 100px 0}
 .sect_3 .l-wrap .boxes .box .bg_img{position:relative}
