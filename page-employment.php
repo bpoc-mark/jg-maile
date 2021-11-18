@@ -44,7 +44,7 @@
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                     <ul class="p-details--list">
                         <div class="item">
-                            <li><h2><span>募</span><span>集</span><span>職</span><span>種</span></h2></li>
+                            <li><h2>募    集    職    種</h2></li>
                             <li><?php echo  the_field("募集職種"); ?></li>
                         </div>
                         <div class="item">

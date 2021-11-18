@@ -30,7 +30,7 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="trainer--content">
                 <p class="trainer--content__ttl">about</p>
-                <p class="trainer--content__sub">トレーナー活動とは？</p>
+                <h2 class="trainer--content__sub">トレーナー活動とは？</h2>
                 <p class="trainer--content__txt">
                     当社としては、しっかりとトレーナーとして自分でご飯を食べていけるだけのトレーナー育成をしていきたいと考えております。<br><br>
                     トレーナー業界の現状は、正直厳しい世界です。トレーナーで食べていける人は本当に一握りで、実際整骨院でトレーナー活動できますよ謳っている所も多いですが、ほとんどの整骨院は自分の休みを削ってトレーナー活動に行かされる所がほとんどです。そして、トレーナーとしての活動も月に2.3回程度です。<br><br>
@@ -44,7 +44,7 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="trainer--content">
                 <p class="trainer--content__ttl">message</p>
-                <p class="trainer--content__sub">先輩トレーナーより、<br>力強いメッセージが届きました。</p>
+                <h2 class="trainer--content__sub">先輩トレーナーより、<br>力強いメッセージが届きました。</h2>
                 <p class="trainer--content__name">山田晃広様(バルセロナ)</p>
                 <div class="trainer--content__akihiro">
                     <div class="row-1">
@@ -63,7 +63,7 @@ $imagedir = get_template_directory_uri();
         <div class="l-wrap">
             <div class="trainer--content">
                 <p class="trainer--content__ttl">support</p>
-                <p class="trainer--content__sub">まいれ整骨院グループはトレーナーとして<br>サポートしています。</p>
+                <h2 class="trainer--content__sub">まいれ整骨院グループはトレーナーとして<br>サポートしています。</h2>
 
                 <div class="trainer__sect-4--imgs">
                     <img src="<?php echo $imagedir ?>/release/image/page/trainer_1.svg" alt="">
@@ -80,7 +80,7 @@ $imagedir = get_template_directory_uri();
     <div class="trainer__sect-5">
         <div class="l-wrap">
             <p class="trainer--content__ttl">dispatch</p>
-            <p class="trainer--content__sub">トレーナー派遣先の紹介</p>
+            <h2 class="trainer--content__sub">トレーナー派遣先の紹介</h2>
 
             <div class="trainer__sect-5--games">
                 <!-- ROW 1 -->
@@ -90,7 +90,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">football</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">ガイナーレ</p>
+                            <h3 class="content__sub">ガイナーレ</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_1.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_2.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_3.png" alt="Games">
@@ -103,7 +103,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">football</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">MIO滋賀</p>
+                            <h3 class="content__sub">MIO滋賀</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_4.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_5.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_6.png" alt="Games">
@@ -116,7 +116,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">baseball</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">オセアン滋賀ブラックス</p>
+                            <h3 class="content__sub">オセアン滋賀ブラックス</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_7.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_8.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_9.png" alt="Games">
@@ -131,7 +131,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">football</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">F.C.バルセロナ</p>
+                            <h3 class="content__sub">F.C.バルセロナ</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_10.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_11.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_12.png" alt="Games">
@@ -145,7 +145,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">athletics</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">草津東高校陸上競技部</p>
+                            <h3 class="content__sub">草津東高校陸上競技部</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_13.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_14.png" alt="Games">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_15.png" alt="Games">
@@ -158,7 +158,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">event</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">音楽イベント</p>
+                            <h3 class="content__sub">音楽イベント</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_16.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_17.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_18.png" alt="Divider">
@@ -173,7 +173,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">event</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">プロサッカーイベント</p>
+                            <h3 class="content__sub">プロサッカーイベント</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_19.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_20.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_21.png" alt="Divider">
@@ -186,7 +186,7 @@ $imagedir = get_template_directory_uri();
                         <div class="content">
                             <p class="content__ttl">high school</p>
                             <img src="<?php echo $imagedir ?>/release/image/page/phil_divider.png" alt="Divider">
-                            <p class="content__sub">高校サッカー活動</p>
+                            <h3 class="content__sub">高校サッカー活動</h3>
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_22.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_23.png" alt="Divider">
                             <img class="train_img" src="<?php echo $imagedir ?>/release/image/page/game_24.png" alt="Divider">

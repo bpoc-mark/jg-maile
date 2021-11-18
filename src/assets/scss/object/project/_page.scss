@@ -90,6 +90,7 @@
 				padding-bottom: 0;
 			}
 		}
+
 		.item {
 			display: flex;
 			flex-wrap: wrap;
@@ -141,7 +142,7 @@
 				}
 
 				h2 {
-					display: contents;
+					white-space: pre;
 					font-size: unset;
 				}
 			}
