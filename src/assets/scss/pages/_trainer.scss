@@ -170,6 +170,10 @@
 					@include is-max(480px) {
 						width: 130px;
 					}
+
+					@include is-max(330px) {
+						width: 40%;
+					}
 				}
 				&:nth-child(2) {
 					width: 100px;
@@ -177,12 +181,20 @@
 					@include is-max(480px) {
 						width: 80px;
 					}
+
+					@include is-max(330px) {
+						width: 25%;
+					}
 				}
 				&:nth-child(3) {
 					width: 120px;
 
 					@include is-max(480px) {
 						width: 95px;
+					}
+
+					@include is-max(330px) {
+						width: 30%;
 					}
 				}
 			}

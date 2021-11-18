@@ -2003,6 +2003,9 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 }@media only screen and (max-width:340px){.sect_3 .l-wrap .boxes .box .bg_img .items{padding:0 20px}
 .sect_3 .l-wrap .boxes .box__ttl{padding:27px 0 30px 0}
 .sect_3 .l-wrap .boxes .box__desc{font-size:4vw}
+}@media only screen and (max-width:330px){.trainer__sect-4--imgs img:nth-child(1){width:40%}
+.trainer__sect-4--imgs img:nth-child(2){width:25%}
+.trainer__sect-4--imgs img:nth-child(3){width:30%}
 }@media only screen and (max-width:321px){.p-details--information__2 .bg_img .items__ttl{font-size:7vw}
 }@media only screen and (max-width:320px){.sect_2__row_2--content .row-2 .text{left:15%;top:50%;-webkit-transform:translate(-9%,-50%);transform:translate(-9%,-50%)}
 .sect_2__row_2--content .row-2 .text .ttl{font-size:4.375rem}
