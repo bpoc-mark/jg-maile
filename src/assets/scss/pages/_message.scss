@@ -121,6 +121,7 @@
 		.row-2 {
 			width: calc(100% - 320px);
 			background-color: rgba(235, 110, 82, 0.7);
+			backdrop-filter: blur(10px);
 			padding: 0 30px;
 
 			@include is-sp {

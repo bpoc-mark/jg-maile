@@ -234,20 +234,27 @@ $(document).ready(function(){
     effect: 'cards',
     speed: 500,
     autoplay: true,
-    
-    pagination: {
-      el: '.swiper-pagination',
-      type: "fraction",
-      formatFractionCurrent: function (number) {
-        return '0' + number;
-    }
-    },
-  
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
+    
+    pagination: {
+      el: '.swiper-pagination',
+      type: "fraction",
+      formatFractionCurrent: function(number) {
+        return('0' + number).slice(-2);
+      },
+      formatFractionTotal: function(number){
+        return('0' + number).slice(-2);
+      },
+      renderFraction: function(currentClass, totalClass){
+        return '<span class="' + currentClass + '"></span>' +
+               ' / ' +
+               '<span class="' + totalClass + '"></span>';
+      }
+    },
   });
 })
 
@@ -257,6 +264,7 @@ $(document).ready(function(){
     freeMode: true,
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
+    allowTouchMove: false,
   });
   
   var galleryTop = new Swiper('.gallery-top', {
@@ -267,9 +275,17 @@ $(document).ready(function(){
     pagination: {
           el: '.swiper-pagination',
           type: "fraction",
-          formatFractionCurrent: function (number) {
-            return '0' + number;
-        }
+          formatFractionCurrent: function(number) {
+            return('0' + number).slice(-2);
+          },
+          formatFractionTotal: function(number){
+            return('0' + number).slice(-2);
+          },
+          renderFraction: function(currentClass, totalClass){
+            return '<span class="' + currentClass + '"></span>' +
+                   ' / ' +
+                   '<span class="' + totalClass + '"></span>';
+          }
     },
 
     navigation: {

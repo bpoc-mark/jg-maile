@@ -175,6 +175,7 @@
 				font-family: noto-sans-cjk-jp, sans-serif;
 				font-weight: 700;
 				line-height: 1;
+				padding-top: 10px;
 
 				@include font-line(16);
 
@@ -207,7 +208,7 @@
 					width: 50%;
 					background: #ffdc64;
 					text-align: left;
-					padding: 75px 55px 55px 60px;
+					padding: 75px 0 55px 0;
 
 					@include is-max(768px) {
 						padding: 75px 55px 55px 30px;
@@ -220,6 +221,7 @@
 
 					.container {
 						max-width: 540px;
+						margin: 0 auto;
 
 						ul {
 							li {
@@ -579,7 +581,14 @@
 			}
 
 			img {
-				width: calc(100% / 3);
+				@include is-max(4000px) {
+					width: calc(100% / 4);
+				}
+
+				@include is-max(1440px) {
+					width: calc(100% / 3);
+				}
+
 				background-color: #fff;
 				height: 100%;
 

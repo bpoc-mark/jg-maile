@@ -72,7 +72,7 @@
                             <li><?php echo the_field('勤務エリア'); ?></li>
                         </div>
                         <div class="item">
-                            <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span>></li>
+                            <li><span>福</span><span>利</span><span>厚</span><span>生</span><span>・</span><span>待</span><span>遇</span></li>
                             <li><?php echo the_field('福利厚生・待遇'); ?></li>
                         </div>
                     </ul>
