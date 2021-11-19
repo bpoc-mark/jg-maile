@@ -123,19 +123,9 @@
 			display: block;
 			padding-top: 95px;
 			padding-bottom: 55px;
-			animation: inter-cloud01 40s linear infinite;
 
 			@include is-sp {
 				display: none;
-			}
-		}
-
-		@keyframes inter-cloud01 {
-			0% {
-				right: -50%;
-			}
-			100% {
-				right: 150%;
 			}
 		}
 	}
@@ -155,17 +145,6 @@
 			position: absolute;
 			left: 0;
 			top: 50px;
-			animation: inter-cloud02 40s linear infinite;
-			z-index: -1;
-		}
-
-		@keyframes inter-cloud02 {
-			0% {
-				left: -50%;
-			}
-			100% {
-				left: 150%;
-			}
 		}
 
 		.inter_cloud {
@@ -173,7 +152,6 @@
 			position: absolute;
 			left: 220px;
 			top: 155px;
-			animation: inter-cloud00 50s linear infinite;
 
 			@include is-max(768px) {
 				left: 100px;
@@ -181,15 +159,6 @@
 
 			@include is-sp {
 				display: none;
-			}
-
-			@keyframes inter-cloud00 {
-				0% {
-					left: -50%;
-				}
-				100% {
-					left: 150%;
-				}
 			}
 		}
 
@@ -198,8 +167,6 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-			animation: inter-cloud03 50s infinite linear;
-			z-index: -1;
 
 			@include is-max(768px) {
 				left: 100px;
@@ -207,18 +174,6 @@
 
 			@include is-sp {
 				display: none;
-			}
-
-			@keyframes inter-cloud03 {
-				0% {
-					right: -40%;
-				}
-				50% {
-					right: 50%;
-				}
-				100% {
-					right: 140%;
-				}
 			}
 		}
 
@@ -246,18 +201,6 @@
 				position: absolute;
 				top: 15px;
 				right: 200px;
-				z-index: 2;
-				animation: inter_cloud01 50s linear infinite both;
-			}
-
-			@keyframes inter_cloud01 {
-				0% {
-					left: -50%;
-				}
-
-				100% {
-					left: 150%;
-				}
 			}
 
 			.sun {
@@ -283,37 +226,13 @@
 				top: 20px;
 				right: -26px;
 				z-index: -1;
-				animation: inter-cloud09 35s linear infinite;
-			}
-
-			@keyframes inter-cloud09 {
-				0% {
-					left: -30%;
-				}
-				100% {
-					left: 150%;
-				}
 			}
 
 			.cloud_3 {
 				width: 98px;
 				position: absolute;
 				top: 45px;
-				right: 125px;
-				z-index: -1;
-
-				-webkit-animation: animateCloudfrontpage 35s linear infinite;
-				-moz-animation: animateCloudfrontpage 35s linear infinite;
-				animation: animateCloudfrontpage 35s linear infinite;
-			}
-
-			@keyframes animateCloudfrontpage {
-				0% {
-					margin-right: -100%;
-				}
-				100% {
-					margin-right: 100%;
-				}
+				right: -15px;
 			}
 		}
 

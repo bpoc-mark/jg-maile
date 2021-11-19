@@ -121,16 +121,16 @@ $(document).ready(function () {
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
     var length = $newUnit - $offsetUnit;
 
-    if (length <= '9350') {
+    if (length <= '9415') {
       $('#row-1').find('#left-pc').addClass('img-pop');
 
-      if (length <= '9245') {
+      if (length <= '9310') {
         $('#row-2').find('#2-pop').addClass('img-pop');
 
-        if (length <= '8715') {
+        if (length <= '8740') {
           $('#row-3').find('#pcview').addClass('img-pop');
 
-          if (length <= '8120') {
+          if (length <= '8170') {
             $('#row-6').find('#6-pop').addClass('img-pop');
 
             if (length <= '7480') {
@@ -139,13 +139,13 @@ $(document).ready(function () {
               if (length <= '7400') {
                 $('#row-5').find('#5-pc').addClass('img-pop');
 
-                if (length <= '7099') {
+                if (length <= '7155') {
                   $('#row-8').find('#8-pc').addClass('img-pop');
 
-                  if (length <= '6670') {
+                  if (length <= '6725') {
                     $('#row-9').find('#9-pc').addClass('img-pop');
 
-                    if (length <= '6299') {
+                    if (length <= '6330') {
                       $('#row-10').find('#10-pc').addClass('img-pop');
                     }
                   }

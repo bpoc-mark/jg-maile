@@ -498,7 +498,6 @@
 								&::before {
 									content: "";
 									background: #fff;
-									border: 2px solid #ffdc64;
 									width: 0%;
 									height: 100%;
 									position: absolute;
@@ -512,16 +511,26 @@
 										content: "";
 										width: 100%;
 									}
+
+									.cls-1 {
+										z-index: 1;
+									}
 								}
 
 								@include is-sp {
 									width: 100%;
 								}
 
-								img {
+								svg {
 									width: 20px;
 									height: auto;
 									z-index: 1;
+									position: relative;
+								}
+
+								.cls-1 {
+									transition: 0.3s ease-in-out;
+									fill: #eb8250;
 								}
 
 								p {
@@ -530,6 +539,7 @@
 									font-weight: 700;
 									padding-left: 10px;
 									z-index: 1;
+									transition: 0.3s ease-in-out;
 								}
 							}
 
@@ -558,7 +568,14 @@
 										content: "";
 										width: 100%;
 										background: #ffdc64;
-										border: 2px solid #000;
+									}
+
+									p {
+										color: #000;
+									}
+
+									.cls-1 {
+										fill: #000;
 									}
 								}
 
@@ -566,10 +583,15 @@
 									width: 100%;
 								}
 
-								img {
+								svg {
 									width: 20px;
 									height: auto;
 									z-index: 1;
+									position: relative;
+								}
+
+								.cls-1 {
+									transition: 0.3s ease-in-out;
 								}
 
 								p {
@@ -578,6 +600,7 @@
 									font-weight: 700;
 									padding-left: 10px;
 									z-index: 1;
+									transition: 0.3s ease-in-out;
 								}
 							}
 						}

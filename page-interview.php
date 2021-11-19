@@ -21,9 +21,9 @@
 <section class="page_interview">
     <div class="l-wrap">
         <div class="page_interview__content">
-            <img class="cloud_1" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+            <img class="cloud_1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
             <div class="page_interview--int">
-                <img class="p-slide cloud_2" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+                <img class="cloud_2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <div class="ttl-div">
                     <p class="c-ttl">interview 01</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">
@@ -45,10 +45,10 @@
             <div class="page_interview--int">
                 <img class="inter_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <div class="inter_sun">
-                    <img class="sun_cloud_1  p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="Cloud>
-                    <img data-aos=" fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="Sun">
-                    <img class="cloud_9" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="Cloud">
-                    <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="Cloud">
+                    <img class="sun_cloud_1  p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="Cloud">
+                    <img data-aos="fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="Sun">
+                    <img class="cloud_9 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_2.svg" alt="Cloud">
+                    <img class="cloud_3 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/cloud_3.svg" alt="Cloud">
                 </div>
                 <div class="ttl-div">
                     <p class="c-ttl">interview 02</p>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="page_interview--int">
-                <img class="inter_cloud-3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
+                <img class="inter_cloud-3 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
                 <div class="ttl-div">
                     <p class="c-ttl">interview 03</p>
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/interview_divider.png" alt="Divider">

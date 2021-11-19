@@ -794,8 +794,8 @@
 
 			.cust_man {
 				position: absolute;
-				left: 20%;
-				bottom: 10%;
+				left: 23%;
+				bottom: 15%;
 
 				@include is-max(935px) {
 					bottom: -2vw;
@@ -827,7 +827,7 @@
 				}
 
 				img {
-					width: 280px;
+					width: 250px;
 
 					@include is-sp {
 						width: 50% !important;

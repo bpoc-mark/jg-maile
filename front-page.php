@@ -299,7 +299,7 @@
                 <p class="row_1__sub">お問い合わせ</p>
             </div>
             <div class="row_2">
-                <p class="row_2__ttl">MAILE株式会社本社</p>
+                <p class="row_2__ttl">MAILE株式会社 本社</p>
                 <p class="row_2__desc">（まいれ鍼灸整骨院・整体院 大津市石山院）</p>
                 <ul class="contact_details">
                     <li class="contact_details--row_1"><span>住</span><span>所</span></li>

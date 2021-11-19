@@ -21,12 +21,12 @@
 <section class="page_message">
     <div class="l-wrap">
         <div class="imgs">
-            <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+            <img class="p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
         </div>
         <div class="content">
-            <img class="cont_img" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="cont_img p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
             <div class="page_message__container">
-                <img class="cloud_msg" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+                <img class="cloud_msg p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
                 <div class="row-1">
                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/message_img.png" alt="Message Man">
                 </div>
