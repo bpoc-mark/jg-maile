@@ -134,6 +134,10 @@
 			position: absolute;
 			left: 0;
 			top: 50px;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.inter_cloud {
@@ -230,6 +234,10 @@
 			position: absolute;
 			top: 97px;
 			left: 0;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.inter_bird-2 {
@@ -237,6 +245,10 @@
 			position: absolute;
 			top: 160px;
 			left: -75px;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.inter_bird-3 {
@@ -244,6 +256,10 @@
 			position: absolute;
 			top: 245px;
 			left: -13px;
+
+			@include is-sp {
+				display: none;
+			}
 		}
 
 		.inter_bird_2 {

@@ -49,41 +49,47 @@
             <p class="ttl">Ideal</p>
             <h2 class="sub">求める人材像</h2>
 
-            <div class="boxes setAnime">
-                <div class="box p-popout">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
-                    <div class="box__items">
-                        <p class="box__items--ttl">active!</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <h3 class="box__items--sub">
-                            積極的に<br>
-                            行動できる人
-                        </h3>
-                        <p class="box__items--desc">自分から積極的にコミュニケーションを取っていきましょう。できない部分をそのままにせず、どんどん行動しましょう。</p>
+            <div class="boxes">
+                <div class="setAnime">
+                    <div class="box p-popout">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <div class="box__items">
+                            <p class="box__items--ttl">active!</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <h3 class="box__items--sub">
+                                積極的に<br>
+                                行動できる人
+                            </h3>
+                            <p class="box__items--desc">自分から積極的にコミュニケーションを取っていきましょう。できない部分をそのままにせず、どんどん行動しましょう。</p>
+                        </div>
                     </div>
                 </div>
-                <div class="box p-popout">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
-                    <div class="box__items">
-                        <p class="box__items--ttl">positive!</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <h3 class="box__items--sub">
-                            物事をプラスに<br>
-                            考えられる人
-                        </h3>
-                        <p class="box__items--desc">起きた出来事に対して解釈をプラスに考えましょう。プラスに考える事で全てがプラスの力に働きます。</p>
+                <div class="setAnime">
+                    <div class="box p-popout">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <div class="box__items">
+                            <p class="box__items--ttl">positive!</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <h3 class="box__items--sub">
+                                物事をプラスに<br>
+                                考えられる人
+                            </h3>
+                            <p class="box__items--desc">起きた出来事に対して解釈をプラスに考えましょう。プラスに考える事で全てがプラスの力に働きます。</p>
+                        </div>
                     </div>
                 </div>
-                <div class="box p-popout">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
-                    <div class="box__items">
-                        <p class="box__items--ttl">heartful!</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
-                        <h3 class="box__items--sub">
-                            相手のことを<br>
-                            想いやれる人
-                        </h3>
-                        <p class="box__items--desc">常に感謝の気持ち、相手の立場になって考えましょう。小さな感動に気づける心を身につけましょう。</p>
+                <div class="setAnime">
+                    <div class="box p-popout">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <div class="box__items">
+                            <p class="box__items--ttl">heartful!</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <h3 class="box__items--sub">
+                                相手のことを<br>
+                                想いやれる人
+                            </h3>
+                            <p class="box__items--desc">常に感謝の気持ち、相手の立場になって考えましょう。小さな感動に気づける心を身につけましょう。</p>
+                        </div>
                     </div>
                 </div>
             </div>

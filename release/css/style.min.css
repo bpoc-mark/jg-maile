@@ -1342,7 +1342,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 }@media(max-width:1200px) and (min-width:751px){.page_philosophy__idea .l-wrap .boxes{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:50px 0 100px 0}
 }@media only screen and (max-width:4000px){.page__whats .image_gallery img{width:calc(100% / 4)}
 }@media only screen and (max-width:1440px){.page__whats .image_gallery img{width:calc(100% / 3)}
-}@media only screen and (max-width:1200px){.p-banner .l-wrap img:nth-of-type(1){bottom:2.5vw;right:0;z-index:-1}
+}@media only screen and (max-width:1200px){.p-banner .l-wrap img:nth-of-type(1){bottom:2vw;right:0;z-index:-1}
 .sect_2__row_1 .item-2 .text .message{font-size:6.5vw}
 .sect_2__row_2 .l-wrap{padding-left:20px;padding-right:20px}
 .store_info .l-wrap .store_cloud:nth-of-type(1){left:20px}
@@ -1846,10 +1846,14 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .page_interview--int:nth-of-type(5){padding-bottom:70px}
 .page_interview__content{padding-bottom:40px}
 .page_interview__content .cloud_1{display:none}
+.page_interview--int .cloud_2{display:none}
 .page_interview--int .inter_cloud{display:none}
 .page_interview--int .inter_cloud-3{display:none}
 .page_interview--int .inter_sun{display:none}
 .page_interview--int .inter_sun .sun{width:40%;left:-10%}
+.page_interview--int .inter_bird-1{display:none}
+.page_interview--int .inter_bird-2{display:none}
+.page_interview--int .inter_bird-3{display:none}
 .page_interview--int .inter_bird_2{display:none}
 .page_interview--int__content{-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:25px}
 .page_interview--int__content .row_1{width:100%}
