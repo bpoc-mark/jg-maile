@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="page_interview--int">
-                <img class="inter_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+                <img class="inter_cloud p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <div class="inter_sun">
                     <img class="sun_cloud_1  p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun_cloud.svg" alt="Cloud">
                     <img data-aos="fade-up" data-aos-duration="3000" class="sun" src="<?php echo get_template_directory_uri(); ?>/release/image/top/sun/sun.svg" alt="Sun">
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <div class="page_interview--int">
-                <img class="cloud_3" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+                <img class="cloud_3 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
                 <img class="p-downUp inter_bird_3" src="<?php echo get_template_directory_uri(); ?>/release/image/page/inter_bird-3.svg" alt="Bird">
                 <div class="ttl-div">
                     <p class="c-ttl">interview 05</p>

@@ -61,22 +61,11 @@
 			.cloud_3 {
 				width: 98px;
 				position: absolute;
-				top: 0;
+				top: 30px;
 				left: 45px;
-				animation: cloud_3 40s infinite linear;
-				z-index: -1;
 
 				@include is-sp {
 					display: none;
-				}
-
-				@keyframes cloud_3 {
-					0% {
-						left: -50%;
-					}
-					100% {
-						left: 150%;
-					}
 				}
 			}
 

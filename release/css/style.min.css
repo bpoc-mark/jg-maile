@@ -411,11 +411,11 @@ body[data-aos-delay="3000"] [data-aos].aos-animate,[data-aos][data-aos][data-aos
 .p-addons .btnArea{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 20px}
 .p-addons .btnArea .btn{width:100%;text-align:center;font-size:.9375rem}
 .p-addons .btnArea .btn i{margin-left:5px}
-.p-upDown{-webkit-animation:bird 4.8s ease-in infinite alternate both;animation:bird 4.8s ease-in infinite alternate both}
-.p-downUp{-webkit-animation:bird 4.8s ease-in infinite alternate both;animation:bird 4.8s ease-in infinite alternate both;animation-direction:alternate-reverse}
-.p-popout{-webkit-transition:.4s cubic-bezier(0.66,2,0.7,0.5);transition:.4s cubic-bezier(0.66,2,0.7,0.5);-webkit-transform:scale(0);transform:scale(0);opacity:0}
+.p-upDown{-webkit-animation:bird 3s ease-in infinite alternate both;animation:bird 3s ease-in infinite alternate both}
+.p-downUp{-webkit-animation:bird2 3s ease-in infinite alternate both;animation:bird2 3s ease-in infinite alternate both;animation-direction:alternate-reverse}
+.p-popout{-webkit-transition:.3s cubic-bezier(0.67,1.34,1,1);transition:.3s cubic-bezier(0.67,1.34,1,1);-webkit-transform:scale(0);transform:scale(0);opacity:0}
 .animated .p-popout{-webkit-transform:scale(1);transform:scale(1);opacity:1}
-.pc-pop{-webkit-transition:.4s cubic-bezier(0.66,2,0.7,0.5);transition:.4s cubic-bezier(0.66,2,0.7,0.5);-webkit-transform:scale(0);transform:scale(0);opacity:0}
+.pc-pop{-webkit-transition:.3s cubic-bezier(0.67,1.34,1,1);transition:.3s cubic-bezier(0.67,1.34,1,1);-webkit-transform:scale(0);transform:scale(0);opacity:0}
 .pc-pop.img-pop{-webkit-transform:scale(1);transform:scale(1);opacity:1}
 .p-shake{-webkit-animation:shake 1.5s infinite ease;animation:shake 1.5s infinite ease}
 .p-shake__torigin{-webkit-transform-origin:130px 15px;transform-origin:130px 15px}
@@ -915,7 +915,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2 .l-wrap{max-width:1185px;margin:0 auto;width:100%;position:relative}
 .sect_2 .l-wrap .front_content{position:relative}
 .sect_2 .l-wrap .front_content .swirl-pc{position:absolute;top:unset;left:50%;-webkit-transform:translate(-50%,15%);transform:translate(-50%,15%);z-index:-1;width:80%}
-.sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:4100;stroke-dasharray:3300}
+.sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:4000;stroke-dasharray:4000}
 .sect_2 .l-wrap .front_content .swirl-sp{position:absolute;top:-2vw;left:0;display:none;z-index:-1}
 .sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dashoffset:4100;stroke-dasharray:3700}
 .sect_2__row_1{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 40px;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}
@@ -1111,7 +1111,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .page_interview--int:nth-of-type(even)>.page_interview--int__content{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
 .page_interview--int:nth-of-type(even)>.page_interview--int__content .row_2{padding-left:0;padding-right:60px}
 .page_interview--int:nth-of-type(odd) .inter_cloud{width:275px;position:absolute;right:-100px;top:0}
-.page_interview--int:nth-of-type(odd) .cloud_3{width:98px;position:absolute;top:0;left:45px;-webkit-animation:cloud_3 40s infinite linear;animation:cloud_3 40s infinite linear;z-index:-1}
+.page_interview--int:nth-of-type(odd) .cloud_3{width:98px;position:absolute;top:30px;left:45px}
 .page_interview--int:nth-of-type(odd) .inter_bird_3{width:240px;position:absolute;right:-60px;top:-35px}
 .page_interview--int:nth-of-type(5){padding-bottom:245px}
 .page_interview__content{max-width:1020px;margin:0 auto;padding-bottom:150px;position:relative}
@@ -1240,7 +1240,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .page__whats .training__office--row_1{width:50%}
 .page__whats .training__office--row_1 img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
 .page__whats .training__office--row_2{width:50%;background:#ffdc64;text-align:left;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:55px}
-.page__whats .training__office--row_2 .container{max-width:540px;margin:0 auto}
+.page__whats .training__office--row_2 .container{max-width:540px;margin:0 auto 0 0}
 .page__whats .training__office--row_2 .container ul li:nth-of-type(1){padding-bottom:50px}
 .page__whats .training__office--row_2 .container ul li .ttl{color:#eb6e50;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;padding:0 0 20px 0;line-height:1;font-size:1.5rem}
 .page__whats .training__office--row_2 .container ul li .ttl:nth-of-type(3){padding:55px 0 0 0}
@@ -2064,11 +2064,13 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 50%{height:100%}
 75%{height:100%}
 100%{height:0}
-}@-webkit-keyframes bird{0%,100%{-webkit-transform:translateY(-20%);transform:translateY(-20%)}
-50%{-webkit-transform:translateY(10%);transform:translateY(10%)}
-}@keyframes bird{0%,100%{-webkit-transform:translateY(-20%);transform:translateY(-20%)}
-50%{-webkit-transform:translateY(10%);transform:translateY(10%)}
+}@-webkit-keyframes bird{0%,100%{-webkit-transform:translateY(-30%);transform:translateY(-30%)}
+50%{-webkit-transform:translateY(0);transform:translateY(0)}
 }@keyframes bird{0%,100%{-webkit-transform:translateY(-30%);transform:translateY(-30%)}
+50%{-webkit-transform:translateY(0);transform:translateY(0)}
+}@-webkit-keyframes bird2{0%,100%{-webkit-transform:translateY(-30%);transform:translateY(-30%)}
+50%{-webkit-transform:translateY(0);transform:translateY(0)}
+}@keyframes bird2{0%,100%{-webkit-transform:translateY(-30%);transform:translateY(-30%)}
 50%{-webkit-transform:translateY(0);transform:translateY(0)}
 }@-webkit-keyframes shake{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}
 20%{-webkit-transform:rotate(-3deg);transform:rotate(-3deg)}
@@ -2189,10 +2191,6 @@ to{stroke-dashoffset:1800}
 100%{right:150%}
 }@keyframes al-03{0%{right:-50%}
 100%{right:150%}
-}@-webkit-keyframes cloud_3{0%{left:-50%}
-100%{left:150%}
-}@keyframes cloud_3{0%{left:-50%}
-100%{left:150%}
 }@-webkit-keyframes phil-03{0%{left:-50%}
 100%{left:150%}
 }@keyframes phil-03{0%{left:-50%}

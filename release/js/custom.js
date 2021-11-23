@@ -51,7 +51,7 @@ $(document).ready(function () {
           viewScrollTop = $(window).scrollTop(),
           viewHeight = $(window).height();
 
-      if (viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
+      if (viewScrollTop > viewPos - viewHeight + viewHeight / 4) {
         $(this).addClass('animated');
       } else {
         $(this).removeClass('animated');
@@ -111,41 +111,37 @@ $(function () {
 $(document).ready(function () {
   var $dashOffset = $(".swirl-1-pc").css("stroke-dashoffset");
   $(window).scroll(function () {
-    //calculate how far down the page the user is 
-    var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()) * 2000; //convert dashoffset pixel value to interger
-
-    var $newUnit = parseInt($dashOffset, 14); //get the value to be subtracted from the 'stroke-dashoffset'
-
-    var $offsetUnit = $percentageComplete * ($newUnit / 2000); //set the new value of the dashoffset to create the drawing effect
-
+    var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()) * 500;
+    var $newUnit = parseInt($dashOffset, 15);
+    var $offsetUnit = $percentageComplete * ($newUnit / 500);
     $(".swirl-1-pc").css("stroke-dashoffset", $newUnit - $offsetUnit);
     var length = $newUnit - $offsetUnit;
 
-    if (length <= '9415') {
+    if (length <= '11490') {
       $('#row-1').find('#left-pc').addClass('img-pop');
 
-      if (length <= '9310') {
+      if (length <= '11470') {
         $('#row-2').find('#2-pop').addClass('img-pop');
 
-        if (length <= '8740') {
+        if (length <= '11450') {
           $('#row-3').find('#pcview').addClass('img-pop');
 
-          if (length <= '8170') {
+          if (length <= '10270') {
             $('#row-6').find('#6-pop').addClass('img-pop');
 
-            if (length <= '7480') {
+            if (length <= '10250') {
               $('#row-7').find('#7-pc').addClass('img-pop');
 
-              if (length <= '7400') {
+              if (length <= '10200') {
                 $('#row-5').find('#5-pc').addClass('img-pop');
 
-                if (length <= '7155') {
+                if (length <= '9270') {
                   $('#row-8').find('#8-pc').addClass('img-pop');
 
-                  if (length <= '6725') {
+                  if (length <= '9250') {
                     $('#row-9').find('#9-pc').addClass('img-pop');
 
-                    if (length <= '6330') {
+                    if (length <= '9200') {
                       $('#row-10').find('#10-pc').addClass('img-pop');
                     }
                   }
