@@ -19,7 +19,7 @@
     </div>
 </div>
 <section class="page_album">
-    <div class="l-wrap">
+    <div id="view" class="l-wrap">
         <div class="album_img">
             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
             <img class="p-slide" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
@@ -71,7 +71,9 @@
                     <?php if ($the_query->have_posts()) : ?>
                         <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                             <div class="item swiper-slide">
-                                <?php the_post_thumbnail('full', array('alt' => 'Slider Image')); ?>
+                                <a href="#view">
+                                 <?php the_post_thumbnail('full', array('alt' => 'Slider Image')); ?>
+                                </a>
                             </div>
                         <?php endwhile; ?>
                     <?php endif; ?>
