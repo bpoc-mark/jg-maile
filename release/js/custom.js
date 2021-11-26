@@ -51,10 +51,12 @@ $(document).ready(function () {
           viewScrollTop = $(window).scrollTop(),
           viewHeight = $(window).height();
 
-      if (viewScrollTop > viewPos - viewHeight + viewHeight / 4) {
+      if (viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
         $(this).addClass("animated");
+        $(this).find(".swirl-1-sp").addClass("go");
       } else {
         $(this).removeClass("animated");
+        $(this).find(".swirl-1-sp").removeClass("go");
       }
     });
   }); //END POPOUT
@@ -163,23 +165,7 @@ $(document).ready(function () {
       $("#row-10").find("#10-pc").removeClass("img-pop");
     }
   });
-}); //SVG ANIMATION ON BODY SP VIEW
-// $(document).ready(function () {
-// 	$(window).on("resize load", function (e) {
-// 		var w = $(window).width();
-// 		if (w <= 750) {
-// 			var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
-// 			$(window).scroll(function () {
-// 				var $percentageComplete =
-// 					($(window).scrollTop() / ($("html").height() - $(window).height())) * 500;
-// 				var $newUnit = parseInt($dashOffset, 15);
-// 				var $offsetUnit = $percentageComplete * ($newUnit / 500);
-// 				$(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
-// 			});
-// 		}
-// 	});
-// });
-// SLIDER FOR ALBUM PAGE
+}); // SLIDER FOR ALBUM PAGE
 
 $(document).ready(function () {
   var swiper = new Swiper(".whats", {

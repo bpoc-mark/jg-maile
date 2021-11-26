@@ -917,7 +917,8 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_2 .l-wrap .front_content .swirl-pc{position:absolute;top:unset;left:50%;-webkit-transform:translate(-50%,15%);transform:translate(-50%,15%);z-index:-1;width:80%}
 .sect_2 .l-wrap .front_content .swirl-pc .swirl-1-pc{stroke-dashoffset:4000;stroke-dasharray:4000}
 .sect_2 .l-wrap .front_content .swirl-sp{position:absolute;top:-2vw;left:0;display:none;z-index:-1}
-.sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dashoffset:0;stroke-dasharray:4200}
+.sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp{stroke-dasharray:4100;stroke-dashoffset:-4100}
+.sect_2 .l-wrap .front_content .swirl-sp .swirl-1-sp.go{-webkit-animation:swirldash 5s linear forwards;animation:swirldash 5s linear forwards}
 .sect_2__row_1{display:-webkit-box;display:-ms-flexbox;display:flex;padding:0 40px;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}
 .sect_2__row_1 .item-1{width:45%;position:relative}
 .sect_2__row_1 .item-1 .bg_img{position:relative}
@@ -2175,6 +2176,10 @@ to{stroke-dashoffset:1800}
 100%{opacity:1}
 }@keyframes dot-sp{0%{opacity:0}
 100%{opacity:1}
+}@-webkit-keyframes swirldash{from{stroke-dashoffset:4100}
+to{stroke-dashoffset:0}
+}@keyframes swirldash{from{stroke-dashoffset:4100}
+to{stroke-dashoffset:0}
 }@-webkit-keyframes cloud_about1{0%{-webkit-transform:translate(2px,30px);transform:translate(2px,30px)}
 100%{-webkit-transform:translate(-2px,0);transform:translate(-2px,0)}
 }@keyframes cloud_about1{0%{-webkit-transform:translate(2px,30px);transform:translate(2px,30px)}

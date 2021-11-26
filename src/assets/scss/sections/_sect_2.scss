@@ -77,8 +77,21 @@
 				}
 
 				.swirl-1-sp {
-					stroke-dashoffset: 0;
-					stroke-dasharray: 4200;
+					stroke-dasharray: 4100;
+					stroke-dashoffset: -4100;
+
+					&.go {
+						animation: swirldash 5s linear forwards;
+					}
+
+					@keyframes swirldash {
+						from {
+							stroke-dashoffset: 4100;
+						}
+						to {
+							stroke-dashoffset: 0;
+						}
+					}
 				}
 			}
 		}
