@@ -413,7 +413,7 @@ body[data-aos-delay="3000"] [data-aos].aos-animate,[data-aos][data-aos][data-aos
 .p-addons .btnArea .btn i{margin-left:5px}
 .p-upDown{-webkit-animation:bird 3s ease-in infinite alternate both;animation:bird 3s ease-in infinite alternate both}
 .p-downUp{-webkit-animation:bird2 3s ease-in infinite alternate both;animation:bird2 3s ease-in infinite alternate both;animation-direction:alternate-reverse}
-.p-popout{-webkit-transition:.3s cubic-bezier(0.67,1.34,1,1);transition:.3s cubic-bezier(0.67,1.34,1,1);-webkit-transform:scale(0);transform:scale(0);opacity:0}
+.p-popout{-webkit-transition:.3s cubic-bezier(0.67,1.34,1,1) 150ms;transition:.3s cubic-bezier(0.67,1.34,1,1) 150ms;-webkit-transform:scale(0);transform:scale(0);opacity:0}
 .animated .p-popout{-webkit-transform:scale(1);transform:scale(1);opacity:1;will-change:transform;transform-style:preserve-3d;backface-visibility:hidden;-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden}
 .pc-pop{-webkit-transition:.3s cubic-bezier(0.67,1.34,1,1);transition:.3s cubic-bezier(0.67,1.34,1,1);-webkit-transform:scale(0);transform:scale(0);opacity:0;will-change:transform}
 .pc-pop.img-pop{-webkit-transform:scale(1);transform:scale(1);opacity:1;will-change:transform;transform-style:preserve-3d;backface-visibility:hidden;-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden}
@@ -1205,9 +1205,10 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .trainer__sect-5{padding-top:180px;text-align:center}
 .trainer__sect-5--games{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:45px 0 130px 0;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}
 .trainer__sect-5--games .item{max-width:320px;position:relative;margin-right:30px;width:100%}
+.trainer__sect-5--games .item__box{width:100%}
 .trainer__sect-5--games .item:nth-child(3),.trainer__sect-5--games .item:nth-child(6){margin-right:0}
 .trainer__sect-5--games .item:nth-child(4),.trainer__sect-5--games .item:nth-child(5),.trainer__sect-5--games .item:nth-child(6),.trainer__sect-5--games .item:nth-child(7),.trainer__sect-5--games .item:nth-child(8){margin-top:30px}
-.trainer__sect-5--games .item .train_img{width:100%}
+.trainer__sect-5--games .item .train_img{width:100%;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 .trainer__sect-5--games .item .train_img:nth-of-type(2){margin-bottom:10px}
 .trainer__sect-5--games .item .train_img:nth-of-type(3){margin-bottom:10px}
 .trainer__sect-5--games .item .content{position:absolute;left:30%;top:50%;-webkit-transform:translate(-20%,-50%);transform:translate(-20%,-50%)}
