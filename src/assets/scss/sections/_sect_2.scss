@@ -46,54 +46,6 @@
 				// 	stroke-dasharray: 3300;
 				// }
 			}
-
-			.swirl-sp {
-				position: absolute;
-				top: -2vw;
-				left: 0;
-				display: none;
-				z-index: -1;
-
-				@include is-sp {
-					display: block;
-					top: -2vw;
-					width: 55%;
-				}
-
-				@include is-max(650px) {
-					width: 60%;
-				}
-
-				@include is-max(570px) {
-					width: 80%;
-				}
-
-				@include is-max(480px) {
-					width: 100%;
-				}
-
-				@include is-max(350px) {
-					top: -1vw;
-				}
-
-				.swirl-1-sp {
-					stroke-dasharray: 4100;
-					stroke-dashoffset: -4100;
-
-					&.go {
-						animation: swirldash 5s linear forwards;
-					}
-
-					@keyframes swirldash {
-						from {
-							stroke-dashoffset: 4100;
-						}
-						to {
-							stroke-dashoffset: 0;
-						}
-					}
-				}
-			}
 		}
 	}
 
@@ -303,7 +255,44 @@
 			padding: 0;
 		}
 
+		.swirl-sp {
+			position: absolute;
+			top: -2vw;
+			left: 0;
+			z-index: -1;
+			display: none;
+
+			@include is-sp {
+				display: block;
+				bottom: 100vw;
+				width: 55%;
+			}
+
+			@include is-max(650px) {
+				width: 60%;
+			}
+
+			@include is-max(570px) {
+				width: 80%;
+			}
+
+			@include is-max(480px) {
+				width: 100%;
+			}
+
+			@include is-max(350px) {
+				top: -1vw;
+			}
+
+			.swirl-1-sp {
+				stroke-dasharray: 3700;
+				stroke-dashoffset: 4000;
+			}
+		}
+
 		.l-wrap {
+			position: relative;
+
 			@include is-max(1200px) {
 				padding-left: 20px;
 				padding-right: 20px;

@@ -51,12 +51,10 @@ $(document).ready(function () {
           viewScrollTop = $(window).scrollTop(),
           viewHeight = $(window).height();
 
-      if (viewScrollTop > viewPos - viewHeight + viewHeight / 5) {
+      if (viewScrollTop > viewPos - viewHeight + viewHeight / 4) {
         $(this).addClass("animated");
-        $(this).find(".swirl-1-sp").addClass("go");
       } else {
         $(this).removeClass("animated");
-        $(this).find(".swirl-1-sp").removeClass("go");
       }
     });
   }); //END POPOUT
@@ -165,6 +163,69 @@ $(document).ready(function () {
       $("#row-10").find("#10-pc").removeClass("img-pop");
     }
   });
+}); // SVG ANIMATION ON BODY SP VIEW
+
+$(document).ready(function () {
+  $(window).on("load resize", function () {
+    var w = $(window).width();
+
+    if (w <= 751) {
+      var $dashOffset = $(".swirl-1-sp").css("stroke-dashoffset");
+      $(window).scroll(function () {
+        var $percentageComplete = $(window).scrollTop() / ($("html").height() - $(window).height()) * 100;
+        var $newUnit = parseInt($dashOffset, 15);
+        var $offsetUnit = $percentageComplete * ($newUnit / 100);
+        $(".swirl-1-sp").css("stroke-dashoffset", $newUnit - $offsetUnit);
+        var splength = $newUnit - $offsetUnit;
+
+        if (splength <= "10900") {
+          $("#row-1").find("#left-pc").addClass("img-pop");
+        } else {
+          $("#row-1").find("#left-pc").removeClass("img-pop");
+        }
+
+        if (splength <= "10610") {
+          $("#row-2").find("#2-pop").addClass("img-pop");
+        } else {
+          $("#row-2").find("#2-pop").removeClass("img-pop");
+        }
+
+        if (splength <= "10099") {
+          $("#row-3").find("#pcview").addClass("img-pop");
+        } else {
+          $("#row-3").find("#pcview").removeClass("img-pop");
+        }
+
+        if (splength <= "9760") {
+          $("#row-6").find("#6-pop").addClass("img-pop");
+        } else {
+          $("#row-6").find("#6-pop").removeClass("img-pop");
+        }
+
+        if (splength <= "9080") {
+          $("#row-5").find("#5-pc").addClass("img-pop");
+          $("#row-7").find("#7-pc").addClass("img-pop");
+        } else {
+          $("#row-5").find("#5-pc").removeClass("img-pop");
+          $("#row-7").find("#7-pc").removeClass("img-pop");
+        }
+
+        if (splength <= "8720") {
+          $("#row-8").find("#8-pc").addClass("img-pop");
+        } else {
+          $("#row-8").find("#8-pc").removeClass("img-pop");
+        }
+
+        if (splength <= "7880") {
+          $("#row-9").find("#9-pc").addClass("img-pop");
+        } else {
+          $("#row-9").find("#9-pc").removeClass("img-pop");
+        }
+      });
+    } else {
+      $("meta[name=viewport]").attr("content", "width=device-width");
+    }
+  });
 }); // SLIDER FOR ALBUM PAGE
 
 $(document).ready(function () {
@@ -239,4 +300,4 @@ $(document).ready(function () {
     $("#myModal").removeClass("active");
     $(".mod-overlay").removeClass("active");
   });
-}); //CLICK THUMBNAIL VIEW LARGE IMAGE
+});
