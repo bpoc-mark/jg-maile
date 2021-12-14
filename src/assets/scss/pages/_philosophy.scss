@@ -35,7 +35,7 @@
 
 		.content {
 			text-align: center;
-			max-width: 600px;
+			max-width: 625px;
 			margin: 0 auto;
 
 			&__ttl {
@@ -55,11 +55,29 @@
 			}
 
 			&__desc {
-				font-weight: 400;
+				color: $color-text01;
+				font-weight: 700;
 				padding: 55px 0 0 0;
-				text-align: justify;
+				text-align: center;
+				padding-bottom: 70px;
 
-				@include font-line(16);
+				@include font-line(24, 40);
+			}
+
+			.p-details {
+				&--btn {
+					a {
+						margin-left: -20px;
+						p {
+							font-family: dnp-shuei-mgothic-std, sans-serif;
+							@include font-line(20, 37);
+
+							@include is-max(340px) {
+								font-size: 5vw;
+							}
+						}
+					}
+				}
 			}
 		}
 	}

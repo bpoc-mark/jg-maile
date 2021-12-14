@@ -21,41 +21,56 @@
 <section class="page_philosophy">
     <div class="l-wrap">
         <div class="page_philosophy__container">
-            <img class="phil_cloud-1 p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
-            <img class="phil_cloud-2 p-downUp" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
+            <img class="phil_cloud-1 p-upDown"
+                src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="phil_cloud-2 p-downUp"
+                src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1-invert.svg" alt="Cloud">
             <div class="content">
                 <p class="content__ttl">Philosophy</p>
                 <h2 class="content__sub">理　念</h2>
                 <p class="content__desc">
-                    テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
+                    関わる全ての人とのご縁に感謝し、共に幸せになるために
                 </p>
+
+                <div class="p-details--btn">
+                    <a href="<?php echo get_permalink(get_page_by_path('whats')) ?>">
+                        <p>まいれについて知る</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/details_btn.svg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="page_philosophy__video">
         <div class="l-wrap">
-            <img class="ph_cloud p-upDown" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
+            <img class="ph_cloud p-upDown"
+                src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_2-invert.svg" alt="Cloud">
             <div class="page_philosophy__video--container">
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg" alt="Maile Logo">
+                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/release/image/top/logo.svg"
+                    alt="Maile Logo">
                 <h3 class="ttl">MAILE株式会社<br>
                     7つのお約束</h3>
-                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/youtube.jpg" alt="Youtube Video">
+                <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/youtube.jpg"
+                    alt="Youtube Video">
             </div>
         </div>
     </div>
     <div class="page_philosophy__idea">
         <div class="l-wrap">
-            <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg" alt="Cloud">
+            <img class="phil_cloud" src="<?php echo get_template_directory_uri(); ?>/release/image/top/cloud_1.svg"
+                alt="Cloud">
             <p class="ttl">Ideal</p>
             <h2 class="sub">求める人材像</h2>
 
             <div class="boxes">
                 <div class="setAnime">
                     <div class="box p-popout">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png"
+                            alt="Background">
                         <div class="box__items">
                             <p class="box__items--ttl">active!</p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png"
+                                alt="Divider">
                             <h3 class="box__items--sub">
                                 積極的に<br>
                                 行動できる人
@@ -66,10 +81,12 @@
                 </div>
                 <div class="setAnime">
                     <div class="box p-popout">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png"
+                            alt="Background">
                         <div class="box__items">
                             <p class="box__items--ttl">positive!</p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png"
+                                alt="Divider">
                             <h3 class="box__items--sub">
                                 物事をプラスに<br>
                                 考えられる人
@@ -80,10 +97,12 @@
                 </div>
                 <div class="setAnime">
                     <div class="box p-popout">
-                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png" alt="Background">
+                        <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_bg.png"
+                            alt="Background">
                         <div class="box__items">
                             <p class="box__items--ttl">heartful!</p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png" alt="Divider">
+                            <img src="<?php echo get_template_directory_uri(); ?>/release/image/page/phil_divider.png"
+                                alt="Divider">
                             <h3 class="box__items--sub">
                                 相手のことを<br>
                                 想いやれる人

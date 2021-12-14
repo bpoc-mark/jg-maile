@@ -6,6 +6,7 @@
 	}
 	.l-wrap {
 		position: relative;
+		padding: 0 20px;
 
 		.imgs {
 			img {
@@ -44,6 +45,34 @@
 				}
 			}
 		}
+
+		.content_2 {
+			&__ttl {
+				color: $color-text01;
+				font-weight: 700;
+
+				@include font-line(24, 40);
+
+				@include is-max(380px) {
+					font-size: 5.9vw;
+				}
+			}
+			&__desc {
+				font-weight: 400;
+				white-space: pre-line;
+
+				@include font-line(16, 26);
+
+				span {
+					display: flex;
+					justify-content: flex-end;
+				}
+			}
+			&--mt_114 {
+				margin-top: 114px;
+				margin-bottom: 100px;
+			}
+		}
 	}
 
 	&__container {
@@ -52,6 +81,7 @@
 		margin: 0 auto;
 		flex-wrap: wrap;
 		position: relative;
+		align-items: center;
 
 		.cloud_msg {
 			width: 98px;
@@ -65,7 +95,7 @@
 		}
 
 		.row-1 {
-			width: 320px;
+			width: 310px;
 
 			img {
 				margin-left: auto;
@@ -79,9 +109,9 @@
 		}
 
 		.row-2 {
-			width: calc(100% - 320px);
+			width: calc(100% - 310px);
 			background-color: rgba(235, 110, 82, 0.7);
-			backdrop-filter: blur(10px);
+			// backdrop-filter: blur(10px);
 			padding: 0 30px;
 
 			@include is-sp {
@@ -89,12 +119,24 @@
 				padding: 35px 0 0 0;
 			}
 
-			p {
-				font-family: noto-sans-cjk-jp, sans-serif;
-				font-weight: 400;
+			&__ttl {
+				color: $color-text01;
+				font-weight: 700;
 				text-align: justify;
 
-				@include font-line(16, 26);
+				@include font-line(24, 40);
+
+				@include is-max(380px) {
+					font-size: 6.3vw;
+				}
+			}
+
+			&__desc {
+				font-weight: 400;
+				text-align: justify;
+				white-space: pre-line;
+
+				@include font-line(16, 24);
 			}
 		}
 	}

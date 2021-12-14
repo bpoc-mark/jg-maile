@@ -676,7 +676,7 @@
 				.text {
 					position: absolute;
 					top: 50%;
-					left: 50%;
+					left: 49%;
 					transform: translate(-20%, -50%);
 
 					@include is-max(1050px) {
