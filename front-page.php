@@ -2118,7 +2118,7 @@
                                 <div class="text">
                                     <h2 class="ttl">We want<br><span>求める人材像</span></h2>
                                     <p class="desc">
-                                        MAILEで働く社員は全員「家族のように大切な仲間」です。
+                                        MAILEで働く社員は全員「家族のように大切な仲間」です。<br>
                                         求める人材像について、ご紹介します！
                                     </p>
                                     <a href="<?php echo esc_url(home_url('philosophy')); ?>" class="c-button">
@@ -2174,7 +2174,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/release/image/top/sect_3_icon-2.svg"
                                 alt="Employee Working">
                         </div>
-                        <h3 class="box__ttl">会社概要　に変更してください。</h3>
+                        <h3 class="box__ttl">会社概要</h3>
                         <p class="box__desc">
                             会社概要と、まいれ鍼灸整骨院・整骨院の店舗を一覧でご確認いただけます。
                         </p>
@@ -2197,7 +2197,7 @@
                         </div>
                         <h3 class="box__ttl">社内フォトアルバム</h3>
                         <p class="box__desc">
-                            年間行事や社内研修をご紹介。研修制度はもちろん社員の家族も大切にしているので、安心して働き始める事ができます。
+                            普段の社員たちが働く様子や、社内での交流の様子をお届け。
                         </p>
                         <a class="c-button" href="<?php echo esc_url(home_url('album')); ?>">
                             <p>詳しくはこちら</p>
@@ -2243,7 +2243,7 @@
             <div class="sect_4__information">
                 <h3 class="ttl">採用情報</h3>
                 <p class="desc">
-                    採用情報を公開しています。
+                    採用情報を公開しています。<br>
                     私たちは熱い思いを持ち、夢に向かって一緒に働く仲間を随時募集しています。<br>募集要項をご確認の上、エントリーをしてください。
                 </p>
                 <a class="c-button u-pt-10" href="<?php echo esc_url(home_url('career')); ?>">

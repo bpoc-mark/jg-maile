@@ -1815,7 +1815,7 @@ img.hover-shadow{-webkit-transition:.3s;transition:.3s}
 .sect_4 .l-wrap .cloud{display:none}
 .sect_4 .nav{display:-webkit-box;display:-ms-flexbox;display:flex}
 .sect_4__ttl{font-size:20vw}
-.sect_4__information{background-image:none;padding:0}
+.sect_4__information{background-image:none;padding:0 40px 35px 40px}
 .sect_5__teams .swiper-pagination{display:block}
 .sect_5__contact_info .container{-ms-flex-wrap:wrap;flex-wrap:wrap;padding-right:25px;padding-left:25px}
 .sect_5__contact_info .container .row_1{padding:0 0 50px 0}
@@ -2151,22 +2151,22 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 100%{-webkit-transform:translate(-2px,-20px);transform:translate(-2px,-20px)}
 }@keyframes bird_5{0%{-webkit-transform:translate(2px,0);transform:translate(2px,0)}
 100%{-webkit-transform:translate(-2px,-20px);transform:translate(-2px,-20px)}
-}@-webkit-keyframes cloud01{0%{left:-20%}
-100%{left:100%}
-}@keyframes cloud01{0%{left:-20%}
-100%{left:100%}
+}@-webkit-keyframes cloud01{0%{left:-30%}
+100%{left:130%}
+}@keyframes cloud01{0%{left:-30%}
+100%{left:130%}
 }@-webkit-keyframes cloud02{0%{margin-left:-1000px}
 100%{margin-left:100%}
 }@keyframes cloud02{0%{margin-left:-1000px}
 100%{margin-left:100%}
-}@-webkit-keyframes animateCloudfrontpage{0%{margin-right:0}
+}@-webkit-keyframes animateCloudfrontpage{0%{margin-right:-20%}
 100%{margin-right:100%}
-}@keyframes animateCloudfrontpage{0%{margin-right:0}
+}@keyframes animateCloudfrontpage{0%{margin-right:-20%}
 100%{margin-right:100%}
-}@-webkit-keyframes cloud4{0%{right:20px}
-100%{right:100%}
-}@keyframes cloud4{0%{right:20px}
-100%{right:100%}
+}@-webkit-keyframes cloud4{0%{right:-30%}
+100%{right:130%}
+}@keyframes cloud4{0%{right:-30%}
+100%{right:130%}
 }@-webkit-keyframes dash{from{stroke-dashoffset:900}
 to{stroke-dashoffset:1800}
 }@keyframes dash{from{stroke-dashoffset:900}

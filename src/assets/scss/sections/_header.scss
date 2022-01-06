@@ -379,7 +379,7 @@
 					width: 150px;
 					position: absolute;
 					top: 15px;
-					left: 0;
+					left: 0px;
 					z-index: 2;
 					animation: cloud01 35s linear infinite both;
 				}
@@ -436,10 +436,10 @@
 
 				@keyframes cloud01 {
 					0% {
-						left: -20%;
+						left: -30%;
 					}
 					100% {
-						left: 100%;
+						left: 130%;
 					}
 				}
 
@@ -454,7 +454,7 @@
 
 				@keyframes animateCloudfrontpage {
 					0% {
-						margin-right: 0;
+						margin-right: -20%;
 					}
 					100% {
 						margin-right: 100%;
@@ -463,10 +463,10 @@
 
 				@keyframes cloud4 {
 					0% {
-						right: 20px;
+						right: -30%;
 					}
 					100% {
-						right: 100%;
+						right: 130%;
 					}
 				}
 			}
